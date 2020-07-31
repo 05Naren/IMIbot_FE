@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: Verify if partial match in curation and add to new article
+
+Step 1: Preview bot with question which would give partial match result
+Step 2: Verify partial match updated answer
+Step 3: Curate the partial match by creating a new article
+Step 4: Train the bot
+Step 5: Verify the bot with the same question and assert the value
+Step 6: Go to curation and check the room id in resolved section</description>
+   <name>partialMatchCurationByCreateNewArticle_Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>74459f6e-9adf-4953-b3ea-03693b8983b2</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('comment', 3)</defaultValue>
+      <description></description>
+      <id>05be56a1-0932-4699-b645-91af123d8beb</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('partial_match_query', 1)</defaultValue>
+      <description></description>
+      <id>ee4147a3-efee-41ea-a256-a17c036f7f36</id>
+      <masked>false</masked>
+      <name>userQuery</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('downvote_comment', 1)</defaultValue>
+      <description></description>
+      <id>a92c8fbf-40f8-4f7d-b74c-95e4b22cbfa0</id>
+      <masked>false</masked>
+      <name>feedback</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('new_article_response', 1)</defaultValue>
+      <description></description>
+      <id>746a7aff-1375-4da9-9f72-1d568b1107b7</id>
+      <masked>false</masked>
+      <name>newArticleResponse</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('update_category', 1)</defaultValue>
+      <description></description>
+      <id>f535f48d-cae0-4303-af9b-643c9c2edcc7</id>
+      <masked>false</masked>
+      <name>saveArticleTo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('partial_match', 1)</defaultValue>
+      <description></description>
+      <id>02f796a9-ed55-4cad-ab5c-8b6fd0318317</id>
+      <masked>false</masked>
+      <name>stringToCheck</name>
+   </variable>
+</TestCaseEntity>

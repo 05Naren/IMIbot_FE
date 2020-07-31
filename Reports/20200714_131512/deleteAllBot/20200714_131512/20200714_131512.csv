@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+deleteAllBot,Chrome 83.0.4103.116,,,2020-07-14 13:15:23,2020-07-14 13:21:55,6m - 31.691s,INCOMPLETE
+,,,,,,,
+Test Cases/Routerbot/botDeletion_Test,Chrome 83.0.4103.116,"TestCase Agenda: Verify if a user(Admin) can successfully delete a router bot
+
+Step 1: Navigate to bot 
+Step 2: Click on kebab menu on top right and select 'Delete' option
+Step 3: Click on delete bot button (confirmation)
+Step 4: Navigate to router bots page to verify if bot name is present",,2020-07-14 13:15:24,2020-07-14 13:16:49,1m - 24.868s,PASSED
+Start listener action : setUp,Chrome 83.0.4103.116,,,2020-07-14 13:15:25,2020-07-14 13:15:48,22.680s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-14 13:15:49,2020-07-14 13:16:17,28.236s,PASSED
+"platform.Method.navigateToBot(""Router bots"", ROUTER_BOT)",Chrome 83.0.4103.116,,,2020-07-14 13:16:17,2020-07-14 13:16:24,6.739s,PASSED
+"platform.Method.selectFromHamburgerMenu(""Delete"")",Chrome 83.0.4103.116,,,2020-07-14 13:16:24,2020-07-14 13:16:31,6.954s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Generic/botDeleteBtn""))",Chrome 83.0.4103.116,,,2020-07-14 13:16:31,2020-07-14 13:16:33,2.568s,PASSED
+delay(5),Chrome 83.0.4103.116,,,2020-07-14 13:16:33,2020-07-14 13:16:38,5.037s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Router bots""]))",Chrome 83.0.4103.116,,,2020-07-14 13:16:38,2020-07-14 13:16:47,8.297s,PASSED
+"verifyTextNotPresent(ROUTER_BOT, false, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-14 13:16:47,2020-07-14 13:16:49,2.720s,PASSED
+,,,,,,,
+Test Cases/Faqbot/botDeletion_Test,Chrome 83.0.4103.116,TestCase Agenda: Successfully able to delete a bot,,2020-07-14 13:16:49,2020-07-14 13:17:55,1m - 5.325s,FAILED
+Start listener action : setUp,Chrome 83.0.4103.116,,,2020-07-14 13:16:49,2020-07-14 13:17:05,15.165s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-14 13:17:06,2020-07-14 13:17:32,26.632s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 83.0.4103.116,,,2020-07-14 13:17:32,2020-07-14 13:17:38,5.834s,PASSED
+"platform.Method.selectFromHamburgerMenu(""Delete"")",Chrome 83.0.4103.116,,,2020-07-14 13:17:38,2020-07-14 13:17:46,8.032s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Generic/botDeleteBtn""))",Chrome 83.0.4103.116,,,2020-07-14 13:17:46,2020-07-14 13:17:49,2.506s,PASSED
+"verifyElementPresent(findTestObject(""Button/createBot""), 20, OPTIONAL)",Chrome 83.0.4103.116,,,2020-07-14 13:17:49,2020-07-14 13:17:50,1.288s,PASSED
+"verifyTextNotPresent(FAQ_BOT, false, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-14 13:17:50,2020-07-14 13:17:55,4.605s,FAILED
+,,,,,,,
+Test Cases/Smartbot/botDeletion_Test,Chrome 83.0.4103.116,TestCase Agenda: Verify successfully deletion of smart bot,,2020-07-14 13:17:55,2020-07-14 13:19:15,1m - 20.692s,PASSED
+Start listener action : setUp,Chrome 83.0.4103.116,,,2020-07-14 13:17:55,2020-07-14 13:18:10,15.721s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-14 13:18:11,2020-07-14 13:18:37,25.645s,PASSED
+"platform.Method.navigateToBot(""Smart bots"", SMART_BOT)",Chrome 83.0.4103.116,,,2020-07-14 13:18:37,2020-07-14 13:18:43,6.545s,PASSED
+"platform.Method.selectFromHamburgerMenu(""Delete"")",Chrome 83.0.4103.116,,,2020-07-14 13:18:43,2020-07-14 13:18:51,7.366s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Generic/botDeleteBtn""))",Chrome 83.0.4103.116,,,2020-07-14 13:18:51,2020-07-14 13:18:53,2.463s,PASSED
+delay(5),Chrome 83.0.4103.116,,,2020-07-14 13:18:53,2020-07-14 13:18:58,5.001s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Smart bots""]))",Chrome 83.0.4103.116,,,2020-07-14 13:18:58,2020-07-14 13:19:10,11.629s,PASSED
+"verifyTextNotPresent(SMART_BOT, false, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-14 13:19:10,2020-07-14 13:19:15,5.793s,PASSED
+,,,,,,,
+Test Cases/Taskbot/botDeletion_Test,Chrome 83.0.4103.116,TestCase Agenda: To successfully delete a task bot,,2020-07-14 13:19:15,2020-07-14 13:20:31,1m - 15.072s,PASSED
+Start listener action : setUp,Chrome 83.0.4103.116,,,2020-07-14 13:19:15,2020-07-14 13:19:31,15.134s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-14 13:19:31,2020-07-14 13:19:55,23.701s,PASSED
+"platform.Method.navigateToBot(""Task bots"", TASK_BOT)",Chrome 83.0.4103.116,,,2020-07-14 13:19:55,2020-07-14 13:20:01,6.240s,PASSED
+"platform.Method.selectFromHamburgerMenu(""Delete"")",Chrome 83.0.4103.116,,,2020-07-14 13:20:01,2020-07-14 13:20:09,8.261s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Generic/botDeleteBtn""))",Chrome 83.0.4103.116,,,2020-07-14 13:20:09,2020-07-14 13:20:12,2.528s,PASSED
+delay(5),Chrome 83.0.4103.116,,,2020-07-14 13:20:12,2020-07-14 13:20:17,5.008s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Task bots""]))",Chrome 83.0.4103.116,,,2020-07-14 13:20:17,2020-07-14 13:20:26,9.680s,PASSED
+"verifyTextNotPresent(TASK_BOT, false, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-14 13:20:26,2020-07-14 13:20:31,4.112s,PASSED
+,,,,,,,
+Test Cases/Pipelinebot/verify_pipeline_bot_deletion,Chrome 83.0.4103.116,TestCase Agenda: Verify successful deletion of pipeline bot,,2020-07-14 13:20:31,2020-07-14 13:21:55,1m - 24.574s,PASSED
+Start listener action : setUp,Chrome 83.0.4103.116,,,2020-07-14 13:20:31,2020-07-14 13:20:47,16.347s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-14 13:20:47,2020-07-14 13:21:16,28.250s,PASSED
+"platform.Method.navigateToBot(""Pipeline bots"", PIPELINE_BOT)",Chrome 83.0.4103.116,,,2020-07-14 13:21:16,2020-07-14 13:21:22,6.899s,PASSED
+"platform.Method.selectFromHamburgerMenu(""Delete"")",Chrome 83.0.4103.116,,,2020-07-14 13:21:22,2020-07-14 13:21:30,8.031s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Generic/botDeleteBtn""))",Chrome 83.0.4103.116,,,2020-07-14 13:21:30,2020-07-14 13:21:33,2.563s,PASSED
+delay(5),Chrome 83.0.4103.116,,,2020-07-14 13:21:33,2020-07-14 13:21:38,5.008s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Pipeline bots""]))",Chrome 83.0.4103.116,,,2020-07-14 13:21:38,2020-07-14 13:21:52,14.048s,PASSED
+"verifyTextNotPresent(PIPELINE_BOT, false, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-14 13:21:52,2020-07-14 13:21:55,2.969s,PASSED

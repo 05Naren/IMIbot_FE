@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: In this test case, user will delete the auto detected entity in the utterance from the slot and then verify if entity detected in the utterance is still marked</description>
+   <name>verify_value_markup_on_entity_deletion</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>32b196c4-a97d-4a38-a348-26bc86de1cc2</testCaseGuid>
+   <variable>
+      <defaultValue>'schedule appointment for wednesday'</defaultValue>
+      <description></description>
+      <id>3a2d9c09-cab6-43bd-a3a7-2cb78e9eaf82</id>
+      <masked>false</masked>
+      <name>testValue</name>
+   </variable>
+   <variable>
+      <defaultValue>'wednesday'</defaultValue>
+      <description></description>
+      <id>ab03dd7c-9415-45a4-8b67-af399c05768e</id>
+      <masked>false</masked>
+      <name>markedUpValue</name>
+   </variable>
+</TestCaseEntity>

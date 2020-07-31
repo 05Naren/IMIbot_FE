@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>failedTestCases</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>9021d115-f664-4e09-97fe-98c08812cb0d</testSuiteGuid>
+   <testCaseLink>
+      <guid>49ddf166-558a-478b-8ccc-184a99726d62</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Faqbot/disabledLowConfidenceAndDownvote_Test</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2c65e001-c756-468d-9e2a-f6205b3a6949</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ea707175-8032-4991-9e0f-bcdd27751dd2</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>17a177b2-00ab-4138-94ef-a8a0484fcec3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Faqbot/oneClickTestingTrainedVersion_Test</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ec41ffe1-5830-4707-9b7a-2f51fc18499e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d297b461-2be1-4663-af10-24786842d292</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>75ead96e-768a-4e99-b003-fa164589051d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>48b3adca-7280-4574-8bff-6e645d358302</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Taskbot/partialMatchResponseConfiguration_Test</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>28e305d0-6d80-4d75-8106-47ad3dfce22b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>81c60471-1bfa-4b23-a709-78305e768226</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Taskbot/encryptionOnCurationAndSessions_Test</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4f67292a-bbe7-4684-aef2-27856f4f2687</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Taskbot/globalSearchOnTraining_Test</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6a844087-db4b-4391-b73f-804b9807ecb1</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

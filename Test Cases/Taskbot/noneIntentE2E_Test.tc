@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: 
+1. Verify if a default intent is present at bot creation,
+2. Readonly state of intent name and final template key.
+3. Edit none intent utterance
+4. Curation setting on/off for none intent</description>
+   <name>noneIntentE2E_Test</name>
+   <tag></tag>
+   <comment>testData.getValue(&quot;comment&quot;, 6)</comment>
+   <testCaseGuid>5306205e-0e6b-454e-a79d-bb0881b887ad</testCaseGuid>
+   <variable>
+      <defaultValue>'Sorry, I am unable to understand your message. Could you please rephrase it?'</defaultValue>
+      <description></description>
+      <id>95d73e81-5717-4c21-9253-9efadd341007</id>
+      <masked>false</masked>
+      <name>botResponse</name>
+   </variable>
+   <variable>
+      <defaultValue>'No utterances added yet, add now to train the intent'</defaultValue>
+      <description></description>
+      <id>fa67a951-a8a0-41e8-8279-2e8d2a6632f3</id>
+      <masked>false</masked>
+      <name>textToSearch</name>
+   </variable>
+</TestCaseEntity>

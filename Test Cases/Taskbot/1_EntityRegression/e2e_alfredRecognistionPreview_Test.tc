@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: Verify if user is able do preview bot for intent added</description>
+   <name>e2e_alfredRecognistionPreview_Test</name>
+   <tag></tag>
+   <comment>recognition test</comment>
+   <testCaseGuid>5a7a86fc-1dfb-4d49-be44-2e5c82b693e6</testCaseGuid>
+   <variable>
+      <defaultValue>'book ticket to Iskon temple for saturday'</defaultValue>
+      <description></description>
+      <id>c861c1c2-25b2-46ca-85eb-e7f2509212d2</id>
+      <masked>false</masked>
+      <name>testValue</name>
+   </variable>
+   <variable>
+      <defaultValue>'reservation'</defaultValue>
+      <description></description>
+      <id>b4193b4e-e05a-482b-a80e-ecb8192f0753</id>
+      <masked>false</masked>
+      <name>intentName</name>
+   </variable>
+   <variable>
+      <defaultValue>'tourist place'</defaultValue>
+      <description></description>
+      <id>f420797a-49c4-4846-9f33-d5a1ea70a8cd</id>
+      <masked>false</masked>
+      <name>entityTestValue</name>
+   </variable>
+   <variable>
+      <defaultValue>'Success'</defaultValue>
+      <description></description>
+      <id>db7c5542-8368-431c-82cb-d23d274fd096</id>
+      <masked>false</masked>
+      <name>response</name>
+   </variable>
+   <variable>
+      <defaultValue>'ticket to Iskon temple'</defaultValue>
+      <description></description>
+      <id>afbd1b65-9ed0-49bf-a84f-e1877825b3fb</id>
+      <masked>false</masked>
+      <name>userQuery</name>
+   </variable>
+   <variable>
+      <defaultValue>'Your ticket has been booked!'</defaultValue>
+      <description></description>
+      <id>32187ec5-c192-45b6-8f61-e3e17c752a52</id>
+      <masked>false</masked>
+      <name>stringToCheck</name>
+   </variable>
+</TestCaseEntity>

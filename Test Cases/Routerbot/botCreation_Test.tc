@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: Verify if a user(Admin) can successfully create a router bot
+
+Step 1: Navigate to bot type
+Step 2: Click on create bot button and fill in details
+Step 3: Click on done button to complete creation process</description>
+   <name>botCreation_Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f35c14da-e165-473b-aed2-eeaef37aeea5</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.ROUTER_BOT</defaultValue>
+      <description></description>
+      <id>94edb99a-a6e8-45f6-abf2-94f728cc14a2</id>
+      <masked>false</masked>
+      <name>nameOfTheBot</name>
+   </variable>
+   <variable>
+      <defaultValue>'BankBot 2020'</defaultValue>
+      <description></description>
+      <id>4d65df64-b467-4f0a-8dd9-28200bb6e4e5</id>
+      <masked>false</masked>
+      <name>childBotName</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.CHILD_BOT</defaultValue>
+      <description></description>
+      <id>ef21d189-c564-4f29-811d-22c286af0268</id>
+      <masked>false</masked>
+      <name>childBotName2</name>
+   </variable>
+</TestCaseEntity>

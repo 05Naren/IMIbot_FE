@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: Verify if a single rule present in an router bot's logic can be deleted</description>
+   <name>ruleAddition_Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7a539590-2c57-464c-811b-ff28925e4db7</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('testData_Router').getValue('left_variable', 2)</defaultValue>
+      <description></description>
+      <id>98fe4e25-24bb-4777-b446-f7f0bebd0f0b</id>
+      <masked>false</masked>
+      <name>leftVariable</name>
+   </variable>
+   <variable>
+      <defaultValue>'true'</defaultValue>
+      <description></description>
+      <id>6f9393e3-eaa2-4d24-92c0-366720178d69</id>
+      <masked>false</masked>
+      <name>rightVariable</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.CHILD_BOT</defaultValue>
+      <description></description>
+      <id>0890159d-0c3b-4b15-a417-e435d237923e</id>
+      <masked>false</masked>
+      <name>childBotName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_Router').getValue('childbot_question', 1)</defaultValue>
+      <description></description>
+      <id>5529e38e-bc20-4d06-b290-e0c760265cf3</id>
+      <masked>false</masked>
+      <name>userQuery</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_Router').getValue('childbot_response', 1)</defaultValue>
+      <description></description>
+      <id>aef1bbda-24e2-4352-b564-ec5ce432a85d</id>
+      <masked>false</masked>
+      <name>botResponse</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_Router').getValue('childbot_question', 2)</defaultValue>
+      <description></description>
+      <id>0660347c-c500-4bf6-9f3a-a1d1d1e0e344</id>
+      <masked>false</masked>
+      <name>userQuery2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_Router').getValue('childbot_response', 2)</defaultValue>
+      <description></description>
+      <id>8b2d9971-0348-4af4-9e0e-8861dfdcdc24</id>
+      <masked>false</masked>
+      <name>botResponse2</name>
+   </variable>
+</TestCaseEntity>

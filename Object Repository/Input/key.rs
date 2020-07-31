@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>key</name>
+   <tag></tag>
+   <elementGuidId>f1e70b15-621b-47a9-bcbc-fb249fc80d97</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='inputData']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@name='inputData']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@name='inputData']</value>
+   </webElementProperties>
+</WebElementEntity>

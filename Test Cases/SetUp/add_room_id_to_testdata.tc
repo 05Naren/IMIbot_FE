@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>add_room_id_to_testdata</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>49b714d2-1232-44f7-a5af-c6b93238568b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>208b62ee-3f42-4ef8-ba80-48448f1565a8</id>
+      <masked>false</masked>
+      <name>botType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b3c54d98-88c7-4e95-b3cc-108439f6ac7c</id>
+      <masked>false</masked>
+      <name>botName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('add_to_curation', 1)</defaultValue>
+      <description></description>
+      <id>fd024525-913f-4bde-840b-5c218c9106fd</id>
+      <masked>false</masked>
+      <name>userQuery</name>
+   </variable>
+   <variable>
+      <defaultValue>'FAQ bot'</defaultValue>
+      <description></description>
+      <id>3f9696c4-e441-4fe9-9dda-6eca9d422d63</id>
+      <masked>false</masked>
+      <name>sheetName</name>
+   </variable>
+   <variable>
+      <defaultValue>2</defaultValue>
+      <description></description>
+      <id>5199cf24-d178-4c9c-bea8-c5e4278edf8a</id>
+      <masked>false</masked>
+      <name>rowNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>2</defaultValue>
+      <description></description>
+      <id>b9882b00-ce3d-40f7-a29d-3213c397d08d</id>
+      <masked>false</masked>
+      <name>cellNumber</name>
+   </variable>
+</TestCaseEntity>

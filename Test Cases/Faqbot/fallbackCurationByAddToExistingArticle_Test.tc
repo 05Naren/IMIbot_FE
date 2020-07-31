@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>fallbackCurationByAddToExistingArticle_Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>755e8a90-4d99-493d-94e1-5dd10a563ca6</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('room_id', 1)</defaultValue>
+      <description></description>
+      <id>72918d71-5ad3-4726-8570-eb1445cc4877</id>
+      <masked>false</masked>
+      <name>roomID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('link_to_article', 1)</defaultValue>
+      <description></description>
+      <id>02ed9b0b-ced3-49cc-b803-5dbce16d8164</id>
+      <masked>false</masked>
+      <name>searchQuestion</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('comment', 4)</defaultValue>
+      <description></description>
+      <id>2c03c3b8-c136-4678-a254-c5a8b560d554</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('fallback_question', 1)</defaultValue>
+      <description></description>
+      <id>7fe60e0f-5688-4c4c-9549-1a6687d0e063</id>
+      <masked>false</masked>
+      <name>userQuery</name>
+   </variable>
+   <variable>
+      <defaultValue>'Your transactions can be found on your account summary page'</defaultValue>
+      <description></description>
+      <id>9eab2e19-89a4-42f3-97ba-0ac3b94719cc</id>
+      <masked>false</masked>
+      <name>botResponse</name>
+   </variable>
+</TestCaseEntity>

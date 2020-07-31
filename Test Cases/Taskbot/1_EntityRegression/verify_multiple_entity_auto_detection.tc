@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: Verify if multiple entity in an utterance is auto detected</description>
+   <name>verify_multiple_entity_auto_detection</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>93805bb5-de03-49fd-85b0-0be06931ef4b</testCaseGuid>
+   <variable>
+      <defaultValue>'Best dine-out restaraunts in mumbai for weekend'</defaultValue>
+      <description></description>
+      <id>3714574c-8290-46a0-89ac-ed00af82bfe6</id>
+      <masked>false</masked>
+      <name>testValue</name>
+   </variable>
+   <variable>
+      <defaultValue>['date', 'city name']</defaultValue>
+      <description></description>
+      <id>4a70b546-6e24-4d55-a8fa-87e29ab83250</id>
+      <masked>false</masked>
+      <name>markedUpEntitiesTestValue</name>
+   </variable>
+   <variable>
+      <defaultValue>'weekend'</defaultValue>
+      <description></description>
+      <id>54bfcca8-7444-44f9-8889-cdd35daba31c</id>
+      <masked>false</masked>
+      <name>markedUpTestValue</name>
+   </variable>
+</TestCaseEntity>

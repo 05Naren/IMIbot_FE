@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: Verify if entity are auto detected when added to an intent through utterance</description>
+   <name>verify_entity_auto_detection</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e0a1028b-b854-450b-bb74-9747ded7ffa0</testCaseGuid>
+   <variable>
+      <defaultValue>'Do you deliver to mumbai'</defaultValue>
+      <description></description>
+      <id>7512d130-d3f9-427d-8484-7f0c0acf60fa</id>
+      <masked>false</masked>
+      <name>testValue</name>
+   </variable>
+   <variable>
+      <defaultValue>'city name'</defaultValue>
+      <description></description>
+      <id>04190ead-dc55-4046-8d56-81c3cb018475</id>
+      <masked>false</masked>
+      <name>entityTestValue</name>
+   </variable>
+</TestCaseEntity>

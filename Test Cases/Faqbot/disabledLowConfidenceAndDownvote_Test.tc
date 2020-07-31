@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: Verify if issues can be found in curation after all the settings has been disabled for FAQ bot</description>
+   <name>disabledLowConfidenceAndDownvote_Test</name>
+   <tag></tag>
+   <comment>comment
+</comment>
+   <testCaseGuid>f6a88b82-abf7-48bd-a0a1-b81f2940f737</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('comment', 5)</defaultValue>
+      <description></description>
+      <id>2c65e001-c756-468d-9e2a-f6205b3a6949</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+   <variable>
+      <defaultValue>'Does late payment impact my CIBIL score?'</defaultValue>
+      <description></description>
+      <id>ea707175-8032-4991-9e0f-bcdd27751dd2</id>
+      <masked>false</masked>
+      <name>userQuery</name>
+   </variable>
+</TestCaseEntity>

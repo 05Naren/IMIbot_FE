@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: Update bot logo and welcome message</description>
+   <name>botUrlAndDefaultArticleConfiguration_Test</name>
+   <tag></tag>
+   <comment>comment
+################</comment>
+   <testCaseGuid>39872073-aabf-4985-9f08-4b46d51bc50c</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('bot_logo', 1)</defaultValue>
+      <description></description>
+      <id>aa994c75-1bc1-4f3a-a12d-4eeee22b537a</id>
+      <masked>false</masked>
+      <name>botLogo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('welcome_message', 1)</defaultValue>
+      <description></description>
+      <id>80bfff37-b144-4dfb-aeba-a3b989ae88af</id>
+      <masked>false</masked>
+      <name>welcomeMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>'Updated welcome message and bot logo'</defaultValue>
+      <description></description>
+      <id>f24a21be-9150-46d5-a957-67e3d6f58cab</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('partial_match', 1)</defaultValue>
+      <description></description>
+      <id>dab31603-8956-4ab5-90d5-a91fdb8221a9</id>
+      <masked>false</masked>
+      <name>customMessage</name>
+   </variable>
+</TestCaseEntity>

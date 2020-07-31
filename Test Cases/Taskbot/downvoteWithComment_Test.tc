@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>downvoteWithComment_Test</name>
+   <tag></tag>
+   <comment>comment
+findTestData(&quot;Data Files/testData_Task&quot;).getValue(&quot;comment&quot;, 3)</comment>
+   <testCaseGuid>ee3c031e-95f0-475c-8ebd-51f856dfa29b</testCaseGuid>
+   <variable>
+      <defaultValue>'downvote test'</defaultValue>
+      <description></description>
+      <id>9aba51fa-7a77-4cab-b094-25cbbebc4593</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+   <variable>
+      <defaultValue>'I want to report for damaged product at delivery'</defaultValue>
+      <description></description>
+      <id>0f7e508b-c118-42a9-a158-2500af6aff08</id>
+      <masked>false</masked>
+      <name>userQuery</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sorry, I am unable to understand your message. Could you please rephrase it?'</defaultValue>
+      <description></description>
+      <id>2e849def-ad0a-4117-8cae-f6005a11e575</id>
+      <masked>false</masked>
+      <name>botResponse</name>
+   </variable>
+</TestCaseEntity>

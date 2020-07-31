@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: Tag a word in a utterance manually and later remove the word tagged to an entity</description>
+   <name>verify_entity_tagging_and_removing_manually</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1fbba7be-37b4-4a9d-afb2-73f6ae6067d9</testCaseGuid>
+   <variable>
+      <defaultValue>'visit chennai'</defaultValue>
+      <description></description>
+      <id>7fae7441-480c-4da2-b56b-559aad592035</id>
+      <masked>false</masked>
+      <name>testValue</name>
+   </variable>
+   <variable>
+      <defaultValue>'city name'</defaultValue>
+      <description></description>
+      <id>177a400b-d16a-432c-8abb-a6ee16ee68f1</id>
+      <masked>false</masked>
+      <name>nameOfTheEntity</name>
+   </variable>
+</TestCaseEntity>

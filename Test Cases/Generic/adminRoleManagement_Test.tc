@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: To verify role creation by Admin user</description>
+   <name>adminRoleManagement_Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ad9016c7-5763-4afc-bfb9-4c973d03d043</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.USER_ROLE</defaultValue>
+      <description></description>
+      <id>ea01aa74-b0a0-4d77-b46b-70e0281e5ea5</id>
+      <masked>false</masked>
+      <name>typeOfUser</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bot Testing'</defaultValue>
+      <description></description>
+      <id>354ffabd-4c38-4e6e-94db-924f1d9df2f3</id>
+      <masked>false</masked>
+      <name>permissionToUser</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bot One-click Testing'</defaultValue>
+      <description></description>
+      <id>261f6865-1f5a-40fe-a2f2-20e709a8eb0d</id>
+      <masked>false</masked>
+      <name>nameOfThePermission</name>
+   </variable>
+</TestCaseEntity>

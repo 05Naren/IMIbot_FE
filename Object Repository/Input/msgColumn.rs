@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>msgColumn</name>
+   <tag></tag>
+   <elementGuidId>5b92c73f-de2d-491f-a8f3-e8d4c65986d8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[@class='htAutocomplete']//preceding-sibling::td</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//td[@class='htAutocomplete']//preceding-sibling::td)[${index}]</value>
+   </webElementProperties>
+</WebElementEntity>

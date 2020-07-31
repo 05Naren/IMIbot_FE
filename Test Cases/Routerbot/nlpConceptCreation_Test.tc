@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: To add module and create concept on a router bot</description>
+   <name>nlpConceptCreation_Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>302e5b83-71eb-4599-81a3-656e3ac7d843</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('testData_Router').getValue('concept_name', 1)</defaultValue>
+      <description></description>
+      <id>5e3c1c4f-3f40-4602-be8c-158fab51dd92</id>
+      <masked>false</masked>
+      <name>conceptName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_Router').getValue('file_name', 1)</defaultValue>
+      <description></description>
+      <id>6b7d1520-d961-4561-a015-b233de23ee6b</id>
+      <masked>false</masked>
+      <name>fileName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_Router').getValue('concept_name', 2)</defaultValue>
+      <description></description>
+      <id>afa580fc-d2a9-4c6a-af39-653393f31931</id>
+      <masked>false</masked>
+      <name>conceptName2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_Router').getValue('file_name', 2)</defaultValue>
+      <description></description>
+      <id>545505b6-2e1f-42cf-a14b-8611b2e6e902</id>
+      <masked>false</masked>
+      <name>fileName2</name>
+   </variable>
+</TestCaseEntity>

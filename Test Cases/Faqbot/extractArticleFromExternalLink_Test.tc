@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: To ensure if faq bots are able to extract faq from external site
+
+Step 1: Extract question from external link
+Step 2: Train bot with new data
+Step 3: Preview bot 
+Step 4: Verify bot response</description>
+   <name>extractArticleFromExternalLink_Test</name>
+   <tag></tag>
+   <comment>comment</comment>
+   <testCaseGuid>5b4ce116-4be9-45cb-a9b8-ebba867e095c</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('comment', 2)</defaultValue>
+      <description></description>
+      <id>23137af1-a587-4766-af22-6dd4a37d7613</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+   <variable>
+      <defaultValue>'How can I view my transactions?'</defaultValue>
+      <description></description>
+      <id>080576d5-3cab-4bf5-bbea-9f6eed5c903b</id>
+      <masked>false</masked>
+      <name>userQuery</name>
+   </variable>
+   <variable>
+      <defaultValue>'You can view your transactions by logging into MyBank card online service. Your transactions can be found on your account summary page, and under \'Statements\' in the top menu.'</defaultValue>
+      <description></description>
+      <id>57dd9441-2fc8-4df7-ba8b-50292f222c7a</id>
+      <masked>false</masked>
+      <name>strCheck</name>
+   </variable>
+</TestCaseEntity>

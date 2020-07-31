@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: Verify if bot answers with template key when user doesn't provide an entity to complete an intent
+
+Step 1: Create a intent with entities
+Step 2: Link an entity required
+Step 3: Check entities required and template response
+Step 4: Verify if bot displays template key when entity is missing in utterance</description>
+   <name>verify_retries_and_template_key</name>
+   <tag></tag>
+   <comment>retry test</comment>
+   <testCaseGuid>35dc6faa-100d-4e4b-9e30-3343754747da</testCaseGuid>
+   <variable>
+      <defaultValue>'visit'</defaultValue>
+      <description></description>
+      <id>b9342d6b-ffd4-48bc-a8e1-aaf28a6bbbe9</id>
+      <masked>false</masked>
+      <name>intentName</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>fcae548b-5833-4554-9513-a298ef21cc42</id>
+      <masked>false</masked>
+      <name>retryValue</name>
+   </variable>
+   <variable>
+      <defaultValue>'no city'</defaultValue>
+      <description></description>
+      <id>0ae8125d-2b17-4849-b037-ed9900d35dbc</id>
+      <masked>false</masked>
+      <name>templateKey</name>
+   </variable>
+   <variable>
+      <defaultValue>'At what time does Iskon temple closes?'</defaultValue>
+      <description></description>
+      <id>0422af13-d5f3-4708-b9b6-ddacfd6f2ae3</id>
+      <masked>false</masked>
+      <name>testUtterance</name>
+   </variable>
+   <variable>
+      <defaultValue>'regret'</defaultValue>
+      <description></description>
+      <id>5e7506c8-2243-473a-aa21-7b9157aa3826</id>
+      <masked>false</masked>
+      <name>finalResponse</name>
+   </variable>
+   <variable>
+      <defaultValue>'what time Iskon temple closes?'</defaultValue>
+      <description></description>
+      <id>7b9514e9-450a-4647-81dc-cfa01ebf6aab</id>
+      <masked>false</masked>
+      <name>userQuery</name>
+   </variable>
+   <variable>
+      <defaultValue>'Please provide the city name'</defaultValue>
+      <description></description>
+      <id>f4d8a55c-e201-4044-a9bf-a16913998d79</id>
+      <masked>false</masked>
+      <name>botResponse</name>
+   </variable>
+   <variable>
+      <defaultValue>'calicut'</defaultValue>
+      <description></description>
+      <id>5ebfa86a-ba6c-4314-8a94-e27166dc4440</id>
+      <masked>false</masked>
+      <name>userQuery2</name>
+   </variable>
+   <variable>
+      <defaultValue>'city name is calicut'</defaultValue>
+      <description></description>
+      <id>fc50d451-a5fc-46df-8996-d4f52ed5e23d</id>
+      <masked>false</masked>
+      <name>userQuery3</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sorry, I am unable to understand your message. Could you please rephrase it?'</defaultValue>
+      <description></description>
+      <id>cca039a8-103b-4263-a1a1-2565d1131454</id>
+      <masked>false</masked>
+      <name>fallbackResponse</name>
+   </variable>
+   <variable>
+      <defaultValue>'mumbai'</defaultValue>
+      <description></description>
+      <id>54345ffc-f2e8-47d1-b6f8-bd20ec827756</id>
+      <masked>false</masked>
+      <name>cityName</name>
+   </variable>
+   <variable>
+      <defaultValue>'There is no Iskon temple in the city'</defaultValue>
+      <description></description>
+      <id>1beb3ccc-68df-4e15-90dd-cbf030f16046</id>
+      <masked>false</masked>
+      <name>finalBotResponse</name>
+   </variable>
+</TestCaseEntity>

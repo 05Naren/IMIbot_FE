@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnDeleteChipOrRow</name>
+   <tag></tag>
+   <elementGuidId>c3fcde2c-09e7-4572-91f2-c3961653e76c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//mat-chip[text()='${chipValue}']//following-sibling::mat-icon[text()='${option}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//mat-chip[text()='${chipValue}']//following-sibling::mat-icon[text()='${option}']</value>
+   </webElementProperties>
+</WebElementEntity>

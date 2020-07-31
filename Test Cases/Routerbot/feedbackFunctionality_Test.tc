@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: Verify if user is able to provide feedback on bot response
+
+Step 1: Navigate to bot 
+Step 2: Preview bot and provide feedback on bot response
+Step 3: Store session ID to filter it on session
+Step 4: Filter the session with session ID
+Step 5: Go to session, verify feedback
+Step 3: Query bot and verify bot returned response</description>
+   <name>feedbackFunctionality_Test</name>
+   <tag></tag>
+   <comment>comment</comment>
+   <testCaseGuid>d2392615-7d61-4c1e-b43f-d350edd0f5a6</testCaseGuid>
+   <variable>
+      <defaultValue>'प्रधानमंत्री जन-धन योजना क्या है?'</defaultValue>
+      <description></description>
+      <id>a096e6e0-1394-4c0a-b950-cb3425c54b36</id>
+      <masked>false</masked>
+      <name>userQuery1</name>
+   </variable>
+   <variable>
+      <defaultValue>'how to report suspected fraud?'</defaultValue>
+      <description></description>
+      <id>f5948fd6-1bdb-408a-9ff7-be1ac31e315d</id>
+      <masked>false</masked>
+      <name>userQuery2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_Router').getValue('comment', 1)</defaultValue>
+      <description></description>
+      <id>69bca680-b362-4978-b1ad-359454a1449e</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+</TestCaseEntity>

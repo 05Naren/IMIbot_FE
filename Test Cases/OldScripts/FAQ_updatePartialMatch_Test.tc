@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: To configure custom partial match message</description>
+   <name>FAQ_updatePartialMatch_Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>93d64343-828b-46cd-b20d-0c44699658ac</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('partial_match', 1)</defaultValue>
+      <description></description>
+      <id>a6f91eba-6b40-4dd8-9f38-7e6b48118f62</id>
+      <masked>false</masked>
+      <name>customMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('partial_match_query', 1)</defaultValue>
+      <description></description>
+      <id>f2ce9322-be1e-4433-bc09-4c89a2f47784</id>
+      <masked>false</masked>
+      <name>userQuery</name>
+   </variable>
+</TestCaseEntity>

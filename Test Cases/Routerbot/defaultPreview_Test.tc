@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: Verify if preview works for a router bot
+
+Step 1: Navigate to bot type
+Step 2: Click on preview button on bot card
+Step 3: Query bot and verify bot returned response</description>
+   <name>defaultPreview_Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3e03d1d9-bae8-4aeb-8c12-379b4ae3175e</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('testData_Router').getValue('default_question', 1)</defaultValue>
+      <description></description>
+      <id>9049e221-3416-49cb-933c-36186bd85d17</id>
+      <masked>false</masked>
+      <name>userQuery</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_Router').getValue('default_answer', 1)</defaultValue>
+      <description></description>
+      <id>5dc2e3c7-0670-466d-a24b-eecc73acc702</id>
+      <masked>false</masked>
+      <name>stringToCheck</name>
+   </variable>
+</TestCaseEntity>

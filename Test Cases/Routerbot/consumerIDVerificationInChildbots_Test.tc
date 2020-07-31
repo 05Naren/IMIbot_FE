@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: To verify same consumer id in child bots after preview in router bot
+
+Step 1: Navigate to child bots
+Step 2: Verify consumer id in sessions</description>
+   <name>consumerIDVerificationInChildbots_Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>59e50091-b83b-4891-af5b-b9d144bc142f</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('testData_Router').getValue('consumer_id', 1)</defaultValue>
+      <description></description>
+      <id>abc6ae56-6cf2-4280-9486-a6b7d27d7a2d</id>
+      <masked>false</masked>
+      <name>consumerID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_Router').getValue('room_id', 1)</defaultValue>
+      <description></description>
+      <id>df29d6b3-9e60-4a47-9325-ec8c3505662d</id>
+      <masked>false</masked>
+      <name>mgrRoomID</name>
+   </variable>
+</TestCaseEntity>

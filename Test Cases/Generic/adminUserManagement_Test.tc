@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: Verify custom user creation by an 'Admin'</description>
+   <name>adminUserManagement_Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a4ede7fa-1f3d-4cd0-8fb6-de9dffc46379</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.NEW_USER_FIRST_NAME</defaultValue>
+      <description></description>
+      <id>5c2eb3a7-2dc2-473d-9b03-fea38434c6e6</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.NEW_USER_LAST_NAME</defaultValue>
+      <description></description>
+      <id>ff585d13-7575-494d-b81b-48b3251964af</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.NEW_USER_EMAIL</defaultValue>
+      <description></description>
+      <id>79bc24e0-69f5-4a24-aa42-3f88d80a489a</id>
+      <masked>false</masked>
+      <name>emailAddress</name>
+   </variable>
+</TestCaseEntity>

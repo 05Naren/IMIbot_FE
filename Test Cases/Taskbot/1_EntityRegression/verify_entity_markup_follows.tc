@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: Verify if text added on the end of a marked entity will continue to appear marked up</description>
+   <name>verify_entity_markup_follows</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d939223a-5b82-4d23-8a58-a0fe2f490c2e</testCaseGuid>
+   <variable>
+      <defaultValue>'I want to visit on sunday'</defaultValue>
+      <description></description>
+      <id>f2c54332-8a71-4b27-9411-793c9ea8aade</id>
+      <masked>false</masked>
+      <name>testValue</name>
+   </variable>
+   <variable>
+      <defaultValue>'andmonday'</defaultValue>
+      <description></description>
+      <id>fc76cc8f-94ae-4ad3-8aff-dc240d364adb</id>
+      <masked>false</masked>
+      <name>additionalValue</name>
+   </variable>
+   <variable>
+      <defaultValue>'on sundayandmonday'</defaultValue>
+      <description></description>
+      <id>2082c984-d1d6-4b8d-86c0-4fc47bd2c786</id>
+      <masked>false</masked>
+      <name>markedUpTestValue</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: Verify if user create concept and add module to smart bot</description>
+   <name>nlpConceptCreation_Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>414ebe10-3f4c-4ed5-9a72-a250e8ceacdb</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('testData_Smart').getValue('concept_name', 1)</defaultValue>
+      <description></description>
+      <id>5e3c1c4f-3f40-4602-be8c-158fab51dd92</id>
+      <masked>false</masked>
+      <name>conceptName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_Smart').getValue('file_name', 1)</defaultValue>
+      <description></description>
+      <id>6b7d1520-d961-4561-a015-b233de23ee6b</id>
+      <masked>false</masked>
+      <name>fileName</name>
+   </variable>
+</TestCaseEntity>

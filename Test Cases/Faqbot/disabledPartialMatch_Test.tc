@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda:
+
+1. Perform partial match</description>
+   <name>disabledPartialMatch_Test</name>
+   <tag></tag>
+   <comment>comment</comment>
+   <testCaseGuid>ea987c60-ea57-41bd-b7cd-cbb38acb6d08</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('comment', 6)</defaultValue>
+      <description></description>
+      <id>4c0be840-90b7-4faf-ad0e-6dae3e208ef0</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+   <variable>
+      <defaultValue>'Mybank credit card'</defaultValue>
+      <description></description>
+      <id>c843b654-c1d3-4806-b662-0268782caee0</id>
+      <masked>false</masked>
+      <name>userQuery</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('partial_match', 1)</defaultValue>
+      <description></description>
+      <id>d5554d55-2039-4f5f-8098-83c16a723055</id>
+      <masked>false</masked>
+      <name>partialMatch</name>
+   </variable>
+</TestCaseEntity>

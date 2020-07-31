@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: Verify if user is able to successfully able to type in test cases, auto selection of value from dropdown and upload test case feature that the handson table presents</description>
+   <name>oneClickTestingTrainedVersion_Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>41604cac-2d47-4fea-a54f-3c7bf95a8a4a</testCaseGuid>
+   <variable>
+      <defaultValue>'oneClickFAQ.csv'</defaultValue>
+      <description></description>
+      <id>ec41ffe1-5830-4707-9b7a-2f51fc18499e</id>
+      <masked>false</masked>
+      <name>uploadFAQTestCases</name>
+   </variable>
+   <variable>
+      <defaultValue>'faq_version_trained'</defaultValue>
+      <description></description>
+      <id>d297b461-2be1-4663-af10-24786842d292</id>
+      <masked>false</masked>
+      <name>testDataColumn</name>
+   </variable>
+   <variable>
+      <defaultValue>'card abroad charges?'</defaultValue>
+      <description></description>
+      <id>75ead96e-768a-4e99-b003-fa164589051d</id>
+      <masked>false</masked>
+      <name>toBeSearched</name>
+   </variable>
+</TestCaseEntity>

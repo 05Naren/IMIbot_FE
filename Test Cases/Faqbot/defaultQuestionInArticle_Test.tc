@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: Verify if a user can save an article with no default question, update the default question and the header on article page changes and addition of variant doesn't impact the default question</description>
+   <name>defaultQuestionInArticle_Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9c994dc-4af0-4de3-b869-d92d6487ff54</testCaseGuid>
+   <variable>
+      <defaultValue>'view my card statement'</defaultValue>
+      <description></description>
+      <id>1ed1199a-3209-4ae2-b2e8-64735ec7429e</id>
+      <masked>false</masked>
+      <name>searchQuestion</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('new_default_question', 1)</defaultValue>
+      <description></description>
+      <id>f7c9641b-c310-4ee7-94d8-6484669fb3b5</id>
+      <masked>false</masked>
+      <name>testValue</name>
+   </variable>
+</TestCaseEntity>

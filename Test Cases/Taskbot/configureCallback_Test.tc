@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: Verify if admin is able to configure and test callback in a bot</description>
+   <name>configureCallback_Test</name>
+   <tag></tag>
+   <comment>testData.getValue(&quot;comment&quot;, 8)</comment>
+   <testCaseGuid>330354ac-cce8-426f-921c-7de6e096930f</testCaseGuid>
+   <variable>
+      <defaultValue>'invoke callback'</defaultValue>
+      <description></description>
+      <id>58477847-270e-4146-92b5-aa14542f261c</id>
+      <masked>false</masked>
+      <name>userQuery</name>
+   </variable>
+   <variable>
+      <defaultValue>'Callback has come from connect'</defaultValue>
+      <description></description>
+      <id>db691ed2-fa54-4c80-b7bb-ceb47ea4aca6</id>
+      <masked>false</masked>
+      <name>callbackResponse</name>
+   </variable>
+</TestCaseEntity>

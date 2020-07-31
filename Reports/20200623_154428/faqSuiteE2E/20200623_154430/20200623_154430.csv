@@ -1,0 +1,173 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+faqSuiteE2E,Chrome 83.0.4103.106,,,2020-06-23 15:44:43,2020-06-23 16:09:05,24m - 21.715s,INCOMPLETE
+,,,,,,,
+Test Cases/Faqbot/botCreation_Test,Chrome 83.0.4103.106,TestCase Agenda: To test faq bot creation,,2020-06-23 15:44:45,2020-06-23 15:47:02,2m - 16.871s,FAILED
+Start listener action : setUp,Chrome 83.0.4103.106,,,2020-06-23 15:44:51,2020-06-23 15:45:13,21.888s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.106,,,2020-06-23 15:45:13,2020-06-23 15:45:48,34.598s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/createBot""))",Chrome 83.0.4103.106,,,2020-06-23 15:45:48,2020-06-23 15:45:51,2.768s,PASSED
+"sendKeys(findTestObject(""Input/botName""), nameOfTheBot)",Chrome 83.0.4103.106,,,2020-06-23 15:45:51,2020-06-23 15:45:53,2.517s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Toggle/feedback""))",Chrome 83.0.4103.106,,,2020-06-23 15:45:53,2020-06-23 15:45:55,2.186s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/done""))",Chrome 83.0.4103.106,,,2020-06-23 15:45:55,2020-06-23 15:45:57,2.135s,PASSED
+"waitForElementVisible(findTestObject(""Generic/articleState""), 45, OPTIONAL)",Chrome 83.0.4103.106,,,2020-06-23 15:45:57,2020-06-23 15:46:48,50.847s,PASSED
+"verifyElementText(findTestObject(""Generic/articleState""), ""Trained"", STOP_ON_FAILURE)",Chrome 83.0.4103.106,,,2020-06-23 15:46:48,2020-06-23 15:47:02,14.046s,FAILED
+,,,,,,,
+Test Cases/Faqbot/updateBotConfig_Test,Chrome 83.0.4103.106,TestCase Agenda: Update bot logo and welcome message,,2020-06-23 15:47:02,2020-06-23 15:48:24,1m - 21.387s,ERROR
+Start listener action : setUp,Chrome 83.0.4103.106,,,2020-06-23 15:47:05,2020-06-23 15:47:45,40.055s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.106,,,2020-06-23 15:47:47,2020-06-23 15:48:14,26.681s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 83.0.4103.106,,,2020-06-23 15:48:14,2020-06-23 15:48:24,9.747s,ERROR
+,,,,,,,
+Test Cases/Faqbot/updatePartialMatch_Test,Chrome 83.0.4103.106,TestCase Agenda: To configure custom partial match message,,2020-06-23 15:48:24,2020-06-23 15:49:26,1m - 1.719s,ERROR
+Start listener action : setUp,Chrome 83.0.4103.106,,,2020-06-23 15:48:25,2020-06-23 15:48:47,21.962s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.106,,,2020-06-23 15:48:48,2020-06-23 15:49:14,26.181s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 83.0.4103.106,,,2020-06-23 15:49:14,2020-06-23 15:49:26,11.555s,ERROR
+,,,,,,,
+Test Cases/Faqbot/botCardMenuWithFallbackMessage_Test,Chrome 83.0.4103.106,"TestCase Agenda: Preview bot to answer with a fallback response, save the room id so later we can use it curate the query",,2020-06-23 15:49:26,2020-06-23 15:51:25,1m - 59.388s,FAILED
+Start listener action : setUp,Chrome 83.0.4103.106,,,2020-06-23 15:49:27,2020-06-23 15:49:56,28.953s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.106,,,2020-06-23 15:49:56,2020-06-23 15:50:24,28.064s,PASSED
+"botCardOptions = platform.Method.verifyBotCardMenu(""Q&A bots"", FAQ_BOT)",Chrome 83.0.4103.106,,,2020-06-23 15:50:24,2020-06-23 15:51:15,50.360s,PASSED
+"verifyElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Copy Preview Link""]), 5, STOP_ON_FAILURE)",Chrome 83.0.4103.106,,,2020-06-23 15:51:15,2020-06-23 15:51:25,10.468s,FAILED
+,,,,,,,
+Test Cases/Faqbot/importArticlesFromCsv_Test,Chrome 83.0.4103.106,"TestCase Agenda: Import articles from csv, train bot with data and query bot for response",,2020-06-23 15:51:25,2020-06-23 15:52:29,1m - 3.953s,ERROR
+Start listener action : setUp,Chrome 83.0.4103.106,,,2020-06-23 15:51:26,2020-06-23 15:51:50,24.315s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.106,,,2020-06-23 15:51:50,2020-06-23 15:52:18,27.934s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 83.0.4103.106,,,2020-06-23 15:52:18,2020-06-23 15:52:29,10.757s,ERROR
+,,,,,,,
+Test Cases/Faqbot/extractArticleFromExternalLink_Test,Chrome 83.0.4103.106,"TestCase Agenda: To ensure if faq bots are able to extract faq from external site
+
+Step 1: Extract question from external link
+Step 2: Train bot with new data
+Step 3: Preview bot 
+Step 4: Verify bot response",,2020-06-23 15:52:29,2020-06-23 15:53:32,1m - 3.061s,ERROR
+Start listener action : setUp,Chrome 83.0.4103.106,,,2020-06-23 15:52:30,2020-06-23 15:52:50,19.885s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.106,,,2020-06-23 15:52:50,2020-06-23 15:53:22,31.708s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 83.0.4103.106,,,2020-06-23 15:53:22,2020-06-23 15:53:32,10.257s,ERROR
+,,,,,,,
+Test Cases/Faqbot/searchArticle_Test,Chrome 83.0.4103.106,TestCase Agenda: Verify if the search bar for article is able to display result properly,,2020-06-23 15:53:32,2020-06-23 15:54:35,1m - 2.285s,ERROR
+Start listener action : setUp,Chrome 83.0.4103.106,,,2020-06-23 15:53:33,2020-06-23 15:53:56,22.866s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.106,,,2020-06-23 15:53:56,2020-06-23 15:54:24,27.298s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 83.0.4103.106,,,2020-06-23 15:54:24,2020-06-23 15:54:35,11.052s,ERROR
+,,,,,,,
+Test Cases/Faqbot/downvoteWithComment_Test,Chrome 83.0.4103.106,"TestCase Agenda: To verify if bot response can be downvoted and add a comment to it
+
+Step 1: Preview bot for response
+Step 2: Downvote response
+Step 3: Got to room in Sessions 
+Step 4: Verify downvote with comment",,2020-06-23 15:54:35,2020-06-23 15:55:33,58.221s,ERROR
+Start listener action : setUp,Chrome 83.0.4103.106,,,2020-06-23 15:54:36,2020-06-23 15:54:54,18.401s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.106,,,2020-06-23 15:54:54,2020-06-23 15:55:22,27.764s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 83.0.4103.106,,,2020-06-23 15:55:22,2020-06-23 15:55:33,10.766s,ERROR
+,,,,,,,
+Test Cases/Faqbot/addToCurationFromSessions_Test,Chrome 83.0.4103.106,"TestCase Agenda: To verify if a bot response can be added from sessions to curation
+
+Step 1: Preview bot
+Step 2: Go to room in sessions
+Step 3: Add to curation a response
+Step 4: Navigate to Curation and click on from sessions to filter result
+Step 5: Filter value by room Id
+Step 3: Add to",,2020-06-23 15:55:33,2020-06-23 15:56:33,59.573s,ERROR
+Start listener action : setUp,Chrome 83.0.4103.106,,,2020-06-23 15:55:33,2020-06-23 15:55:57,23.606s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.106,,,2020-06-23 15:55:57,2020-06-23 15:56:22,24.655s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 83.0.4103.106,,,2020-06-23 15:56:22,2020-06-23 15:56:33,10.686s,ERROR
+,,,,,,,
+Test Cases/Faqbot/createArticleWithRichResponseInCategory_Test,Chrome 83.0.4103.106,"TestCase Agenda: Creation of category with new article manually and query bot response for rich response
+
+Step 1: Create a new article of carousel type
+Step 2: Preview bot
+Step 3: Verify bot response with carousel title",,2020-06-23 15:56:33,2020-06-23 15:57:28,55.712s,ERROR
+Start listener action : setUp,Chrome 83.0.4103.106,,,2020-06-23 15:56:34,2020-06-23 15:56:51,17.020s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.106,,,2020-06-23 15:56:52,2020-06-23 15:57:18,25.612s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 83.0.4103.106,,,2020-06-23 15:57:18,2020-06-23 15:57:28,10.405s,ERROR
+,,,,,,,
+Test Cases/Faqbot/modifyCategory_Test,Chrome 83.0.4103.106,TestCase Agenda: To modify an exisiting category,,2020-06-23 15:57:28,2020-06-23 15:58:22,53.715s,ERROR
+Start listener action : setUp,Chrome 83.0.4103.106,,,2020-06-23 15:57:29,2020-06-23 15:57:45,16.454s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.106,,,2020-06-23 15:57:46,2020-06-23 15:58:12,25.930s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 83.0.4103.106,,,2020-06-23 15:58:12,2020-06-23 15:58:22,10.290s,ERROR
+,,,,,,,
+Test Cases/Faqbot/fallbackCurationByAddToExistingArticle_Test,Chrome 83.0.4103.106,,,2020-06-23 15:58:22,2020-06-23 15:59:16,53.541s,ERROR
+Start listener action : setUp,Chrome 83.0.4103.106,,,2020-06-23 15:58:23,2020-06-23 15:58:40,17.392s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.106,,,2020-06-23 15:58:41,2020-06-23 15:59:05,24.415s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 83.0.4103.106,,,2020-06-23 15:59:05,2020-06-23 15:59:16,10.315s,ERROR
+,,,,,,,
+Test Cases/Faqbot/partialMatchCurationByCreateNewArticle_Test,Chrome 83.0.4103.106,"TestCase Agenda: Verify if partial match in curation and add to new article
+
+Step 1: Preview bot with question which would give partial match result
+Step 2: Verify partial match updated answer
+Step 3: Curate the partial match by creating a new article
+Step 4: Train the bot
+Step 5: Verify the bot with the same question and assert the value
+Step 6: Go to curation and check the room id in resolved section",,2020-06-23 15:59:16,2020-06-23 16:00:13,57.211s,ERROR
+Start listener action : setUp,Chrome 83.0.4103.106,,,2020-06-23 15:59:16,2020-06-23 15:59:36,19.984s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.106,,,2020-06-23 15:59:37,2020-06-23 16:00:03,25.665s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 83.0.4103.106,,,2020-06-23 16:00:03,2020-06-23 16:00:13,10.153s,ERROR
+,,,,,,,
+Test Cases/Faqbot/filterSessionsBy_Test,Chrome 83.0.4103.106,TestCase Agenda: To verify if sessions function is working as per expectation for user or not,,2020-06-23 16:00:13,2020-06-23 16:01:08,54.955s,ERROR
+Start listener action : setUp,Chrome 83.0.4103.106,,,2020-06-23 16:00:13,2020-06-23 16:00:32,18.965s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.106,,,2020-06-23 16:00:33,2020-06-23 16:00:58,25.110s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 83.0.4103.106,,,2020-06-23 16:00:58,2020-06-23 16:01:08,9.909s,ERROR
+,,,,,,,
+Test Cases/Faqbot/oneClickTestingTrainedVersion_Test,Chrome 83.0.4103.106,"TestCase Agenda: Verify if user is able to successfully able to type in test cases, auto selection of value from dropdown and upload test case feature that the handson table presents",,2020-06-23 16:01:08,2020-06-23 16:01:57,48.962s,ERROR
+Start listener action : setUp,Chrome 83.0.4103.106,,,2020-06-23 16:01:08,2020-06-23 16:01:24,15.380s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.106,,,2020-06-23 16:01:24,2020-06-23 16:01:47,22.356s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 83.0.4103.106,,,2020-06-23 16:01:47,2020-06-23 16:01:57,10.142s,ERROR
+,,,,,,,
+Test Cases/Faqbot/agentHandoverE2E_Test,Chrome 83.0.4103.106,"TestCase Agenda:
+
+Step 1:",,2020-06-23 16:01:57,2020-06-23 16:02:49,52.503s,ERROR
+Start listener action : setUp,Chrome 83.0.4103.106,,,2020-06-23 16:01:57,2020-06-23 16:02:12,15.022s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.106,,,2020-06-23 16:02:13,2020-06-23 16:02:39,26.720s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 83.0.4103.106,,,2020-06-23 16:02:39,2020-06-23 16:02:49,10.139s,ERROR
+,,,,,,,
+Test Cases/Faqbot/disabledLowConfidenceAndDownvote_Test,Chrome 83.0.4103.106,TestCase Agenda: Verify if issues can be found in curation after all the settings has been disabled for FAQ bot,,2020-06-23 16:02:50,2020-06-23 16:03:36,46.060s,ERROR
+Start listener action : setUp,Chrome 83.0.4103.106,,,2020-06-23 16:02:50,2020-06-23 16:03:05,14.985s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.106,,,2020-06-23 16:03:05,2020-06-23 16:03:25,20.094s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 83.0.4103.106,,,2020-06-23 16:03:25,2020-06-23 16:03:36,10.226s,ERROR
+,,,,,,,
+Test Cases/Faqbot/disabledPartialMatch_Test,Chrome 83.0.4103.106,"TestCase Agenda:
+
+1. Perform partial match",,2020-06-23 16:03:36,2020-06-23 16:04:29,53.526s,ERROR
+Start listener action : setUp,Chrome 83.0.4103.106,,,2020-06-23 16:03:36,2020-06-23 16:03:53,16.577s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.106,,,2020-06-23 16:03:53,2020-06-23 16:04:19,26.139s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 83.0.4103.106,,,2020-06-23 16:04:19,2020-06-23 16:04:29,10.050s,ERROR
+,,,,,,,
+Test Cases/Faqbot/disabledFallback_Test,Chrome 83.0.4103.106,"TestCase Agenda:
+
+Step 1: Disable fallback",,2020-06-23 16:04:29,2020-06-23 16:05:22,53.216s,ERROR
+Start listener action : setUp,Chrome 83.0.4103.106,,,2020-06-23 16:04:29,2020-06-23 16:04:44,15.143s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.106,,,2020-06-23 16:04:45,2020-06-23 16:05:12,26.956s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 83.0.4103.106,,,2020-06-23 16:05:12,2020-06-23 16:05:22,9.967s,ERROR
+,,,,,,,
+Test Cases/Faqbot/defaultQuestionInArticle_Test,Chrome 83.0.4103.106,"TestCase Agenda: Verify if a user can save an article with no default question, update the default question and the header on article page changes and addition of variant doesn't impact the default question",,2020-06-23 16:05:22,2020-06-23 16:06:21,58.155s,ERROR
+Start listener action : setUp,Chrome 83.0.4103.106,,,2020-06-23 16:05:23,2020-06-23 16:05:39,16.335s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.106,,,2020-06-23 16:05:40,2020-06-23 16:06:10,30.338s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 83.0.4103.106,,,2020-06-23 16:06:10,2020-06-23 16:06:21,10.234s,ERROR
+,,,,,,,
+Test Cases/Faqbot/encryptionOnSessions_Test,Chrome 83.0.4103.106,"TestCase Agenda:
+
+Step 1: Enable ADP
+Step 2: Navigate to Session and verify 
+Step 3: Navigate to Curation and verify",,2020-06-23 16:06:21,2020-06-23 16:07:12,51.357s,ERROR
+Start listener action : setUp,Chrome 83.0.4103.106,,,2020-06-23 16:06:21,2020-06-23 16:06:37,15.967s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.106,,,2020-06-23 16:06:37,2020-06-23 16:07:02,24.956s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 83.0.4103.106,,,2020-06-23 16:07:02,2020-06-23 16:07:12,9.762s,ERROR
+,,,,,,,
+Test Cases/Faqbot/customSynonymsE2E_Test,Chrome 83.0.4103.106,"TestCase Agenda: Verify all features available on FAQ bot custom synonyms like manual addition of a root word and add synonyms to it, delete a synonym, delete a root word, upload a csv file and other functionalities.",,2020-06-23 16:07:12,2020-06-23 16:09:05,1m - 52.627s,ERROR
+Start listener action : setUp,Chrome 83.0.4103.106,,,2020-06-23 16:07:12,2020-06-23 16:07:29,16.914s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.106,,,2020-06-23 16:07:30,2020-06-23 16:07:55,25.033s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", PREVIEW_BOT)",Chrome 83.0.4103.106,,,2020-06-23 16:07:55,2020-06-23 16:08:02,6.962s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 83.0.4103.106,,,2020-06-23 16:08:02,2020-06-23 16:08:06,4.886s,PASSED
+try,Chrome 83.0.4103.106,,,2020-06-23 16:08:06,2020-06-23 16:08:15,9.001s,ERROR
+catch (Exception e),Chrome 83.0.4103.106,,,2020-06-23 16:08:15,2020-06-23 16:08:15,0.005s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 83.0.4103.106,,,2020-06-23 16:08:15,2020-06-23 16:08:18,2.452s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(""[स्वावलंबी] भारतवर्ष"", ENTER))",Chrome 83.0.4103.106,,,2020-06-23 16:08:18,2020-06-23 16:08:21,2.994s,PASSED
+"waitForElementPresent(findTestObject(""GenericII/getBotResponse"", [""index"":2]), 20, OPTIONAL)",Chrome 83.0.4103.106,,,2020-06-23 16:08:21,2020-06-23 16:08:22,1.246s,PASSED
+"verifyElementText(findTestObject(""GenericII/getBotResponse"", [""index"":2]), fallback, OPTIONAL)",Chrome 83.0.4103.106,,,2020-06-23 16:08:22,2020-06-23 16:08:25,2.456s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/minimize""))",Chrome 83.0.4103.106,,,2020-06-23 16:08:25,2020-06-23 16:08:27,2.314s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Custom synonyms""]))",Chrome 83.0.4103.106,,,2020-06-23 16:08:27,2020-06-23 16:08:30,2.824s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/rootword""))",Chrome 83.0.4103.106,,,2020-06-23 16:08:30,2020-06-23 16:08:32,2.532s,PASSED
+"saveBtn = modifyObjectProperty(findTestObject(""Button/save"", [""value"":"" Save ""]), ""xpath"", ""equals"", ""//span[text()=' Save ']//ancestor::button"", true, STOP_ON_FAILURE)",Chrome 83.0.4103.106,,,2020-06-23 16:08:32,2020-06-23 16:08:33,0.321s,PASSED
+"verifyElementHasAttribute(saveBtn, ""disabled"", 10, STOP_ON_FAILURE)",Chrome 83.0.4103.106,,,2020-06-23 16:08:33,2020-06-23 16:08:35,2.153s,PASSED
+"testData = findTestData(""Data Files/testData_FAQ"")",Chrome 83.0.4103.106,,,2020-06-23 16:08:35,2020-06-23 16:08:35,0.088s,PASSED
+"setText(findTestObject(""Input/valueOfSynonym""), Keys.chord(testData.getValue(""custom_syn_value"", 1), ENTER))",Chrome 83.0.4103.106,,,2020-06-23 16:08:35,2020-06-23 16:08:39,4.172s,PASSED
+"for ([count = 1, count <= testData.getRowNumbers(), (count++)])",Chrome 83.0.4103.106,,,2020-06-23 16:08:39,2020-06-23 16:08:54,15.063s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/importIcon""))",Chrome 83.0.4103.106,,,2020-06-23 16:08:54,2020-06-23 16:08:56,2.331s,PASSED
+"platform.Method.uploadCsvFile(false, ""faqSynonyms.csv"")",Chrome 83.0.4103.106,,,2020-06-23 16:08:56,2020-06-23 16:09:05,8.177s,ERROR

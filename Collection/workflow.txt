@@ -1,0 +1,11 @@
+datastore =variables['dataStore'] 
+responseflag = False 
+
+if str(variables['callback']["data"]['callback_id']) == "123" and variables['callback']["data"]['data_payload']["user_message"]: 
+    datastore['connect_response']= variables['callback']["data"]['data_payload']["user_message"]
+    responseflag = True
+output = { 
+    "dataStore": datastore,
+    "templateKey": "callback response", 
+    "responseflag" : responseflag
+}

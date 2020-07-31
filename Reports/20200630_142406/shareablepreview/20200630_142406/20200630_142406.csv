@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+shareablepreview,Chrome 83.0.4103.116,,,2020-06-30 14:24:14,2020-06-30 14:28:16,4m - 2.156s,INCOMPLETE
+,,,,,,,
+Test Cases/SetUp/setUpCustomSyn_ShareablePreview1,Chrome 83.0.4103.116,Agenda: Set up articles only for shareable preview faq bot,,2020-06-30 14:24:14,2020-06-30 14:25:50,1m - 35.956s,ERROR
+Start listener action : setUp,Chrome 83.0.4103.116,,,2020-06-30 14:24:14,2020-06-30 14:24:39,24.740s,PASSED
+"callTestCase(findTestCase(""Faqbot/botCreation_Test""), [""nameOfTheBot"":PREVIEW_BOT], STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-06-30 14:24:40,2020-06-30 14:25:31,51.205s,PASSED
+"testData = findTestData(""Data Files/testData_Dummy"")",Chrome 83.0.4103.116,,,2020-06-30 14:25:31,2020-06-30 14:25:35,4.018s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/minimize""))",Chrome 83.0.4103.116,,,2020-06-30 14:25:35,2020-06-30 14:25:38,2.306s,PASSED
+"platform.Articles.createNewArticle(testData, testData.getValue(""article_default_question"", 1))",Chrome 83.0.4103.116,,,2020-06-30 14:25:38,2020-06-30 14:25:44,6.147s,PASSED
+"platform.Response.addImage(true, testData.getValue(""image_url"", 1))",Chrome 83.0.4103.116,,,2020-06-30 14:25:44,2020-06-30 14:25:50,6.384s,ERROR
+,,,,,,,
+Test Cases/SetUp/setUpCustomSyn_ShareablePreview2,Chrome 83.0.4103.116,,,2020-06-30 14:25:50,2020-06-30 14:27:00,1m - 10.046s,ERROR
+Start listener action : setUp,Chrome 83.0.4103.116,,,2020-06-30 14:25:50,2020-06-30 14:26:08,17.339s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-06-30 14:26:08,2020-06-30 14:26:35,26.285s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", PREVIEW_BOT)",Chrome 83.0.4103.116,,,2020-06-30 14:26:35,2020-06-30 14:26:41,5.955s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 83.0.4103.116,,,2020-06-30 14:26:41,2020-06-30 14:26:46,5.653s,PASSED
+"testData = findTestData(""Data Files/testData_Dummy"")",Chrome 83.0.4103.116,,,2020-06-30 14:26:46,2020-06-30 14:26:47,0.828s,PASSED
+"platform.Articles.createNewArticle(testData, testData.getValue(""carousel_question"", 1))",Chrome 83.0.4103.116,,,2020-06-30 14:26:47,2020-06-30 14:26:54,6.608s,PASSED
+platform.Response.addCarousel(true),Chrome 83.0.4103.116,,,2020-06-30 14:26:54,2020-06-30 14:27:00,6.374s,ERROR
+,,,,,,,
+Test Cases/SetUp/setUpCustomSyn_ShareablePreview3,Chrome 83.0.4103.116,,,2020-06-30 14:27:00,2020-06-30 14:28:16,1m - 15.658s,PASSED
+Start listener action : setUp,Chrome 83.0.4103.116,,,2020-06-30 14:27:00,2020-06-30 14:27:17,16.409s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-06-30 14:27:18,2020-06-30 14:27:44,26.285s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", PREVIEW_BOT)",Chrome 83.0.4103.116,,,2020-06-30 14:27:44,2020-06-30 14:27:50,5.734s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 83.0.4103.116,,,2020-06-30 14:27:50,2020-06-30 14:27:55,5.376s,PASSED
+"testData = findTestData(""Data Files/testData_Dummy"")",Chrome 83.0.4103.116,,,2020-06-30 14:27:55,2020-06-30 14:27:56,0.662s,PASSED
+"platform.Articles.selectFromKebabMenu(findTestObject(""Button/importIcon""), ""Import From CSV"")",Chrome 83.0.4103.116,,,2020-06-30 14:27:56,2020-06-30 14:28:01,4.962s,PASSED
+"platform.Method.uploadCsvFile(false, ""faq_CS.csv"")",Chrome 83.0.4103.116,,,2020-06-30 14:28:01,2020-06-30 14:28:06,4.708s,PASSED
+"platform.Method.trainAndComment(""imported hindi arabic article"")",Chrome 83.0.4103.116,,,2020-06-30 14:28:06,2020-06-30 14:28:16,10.305s,PASSED

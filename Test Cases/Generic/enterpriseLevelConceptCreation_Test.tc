@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: Verify if user(Admin) can create an enterprise level concept and delete it as well
+
+Step 1: Go to Knowledge
+Step 2: Create concept of various type 
+Step 3: Delete all concept</description>
+   <name>enterpriseLevelConceptCreation_Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5497bc56-3fb0-4261-8e3c-05e4b0a16d5f</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('testData_Smart').getValue('concept_name', 1)</defaultValue>
+      <description></description>
+      <id>1d22e3a2-58e0-49d4-96fe-9b6a50dd3059</id>
+      <masked>false</masked>
+      <name>conceptName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_Smart').getValue('file_name', 1)</defaultValue>
+      <description></description>
+      <id>886d1bba-d458-4aad-8eb0-e208e8e52084</id>
+      <masked>true</masked>
+      <name>fileName</name>
+   </variable>
+</TestCaseEntity>

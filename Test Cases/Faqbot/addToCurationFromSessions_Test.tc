@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: To verify if a bot response can be added from sessions to curation
+
+Step 1: Preview bot
+Step 2: Go to room in sessions
+Step 3: Add to curation a response
+Step 4: Navigate to Curation and click on from sessions to filter result
+Step 5: Filter value by room Id
+Step 3: Add to</description>
+   <name>addToCurationFromSessions_Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>97d4f089-7983-45d1-9514-eee659ae84b4</testCaseGuid>
+   <variable>
+      <defaultValue>'add to curation test'</defaultValue>
+      <description></description>
+      <id>d08ac8b1-3809-4b78-bb03-082b3170c279</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('add_to_curation', 1)</defaultValue>
+      <description></description>
+      <id>fd024525-913f-4bde-840b-5c218c9106fd</id>
+      <masked>false</masked>
+      <name>userQuery</name>
+   </variable>
+   <variable>
+      <defaultValue>'FAQ bot'</defaultValue>
+      <description></description>
+      <id>c9b9243d-485a-47a5-9c45-7651f12469a7</id>
+      <masked>false</masked>
+      <name>sheetName</name>
+   </variable>
+   <variable>
+      <defaultValue>3</defaultValue>
+      <description></description>
+      <id>b3b066d8-8872-43b4-82ac-56865435de97</id>
+      <masked>false</masked>
+      <name>rowNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>143e2c60-758d-4c2c-9abc-37bce6d55549</id>
+      <masked>false</masked>
+      <name>cellNumber</name>
+   </variable>
+</TestCaseEntity>

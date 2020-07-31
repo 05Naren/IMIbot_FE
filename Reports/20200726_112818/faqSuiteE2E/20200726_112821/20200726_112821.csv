@@ -1,0 +1,584 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+faqSuiteE2E,Chrome 84.0.4147.89,,,2020-07-26 11:28:40,2020-07-26 12:15:18,46m - 37.853s,INCOMPLETE
+,,,,,,,
+Test Cases/Faqbot/botCreation_Test,Chrome 84.0.4147.89,TestCase Agenda: To test faq bot creation,,2020-07-26 11:28:43,2020-07-26 11:30:21,1m - 38.009s,PASSED
+Start listener action : setUp,Chrome 84.0.4147.89,,,2020-07-26 11:28:48,2020-07-26 11:29:10,21.701s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:29:10,2020-07-26 11:29:45,34.798s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/createBot""))",Chrome 84.0.4147.89,,,2020-07-26 11:29:45,2020-07-26 11:29:49,3.558s,PASSED
+"sendKeys(findTestObject(""Input/botName""), nameOfTheBot)",Chrome 84.0.4147.89,,,2020-07-26 11:29:49,2020-07-26 11:29:53,4.536s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Toggle/feedback""))",Chrome 84.0.4147.89,,,2020-07-26 11:29:53,2020-07-26 11:29:56,2.598s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/done""))",Chrome 84.0.4147.89,,,2020-07-26 11:29:56,2020-07-26 11:29:58,2.661s,PASSED
+"waitForElementVisible(findTestObject(""Generic/articleState""), 60, OPTIONAL)",Chrome 84.0.4147.89,,,2020-07-26 11:29:58,2020-07-26 11:30:17,18.137s,PASSED
+"verifyElementText(findTestObject(""Generic/articleState""), ""Trained"", STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:30:17,2020-07-26 11:30:19,2.384s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/minimize""))",Chrome 84.0.4147.89,,,2020-07-26 11:30:19,2020-07-26 11:30:21,2.279s,PASSED
+,,,,,,,
+Test Cases/Faqbot/botSideOptionsNavigation_Test,Chrome 84.0.4147.89,TestCase Agenda: To navigate module within a FAQ bot,,2020-07-26 11:30:21,2020-07-26 11:32:19,1m - 57.709s,PASSED
+Start listener action : setUp,Chrome 84.0.4147.89,,,2020-07-26 11:30:21,2020-07-26 11:30:44,23.000s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:30:45,2020-07-26 11:31:19,34.673s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 84.0.4147.89,,,2020-07-26 11:31:19,2020-07-26 11:31:30,10.666s,PASSED
+"platform.Method.clickOnElement(findTestObject(""ICONS/sidebarSettings""))",Chrome 84.0.4147.89,,,2020-07-26 11:31:30,2020-07-26 11:31:33,3.420s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Bot configuration""]), 10, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:31:33,2020-07-26 11:31:35,1.146s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Management""]))",Chrome 84.0.4147.89,,,2020-07-26 11:31:35,2020-07-26 11:31:37,2.898s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Bot status""]), 10, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:31:37,2020-07-26 11:31:39,1.474s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Security""]))",Chrome 84.0.4147.89,,,2020-07-26 11:31:39,2020-07-26 11:31:42,2.725s,PASSED
+"verifyElementPresent(findTestObject(""NewRepo/inputConsentDisclaimer""), 10, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:31:42,2020-07-26 11:31:43,1.671s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Handover and Inference""]))",Chrome 84.0.4147.89,,,2020-07-26 11:31:43,2020-07-26 11:31:47,3.503s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Inference""]), 10, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:31:47,2020-07-26 11:31:48,1.482s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Integrations""]))",Chrome 84.0.4147.89,,,2020-07-26 11:31:48,2020-07-26 11:31:51,2.370s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Chat Agent Platforms""]), 10, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:31:51,2020-07-26 11:31:52,1.132s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/nlp""))",Chrome 84.0.4147.89,,,2020-07-26 11:31:52,2020-07-26 11:31:56,3.682s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Input recognition""]), 10, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:31:56,2020-07-26 11:31:57,1.364s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Knowledge base""]))",Chrome 84.0.4147.89,,,2020-07-26 11:31:57,2020-07-26 11:32:00,2.765s,PASSED
+"verifyElementPresent(findTestObject(""NewRepo/newConceptBtn""), 10, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:32:00,2020-07-26 11:32:01,1.424s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.89,,,2020-07-26 11:32:01,2020-07-26 11:32:04,2.443s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Knowledge base""]), 10, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:32:04,2020-07-26 11:32:05,1.399s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Curation""]))",Chrome 84.0.4147.89,,,2020-07-26 11:32:05,2020-07-26 11:32:08,2.874s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Unresolved issues""]), 10, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:32:08,2020-07-26 11:32:09,1.468s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/session""))",Chrome 84.0.4147.89,,,2020-07-26 11:32:09,2020-07-26 11:32:12,2.631s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Conversations""]), 10, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:32:12,2020-07-26 11:32:15,3.183s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""History""]))",Chrome 84.0.4147.89,,,2020-07-26 11:32:15,2020-07-26 11:32:18,2.550s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""History""]), 10, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:32:18,2020-07-26 11:32:19,1.335s,PASSED
+,,,,,,,
+Test Cases/Faqbot/botUrlAndDefaultArticleConfiguration_Test,Chrome 84.0.4147.89,TestCase Agenda: Update bot logo and welcome message,,2020-07-26 11:32:19,2020-07-26 11:34:29,2m - 10.053s,PASSED
+Start listener action : setUp,Chrome 84.0.4147.89,,,2020-07-26 11:32:22,2020-07-26 11:32:47,25.323s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:32:48,2020-07-26 11:33:18,30.332s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 84.0.4147.89,,,2020-07-26 11:33:18,2020-07-26 11:33:24,6.455s,PASSED
+"platform.Method.clickOnElement(findTestObject(""ICONS/sidebarSettings""))",Chrome 84.0.4147.89,,,2020-07-26 11:33:24,2020-07-26 11:33:31,6.679s,PASSED
+"waitForElementPresent(findTestObject(""Input/botLogo""), 20, OPTIONAL)",Chrome 84.0.4147.89,,,2020-07-26 11:33:31,2020-07-26 11:33:32,1.131s,PASSED
+"setText(findTestObject(""Input/botLogo""), botLogo)",Chrome 84.0.4147.89,,,2020-07-26 11:33:32,2020-07-26 11:33:39,6.978s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/updateBot""))",Chrome 84.0.4147.89,,,2020-07-26 11:33:39,2020-07-26 11:33:41,2.159s,PASSED
+"verifyElementPresent(findTestObject(""ICONS/toastMsg""), 15, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:33:41,2020-07-26 11:33:44,2.760s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.89,,,2020-07-26 11:33:44,2020-07-26 11:33:47,2.881s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Welcome Message""]))",Chrome 84.0.4147.89,,,2020-07-26 11:33:47,2020-07-26 11:33:50,2.734s,PASSED
+"setText(findTestObject(""Input/textResponse""), welcomeMessage)",Chrome 84.0.4147.89,,,2020-07-26 11:33:50,2020-07-26 11:33:55,5.194s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/save"", [""value"":"" Save ""]))",Chrome 84.0.4147.89,,,2020-07-26 11:33:55,2020-07-26 11:33:57,2.152s,PASSED
+platform.Method.trainAndComment(comment),Chrome 84.0.4147.89,,,2020-07-26 11:33:57,2020-07-26 11:34:04,6.678s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Partial match""]))",Chrome 84.0.4147.89,,,2020-07-26 11:34:04,2020-07-26 11:34:07,3.364s,PASSED
+"setText(findTestObject(""Input/textResponse""), customMessage)",Chrome 84.0.4147.89,,,2020-07-26 11:34:07,2020-07-26 11:34:15,8.179s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/save"", [""value"":"" Save ""]))",Chrome 84.0.4147.89,,,2020-07-26 11:34:15,2020-07-26 11:34:17,2.128s,PASSED
+"verifyElementNotPresent(findTestObject(""Button/train""), 5, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:34:17,2020-07-26 11:34:21,3.658s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 84.0.4147.89,,,2020-07-26 11:34:21,2020-07-26 11:34:24,2.738s,PASSED
+"verifyElementText(findTestObject(""Generic/botReponse"", [""index"":1]), welcomeMessage, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:34:24,2020-07-26 11:34:26,2.213s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/minimize""))",Chrome 84.0.4147.89,,,2020-07-26 11:34:26,2020-07-26 11:34:29,2.996s,PASSED
+"comment(""################"")",Chrome 84.0.4147.89,,,2020-07-26 11:34:29,2020-07-26 11:34:29,0.004s,PASSED
+,,,,,,,
+Test Cases/Faqbot/botCardMenuWithFallbackMessage_Test,Chrome 84.0.4147.89,"TestCase Agenda: Preview bot to answer with a fallback response, save the room id so later we can use it curate the query",,2020-07-26 11:34:29,2020-07-26 11:36:14,1m - 45.320s,PASSED
+Start listener action : setUp,Chrome 84.0.4147.89,,,2020-07-26 11:34:30,2020-07-26 11:34:50,20.453s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:34:50,2020-07-26 11:35:16,25.722s,PASSED
+"botCardOptions = platform.Method.verifyBotCardMenu(""Q&A bots"", FAQ_BOT)",Chrome 84.0.4147.89,,,2020-07-26 11:35:16,2020-07-26 11:35:41,24.803s,PASSED
+"verifyElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Copy Preview Link""]), 5, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:35:41,2020-07-26 11:35:42,1.510s,PASSED
+assert botCardOptions.containsAll(BOT_CARD_OPTION) == true,Chrome 84.0.4147.89,,,2020-07-26 11:35:42,2020-07-26 11:35:42,0.008s,PASSED
+"platform.Response.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":FAQ_BOT]))",Chrome 84.0.4147.89,,,2020-07-26 11:35:42,2020-07-26 11:35:45,2.720s,PASSED
+"platform.Response.clickOnElement(findTestObject(""Button/preview""))",Chrome 84.0.4147.89,,,2020-07-26 11:35:45,2020-07-26 11:35:54,8.688s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(userQuery, ENTER))",Chrome 84.0.4147.89,,,2020-07-26 11:35:54,2020-07-26 11:35:57,2.922s,PASSED
+delay(3),Chrome 84.0.4147.89,,,2020-07-26 11:35:57,2020-07-26 11:36:00,3.020s,PASSED
+"verifyElementText(findTestObject(""Generic/botReponse"", [""index"":2]), botResponse, OPTIONAL)",Chrome 84.0.4147.89,,,2020-07-26 11:36:00,2020-07-26 11:36:02,2.482s,PASSED
+getRoomIdAt = new java.util.ArrayList(),Chrome 84.0.4147.89,,,2020-07-26 11:36:02,2020-07-26 11:36:02,0.002s,PASSED
+getRoomIdAt = platform.Utility.getRoomID(),Chrome 84.0.4147.89,,,2020-07-26 11:36:02,2020-07-26 11:36:08,5.280s,PASSED
+"platform.Utility.overWriteTestData(sheetName, rowNumber, cellNumber, get(0).toString())",Chrome 84.0.4147.89,,,2020-07-26 11:36:08,2020-07-26 11:36:12,4.086s,PASSED
+"platform.Response.clickOnElement(findTestObject(""GenericII/minimize""))",Chrome 84.0.4147.89,,,2020-07-26 11:36:12,2020-07-26 11:36:14,2.717s,PASSED
+,,,,,,,
+Test Cases/Faqbot/importArticlesFromCsv_Test,Chrome 84.0.4147.89,"TestCase Agenda: Import articles from csv, train bot with data and query bot for response",,2020-07-26 11:36:14,2020-07-26 11:38:18,2m - 3.162s,PASSED
+Start listener action : setUp,Chrome 84.0.4147.89,,,2020-07-26 11:36:16,2020-07-26 11:36:42,26.577s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:36:43,2020-07-26 11:37:10,27.291s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 84.0.4147.89,,,2020-07-26 11:37:10,2020-07-26 11:37:17,6.556s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.89,,,2020-07-26 11:37:17,2020-07-26 11:37:24,7.653s,PASSED
+"platform.Articles.selectFromKebabMenu(findTestObject(""Button/importIcon""), ""Import From CSV"")",Chrome 84.0.4147.89,,,2020-07-26 11:37:24,2020-07-26 11:37:34,9.338s,PASSED
+"platform.Method.uploadCsvFile(false, fileName)",Chrome 84.0.4147.89,,,2020-07-26 11:37:34,2020-07-26 11:37:39,5.388s,PASSED
+platform.Method.trainAndComment(comment),Chrome 84.0.4147.89,,,2020-07-26 11:37:39,2020-07-26 11:37:51,11.896s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 20, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:37:51,2020-07-26 11:37:59,7.931s,PASSED
+"platform.Response.clickOnElement(findTestObject(""Button/preview""))",Chrome 84.0.4147.89,,,2020-07-26 11:37:59,2020-07-26 11:38:02,2.820s,PASSED
+"waitForElementPresent(findTestObject(""Input/chatInput""), 5, OPTIONAL)",Chrome 84.0.4147.89,,,2020-07-26 11:38:02,2020-07-26 11:38:03,1.656s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(userQuery, ENTER))",Chrome 84.0.4147.89,,,2020-07-26 11:38:03,2020-07-26 11:38:07,4.227s,PASSED
+delay(1),Chrome 84.0.4147.89,,,2020-07-26 11:38:07,2020-07-26 11:38:08,1.009s,PASSED
+platform.Preview.verifyBotResponse(stringToCheck),Chrome 84.0.4147.89,,,2020-07-26 11:38:08,2020-07-26 11:38:15,6.407s,PASSED
+"platform.Response.clickOnElement(findTestObject(""GenericII/minimize""))",Chrome 84.0.4147.89,,,2020-07-26 11:38:15,2020-07-26 11:38:18,2.743s,PASSED
+,,,,,,,
+Test Cases/Faqbot/extractArticleFromExternalLink_Test,Chrome 84.0.4147.89,"TestCase Agenda: To ensure if faq bots are able to extract faq from external site
+
+Step 1: Extract question from external link
+Step 2: Train bot with new data
+Step 3: Preview bot 
+Step 4: Verify bot response",,2020-07-26 11:38:18,2020-07-26 11:40:51,2m - 32.636s,PASSED
+Start listener action : setUp,Chrome 84.0.4147.89,,,2020-07-26 11:38:19,2020-07-26 11:38:41,22.807s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:38:42,2020-07-26 11:39:07,24.872s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 84.0.4147.89,,,2020-07-26 11:39:07,2020-07-26 11:39:13,6.592s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.89,,,2020-07-26 11:39:13,2020-07-26 11:39:17,4.007s,PASSED
+"platform.Articles.selectFromKebabMenu(findTestObject(""Button/extractExtLink""), ""Extract from external link"")",Chrome 84.0.4147.89,,,2020-07-26 11:39:17,2020-07-26 11:39:25,7.441s,PASSED
+"verifyElementHasAttribute(findTestObject(""Button/extract""), ""disabled"", 10, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:39:25,2020-07-26 11:39:27,2.288s,PASSED
+"sendKeys(findTestObject(""Input/extractLink""), EXTERNAL_LINK)",Chrome 84.0.4147.89,,,2020-07-26 11:39:27,2020-07-26 11:39:32,4.873s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Button/extract""))",Chrome 84.0.4147.89,,,2020-07-26 11:39:32,2020-07-26 11:39:35,2.778s,PASSED
+"check(findTestObject(""Generic/articleCheckbox"", [""index"":1]))",Chrome 84.0.4147.89,,,2020-07-26 11:39:35,2020-07-26 11:39:40,5.116s,PASSED
+"check(findTestObject(""Generic/articleCheckbox"", [""index"":3]))",Chrome 84.0.4147.89,,,2020-07-26 11:39:40,2020-07-26 11:39:44,4.091s,PASSED
+"check(findTestObject(""Generic/articleCheckbox"", [""index"":5]))",Chrome 84.0.4147.89,,,2020-07-26 11:39:44,2020-07-26 11:39:48,3.916s,PASSED
+"testObject = modifyObjectProperty(findTestObject(""Generic/header""), ""class"", ""not equals"", ""heading"", true)",Chrome 84.0.4147.89,,,2020-07-26 11:39:48,2020-07-26 11:39:48,0.157s,PASSED
+"getText().contains(""3"")",Chrome 84.0.4147.89,,,2020-07-26 11:39:48,2020-07-26 11:39:50,2.205s,PASSED
+"scrollToElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Import FAQs from link""]), 10)",Chrome 84.0.4147.89,,,2020-07-26 11:39:50,2020-07-26 11:39:53,3.014s,PASSED
+"check(findTestObject(""Generic/allFaqCheckbox""))",Chrome 84.0.4147.89,,,2020-07-26 11:39:53,2020-07-26 11:39:57,3.955s,PASSED
+"getText().contains(""10"")",Chrome 84.0.4147.89,,,2020-07-26 11:39:57,2020-07-26 11:39:59,2.121s,PASSED
+"scrollToElement(findTestObject(""Generic/faqImportBtn""), 10)",Chrome 84.0.4147.89,,,2020-07-26 11:39:59,2020-07-26 11:40:02,2.436s,PASSED
+"override = modifyObjectProperty(findTestObject(""Toggle/override""), ""xpath"", ""not equals"", ""//mat-slide-toggle[@formcontrolname='Override']//label/div"", true, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:40:02,2020-07-26 11:40:02,0.500s,PASSED
+platform.Method.clickOnElement(override),Chrome 84.0.4147.89,,,2020-07-26 11:40:02,2020-07-26 11:40:05,2.424s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/faqImportBtn""))",Chrome 84.0.4147.89,,,2020-07-26 11:40:05,2020-07-26 11:40:07,2.238s,PASSED
+"verifyElementText(findTestObject(""Generic/articleState""), ""Saved"", STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:40:07,2020-07-26 11:40:09,2.432s,PASSED
+"verifyElementPresent(findTestObject(""Generic/nextPage""), 5, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:40:09,2020-07-26 11:40:11,1.642s,PASSED
+platform.Method.trainAndComment(comment),Chrome 84.0.4147.89,,,2020-07-26 11:40:11,2020-07-26 11:40:24,12.647s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 20, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:40:24,2020-07-26 11:40:33,9.666s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 84.0.4147.89,,,2020-07-26 11:40:33,2020-07-26 11:40:37,3.563s,PASSED
+"waitForElementPresent(findTestObject(""Input/chatInput""), 10, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:40:37,2020-07-26 11:40:39,1.579s,PASSED
+"platform.Preview.verifyBotTextResponse(userQuery, 2, strCheck)",Chrome 84.0.4147.89,,,2020-07-26 11:40:39,2020-07-26 11:40:48,9.001s,PASSED
+"platform.Response.clickOnElement(findTestObject(""GenericII/minimize""))",Chrome 84.0.4147.89,,,2020-07-26 11:40:48,2020-07-26 11:40:51,2.959s,PASSED
+,,,,,,,
+Test Cases/Faqbot/searchArticle_Test,Chrome 84.0.4147.89,TestCase Agenda: Verify if the search bar for article is able to display result properly,,2020-07-26 11:40:51,2020-07-26 11:42:12,1m - 21.245s,PASSED
+Start listener action : setUp,Chrome 84.0.4147.89,,,2020-07-26 11:40:51,2020-07-26 11:41:08,17.499s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:41:09,2020-07-26 11:41:39,29.327s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 84.0.4147.89,,,2020-07-26 11:41:39,2020-07-26 11:41:45,6.338s,PASSED
+"sendKeys(findTestObject(""Input/searchForQuestion""), searchQuestion)",Chrome 84.0.4147.89,,,2020-07-26 11:41:45,2020-07-26 11:41:52,7.278s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/searchResult""))",Chrome 84.0.4147.89,,,2020-07-26 11:41:52,2020-07-26 11:41:55,3.148s,PASSED
+"firstQuestion = findWebElement(findTestObject(""Generic/header""), 10).getText()",Chrome 84.0.4147.89,,,2020-07-26 11:41:55,2020-07-26 11:41:58,2.547s,PASSED
+"setText(findTestObject(""Input/searchForQuestion""), newSearchQuestion)",Chrome 84.0.4147.89,,,2020-07-26 11:41:58,2020-07-26 11:42:03,4.838s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/searchResult""))",Chrome 84.0.4147.89,,,2020-07-26 11:42:03,2020-07-26 11:42:06,3.394s,PASSED
+"newFirstQuestion = findWebElement(findTestObject(""Generic/header""), 10).getText()",Chrome 84.0.4147.89,,,2020-07-26 11:42:06,2020-07-26 11:42:09,2.703s,PASSED
+assert firstQuestion.equalsIgnoreCase(newFirstQuestion) == false,Chrome 84.0.4147.89,,,2020-07-26 11:42:09,2020-07-26 11:42:09,0.007s,PASSED
+"clearText(findTestObject(""Input/searchForQuestion""))",Chrome 84.0.4147.89,,,2020-07-26 11:42:09,2020-07-26 11:42:12,2.891s,PASSED
+,,,,,,,
+Test Cases/Faqbot/downvoteWithComment_Test,Chrome 84.0.4147.89,"TestCase Agenda: To verify if bot response can be downvoted and add a comment to it
+
+Step 1: Preview bot for response
+Step 2: Downvote response
+Step 3: Got to room in Sessions 
+Step 4: Verify downvote with comment",,2020-07-26 11:42:12,2020-07-26 11:45:03,2m - 51.179s,PASSED
+Start listener action : setUp,Chrome 84.0.4147.89,,,2020-07-26 11:42:15,2020-07-26 11:43:16,1m - 0.974s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:43:17,2020-07-26 11:43:44,27.085s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 84.0.4147.89,,,2020-07-26 11:43:44,2020-07-26 11:43:50,5.929s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.89,,,2020-07-26 11:43:50,2020-07-26 11:43:55,5.743s,PASSED
+platform.Method.trainAndComment(comment),Chrome 84.0.4147.89,,,2020-07-26 11:43:55,2020-07-26 11:44:02,6.430s,PASSED
+try,Chrome 84.0.4147.89,,,2020-07-26 11:44:02,2020-07-26 11:44:13,11.746s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 84.0.4147.89,,,2020-07-26 11:44:13,2020-07-26 11:44:16,3.007s,PASSED
+"waitForElementPresent(findTestObject(""Input/chatInput""), 20, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:44:16,2020-07-26 11:44:18,1.647s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(userQuery, ENTER))",Chrome 84.0.4147.89,,,2020-07-26 11:44:18,2020-07-26 11:44:22,3.824s,PASSED
+"verifyElementText(findTestObject(""Generic/botReponse"", [""index"":2]), botResponse, OPTIONAL)",Chrome 84.0.4147.89,,,2020-07-26 11:44:22,2020-07-26 11:44:24,2.258s,PASSED
+platform.Preview.downvoteResponseWithComment(downvoteComment),Chrome 84.0.4147.89,,,2020-07-26 11:44:24,2020-07-26 11:44:32,7.821s,PASSED
+getRoomIdAt = new java.util.ArrayList(),Chrome 84.0.4147.89,,,2020-07-26 11:44:32,2020-07-26 11:44:32,0.001s,PASSED
+getRoomIdAt = platform.Utility.getRoomID(),Chrome 84.0.4147.89,,,2020-07-26 11:44:32,2020-07-26 11:44:37,4.652s,PASSED
+roomID = get(0).toString(),Chrome 84.0.4147.89,,,2020-07-26 11:44:37,2020-07-26 11:44:37,0.001s,PASSED
+"platform.Utility.overWriteTestData(sheetName, rowNumber, cellNumber, roomID)",Chrome 84.0.4147.89,,,2020-07-26 11:44:37,2020-07-26 11:44:37,0.575s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/session""))",Chrome 84.0.4147.89,,,2020-07-26 11:44:37,2020-07-26 11:44:40,2.932s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/minimize""))",Chrome 84.0.4147.89,,,2020-07-26 11:44:40,2020-07-26 11:44:43,2.396s,PASSED
+"setText(findTestObject(""Input/roomID"", [""value"":""id""]), roomID)",Chrome 84.0.4147.89,,,2020-07-26 11:44:43,2020-07-26 11:44:47,4.438s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/submitSession""))",Chrome 84.0.4147.89,,,2020-07-26 11:44:47,2020-07-26 11:44:49,2.425s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":roomID]), 10)",Chrome 84.0.4147.89,,,2020-07-26 11:44:49,2020-07-26 11:44:51,1.293s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":roomID]))",Chrome 84.0.4147.89,,,2020-07-26 11:44:51,2020-07-26 11:44:54,2.911s,PASSED
+"mouseOver(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Downvoted with comment""]))",Chrome 84.0.4147.89,,,2020-07-26 11:44:54,2020-07-26 11:44:56,2.640s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Downvoted with comment""]))",Chrome 84.0.4147.89,,,2020-07-26 11:44:56,2020-07-26 11:45:01,4.447s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/closePopup""))",Chrome 84.0.4147.89,,,2020-07-26 11:45:01,2020-07-26 11:45:03,2.380s,PASSED
+,,,,,,,
+Test Cases/Faqbot/addToCurationFromSessions_Test,Chrome 84.0.4147.89,"TestCase Agenda: To verify if a bot response can be added from sessions to curation
+
+Step 1: Preview bot
+Step 2: Go to room in sessions
+Step 3: Add to curation a response
+Step 4: Navigate to Curation and click on from sessions to filter result
+Step 5: Filter value by room Id
+Step 3: Add to",,2020-07-26 11:45:03,2020-07-26 11:46:55,1m - 51.193s,PASSED
+Start listener action : setUp,Chrome 84.0.4147.89,,,2020-07-26 11:45:04,2020-07-26 11:45:20,16.166s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:45:21,2020-07-26 11:45:50,29.220s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 84.0.4147.89,,,2020-07-26 11:45:50,2020-07-26 11:45:56,5.928s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.89,,,2020-07-26 11:45:56,2020-07-26 11:46:00,4.409s,PASSED
+platform.Method.trainAndComment(comment),Chrome 84.0.4147.89,,,2020-07-26 11:46:00,2020-07-26 11:46:07,6.430s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/session""))",Chrome 84.0.4147.89,,,2020-07-26 11:46:07,2020-07-26 11:46:10,3.291s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 84.0.4147.89,,,2020-07-26 11:46:10,2020-07-26 11:46:13,2.435s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(userQuery, ENTER))",Chrome 84.0.4147.89,,,2020-07-26 11:46:13,2020-07-26 11:46:17,3.932s,PASSED
+getRoomIdAt = new java.util.ArrayList(),Chrome 84.0.4147.89,,,2020-07-26 11:46:17,2020-07-26 11:46:17,0.001s,PASSED
+getRoomIdAt = platform.Utility.getRoomID(),Chrome 84.0.4147.89,,,2020-07-26 11:46:17,2020-07-26 11:46:21,4.774s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/minimize""))",Chrome 84.0.4147.89,,,2020-07-26 11:46:21,2020-07-26 11:46:24,2.290s,PASSED
+roomID = get(0).toString(),Chrome 84.0.4147.89,,,2020-07-26 11:46:24,2020-07-26 11:46:24,0.003s,PASSED
+"platform.Utility.overWriteTestData(sheetName, rowNumber, cellNumber, roomID)",Chrome 84.0.4147.89,,,2020-07-26 11:46:24,2020-07-26 11:46:24,0.296s,PASSED
+"setText(findTestObject(""Input/roomID"", [""value"":""id""]), roomID)",Chrome 84.0.4147.89,,,2020-07-26 11:46:24,2020-07-26 11:46:28,4.077s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/submitSession""))",Chrome 84.0.4147.89,,,2020-07-26 11:46:28,2020-07-26 11:46:30,2.303s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":roomID]))",Chrome 84.0.4147.89,,,2020-07-26 11:46:30,2020-07-26 11:46:33,2.315s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/addToCurationFlag"", [""index"":1]))",Chrome 84.0.4147.89,,,2020-07-26 11:46:33,2020-07-26 11:46:37,4.307s,PASSED
+"verifyElementPresent(findTestObject(""NewRepo/messageInCuration""), 10, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:46:37,2020-07-26 11:46:38,1.301s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""GenericII/closePopup""))",Chrome 84.0.4147.89,,,2020-07-26 11:46:38,2020-07-26 11:46:41,2.529s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/curation""))",Chrome 84.0.4147.89,,,2020-07-26 11:46:41,2020-07-26 11:46:43,2.528s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":"" From sessions ""]))",Chrome 84.0.4147.89,,,2020-07-26 11:46:43,2020-07-26 11:46:46,2.269s,PASSED
+"sendKeys(findTestObject(""Input/roomID"", [""value"":""room_id""]), roomID)",Chrome 84.0.4147.89,,,2020-07-26 11:46:46,2020-07-26 11:46:48,2.825s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/filter""))",Chrome 84.0.4147.89,,,2020-07-26 11:46:48,2020-07-26 11:46:51,2.228s,PASSED
+"verifyTextPresent(roomID, false, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:46:51,2020-07-26 11:46:55,4.092s,PASSED
+,,,,,,,
+Test Cases/Faqbot/createArticleWithRichResponseInCategory_Test,Chrome 84.0.4147.89,"TestCase Agenda: Creation of category with new article manually and query bot response for rich response
+
+Step 1: Create a new article of carousel type
+Step 2: Preview bot
+Step 3: Verify bot response with carousel title",,2020-07-26 11:46:55,2020-07-26 11:49:06,2m - 11.753s,PASSED
+Start listener action : setUp,Chrome 84.0.4147.89,,,2020-07-26 11:46:55,2020-07-26 11:47:10,14.424s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:47:10,2020-07-26 11:47:34,23.926s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 84.0.4147.89,,,2020-07-26 11:47:34,2020-07-26 11:47:40,6.077s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.89,,,2020-07-26 11:47:40,2020-07-26 11:47:45,4.891s,PASSED
+"testData = findTestData(""Data Files/testData_FAQ"")",Chrome 84.0.4147.89,,,2020-07-26 11:47:45,2020-07-26 11:47:46,0.470s,PASSED
+"platform.Articles.createNewArticle(testData, testData.getValue(""default_question"", 1))",Chrome 84.0.4147.89,,,2020-07-26 11:47:46,2020-07-26 11:47:53,7.473s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/carousel""))",Chrome 84.0.4147.89,,,2020-07-26 11:47:53,2020-07-26 11:47:56,2.833s,PASSED
+platform.ResponseDesigner.deleteDefaultTextTemplate(),Chrome 84.0.4147.89,,,2020-07-26 11:47:56,2020-07-26 11:48:03,7.360s,PASSED
+"platform.ResponseDesigner.configureCarouselResponse(1, null, testData.getValue(""carousel_url"", 1), testData.getValue(""label_value"", 1), ""default"", ""how can you help"")",Chrome 84.0.4147.89,,,2020-07-26 11:48:03,2020-07-26 11:48:35,32.225s,PASSED
+platform.Articles.saveAndTrainArticleToNewCategory(categoryName),Chrome 84.0.4147.89,,,2020-07-26 11:48:35,2020-07-26 11:48:45,9.829s,PASSED
+"verifyElementPresent(findTestObject(""ICONS/toastMsg""), 15, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:48:45,2020-07-26 11:48:54,9.088s,PASSED
+"platform.Response.clickOnElement(findTestObject(""Button/preview""))",Chrome 84.0.4147.89,,,2020-07-26 11:48:54,2020-07-26 11:48:57,2.401s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(userQuery, ENTER))",Chrome 84.0.4147.89,,,2020-07-26 11:48:57,2020-07-26 11:49:00,3.609s,PASSED
+delay(1),Chrome 84.0.4147.89,,,2020-07-26 11:49:00,2020-07-26 11:49:01,1.009s,PASSED
+"verifyElementText(findTestObject(""NewRepo/bannerTitle"", [""index"":1]), expectedValue, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:49:01,2020-07-26 11:49:04,2.619s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/minimize""))",Chrome 84.0.4147.89,,,2020-07-26 11:49:04,2020-07-26 11:49:06,2.426s,PASSED
+,,,,,,,
+Test Cases/Faqbot/modifyCategory_Test,Chrome 84.0.4147.89,TestCase Agenda: To modify an exisiting category,,2020-07-26 11:49:06,2020-07-26 11:50:14,1m - 7.139s,PASSED
+Start listener action : setUp,Chrome 84.0.4147.89,,,2020-07-26 11:49:07,2020-07-26 11:49:21,14.619s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:49:22,2020-07-26 11:49:43,21.187s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 84.0.4147.89,,,2020-07-26 11:49:43,2020-07-26 11:49:50,7.231s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.89,,,2020-07-26 11:49:50,2020-07-26 11:49:55,4.649s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Modify""]))",Chrome 84.0.4147.89,,,2020-07-26 11:49:55,2020-07-26 11:49:57,2.646s,PASSED
+"categories = findWebElements(findTestObject(""GenericII/listOfCategory""), 10)",Chrome 84.0.4147.89,,,2020-07-26 11:49:57,2020-07-26 11:49:59,1.341s,PASSED
+index = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 84.0.4147.89,,,2020-07-26 11:49:59,2020-07-26 11:49:59,0.002s,PASSED
+"for ([i = 2, i < categories.size(), (i++)])",Chrome 84.0.4147.89,,,2020-07-26 11:49:59,2020-07-26 11:50:00,1.091s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/editCategory"", [""index"":index]))",Chrome 84.0.4147.89,,,2020-07-26 11:50:00,2020-07-26 11:50:03,2.939s,PASSED
+"setText(findTestObject(""Input/nameOfTheCategory""), newCategoryName, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:50:03,2020-07-26 11:50:07,4.167s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/save"", [""value"":"" Save ""]))",Chrome 84.0.4147.89,,,2020-07-26 11:50:07,2020-07-26 11:50:09,2.263s,PASSED
+delay(1),Chrome 84.0.4147.89,,,2020-07-26 11:50:09,2020-07-26 11:50:10,1.007s,PASSED
+"verifyTextPresent(newCategoryName, false, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:50:10,2020-07-26 11:50:14,3.550s,PASSED
+,,,,,,,
+Test Cases/Faqbot/fallbackCurationByAddToExistingArticle_Test,Chrome 84.0.4147.89,,,2020-07-26 11:50:14,2020-07-26 11:52:41,2m - 27.472s,PASSED
+Start listener action : setUp,Chrome 84.0.4147.89,,,2020-07-26 11:50:14,2020-07-26 11:50:31,17.012s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:50:32,2020-07-26 11:51:01,29.135s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 84.0.4147.89,,,2020-07-26 11:51:01,2020-07-26 11:51:07,6.352s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/curation""))",Chrome 84.0.4147.89,,,2020-07-26 11:51:07,2020-07-26 11:51:11,4.041s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":"" Fallback ""]))",Chrome 84.0.4147.89,,,2020-07-26 11:51:11,2020-07-26 11:51:14,2.942s,PASSED
+"sendKeys(findTestObject(""Input/roomID"", [""value"":""room_id""]), roomID)",Chrome 84.0.4147.89,,,2020-07-26 11:51:14,2020-07-26 11:51:17,3.090s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/filter""))",Chrome 84.0.4147.89,,,2020-07-26 11:51:17,2020-07-26 11:51:20,2.375s,PASSED
+try,Chrome 84.0.4147.89,,,2020-07-26 11:51:20,2020-07-26 11:51:23,3.720s,PASSED
+"sendKeys(findTestObject(""Input/searchQuestion""), searchQuestion)",Chrome 84.0.4147.89,,,2020-07-26 11:51:23,2020-07-26 11:51:27,3.896s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/searchResult""))",Chrome 84.0.4147.89,,,2020-07-26 11:51:27,2020-07-26 11:51:30,2.358s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/linkAndSave""))",Chrome 84.0.4147.89,,,2020-07-26 11:51:30,2020-07-26 11:51:33,3.189s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/refresh""))",Chrome 84.0.4147.89,,,2020-07-26 11:51:33,2020-07-26 11:51:35,2.266s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/trainCuration""))",Chrome 84.0.4147.89,,,2020-07-26 11:51:35,2020-07-26 11:51:38,2.624s,PASSED
+"sendKeys(findTestObject(""Input/comment""), comment)",Chrome 84.0.4147.89,,,2020-07-26 11:51:38,2020-07-26 11:51:41,3.628s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/continue""))",Chrome 84.0.4147.89,,,2020-07-26 11:51:41,2020-07-26 11:51:44,2.297s,PASSED
+"waitForElementVisible(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Trained corpus""]), 20, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:51:44,2020-07-26 11:52:05,21.760s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/refresh""))",Chrome 84.0.4147.89,,,2020-07-26 11:52:05,2020-07-26 11:52:08,2.410s,PASSED
+"verifyTextPresent(""Trained corpus"", false, OPTIONAL)",Chrome 84.0.4147.89,,,2020-07-26 11:52:08,2020-07-26 11:52:12,3.826s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 84.0.4147.89,,,2020-07-26 11:52:12,2020-07-26 11:52:14,2.493s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(userQuery, ENTER))",Chrome 84.0.4147.89,,,2020-07-26 11:52:14,2020-07-26 11:52:17,3.331s,PASSED
+delay(1),Chrome 84.0.4147.89,,,2020-07-26 11:52:17,2020-07-26 11:52:18,1.010s,PASSED
+platform.Preview.verifyBotResponse(botResponse),Chrome 84.0.4147.89,,,2020-07-26 11:52:19,2020-07-26 11:52:25,6.692s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/curation""))",Chrome 84.0.4147.89,,,2020-07-26 11:52:25,2020-07-26 11:52:27,2.276s,PASSED
+"waitForElementVisible(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Resolved""]), 20, OPTIONAL)",Chrome 84.0.4147.89,,,2020-07-26 11:52:27,2020-07-26 11:52:30,2.259s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Resolved""]))",Chrome 84.0.4147.89,,,2020-07-26 11:52:30,2020-07-26 11:52:32,2.451s,PASSED
+"sendKeys(findTestObject(""Input/roomID"", [""value"":""room_id""]), roomID)",Chrome 84.0.4147.89,,,2020-07-26 11:52:32,2020-07-26 11:52:35,2.906s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/filter""))",Chrome 84.0.4147.89,,,2020-07-26 11:52:35,2020-07-26 11:52:37,2.233s,PASSED
+"verifyTextPresent(roomID, false, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:52:37,2020-07-26 11:52:41,3.779s,PASSED
+,,,,,,,
+Test Cases/Faqbot/partialMatchCurationByCreateNewArticle_Test,Chrome 84.0.4147.89,"TestCase Agenda: Verify if partial match in curation and add to new article
+
+Step 1: Preview bot with question which would give partial match result
+Step 2: Verify partial match updated answer
+Step 3: Curate the partial match by creating a new article
+Step 4: Train the bot
+Step 5: Verify the bot with the same question and assert the value
+Step 6: Go to curation and check the room id in resolved section",,2020-07-26 11:52:41,2020-07-26 11:55:20,2m - 38.657s,PASSED
+Start listener action : setUp,Chrome 84.0.4147.89,,,2020-07-26 11:52:42,2020-07-26 11:52:58,15.919s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:52:58,2020-07-26 11:53:22,23.248s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 84.0.4147.89,,,2020-07-26 11:53:22,2020-07-26 11:53:28,6.035s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.89,,,2020-07-26 11:53:28,2020-07-26 11:53:32,4.380s,PASSED
+platform.Method.trainAndComment(comment),Chrome 84.0.4147.89,,,2020-07-26 11:53:32,2020-07-26 11:53:38,6.328s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/curation""))",Chrome 84.0.4147.89,,,2020-07-26 11:53:38,2020-07-26 11:53:41,2.776s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 84.0.4147.89,,,2020-07-26 11:53:41,2020-07-26 11:53:44,3.237s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(userQuery, ENTER))",Chrome 84.0.4147.89,,,2020-07-26 11:53:44,2020-07-26 11:53:48,3.866s,PASSED
+"waitForElementPresent(findTestObject(""GenericII/getBotResponse"", [""index"":2]), 10, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:53:48,2020-07-26 11:53:49,1.280s,PASSED
+"verifyElementText(findTestObject(""GenericII/getBotResponse"", [""index"":2]), stringToCheck, OPTIONAL)",Chrome 84.0.4147.89,,,2020-07-26 11:53:49,2020-07-26 11:53:52,2.276s,PASSED
+getRoomIdAt = new java.util.ArrayList(),Chrome 84.0.4147.89,,,2020-07-26 11:53:52,2020-07-26 11:53:52,0.002s,PASSED
+getRoomIdAt = platform.Utility.getRoomID(),Chrome 84.0.4147.89,,,2020-07-26 11:53:52,2020-07-26 11:53:56,4.476s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/minimize""))",Chrome 84.0.4147.89,,,2020-07-26 11:53:56,2020-07-26 11:53:58,2.272s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":"" Partial match ""]))",Chrome 84.0.4147.89,,,2020-07-26 11:53:58,2020-07-26 11:54:01,2.503s,PASSED
+"verifyTextPresent(""Partial match"", false, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:54:01,2020-07-26 11:54:05,3.774s,PASSED
+roomID = get(0).toString(),Chrome 84.0.4147.89,,,2020-07-26 11:54:05,2020-07-26 11:54:05,0.002s,PASSED
+"sendKeys(findTestObject(""Input/roomID"", [""value"":""room_id""]), roomID)",Chrome 84.0.4147.89,,,2020-07-26 11:54:05,2020-07-26 11:54:08,2.774s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/filter""))",Chrome 84.0.4147.89,,,2020-07-26 11:54:08,2020-07-26 11:54:10,2.229s,PASSED
+try,Chrome 84.0.4147.89,,,2020-07-26 11:54:10,2020-07-26 11:54:14,3.752s,PASSED
+"sendKeys(findTestObject(""Input/textResponse""), newArticleResponse)",Chrome 84.0.4147.89,,,2020-07-26 11:54:14,2020-07-26 11:54:34,20.173s,PASSED
+"platform.Articles.saveAndTrainArticleToExistingCategory("" "" + saveArticleTo + "" "")",Chrome 84.0.4147.89,,,2020-07-26 11:54:34,2020-07-26 11:54:43,9.440s,PASSED
+try,Chrome 84.0.4147.89,,,2020-07-26 11:54:43,2020-07-26 11:54:52,8.964s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 84.0.4147.89,,,2020-07-26 11:54:52,2020-07-26 11:54:55,2.643s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(userQuery, ENTER))",Chrome 84.0.4147.89,,,2020-07-26 11:54:55,2020-07-26 11:54:59,3.969s,PASSED
+"waitForElementPresent(findTestObject(""GenericII/getBotResponse"", [""index"":2]), 10)",Chrome 84.0.4147.89,,,2020-07-26 11:54:59,2020-07-26 11:55:00,1.173s,PASSED
+"verifyElementText(findTestObject(""GenericII/getBotResponse"", [""index"":2]), newArticleResponse, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:55:00,2020-07-26 11:55:02,2.361s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/minimize""))",Chrome 84.0.4147.89,,,2020-07-26 11:55:02,2020-07-26 11:55:05,2.278s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/curation""))",Chrome 84.0.4147.89,,,2020-07-26 11:55:05,2020-07-26 11:55:07,2.462s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Resolved""]), 20, OPTIONAL)",Chrome 84.0.4147.89,,,2020-07-26 11:55:07,2020-07-26 11:55:08,1.371s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Resolved""]))",Chrome 84.0.4147.89,,,2020-07-26 11:55:08,2020-07-26 11:55:11,2.741s,PASSED
+"sendKeys(findTestObject(""Input/roomID"", [""value"":""room_id""]), roomID)",Chrome 84.0.4147.89,,,2020-07-26 11:55:11,2020-07-26 11:55:14,2.977s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/filter""))",Chrome 84.0.4147.89,,,2020-07-26 11:55:14,2020-07-26 11:55:16,2.216s,PASSED
+"verifyTextPresent(roomID, false, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:55:16,2020-07-26 11:55:20,3.507s,PASSED
+,,,,,,,
+Test Cases/Faqbot/filterSessionsBy_Test,Chrome 84.0.4147.89,TestCase Agenda: To verify if sessions function is working as per expectation for user or not,,2020-07-26 11:55:20,2020-07-26 11:56:42,1m - 22.619s,PASSED
+Start listener action : setUp,Chrome 84.0.4147.89,,,2020-07-26 11:55:20,2020-07-26 11:55:39,18.787s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:55:40,2020-07-26 11:56:05,24.724s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 84.0.4147.89,,,2020-07-26 11:56:05,2020-07-26 11:56:11,6.751s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/session""))",Chrome 84.0.4147.89,,,2020-07-26 11:56:11,2020-07-26 11:56:16,4.435s,PASSED
+"platform.Session.searchByRoomMetaData(""Downvoted"")",Chrome 84.0.4147.89,,,2020-07-26 11:56:16,2020-07-26 11:56:20,4.665s,PASSED
+"verifyTextPresent(roomID, false, OPTIONAL)",Chrome 84.0.4147.89,,,2020-07-26 11:56:20,2020-07-26 11:56:25,4.374s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":roomID]))",Chrome 84.0.4147.89,,,2020-07-26 11:56:25,2020-07-26 11:56:27,2.491s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/closePopup""))",Chrome 84.0.4147.89,,,2020-07-26 11:56:27,2020-07-26 11:56:30,2.324s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/clear""))",Chrome 84.0.4147.89,,,2020-07-26 11:56:30,2020-07-26 11:56:32,2.438s,PASSED
+platform.Session.searchByRoomID(newRoomID),Chrome 84.0.4147.89,,,2020-07-26 11:56:32,2020-07-26 11:56:38,6.183s,PASSED
+"verifyTextPresent(newRoomID, false, OPTIONAL)",Chrome 84.0.4147.89,,,2020-07-26 11:56:38,2020-07-26 11:56:42,4.177s,PASSED
+,,,,,,,
+Test Cases/Faqbot/oneClickTestingTrainedVersion_Test,Chrome 84.0.4147.89,"TestCase Agenda: Verify if user is able to successfully able to type in test cases, auto selection of value from dropdown and upload test case feature that the handson table presents",,2020-07-26 11:56:42,2020-07-26 11:59:04,2m - 21.510s,PASSED
+Start listener action : setUp,Chrome 84.0.4147.89,,,2020-07-26 11:56:43,2020-07-26 11:56:58,15.211s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:56:58,2020-07-26 11:57:24,25.799s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 84.0.4147.89,,,2020-07-26 11:57:24,2020-07-26 11:57:30,5.737s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.89,,,2020-07-26 11:57:30,2020-07-26 11:57:34,4.027s,PASSED
+"if (verifyElementVisible(findTestObject(""Button/makeLive""), OPTIONAL))",Chrome 84.0.4147.89,,,2020-07-26 11:57:34,2020-07-26 11:57:41,7.119s,PASSED
+"testData = findTestData(""Data Files/testData_OneClickTesting"")",Chrome 84.0.4147.89,,,2020-07-26 11:57:41,2020-07-26 11:57:41,0.133s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/oneClickTest""))",Chrome 84.0.4147.89,,,2020-07-26 11:57:41,2020-07-26 11:57:44,2.583s,PASSED
+"verifyTextPresent(""Message"", false, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:57:44,2020-07-26 11:57:49,5.284s,PASSED
+"verifyTextPresent(""Expected article"", false, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:57:49,2020-07-26 11:57:54,4.679s,PASSED
+"verifyTextPresent(""Reset previous context"", false, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:57:54,2020-07-26 11:57:58,4.347s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/importIcon""))",Chrome 84.0.4147.89,,,2020-07-26 11:57:58,2020-07-26 11:58:00,2.345s,PASSED
+"platform.Method.uploadCsvFile(false, uploadFAQTestCases)",Chrome 84.0.4147.89,,,2020-07-26 11:58:00,2020-07-26 11:58:05,4.583s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/updateBtn""))",Chrome 84.0.4147.89,,,2020-07-26 11:58:05,2020-07-26 11:58:07,2.223s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo2/execution""))",Chrome 84.0.4147.89,,,2020-07-26 11:58:07,2020-07-26 11:58:10,3.204s,PASSED
+platform.Method.runOneClickTestOnLiveData(true),Chrome 84.0.4147.89,,,2020-07-26 11:58:11,2020-07-26 11:58:19,8.762s,PASSED
+"waitForElementVisible(findTestObject(""Generic/testSummary"", [""status"":""summery-status-completed""]), 90, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:58:19,2020-07-26 11:58:25,5.679s,PASSED
+"platform.Method.clickOnElement(findTestObject(""ICONS/action"", [""index"":2]))",Chrome 84.0.4147.89,,,2020-07-26 11:58:25,2020-07-26 11:58:28,3.087s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/btnOptionsInOneClickTesting"", [""btnValue"":""Test in preview""]))",Chrome 84.0.4147.89,,,2020-07-26 11:58:28,2020-07-26 11:58:31,2.575s,PASSED
+getRoomIdAt = new java.util.ArrayList(),Chrome 84.0.4147.89,,,2020-07-26 11:58:31,2020-07-26 11:58:31,0.002s,PASSED
+getRoomIdAt = platform.Utility.getRoomID(),Chrome 84.0.4147.89,,,2020-07-26 11:58:31,2020-07-26 11:58:36,4.958s,PASSED
+roomID = get(0).toString(),Chrome 84.0.4147.89,,,2020-07-26 11:58:36,2020-07-26 11:58:36,0.002s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/minimize""))",Chrome 84.0.4147.89,,,2020-07-26 11:58:36,2020-07-26 11:58:38,2.224s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/session""))",Chrome 84.0.4147.89,,,2020-07-26 11:58:38,2020-07-26 11:58:41,2.843s,PASSED
+platform.Session.searchByRoomID(roomID),Chrome 84.0.4147.89,,,2020-07-26 11:58:41,2020-07-26 11:58:48,7.782s,PASSED
+"verifyTextPresent(roomID, false, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:58:48,2020-07-26 11:58:54,5.368s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":roomID]))",Chrome 84.0.4147.89,,,2020-07-26 11:58:54,2020-07-26 11:58:56,2.359s,PASSED
+"sendKeys(findTestObject(""NewRepo2/inputSessionSearch""), toBeSearched)",Chrome 84.0.4147.89,,,2020-07-26 11:58:56,2020-07-26 11:59:02,5.500s,PASSED
+"verifyElementText(findTestObject(""NewRepo2/textHighlight""), ""card abroad charges?"", STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:59:02,2020-07-26 11:59:04,2.352s,PASSED
+,,,,,,,
+Test Cases/Faqbot/agentHandoverE2E_Test,Chrome 84.0.4147.89,"TestCase Agenda:
+
+Step 1:",,2020-07-26 11:59:04,2020-07-26 12:01:50,2m - 46.022s,PASSED
+Start listener action : setUp,Chrome 84.0.4147.89,,,2020-07-26 11:59:04,2020-07-26 11:59:19,15.149s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 11:59:20,2020-07-26 11:59:48,27.816s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 84.0.4147.89,,,2020-07-26 11:59:48,2020-07-26 11:59:54,6.373s,PASSED
+"platform.Method.enableAgentHandover(true, 3)",Chrome 84.0.4147.89,,,2020-07-26 11:59:54,2020-07-26 12:00:19,24.738s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.89,,,2020-07-26 12:00:19,2020-07-26 12:00:24,4.660s,PASSED
+platform.Method.trainAndComment(comment),Chrome 84.0.4147.89,,,2020-07-26 12:00:24,2020-07-26 12:00:34,9.798s,PASSED
+try,Chrome 84.0.4147.89,,,2020-07-26 12:00:34,2020-07-26 12:00:41,7.355s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 84.0.4147.89,,,2020-07-26 12:00:41,2020-07-26 12:00:44,2.686s,PASSED
+"for ([count = 1, count <= 3, (count++)])",Chrome 84.0.4147.89,,,2020-07-26 12:00:44,2020-07-26 12:00:56,11.916s,PASSED
+"verifyElementText(findTestObject(""GenericII/getBotResponse"", [""index"":5]), agentHandover, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:00:56,2020-07-26 12:00:58,2.389s,PASSED
+handOverRoomID = new java.util.ArrayList(),Chrome 84.0.4147.89,,,2020-07-26 12:00:58,2020-07-26 12:00:58,0.001s,PASSED
+handOverRoomID = platform.Utility.getRoomID(),Chrome 84.0.4147.89,,,2020-07-26 12:00:58,2020-07-26 12:01:03,4.704s,PASSED
+getHandOverID = get(0).toString(),Chrome 84.0.4147.89,,,2020-07-26 12:01:03,2020-07-26 12:01:03,0.001s,PASSED
+"platform.Utility.overWriteTestData(sheetName, rowNumber, cellNumber, getHandOverID)",Chrome 84.0.4147.89,,,2020-07-26 12:01:03,2020-07-26 12:01:03,0.371s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/minimize""))",Chrome 84.0.4147.89,,,2020-07-26 12:01:03,2020-07-26 12:01:05,2.359s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/curation""))",Chrome 84.0.4147.89,,,2020-07-26 12:01:05,2020-07-26 12:01:08,2.632s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo2/settingsOnCuration""))",Chrome 84.0.4147.89,,,2020-07-26 12:01:08,2020-07-26 12:01:11,2.761s,PASSED
+platform.CurationSettings.disableAgentHandover(true),Chrome 84.0.4147.89,,,2020-07-26 12:01:11,2020-07-26 12:01:13,2.520s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/updateSettings""))",Chrome 84.0.4147.89,,,2020-07-26 12:01:13,2020-07-26 12:01:16,2.300s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Issues""]))",Chrome 84.0.4147.89,,,2020-07-26 12:01:16,2020-07-26 12:01:18,2.622s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 84.0.4147.89,,,2020-07-26 12:01:18,2020-07-26 12:01:21,2.901s,PASSED
+"for ([count = 1, count <= 3, (count++)])",Chrome 84.0.4147.89,,,2020-07-26 12:01:21,2020-07-26 12:01:33,12.075s,PASSED
+newRoomID = new java.util.ArrayList(),Chrome 84.0.4147.89,,,2020-07-26 12:01:33,2020-07-26 12:01:33,0.001s,PASSED
+newRoomID = platform.Utility.getRoomID(),Chrome 84.0.4147.89,,,2020-07-26 12:01:33,2020-07-26 12:01:39,5.544s,PASSED
+roomID = get(0).toString(),Chrome 84.0.4147.89,,,2020-07-26 12:01:39,2020-07-26 12:01:39,0.001s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/minimize""))",Chrome 84.0.4147.89,,,2020-07-26 12:01:39,2020-07-26 12:01:41,2.233s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/refresh""))",Chrome 84.0.4147.89,,,2020-07-26 12:01:41,2020-07-26 12:01:43,2.335s,PASSED
+"sendKeys(findTestObject(""Input/roomID"", [""value"":""room_id""]), roomID)",Chrome 84.0.4147.89,,,2020-07-26 12:01:43,2020-07-26 12:01:46,2.969s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/filter""))",Chrome 84.0.4147.89,,,2020-07-26 12:01:46,2020-07-26 12:01:49,2.216s,PASSED
+"verifyElementNotPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":roomID]), 20, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:01:49,2020-07-26 12:01:50,1.467s,PASSED
+,,,,,,,
+Test Cases/Faqbot/disabledLowConfidenceAndDownvote_Test,Chrome 84.0.4147.89,TestCase Agenda: Verify if issues can be found in curation after all the settings has been disabled for FAQ bot,,2020-07-26 12:01:50,2020-07-26 12:04:12,2m - 21.881s,PASSED
+Start listener action : setUp,Chrome 84.0.4147.89,,,2020-07-26 12:01:50,2020-07-26 12:02:08,17.199s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:02:09,2020-07-26 12:02:32,23.342s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 84.0.4147.89,,,2020-07-26 12:02:32,2020-07-26 12:02:39,6.994s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.89,,,2020-07-26 12:02:39,2020-07-26 12:02:43,4.365s,PASSED
+platform.Method.trainAndComment(comment),Chrome 84.0.4147.89,,,2020-07-26 12:02:43,2020-07-26 12:02:50,6.271s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 84.0.4147.89,,,2020-07-26 12:02:50,2020-07-26 12:02:52,2.506s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(userQuery, ENTER))",Chrome 84.0.4147.89,,,2020-07-26 12:02:52,2020-07-26 12:02:55,3.113s,PASSED
+oldRoomIdList = new java.util.ArrayList(),Chrome 84.0.4147.89,,,2020-07-26 12:02:55,2020-07-26 12:02:55,0.001s,PASSED
+oldRoomIdList = platform.Utility.getRoomID(),Chrome 84.0.4147.89,,,2020-07-26 12:02:55,2020-07-26 12:03:00,4.752s,PASSED
+oldRoomID = get(0).toString(),Chrome 84.0.4147.89,,,2020-07-26 12:03:00,2020-07-26 12:03:00,0.002s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/minimize""))",Chrome 84.0.4147.89,,,2020-07-26 12:03:00,2020-07-26 12:03:03,3.284s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/curation""))",Chrome 84.0.4147.89,,,2020-07-26 12:03:03,2020-07-26 12:03:06,2.703s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Issues""]))",Chrome 84.0.4147.89,,,2020-07-26 12:03:06,2020-07-26 12:03:09,2.524s,PASSED
+"platform.CurationSettings.filterRuleTriggered(""Low confidence"")",Chrome 84.0.4147.89,,,2020-07-26 12:03:09,2020-07-26 12:03:19,10.347s,PASSED
+"verifyTextPresent(oldRoomID, false, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:03:19,2020-07-26 12:03:22,3.555s,PASSED
+"clearBtn = modifyObjectProperty(findTestObject(""Button/clear""), ""xpath"", ""not equals"", ""//button[text()='Clear']"", true, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:03:22,2020-07-26 12:03:23,0.138s,PASSED
+platform.Method.clickOnElement(clearBtn),Chrome 84.0.4147.89,,,2020-07-26 12:03:23,2020-07-26 12:03:25,2.210s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo2/settingsOnCuration""))",Chrome 84.0.4147.89,,,2020-07-26 12:03:25,2020-07-26 12:03:29,4.052s,PASSED
+platform.CurationSettings.disableDownvoted(true),Chrome 84.0.4147.89,,,2020-07-26 12:03:29,2020-07-26 12:03:31,2.624s,PASSED
+platform.CurationSettings.disableLowConfidence(true),Chrome 84.0.4147.89,,,2020-07-26 12:03:31,2020-07-26 12:03:34,2.602s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/updateSettings""))",Chrome 84.0.4147.89,,,2020-07-26 12:03:34,2020-07-26 12:03:36,2.350s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Issues""]))",Chrome 84.0.4147.89,,,2020-07-26 12:03:36,2020-07-26 12:03:39,2.509s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 84.0.4147.89,,,2020-07-26 12:03:39,2020-07-26 12:03:42,2.636s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(userQuery, ENTER))",Chrome 84.0.4147.89,,,2020-07-26 12:03:42,2020-07-26 12:03:46,4.490s,PASSED
+delay(1),Chrome 84.0.4147.89,,,2020-07-26 12:03:46,2020-07-26 12:03:47,1.009s,PASSED
+platform.Preview.downvoteResponseWithoutComment(),Chrome 84.0.4147.89,,,2020-07-26 12:03:47,2020-07-26 12:03:52,5.375s,PASSED
+newRoomIdList = platform.Utility.getRoomID(),Chrome 84.0.4147.89,,,2020-07-26 12:03:52,2020-07-26 12:03:58,5.575s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/minimize""))",Chrome 84.0.4147.89,,,2020-07-26 12:03:58,2020-07-26 12:04:00,2.384s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/refresh""))",Chrome 84.0.4147.89,,,2020-07-26 12:04:00,2020-07-26 12:04:03,2.428s,PASSED
+newRoomID = get(0).toString(),Chrome 84.0.4147.89,,,2020-07-26 12:04:03,2020-07-26 12:04:03,0.001s,PASSED
+"sendKeys(findTestObject(""Input/roomID"", [""value"":""room_id""]), newRoomID)",Chrome 84.0.4147.89,,,2020-07-26 12:04:03,2020-07-26 12:04:06,3.276s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/filter""))",Chrome 84.0.4147.89,,,2020-07-26 12:04:06,2020-07-26 12:04:09,2.454s,PASSED
+"verifyTextNotPresent(newRoomID, false, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:04:09,2020-07-26 12:04:12,3.453s,PASSED
+,,,,,,,
+Test Cases/Faqbot/disabledPartialMatch_Test,Chrome 84.0.4147.89,"TestCase Agenda:
+
+1. Perform partial match",,2020-07-26 12:04:12,2020-07-26 12:05:55,1m - 42.526s,PASSED
+Start listener action : setUp,Chrome 84.0.4147.89,,,2020-07-26 12:04:13,2020-07-26 12:04:27,14.388s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:04:27,2020-07-26 12:04:53,25.982s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 84.0.4147.89,,,2020-07-26 12:04:53,2020-07-26 12:05:00,6.698s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.89,,,2020-07-26 12:05:00,2020-07-26 12:05:05,5.306s,PASSED
+platform.Method.trainAndComment(comment),Chrome 84.0.4147.89,,,2020-07-26 12:05:05,2020-07-26 12:05:12,6.327s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Generic/curation""))",Chrome 84.0.4147.89,,,2020-07-26 12:05:12,2020-07-26 12:05:15,2.875s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""NewRepo2/settingsOnCuration""))",Chrome 84.0.4147.89,,,2020-07-26 12:05:15,2020-07-26 12:05:19,3.891s,PASSED
+platform.CurationSettings.disablePartialMatch(true),Chrome 84.0.4147.89,,,2020-07-26 12:05:19,2020-07-26 12:05:21,2.553s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Button/updateSettings""))",Chrome 84.0.4147.89,,,2020-07-26 12:05:21,2020-07-26 12:05:24,2.706s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Issues""]))",Chrome 84.0.4147.89,,,2020-07-26 12:05:24,2020-07-26 12:05:27,2.756s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 84.0.4147.89,,,2020-07-26 12:05:27,2020-07-26 12:05:29,2.695s,PASSED
+"platform.Preview.verifyBotTextResponse(userQuery, 2, partialMatch)",Chrome 84.0.4147.89,,,2020-07-26 12:05:29,2020-07-26 12:05:36,6.956s,PASSED
+getRoomIdAt = new java.util.ArrayList(),Chrome 84.0.4147.89,,,2020-07-26 12:05:36,2020-07-26 12:05:36,0.002s,PASSED
+getRoomIdAt = platform.Utility.getRoomID(),Chrome 84.0.4147.89,,,2020-07-26 12:05:36,2020-07-26 12:05:41,4.772s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""GenericII/minimize""))",Chrome 84.0.4147.89,,,2020-07-26 12:05:41,2020-07-26 12:05:43,2.511s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""NewRepo/refresh""))",Chrome 84.0.4147.89,,,2020-07-26 12:05:43,2020-07-26 12:05:46,2.522s,PASSED
+roomID = get(0).toString(),Chrome 84.0.4147.89,,,2020-07-26 12:05:46,2020-07-26 12:05:46,0.002s,PASSED
+"sendKeys(findTestObject(""Input/roomID"", [""value"":""room_id""]), roomID)",Chrome 84.0.4147.89,,,2020-07-26 12:05:46,2020-07-26 12:05:49,2.818s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Button/filter""))",Chrome 84.0.4147.89,,,2020-07-26 12:05:49,2020-07-26 12:05:51,2.442s,PASSED
+"verifyTextNotPresent(roomID, false, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:05:51,2020-07-26 12:05:55,3.300s,PASSED
+,,,,,,,
+Test Cases/Faqbot/disabledFallback_Test,Chrome 84.0.4147.89,"TestCase Agenda:
+
+Step 1: Disable fallback",,2020-07-26 12:05:55,2020-07-26 12:07:38,1m - 43.525s,PASSED
+Start listener action : setUp,Chrome 84.0.4147.89,,,2020-07-26 12:05:55,2020-07-26 12:06:12,17.579s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:06:13,2020-07-26 12:06:39,25.978s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 84.0.4147.89,,,2020-07-26 12:06:39,2020-07-26 12:06:45,6.173s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.89,,,2020-07-26 12:06:45,2020-07-26 12:06:49,3.882s,PASSED
+platform.Method.trainAndComment(comment),Chrome 84.0.4147.89,,,2020-07-26 12:06:49,2020-07-26 12:06:55,6.286s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Generic/curation""))",Chrome 84.0.4147.89,,,2020-07-26 12:06:55,2020-07-26 12:06:58,2.991s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""NewRepo2/settingsOnCuration""))",Chrome 84.0.4147.89,,,2020-07-26 12:06:58,2020-07-26 12:07:02,3.483s,PASSED
+platform.CurationSettings.disableFallback(true),Chrome 84.0.4147.89,,,2020-07-26 12:07:02,2020-07-26 12:07:05,2.960s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Button/updateSettings""))",Chrome 84.0.4147.89,,,2020-07-26 12:07:05,2020-07-26 12:07:07,2.534s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Issues""]))",Chrome 84.0.4147.89,,,2020-07-26 12:07:07,2020-07-26 12:07:10,2.852s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 84.0.4147.89,,,2020-07-26 12:07:10,2020-07-26 12:07:13,2.710s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(userQuery, ENTER))",Chrome 84.0.4147.89,,,2020-07-26 12:07:13,2020-07-26 12:07:16,3.486s,PASSED
+"waitForElementPresent(findTestObject(""GenericII/getBotResponse"", [""index"":2]), 20)",Chrome 84.0.4147.89,,,2020-07-26 12:07:16,2020-07-26 12:07:17,1.202s,PASSED
+"verifyElementText(findTestObject(""GenericII/getBotResponse"", [""index"":2]), fallbackMessage, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:07:17,2020-07-26 12:07:20,2.231s,PASSED
+getRoomIdAt = new java.util.ArrayList(),Chrome 84.0.4147.89,,,2020-07-26 12:07:20,2020-07-26 12:07:20,0.002s,PASSED
+getRoomIdAt = platform.Utility.getRoomID(),Chrome 84.0.4147.89,,,2020-07-26 12:07:20,2020-07-26 12:07:24,4.723s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""GenericII/minimize""))",Chrome 84.0.4147.89,,,2020-07-26 12:07:24,2020-07-26 12:07:27,2.688s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""NewRepo/refresh""))",Chrome 84.0.4147.89,,,2020-07-26 12:07:27,2020-07-26 12:07:30,2.492s,PASSED
+roomID = get(0).toString(),Chrome 84.0.4147.89,,,2020-07-26 12:07:30,2020-07-26 12:07:30,0.002s,PASSED
+"sendKeys(findTestObject(""Input/roomID"", [""value"":""room_id""]), roomID)",Chrome 84.0.4147.89,,,2020-07-26 12:07:30,2020-07-26 12:07:33,3.053s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Button/filter""))",Chrome 84.0.4147.89,,,2020-07-26 12:07:33,2020-07-26 12:07:35,2.447s,PASSED
+"verifyTextNotPresent(roomID, false, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:07:35,2020-07-26 12:07:38,3.038s,PASSED
+,,,,,,,
+Test Cases/Faqbot/defaultQuestionInArticle_Test,Chrome 84.0.4147.89,"TestCase Agenda: Verify if a user can save an article with no default question, update the default question and the header on article page changes and addition of variant doesn't impact the default question",,2020-07-26 12:07:38,2020-07-26 12:09:12,1m - 34.137s,PASSED
+Start listener action : setUp,Chrome 84.0.4147.89,,,2020-07-26 12:07:38,2020-07-26 12:07:55,16.758s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:07:56,2020-07-26 12:08:24,28.119s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 84.0.4147.89,,,2020-07-26 12:08:24,2020-07-26 12:08:30,6.242s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.89,,,2020-07-26 12:08:30,2020-07-26 12:08:33,2.976s,PASSED
+"testData = findTestData(""Data Files/testData_FAQ"")",Chrome 84.0.4147.89,,,2020-07-26 12:08:33,2020-07-26 12:08:34,0.462s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":testData.getValue(""first_question"", 1)]))",Chrome 84.0.4147.89,,,2020-07-26 12:08:34,2020-07-26 12:08:37,2.774s,PASSED
+"defaultQuestionField = findWebElement(findTestObject(""Input/defaultQuestion""), 10)",Chrome 84.0.4147.89,,,2020-07-26 12:08:37,2020-07-26 12:08:38,1.230s,PASSED
+"defaultQuestionField.sendKeys(Keys.chord(CONTROL, ""a""))",Chrome 84.0.4147.89,,,2020-07-26 12:08:38,2020-07-26 12:08:39,1.263s,PASSED
+defaultQuestionField.sendKeys(Keys.chord(DELETE)),Chrome 84.0.4147.89,,,2020-07-26 12:08:39,2020-07-26 12:08:40,1.127s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/addVariant""))",Chrome 84.0.4147.89,,,2020-07-26 12:08:40,2020-07-26 12:08:43,2.384s,PASSED
+"get(1).sendKeys(""view my card statement"")",Chrome 84.0.4147.89,,,2020-07-26 12:08:43,2020-07-26 12:08:46,3.305s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/save"", [""value"":"" Save ""]))",Chrome 84.0.4147.89,,,2020-07-26 12:08:46,2020-07-26 12:08:48,2.271s,PASSED
+"verifyElementPresent(findTestObject(""NewRepo2/alert""), 20, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:08:48,2020-07-26 12:08:49,1.215s,PASSED
+"setText(findTestObject(""Input/defaultQuestion""), testData.getValue(""new_default_question"", 1), STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:08:49,2020-07-26 12:08:54,4.828s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/saveAndTrain""))",Chrome 84.0.4147.89,,,2020-07-26 12:08:54,2020-07-26 12:08:56,2.202s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 20, OPTIONAL)",Chrome 84.0.4147.89,,,2020-07-26 12:08:56,2020-07-26 12:09:04,7.574s,PASSED
+"sendKeys(findTestObject(""Input/searchForQuestion""), searchQuestion)",Chrome 84.0.4147.89,,,2020-07-26 12:09:04,2020-07-26 12:09:07,3.082s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Generic/searchResult""))",Chrome 84.0.4147.89,,,2020-07-26 12:09:07,2020-07-26 12:09:10,2.730s,PASSED
+assert true == getText().contentEquals(testValue),Chrome 84.0.4147.89,,,2020-07-26 12:09:10,2020-07-26 12:09:12,2.464s,PASSED
+,,,,,,,
+Test Cases/Faqbot/encryptionOnSessions_Test,Chrome 84.0.4147.89,"TestCase Agenda:
+
+Step 1: Enable ADP
+Step 2: Navigate to Session and verify 
+Step 3: Navigate to Curation and verify",,2020-07-26 12:09:12,2020-07-26 12:12:05,2m - 52.645s,PASSED
+Start listener action : setUp,Chrome 84.0.4147.89,,,2020-07-26 12:09:13,2020-07-26 12:09:28,15.703s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:09:29,2020-07-26 12:09:56,26.952s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 84.0.4147.89,,,2020-07-26 12:09:56,2020-07-26 12:10:02,6.134s,PASSED
+delay(2),Chrome 84.0.4147.89,,,2020-07-26 12:10:02,2020-07-26 12:10:04,2.009s,PASSED
+platform.Method.enableADP(true),Chrome 84.0.4147.89,,,2020-07-26 12:10:04,2020-07-26 12:10:18,13.901s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Generic/session""))",Chrome 84.0.4147.89,,,2020-07-26 12:10:18,2020-07-26 12:10:21,2.713s,PASSED
+"verifyElementPresent(findTestObject(""NewRepo2/adpLock""), 20, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:10:21,2020-07-26 12:10:22,1.654s,PASSED
+"verifyTextPresent(ADP_TEXT_VALUE, false, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:10:22,2020-07-26 12:10:27,4.950s,PASSED
+platform.Session.decryptSession(roomID),Chrome 84.0.4147.89,,,2020-07-26 12:10:27,2020-07-26 12:10:42,14.573s,PASSED
+"verifyElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Downvoted with comment""]), 10, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:10:42,2020-07-26 12:10:45,2.882s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""GenericII/closePopup""))",Chrome 84.0.4147.89,,,2020-07-26 12:10:45,2020-07-26 12:10:47,2.361s,PASSED
+"verifyElementPresent(findTestObject(""NewRepo2/unlockIcon""), 10, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:10:47,2020-07-26 12:10:49,1.325s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Button/dashboard""))",Chrome 84.0.4147.89,,,2020-07-26 12:10:49,2020-07-26 12:10:55,6.400s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Button/enterpriseDropdown""))",Chrome 84.0.4147.89,,,2020-07-26 12:10:55,2020-07-26 12:11:01,6.015s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Button/signOut""))",Chrome 84.0.4147.89,,,2020-07-26 12:11:01,2020-07-26 12:11:04,3.363s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:11:04,2020-07-26 12:11:27,22.842s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 84.0.4147.89,,,2020-07-26 12:11:27,2020-07-26 12:11:33,6.054s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Generic/session""))",Chrome 84.0.4147.89,,,2020-07-26 12:11:33,2020-07-26 12:11:37,3.629s,PASSED
+platform.Session.searchByRoomID(roomID),Chrome 84.0.4147.89,,,2020-07-26 12:11:37,2020-07-26 12:11:43,6.546s,PASSED
+"verifyElementNotPresent(findTestObject(""NewRepo2/unlockIcon""), 10, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:11:43,2020-07-26 12:11:45,1.351s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/curation""))",Chrome 84.0.4147.89,,,2020-07-26 12:11:45,2020-07-26 12:11:48,2.821s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Issues""]))",Chrome 84.0.4147.89,,,2020-07-26 12:11:48,2020-07-26 12:11:50,2.550s,PASSED
+"inputKey = modifyObjectProperty(findTestObject(""Input/key""), ""xpath"", ""not equals"", ""//input[@name='qtext']"", true)",Chrome 84.0.4147.89,,,2020-07-26 12:11:50,2020-07-26 12:11:50,0.411s,PASSED
+"setText(inputKey, ""test"")",Chrome 84.0.4147.89,,,2020-07-26 12:11:50,2020-07-26 12:11:54,3.470s,PASSED
+"platform.Method.clickOnElement(findTestObject(""ICONS/unlock""))",Chrome 84.0.4147.89,,,2020-07-26 12:11:54,2020-07-26 12:11:56,2.210s,PASSED
+"trainBtn = modifyObjectProperty(findTestObject(""Button/train""), ""xpath"", ""not equals"", ""//span[text()=' Train ']"", true)",Chrome 84.0.4147.89,,,2020-07-26 12:11:56,2020-07-26 12:11:56,0.139s,PASSED
+"if (verifyTextPresent(""Saved corpus"", false, OPTIONAL))",Chrome 84.0.4147.89,,,2020-07-26 12:11:56,2020-07-26 12:11:59,2.838s,PASSED
+else,Chrome 84.0.4147.89,,,2020-07-26 12:11:59,2020-07-26 12:12:05,5.753s,PASSED
+,,,,,,,
+Test Cases/Faqbot/customSynonymsE2E_Test,Chrome 84.0.4147.89,"TestCase Agenda: Verify all features available on FAQ bot custom synonyms like manual addition of a root word and add synonyms to it, delete a synonym, delete a root word, upload a csv file and other functionalities.",,2020-07-26 12:12:05,2020-07-26 12:15:18,3m - 12.703s,PASSED
+Start listener action : setUp,Chrome 84.0.4147.89,,,2020-07-26 12:12:05,2020-07-26 12:12:21,16.132s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:12:22,2020-07-26 12:12:48,25.863s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", PREVIEW_BOT)",Chrome 84.0.4147.89,,,2020-07-26 12:12:48,2020-07-26 12:12:54,6.041s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.89,,,2020-07-26 12:12:54,2020-07-26 12:13:00,5.540s,PASSED
+"sendKeys(findTestObject(""Input/searchForQuestion""), ""Hello there"")",Chrome 84.0.4147.89,,,2020-07-26 12:13:00,2020-07-26 12:13:03,3.230s,PASSED
+"if (waitForElementVisible(findTestObject(""Generic/searchResult""), 10, OPTIONAL))",Chrome 84.0.4147.89,,,2020-07-26 12:13:03,2020-07-26 12:13:14,11.049s,PASSED
+else,Chrome 84.0.4147.89,,,2020-07-26 12:13:14,2020-07-26 12:13:14,0.004s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 84.0.4147.89,,,2020-07-26 12:13:14,2020-07-26 12:13:16,2.451s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(""[स्वावलंबी] भारतवर्ष"", ENTER))",Chrome 84.0.4147.89,,,2020-07-26 12:13:16,2020-07-26 12:13:20,3.478s,PASSED
+"waitForElementPresent(findTestObject(""GenericII/getBotResponse"", [""index"":2]), 20, OPTIONAL)",Chrome 84.0.4147.89,,,2020-07-26 12:13:20,2020-07-26 12:13:21,1.234s,PASSED
+"verifyElementText(findTestObject(""GenericII/getBotResponse"", [""index"":2]), fallback, OPTIONAL)",Chrome 84.0.4147.89,,,2020-07-26 12:13:21,2020-07-26 12:13:23,2.368s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/minimize""))",Chrome 84.0.4147.89,,,2020-07-26 12:13:23,2020-07-26 12:13:26,2.418s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Custom synonyms""]))",Chrome 84.0.4147.89,,,2020-07-26 12:13:26,2020-07-26 12:13:28,2.517s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/rootword""))",Chrome 84.0.4147.89,,,2020-07-26 12:13:28,2020-07-26 12:13:31,2.384s,PASSED
+"saveBtn = modifyObjectProperty(findTestObject(""Button/save"", [""value"":"" Save ""]), ""xpath"", ""equals"", ""//span[text()=' Save ']//ancestor::button"", true, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:13:31,2020-07-26 12:13:31,0.171s,PASSED
+"verifyElementHasAttribute(saveBtn, ""disabled"", 10, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:13:31,2020-07-26 12:13:33,2.140s,PASSED
+"testData = findTestData(""Data Files/testData_FAQ"")",Chrome 84.0.4147.89,,,2020-07-26 12:13:33,2020-07-26 12:13:33,0.150s,PASSED
+"setText(findTestObject(""Input/valueOfSynonym""), Keys.chord(testData.getValue(""custom_syn_value"", 1), ENTER))",Chrome 84.0.4147.89,,,2020-07-26 12:13:33,2020-07-26 12:13:37,3.868s,PASSED
+"for ([count = 1, count <= testData.getRowNumbers(), (count++)])",Chrome 84.0.4147.89,,,2020-07-26 12:13:37,2020-07-26 12:13:52,14.965s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/importIcon""))",Chrome 84.0.4147.89,,,2020-07-26 12:13:52,2020-07-26 12:13:54,2.429s,PASSED
+"platform.Method.uploadCsvFile(false, ""faqSynonyms.csv"")",Chrome 84.0.4147.89,,,2020-07-26 12:13:54,2020-07-26 12:14:00,5.507s,PASSED
+delay(2),Chrome 84.0.4147.89,,,2020-07-26 12:14:00,2020-07-26 12:14:02,2.010s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/btnDeleteChipOrRow"", [""chipValue"":"" \@unwell "", ""option"":""cancel ""]))",Chrome 84.0.4147.89,,,2020-07-26 12:14:02,2020-07-26 12:14:04,2.275s,PASSED
+"setText(findTestObject(""Input/searchCustomSyn""), ""FEELING GOOD"")",Chrome 84.0.4147.89,,,2020-07-26 12:14:04,2020-07-26 12:14:08,3.974s,PASSED
+"verifyElementPresent(findTestObject(""ICONS/matChip"", [""chipValue"":"" un-happy ""]), 10, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:14:08,2020-07-26 12:14:09,1.191s,PASSED
+platform.Method.clickOnElement(saveBtn),Chrome 84.0.4147.89,,,2020-07-26 12:14:09,2020-07-26 12:14:11,2.124s,PASSED
+"verifyElementText(findTestObject(""Generic/articleState""), ""Saved"", STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:14:11,2020-07-26 12:14:14,2.393s,PASSED
+"platform.Method.trainAndComment(testData.getValue(""comment"", 8))",Chrome 84.0.4147.89,,,2020-07-26 12:14:14,2020-07-26 12:14:24,9.939s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 84.0.4147.89,,,2020-07-26 12:14:24,2020-07-26 12:14:27,2.778s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(""आत्मावलम्बी भारतवर्ष अभियान से जुड़े लाभ क्या हैं"", ENTER))",Chrome 84.0.4147.89,,,2020-07-26 12:14:27,2020-07-26 12:14:31,4.116s,PASSED
+delay(2),Chrome 84.0.4147.89,,,2020-07-26 12:14:31,2020-07-26 12:14:33,2.005s,PASSED
+"verifyElementText(findTestObject(""GenericII/getBotResponse"", [""index"":2]), testData.getValue(""bot_answer"", 1), STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:14:33,2020-07-26 12:14:35,2.357s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/upvote""))",Chrome 84.0.4147.89,,,2020-07-26 12:14:35,2020-07-26 12:14:37,2.376s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(""سحب خدمة الإخطار"", ENTER))",Chrome 84.0.4147.89,,,2020-07-26 12:14:37,2020-07-26 12:14:40,2.917s,PASSED
+delay(2),Chrome 84.0.4147.89,,,2020-07-26 12:14:40,2020-07-26 12:14:42,2.006s,PASSED
+"verifyElementText(findTestObject(""GenericII/getBotResponse"", [""index"":3]), testData.getValue(""bot_answer"", 2), STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:14:42,2020-07-26 12:14:45,2.391s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(""नमस्ते,"", ENTER))",Chrome 84.0.4147.89,,,2020-07-26 12:14:45,2020-07-26 12:14:47,2.675s,PASSED
+delay(2),Chrome 84.0.4147.89,,,2020-07-26 12:14:47,2020-07-26 12:14:49,2.009s,PASSED
+"verifyElementText(findTestObject(""GenericII/getBotResponse"", [""index"":4]), testData.getValue(""bot_answer"", 3), STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:14:49,2020-07-26 12:14:52,2.298s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(""show me some re@l-est@ate"", ENTER))",Chrome 84.0.4147.89,,,2020-07-26 12:14:52,2020-07-26 12:14:55,3.182s,PASSED
+delay(2),Chrome 84.0.4147.89,,,2020-07-26 12:14:55,2020-07-26 12:14:57,2.006s,PASSED
+"verifyElementText(findTestObject(""NewRepo/bannerTitle"", [""index"":2]), ""Residential serviced apartment"", STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:14:57,2020-07-26 12:14:59,2.454s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/minimize""))",Chrome 84.0.4147.89,,,2020-07-26 12:14:59,2020-07-26 12:15:02,2.383s,PASSED
+"platform.Method.clickOnElement(findTestObject(""ICONS/clearSearch""))",Chrome 84.0.4147.89,,,2020-07-26 12:15:02,2020-07-26 12:15:04,2.360s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/btnDeleteChipOrRow"", [""chipValue"":"" आन्दोलन "", ""option"":"" close ""]))",Chrome 84.0.4147.89,,,2020-07-26 12:15:04,2020-07-26 12:15:07,2.394s,PASSED
+"setText(findTestObject(""Input/synonyms"", [""index"":2]), Keys.chord(""help7less"", ENTER))",Chrome 84.0.4147.89,,,2020-07-26 12:15:07,2020-07-26 12:15:11,4.083s,PASSED
+"setText(findTestObject(""Input/searchCustomSyn""), ""7LeSS"")",Chrome 84.0.4147.89,,,2020-07-26 12:15:11,2020-07-26 12:15:14,3.675s,PASSED
+"verifyElementPresent(findTestObject(""ICONS/matChip"", [""chipValue"":"" help7less ""]), 10, STOP_ON_FAILURE)",Chrome 84.0.4147.89,,,2020-07-26 12:15:14,2020-07-26 12:15:16,1.244s,PASSED
+platform.Method.clickOnElement(saveBtn),Chrome 84.0.4147.89,,,2020-07-26 12:15:16,2020-07-26 12:15:18,2.118s,PASSED

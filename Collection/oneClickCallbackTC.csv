@@ -1,0 +1,13 @@
+Message,Expected template,Reset previous context,Callback,Expected callback template,Callback timeout (in secs)
+Hyderabad,A1,TRUE,FALSE,,
+single,else,FALSE,FALSE,,
+fire,child_bot,TRUE,TRUE,fire_callback,2
+Hyderabad,A1,TRUE,FALSE,,
+single,else,FALSE,FALSE,,
+fire,child_bot,TRUE,TRUE,child_bot,2
+Hyderabad,A1,TRUE,FALSE,,
+single,else,FALSE,FALSE,,
+trigger,child_bot,TRUE,FALSE,,
+Hyderabad,A1,TRUE,FALSE,,
+single,else,FALSE,FALSE,,
+fire,child_bot,TRUE,TRUE,fire_callback,2
