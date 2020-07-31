@@ -32,3 +32,5 @@ CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/save', [(
 
 WebUI.verifyElementNotPresent(findTestObject('Button/train'), 5, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.comment('Thank you')
+
