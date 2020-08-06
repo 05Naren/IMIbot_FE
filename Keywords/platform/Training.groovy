@@ -45,10 +45,10 @@ public class Training extends Method {
 	 */
 	@Keyword
 	def tagEntityManually(String entityValue){
-		toClickOnWebElement(findTestObject('Generic/entitySelection'))
+		clickOnElement(findTestObject('Generic/entitySelection'))
 		WebUI.comment('Entity Value Selected: '+ entityValue)
-		toClickOnWebElement(findTestObject('Generic/webObjectWithText',['textValue':entityValue]))
-		toClickOnWebElement(findTestObject('Button/saveEntityManually'))
+		clickOnElement(findTestObject('Generic/webObjectWithText',['textValue':entityValue]))
+		clickOnElement(findTestObject('Button/saveEntityManually'))
 	}
 
 	/*

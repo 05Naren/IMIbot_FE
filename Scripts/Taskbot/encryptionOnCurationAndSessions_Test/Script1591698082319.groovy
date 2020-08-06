@@ -57,7 +57,7 @@ if (WebUI.verifyTextPresent('Saved corpus', false, FailureHandling.OPTIONAL)) {
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/dashboard'))
 
-CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/enterpriseDropdown'))
+CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/userOptions'))
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/signOut'))
 

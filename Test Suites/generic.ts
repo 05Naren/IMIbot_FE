@@ -67,7 +67,7 @@
    <testCaseLink>
       <guid>7db4ba75-eb69-481c-9d31-abf355ee36a9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Generic/adminUserDeletion_Test</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

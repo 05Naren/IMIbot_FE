@@ -10,13 +10,13 @@ WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [:], FailureHan
 
 WebUI.verifyElementText(findTestObject('Generic/userInitials'), GlobalVariable.USER_INITIALS, FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'platform.Method.toClickOnWebElement'(findTestObject('Button/enterpriseDropdown'))
+CustomKeywords.'platform.Method.toClickOnWebElement'(findTestObject('Button/userOptions'))
 
 CustomKeywords.'platform.Method.toClickOnWebElement'(findTestObject('Button/eProfile'))
 
 WebUI.verifyElementPresent(findTestObject('Generic/updateBtn'), 15, FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'platform.Method.toClickOnWebElement'(findTestObject('Button/enterpriseDropdown'))
+CustomKeywords.'platform.Method.toClickOnWebElement'(findTestObject('Button/userOptions'))
 
 CustomKeywords.'platform.Method.toClickOnWebElement'(findTestObject('Button/signOut'))
 

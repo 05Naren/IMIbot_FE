@@ -15,21 +15,23 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Generic/enterpriseName'), GlobalVariable.ENTERPRISE_NAME, FailureHandling.OPTIONAL)
+//CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/userOptions'))
 
-WebUI.verifyElementText(findTestObject('Generic/userDesgination'), GlobalVariable.USER_DESIGNATION, FailureHandling.OPTIONAL)
+//WebUI.verifyElementText(findTestObject('Generic/enterpriseName'), GlobalVariable.ENTERPRISE_NAME, FailureHandling.OPTIONAL)
+
+//WebUI.verifyElementText(findTestObject('Generic/userDesgination'), GlobalVariable.USER_DESIGNATION, FailureHandling.OPTIONAL)
 
 WebUI.verifyElementPresent(findTestObject('Generic/enterpriseIcon'), 5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Generic/userInitials'), GlobalVariable.USER_INITIALS, FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/enterpriseDropdown'))
+CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/userOptions'))
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/eProfile'))
 
 WebUI.verifyElementPresent(findTestObject('Generic/updateBtn'), 15, FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/enterpriseDropdown'))
+CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/userOptions'))
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/signOut'))
 

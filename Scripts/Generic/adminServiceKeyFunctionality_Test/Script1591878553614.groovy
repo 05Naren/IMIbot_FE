@@ -7,7 +7,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [:], FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/enterpriseDropdown'))
+CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/userOptions'))
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/webObjectWithText', [('textValue') : 'Enterprise profile']))
 

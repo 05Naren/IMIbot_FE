@@ -38,7 +38,7 @@ WebUI.verifyElementPresent(findTestObject('NewRepo2/unlockIcon'), 10, FailureHan
 
 CustomKeywords.'platform.Method.toClickOnWebElement'(findTestObject('Button/dashboard'))
 
-CustomKeywords.'platform.Method.toClickOnWebElement'(findTestObject('Button/enterpriseDropdown'))
+CustomKeywords.'platform.Method.toClickOnWebElement'(findTestObject('Button/userOptions'))
 
 CustomKeywords.'platform.Method.toClickOnWebElement'(findTestObject('Button/signOut'))
 

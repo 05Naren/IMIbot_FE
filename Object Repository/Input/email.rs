@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@placeholder = 'Enter Email']</value>
+         <value>//*[@placeholder = 'e.g., myemail@mycompany.com']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Enter Email</value>
+      <value>e.g., myemail@mycompany.com</value>
    </webElementProperties>
 </WebElementEntity>

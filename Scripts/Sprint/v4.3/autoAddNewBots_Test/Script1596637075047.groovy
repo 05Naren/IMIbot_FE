@@ -9,25 +9,25 @@ import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'platform.Method.toClickOnWebElement'(findTestObject('GenericII/changePasswordLink'))
 
-WebUI.verifyElementText(findTestObject('GenericII/forgetHeader'), 'Forgot password?', FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [('username') : GlobalVariable.USERNAME, ('password') : GlobalVariable.PASSWORD],
+	FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Input/email'), GlobalVariable.USERNAME)
 
-WebUI.verifyElementClickable(findTestObject('GenericII/sendLinkBtn'), FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [('username') : 'lil.zakk@gmail.com', ('password') : GlobalVariable.PASSWORD], 
+    FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'platform.Method.toClickOnWebElement'(findTestObject('GenericII/sendLinkBtn'))
+// Verify if newly created bot is present 
+//WebUI.verifyTextPresent('There are no Q&A  bots in your account', false, FailureHandling.OPTIONAL)
 
-WebUI.waitForElementPresent(findTestObject('ICONS/toastMsg'), 20, FailureHandling.OPTIONAL)
-
-WebUI.verifyElementPresent(findTestObject('GenericII/emailSentIcon'), 5, FailureHandling.STOP_ON_FAILURE)
-
-//WebUI.verifyElementClickable(findTestObject('GenericII/continueToSignInBtn'), FailureHandling.STOP_ON_FAILURE)
-
-//CustomKeywords.'platform.Method.toClickOnWebElement'(findTestObject('GenericII/continueToSignInBtn'))
-
+try {
+    WebUI.verifyTextPresent('', false, FailureHandling.OPTIONAL)
+}
+catch (Exception e) {
+	KeywordUtil.logInfo('Test')
+}

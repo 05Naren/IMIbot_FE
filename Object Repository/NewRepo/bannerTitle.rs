@@ -6,12 +6,11 @@
    <elementGuidId>44372b01-62dc-49ab-bbb2-b62fd235a0c9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//li[@class='title'])[${index}]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//div[@class='title-text'])[${index}]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>userInitials</name>
+   <name>userOptions</name>
    <tag></tag>
-   <elementGuidId>60a1de53-a7ff-43f3-8711-73464bf3fd0e</elementGuidId>
+   <elementGuidId>f470457d-ba70-48f3-a316-d2fc8a045413</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@class,'box_initials')]/span</value>
+         <value>//*[starts-with(@class,'box_initials')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,15 +15,15 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>data-cy</name>
       <type>Main</type>
-      <value>box_initials</value>
+      <value>header-dropdown-toggle</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[starts-with(@class,'box_initials')]/span</value>
+      <value>//*[starts-with(@class,'box_initials')]</value>
    </webElementProperties>
 </WebElementEntity>

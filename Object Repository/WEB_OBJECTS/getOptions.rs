@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>enterpriseDropdown</name>
+   <name>getOptions</name>
    <tag></tag>
-   <elementGuidId>f470457d-ba70-48f3-a316-d2fc8a045413</elementGuidId>
+   <elementGuidId>8c60fb53-5a17-4bfe-8e66-1597ae4ed7b8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-cy = 'header-dropdown-toggle']</value>
+         <value>//mat-option/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-cy</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>header-dropdown-toggle</value>
+      <value>//mat-option/span</value>
    </webElementProperties>
 </WebElementEntity>
