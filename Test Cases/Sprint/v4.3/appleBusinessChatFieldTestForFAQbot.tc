@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>appleBusinessChatFieldTestForFAQbot</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f79cbae9-b038-4a43-8cfa-ac45b1209910</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('testData_QueryResponse').getValue('max_character_data', 1)</defaultValue>
+      <description></description>
+      <id>143fe037-024f-4cfd-8528-84ff5f361434</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>'\'Assistant BOT FAQ\''</defaultValue>
+      <description></description>
+      <id>5d4fbf4a-7088-4b8f-91b2-8cf3d7997737</id>
+      <masked>false</masked>
+      <name>botName</name>
+   </variable>
+</TestCaseEntity>

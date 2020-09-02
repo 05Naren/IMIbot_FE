@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: To verify if platform preview is working for faq bot</description>
+   <name>defaultPlatformPreview</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>673183b1-9ad9-464a-a024-ee14041965e6</testCaseGuid>
+   <variable>
+      <defaultValue>'how can you help me?'</defaultValue>
+      <description></description>
+      <id>bac61107-f113-4c86-9220-12f1bd77b224</id>
+      <masked>false</masked>
+      <name>userQuery</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hey, this is one of the bots default articles. '</defaultValue>
+      <description></description>
+      <id>b57955f3-77e4-4967-aaea-f5c7f09a912a</id>
+      <masked>false</masked>
+      <name>stringToCheck</name>
+   </variable>
+</TestCaseEntity>

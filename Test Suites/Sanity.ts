@@ -206,7 +206,7 @@
       <guid>55c98beb-5a34-4cc1-a88a-0720a97377f9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Taskbot/1_EntityRegression/verify_entity_auto_detection</testCaseId>
+      <testCaseId>Test Cases/OldScripts/1_EntityRegression/verify_entity_auto_detection</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -224,7 +224,7 @@
       <guid>5db8ba4e-5951-46a2-90f9-a9e982ae6239</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Taskbot/1_EntityRegression/verify_manually_removal_of_entity</testCaseId>
+      <testCaseId>Test Cases/OldScripts/1_EntityRegression/verify_manually_removal_of_entity</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -236,7 +236,7 @@
       <guid>b0fa1118-cb4a-4092-a244-445d830766bc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Taskbot/1_EntityRegression/verify_multiple_entity_auto_detection</testCaseId>
+      <testCaseId>Test Cases/OldScripts/1_EntityRegression/verify_multiple_entity_auto_detection</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -260,7 +260,7 @@
       <guid>08ec4e7c-9093-491c-9aca-b117a9be71a0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Taskbot/1_EntityRegression/verify_value_markup_on_entity_deletion</testCaseId>
+      <testCaseId>Test Cases/OldScripts/1_EntityRegression/verify_value_markup_on_entity_deletion</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -278,7 +278,7 @@
       <guid>a3f4bf39-6485-4735-994f-81ef5db04000</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Taskbot/1_EntityRegression/verify_entity_markup_follows</testCaseId>
+      <testCaseId>Test Cases/OldScripts/1_EntityRegression/verify_entity_markup_follows</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -302,7 +302,7 @@
       <guid>11527280-df9c-4bbd-9d70-a2e50bd6f1e4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Taskbot/1_EntityRegression/verify_entity_tagging_and_removing_manually</testCaseId>
+      <testCaseId>Test Cases/OldScripts/1_EntityRegression/verify_entity_tagging_and_removing_manually</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -320,7 +320,7 @@
       <guid>afd0fcc6-b38b-468e-a896-6938ec068d9c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Taskbot/1_EntityRegression/verify_entity_creation_from_utterance</testCaseId>
+      <testCaseId>Test Cases/OldScripts/1_EntityRegression/verify_entity_creation_from_utterance</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

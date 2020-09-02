@@ -11,9 +11,16 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//span[starts-with(@class,'fa fa-times')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[starts-with(@class,'fa fa-times')]</value>
+   </webElementProperties>
 </WebElementEntity>

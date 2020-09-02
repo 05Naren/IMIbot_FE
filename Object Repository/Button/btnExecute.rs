@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[contains(text(),'Execute')]</value>
+         <value>//button//span[contains(text(),'Execute tests')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[contains(text(),'Execute')]</value>
+      <value>//button//span[contains(text(),'Execute tests')]</value>
    </webElementProperties>
 </WebElementEntity>

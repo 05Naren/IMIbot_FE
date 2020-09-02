@@ -83,24 +83,24 @@ public class Response extends Method {
 
 	@Keyword
 	def createDynamicResponse(String templateKeyName, String fileName){
-		toClickOnWebElement(findTestObject('NewRepo2/addNewResponse'))
+		clickOnElement(findTestObject('NewRepo2/addNewResponse'))
 		WebUI.setText(findTestObject('NewRepo2/templateKeyName'), templateKeyName)
-		toClickOnWebElement(findTestObject('Button/create'))
+		clickOnElement(findTestObject('Button/create'))
 		WebUI.delay(2)
-		toClickOnWebElement(findTestObject('Generic/webObjectWithText',['textValue':'Rich']))
-		toClickOnWebElement(findTestObject('NewRepo2/dynamic'))
+		clickOnElement(findTestObject('Generic/webObjectWithText',['textValue':'Rich']))
+		clickOnElement(findTestObject('NewRepo2/dynamic'))
 		WebUI.uploadFile(findTestObject('Input/uploadFile'), Method.PATH+fileName)
-		toClickOnWebElement(findTestObject('NewRepo/refresh'))
+		clickOnElement(findTestObject('NewRepo/refresh'))
 	}
 
 	@Keyword
 	def createRichResponse(String templateKeyName, String value){
-		toClickOnWebElement(findTestObject('NewRepo2/addNewResponse'))
+		clickOnElement(findTestObject('NewRepo2/addNewResponse'))
 		WebUI.setText(findTestObject('NewRepo2/templateKeyName'), templateKeyName)
-		toClickOnWebElement(findTestObject('Button/create'))
+		clickOnElement(findTestObject('Button/create'))
 		WebUI.delay(2)
 		WebUI.sendKeys(findTestObject('Input/textResponse'), value)
-		toClickOnWebElement(findTestObject('NewRepo/refresh'))
+		clickOnElement(findTestObject('NewRepo/refresh'))
 	}
 
 	@Keyword

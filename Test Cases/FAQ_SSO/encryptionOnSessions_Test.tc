@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda:
+
+Step 1: Enable ADP
+Step 2: Navigate to Session and verify 
+Step 3: Navigate to Curation and verify</description>
+   <name>encryptionOnSessions_Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7ba68399-dbd5-4915-818b-d06a364b9820</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('room_id', 2)</defaultValue>
+      <description></description>
+      <id>5c06d7de-5570-4c84-bb9c-d7ea958e6f53</id>
+      <masked>false</masked>
+      <name>roomID</name>
+   </variable>
+</TestCaseEntity>

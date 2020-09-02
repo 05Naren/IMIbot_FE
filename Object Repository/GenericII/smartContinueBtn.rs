@@ -6,12 +6,11 @@
    <elementGuidId>ed96502c-06b6-4eec-abb9-3d7b1df41a88</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//button//span[contains(text(),'Continue')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button/span[contains(text(),'Continue')]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

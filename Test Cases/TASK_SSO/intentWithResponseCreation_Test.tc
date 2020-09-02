@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: Verify if user can create an intent along with response from intent page
+
+Step 1: Create an intent
+Step 2: Response creation from intent page
+Step 3: Verify created response on Response module</description>
+   <name>intentWithResponseCreation_Test</name>
+   <tag></tag>
+   <comment>findTestData(&quot;Data Files/testData_Task&quot;).getValue(&quot;comment&quot;, 1)</comment>
+   <testCaseGuid>93b72f71-051f-498a-9858-9b2480167de6</testCaseGuid>
+   <variable>
+      <defaultValue>'Delivery service in chennai'</defaultValue>
+      <description></description>
+      <id>c41b9e2f-7161-4b0d-8b0c-c50500c20db4</id>
+      <masked>false</masked>
+      <name>userQuery</name>
+   </variable>
+</TestCaseEntity>

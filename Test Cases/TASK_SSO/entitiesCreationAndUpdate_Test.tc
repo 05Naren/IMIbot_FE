@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: Verify custom entity creation process</description>
+   <name>entitiesCreationAndUpdate_Test</name>
+   <tag></tag>
+   <comment>testData.getValue(&quot;comment&quot;, 2)</comment>
+   <testCaseGuid>768da6a7-f6fc-4b1f-bc29-c69fe8cc41d5</testCaseGuid>
+   <variable>
+      <defaultValue>'city name'</defaultValue>
+      <description></description>
+      <id>4ef5c106-c5a8-4042-93b6-935a615866bb</id>
+      <masked>false</masked>
+      <name>cityName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('taskbotData').getValue('city', 1)</defaultValue>
+      <description></description>
+      <id>5c020d8e-a3ae-4033-93a7-57df21db01e5</id>
+      <masked>false</masked>
+      <name>defValueForCity</name>
+   </variable>
+   <variable>
+      <defaultValue>'date'</defaultValue>
+      <description></description>
+      <id>db9abb06-1bbc-4743-9f7e-a90a5a558a47</id>
+      <masked>false</masked>
+      <name>date</name>
+   </variable>
+</TestCaseEntity>

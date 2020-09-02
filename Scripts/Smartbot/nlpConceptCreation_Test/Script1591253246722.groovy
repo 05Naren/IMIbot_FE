@@ -13,15 +13,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [:], FailureHandling.STOP_ON_FAILURE)
+/*WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [:], FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/imiLogo'))
 
-CustomKeywords.'platform.Method.navigateToBot'('Smart bots', GlobalVariable.SMART_BOT)
-
-TestData testData = findTestData('testData_Smart')
+CustomKeywords.'platform.Method.navigateToBot'('Smart bots', GlobalVariable.SMART_BOT)*/
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/nlp'))
+
+TestData testData = findTestData('testData_Smart')
 
 CustomKeywords.'platform.NLP.addCustom_NER'()
 

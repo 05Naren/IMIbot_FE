@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: Import articles from csv, train bot with data and query bot for response</description>
+   <name>importArticlesFromCsv_Test</name>
+   <tag></tag>
+   <comment>comment</comment>
+   <testCaseGuid>c3fcefe3-94c6-4ee1-88c9-e4a4540b5792</testCaseGuid>
+   <variable>
+      <defaultValue>'DefaultBankFAQ.csv'</defaultValue>
+      <description></description>
+      <id>c542a163-97c4-4bfc-bef4-624b86c8023d</id>
+      <masked>false</masked>
+      <name>fileName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('comment', 1)</defaultValue>
+      <description></description>
+      <id>b36da167-c6da-4259-a66f-7960eedcc4a9</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+   <variable>
+      <defaultValue>'How do I report fraud?'</defaultValue>
+      <description></description>
+      <id>3e1e49b8-b1ad-4828-9b93-2c66eaad18c5</id>
+      <masked>false</masked>
+      <name>userQuery</name>
+   </variable>
+   <variable>
+      <defaultValue>' your financial details – report it immediately to us on 0300 123 XXXX or alternately,'</defaultValue>
+      <description></description>
+      <id>8da60c58-2dec-470a-a5e2-6b42cf18b0d6</id>
+      <masked>false</masked>
+      <name>stringToCheck</name>
+   </variable>
+</TestCaseEntity>

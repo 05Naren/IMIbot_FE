@@ -9,7 +9,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
+            <profileName>PreprodSetUp2</profileName>
             <runConfigurationId>Edge</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -21,7 +21,7 @@
             <profileName>default</profileName>
             <runConfigurationId>Edge</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/taskSuiteE2E</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -30,13 +30,13 @@
             <profileName>default</profileName>
             <runConfigurationId>Edge</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/faqSuiteE2E</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
+            <profileName>PreprodSetUp2</profileName>
             <runConfigurationId>Edge</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -48,8 +48,17 @@
             <profileName>default</profileName>
             <runConfigurationId>Edge</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/generic</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>PreprodSetUp2</profileName>
+            <runConfigurationId>Edge</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/demo</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

@@ -13,28 +13,32 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [:], FailureHandling.STOP_ON_FAILURE)
+/*WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [:], FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'platform.Method.navigateToBot'('Router bots', GlobalVariable.ROUTER_BOT)
 
-WebUI.delay(1)
+WebUI.delay(1)*/
+WebUI.waitForElementVisible(findTestObject('ICONS/sidebarSettings'), 20, FailureHandling.STOP_ON_FAILURE)
+
+CustomKeywords.'platform.Method.clickOnElement'(findTestObject('ICONS/sidebarSettings'))
 
 WebUI.verifyTextPresent('Bot configuration', false, FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'platform.Method.toClickOnWebElement'(findTestObject('Generic/nlp'))
+CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/nlp'))
 
 WebUI.delay(1)
 
 WebUI.verifyTextPresent('Input recognition', false, FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'platform.Method.toClickOnWebElement'(findTestObject('Generic/logic'))
+CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/logic'))
 
 WebUI.delay(1)
 
 WebUI.verifyTextPresent('Logic', false, FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'platform.Method.toClickOnWebElement'(findTestObject('Generic/session'))
+CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/session'))
 
 WebUI.delay(1)
 
 WebUI.verifyTextPresent('Conversations', false, FailureHandling.STOP_ON_FAILURE)
+

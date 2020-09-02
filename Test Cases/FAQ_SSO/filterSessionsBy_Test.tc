@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: To verify if sessions function is working as per expectation for user or not</description>
+   <name>filterSessionsBy_Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fad8eaa4-860a-4d23-b04d-f4797bcca8c4</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('room_id', 2)</defaultValue>
+      <description></description>
+      <id>c43fd688-9a07-4eb7-8c1f-900930699143</id>
+      <masked>false</masked>
+      <name>roomID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('room_id', 3)</defaultValue>
+      <description></description>
+      <id>aad597e6-46a4-4911-bc1c-612c0147f230</id>
+      <masked>false</masked>
+      <name>newRoomID</name>
+   </variable>
+</TestCaseEntity>

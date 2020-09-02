@@ -18,10 +18,17 @@ public class ResponseDesigner extends Method {
 
 	@Keyword
 	def deleteDefaultTextTemplate(){
-
 		WebUI.scrollToElement(findTestObject('WEB_OBJECTS/trashIcon',['index': 1]), 15)
 		WebUI.waitForElementVisible(findTestObject('WEB_OBJECTS/trashIcon',['index': 1]), 15, FailureHandling.STOP_ON_FAILURE)
 		clickOnElement(findTestObject('WEB_OBJECTS/trashIcon',['index': 1]))
+
+	}
+
+	@Keyword
+	def deleteSecondaryTemplate(int number){
+		WebUI.scrollToElement(findTestObject('WEB_OBJECTS/trashIcon',['index': number]), 15)
+		WebUI.waitForElementVisible(findTestObject('WEB_OBJECTS/trashIcon',['index': number]), 15, FailureHandling.STOP_ON_FAILURE)
+		clickOnElement(findTestObject('WEB_OBJECTS/trashIcon',['index': number]))
 
 	}
 
@@ -120,7 +127,7 @@ public class ResponseDesigner extends Method {
 			}
 			/*	field.sendKeys(Keys.chord(Keys.DELETE))
 			 WebUI.executeJavaScript("document.getElementByClass('title').reset();", null)
-			 WebUI.verifyElementPresent(findTestObject('WEB_OBJECTS/alert'), 20, FailureHandling.STOP_ON_FAILURE)*/
+			 WebUI.verifyElementPresent(findTestObject('WEB_OBJECTS/alertRequired'), 20, FailureHandling.STOP_ON_FAILURE)*/
 		}catch(Exception e){
 			KeywordUtil.markFailed('Inline alert missing')
 		}
@@ -159,5 +166,14 @@ public class ResponseDesigner extends Method {
 	}
 
 	@Keyword
-	def addListpickerResponse(){}
+	def addChannelToResponse(String channelName){
+		clickOnElement(findTestObject('WEB_OBJECTS/addChannelBtn'))
+		//		selectFromTheList(findTestObject('WEB_OBJECTS/listOfChannels'), channelName)
+		clickOnElement(findTestObject('Generic/webObjectWithText',['textValue':channelName]))
+	}
+
+	@Keyword
+	def addListpickerResponse(){
+		clickOnElement(findTestObject('ICONS/listPickerABC'))
+	}
 }

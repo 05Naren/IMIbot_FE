@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@title=&quot;Click to open chat preview window&quot;])[${number}]</value>
+         <value>(//button//span[text()='Preview'])[${number}]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

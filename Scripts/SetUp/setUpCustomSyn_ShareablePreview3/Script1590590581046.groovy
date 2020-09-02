@@ -15,6 +15,10 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [:], FailureHandling.STOP_ON_FAILURE)
 
+/*CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/imiLogo'))
+
+WebUI.waitForElementVisible(findTestObject('Button/createBot'), 30, FailureHandling.OPTIONAL)
+*/
 CustomKeywords.'platform.Method.navigateToBot'('Q&A bots', GlobalVariable.PREVIEW_BOT)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/articles'))

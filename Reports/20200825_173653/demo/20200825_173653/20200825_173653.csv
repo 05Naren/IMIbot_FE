@@ -1,0 +1,223 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+demo,Chrome 84.0.4147.135,,,2020-08-25 17:37:01,2020-08-25 17:49:11,12m - 10.035s,INCOMPLETE
+,,,,,,,
+Test Cases/FAQ/botCreation_Test,Chrome 84.0.4147.135,TestCase Agenda: To test faq bot creation,,2020-08-25 17:37:47,2020-08-25 17:38:14,26.669s,FAILED
+"platform.Method.clickOnElement(findTestObject(""Button/createBot""))",Chrome 84.0.4147.135,,,2020-08-25 17:37:48,2020-08-25 17:37:51,3.101s,PASSED
+"sendKeys(findTestObject(""Input/botName""), nameOfTheBot)",Chrome 84.0.4147.135,,,2020-08-25 17:37:51,2020-08-25 17:37:54,2.873s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Toggle/feedback""))",Chrome 84.0.4147.135,,,2020-08-25 17:37:54,2020-08-25 17:37:57,2.351s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/done""))",Chrome 84.0.4147.135,,,2020-08-25 17:37:57,2020-08-25 17:37:59,2.343s,PASSED
+"waitForElementVisible(findTestObject(""Generic/articleState""), 60, OPTIONAL)",Chrome 84.0.4147.135,,,2020-08-25 17:37:59,2020-08-25 17:38:08,9.205s,PASSED
+"verifyElementText(findTestObject(""Generic/articleState""), "" Trained "", STOP_ON_FAILURE)",Chrome 84.0.4147.135,,,2020-08-25 17:38:08,2020-08-25 17:38:14,5.850s,FAILED
+,,,,,,,
+Test Cases/FAQ/botSideOptionsNavigation_Test,Chrome 84.0.4147.135,TestCase Agenda: To navigate module within a FAQ bot,,2020-08-25 17:38:14,2020-08-25 17:38:56,41.677s,FAILED
+"platform.Method.clickOnElement(findTestObject(""ICONS/sidebarSettings""))",Chrome 84.0.4147.135,,,2020-08-25 17:38:15,2020-08-25 17:38:19,3.827s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Bot configuration""]), 10, STOP_ON_FAILURE)",Chrome 84.0.4147.135,,,2020-08-25 17:38:19,2020-08-25 17:38:20,1.297s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Management""]))",Chrome 84.0.4147.135,,,2020-08-25 17:38:20,2020-08-25 17:38:23,2.422s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Bot status""]), 10, STOP_ON_FAILURE)",Chrome 84.0.4147.135,,,2020-08-25 17:38:23,2020-08-25 17:38:24,1.353s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Security""]))",Chrome 84.0.4147.135,,,2020-08-25 17:38:24,2020-08-25 17:38:26,2.349s,PASSED
+"verifyElementPresent(findTestObject(""NewRepo/inputConsentDisclaimer""), 10, STOP_ON_FAILURE)",Chrome 84.0.4147.135,,,2020-08-25 17:38:26,2020-08-25 17:38:28,1.356s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Handover and Inference""]))",Chrome 84.0.4147.135,,,2020-08-25 17:38:28,2020-08-25 17:38:30,2.379s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Inference""]), 10, STOP_ON_FAILURE)",Chrome 84.0.4147.135,,,2020-08-25 17:38:30,2020-08-25 17:38:32,1.411s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Integrations""]))",Chrome 84.0.4147.135,,,2020-08-25 17:38:32,2020-08-25 17:38:34,2.471s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Chat Agent Platforms""]), 10, STOP_ON_FAILURE)",Chrome 84.0.4147.135,,,2020-08-25 17:38:34,2020-08-25 17:38:35,1.304s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/nlp""))",Chrome 84.0.4147.135,,,2020-08-25 17:38:35,2020-08-25 17:38:38,2.692s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Input recognition""]), 10, STOP_ON_FAILURE)",Chrome 84.0.4147.135,,,2020-08-25 17:38:38,2020-08-25 17:38:39,1.378s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Knowledge base""]))",Chrome 84.0.4147.135,,,2020-08-25 17:38:39,2020-08-25 17:38:42,2.274s,PASSED
+"verifyElementPresent(findTestObject(""NewRepo/newConceptBtn""), 10, STOP_ON_FAILURE)",Chrome 84.0.4147.135,,,2020-08-25 17:38:42,2020-08-25 17:38:56,14.191s,FAILED
+,,,,,,,
+Test Cases/FAQ/botUrlAndDefaultArticleConfiguration_Test,Chrome 84.0.4147.135,TestCase Agenda: Update bot logo and welcome message,,2020-08-25 17:38:56,2020-08-25 17:39:58,1m - 1.995s,ERROR
+"platform.Method.clickOnElement(findTestObject(""ICONS/sidebarSettings""))",Chrome 84.0.4147.135,,,2020-08-25 17:39:01,2020-08-25 17:39:04,2.688s,PASSED
+"waitForElementPresent(findTestObject(""Input/botLogo""), 20, OPTIONAL)",Chrome 84.0.4147.135,,,2020-08-25 17:39:04,2020-08-25 17:39:05,1.524s,PASSED
+"setText(findTestObject(""Input/botLogo""), botLogo)",Chrome 84.0.4147.135,,,2020-08-25 17:39:05,2020-08-25 17:39:11,5.742s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/updateBot""))",Chrome 84.0.4147.135,,,2020-08-25 17:39:11,2020-08-25 17:39:13,2.412s,PASSED
+"verifyElementPresent(findTestObject(""ICONS/toastMsg""), 15, STOP_ON_FAILURE)",Chrome 84.0.4147.135,,,2020-08-25 17:39:13,2020-08-25 17:39:19,5.895s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.135,,,2020-08-25 17:39:19,2020-08-25 17:39:22,2.381s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Welcome Message""]))",Chrome 84.0.4147.135,,,2020-08-25 17:39:22,2020-08-25 17:39:24,2.501s,PASSED
+"setText(findTestObject(""Input/textResponse""), welcomeMessage)",Chrome 84.0.4147.135,,,2020-08-25 17:39:24,2020-08-25 17:39:30,5.837s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/save"", [""value"":""Save""]))",Chrome 84.0.4147.135,,,2020-08-25 17:39:30,2020-08-25 17:39:32,2.377s,PASSED
+platform.Method.trainAndComment(comment),Chrome 84.0.4147.135,,,2020-08-25 17:39:32,2020-08-25 17:39:39,6.521s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Partial match""]))",Chrome 84.0.4147.135,,,2020-08-25 17:39:39,2020-08-25 17:39:41,2.434s,PASSED
+"setText(findTestObject(""Input/textResponse""), customMessage)",Chrome 84.0.4147.135,,,2020-08-25 17:39:41,2020-08-25 17:39:48,6.290s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/save"", [""value"":""Save""]))",Chrome 84.0.4147.135,,,2020-08-25 17:39:48,2020-08-25 17:39:50,2.291s,PASSED
+"verifyElementNotPresent(findTestObject(""Button/train""), 5, STOP_ON_FAILURE)",Chrome 84.0.4147.135,,,2020-08-25 17:39:50,2020-08-25 17:39:51,1.599s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 84.0.4147.135,,,2020-08-25 17:39:51,2020-08-25 17:39:58,6.430s,ERROR
+,,,,,,,
+Test Cases/FAQ/botCardMenuWithFallbackMessage_Test,Chrome 84.0.4147.135,"TestCase Agenda: Preview bot to answer with a fallback response, save the room id so later we can use it curate the query",,2020-08-25 17:39:58,2020-08-25 17:40:08,9.885s,ERROR
+"waitForElementVisible(findTestObject(""Button/createBot""), 20, OPTIONAL)",Chrome 84.0.4147.135,,,2020-08-25 17:39:59,2020-08-25 17:40:01,2.357s,PASSED
+"botCardOptions = platform.Method.verifyBotCardMenu(""Q&A bots"", FAQ_BOT)",Chrome 84.0.4147.135,,,2020-08-25 17:40:01,2020-08-25 17:40:08,6.358s,ERROR
+,,,,,,,
+Test Cases/FAQ/importArticlesFromCsv_Test,Chrome 84.0.4147.135,"TestCase Agenda: Import articles from csv, train bot with data and query bot for response",,2020-08-25 17:40:08,2020-08-25 17:40:57,48.991s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.135,,,2020-08-25 17:40:09,2020-08-25 17:40:11,2.244s,PASSED
+"platform.Articles.selectFromKebabMenu(findTestObject(""Button/importIcon""), ""Import From CSV"")",Chrome 84.0.4147.135,,,2020-08-25 17:40:11,2020-08-25 17:40:18,6.895s,PASSED
+"platform.Method.uploadCsvFile(false, fileName)",Chrome 84.0.4147.135,,,2020-08-25 17:40:18,2020-08-25 17:40:22,4.661s,PASSED
+platform.Method.trainAndComment(comment),Chrome 84.0.4147.135,,,2020-08-25 17:40:22,2020-08-25 17:40:29,6.410s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 20, STOP_ON_FAILURE)",Chrome 84.0.4147.135,,,2020-08-25 17:40:29,2020-08-25 17:40:50,21.598s,PASSED
+"platform.Response.clickOnElement(findTestObject(""Button/preview""))",Chrome 84.0.4147.135,,,2020-08-25 17:40:50,2020-08-25 17:40:57,6.335s,ERROR
+,,,,,,,
+Test Cases/FAQ/extractArticleFromExternalLink_Test,Chrome 84.0.4147.135,"TestCase Agenda: To ensure if faq bots are able to extract faq from external site
+
+Step 1: Extract question from external link
+Step 2: Train bot with new data
+Step 3: Preview bot 
+Step 4: Verify bot response",,2020-08-25 17:40:57,2020-08-25 17:42:22,1m - 25.117s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.135,,,2020-08-25 17:40:58,2020-08-25 17:41:00,2.227s,PASSED
+"platform.Articles.selectFromKebabMenu(findTestObject(""Button/extractExtLink""), ""Extract from external link"")",Chrome 84.0.4147.135,,,2020-08-25 17:41:00,2020-08-25 17:41:07,6.770s,PASSED
+"verifyElementHasAttribute(findTestObject(""Button/extract""), ""disabled"", 10, STOP_ON_FAILURE)",Chrome 84.0.4147.135,,,2020-08-25 17:41:07,2020-08-25 17:41:09,2.257s,PASSED
+"sendKeys(findTestObject(""Input/extractLink""), EXTERNAL_LINK)",Chrome 84.0.4147.135,,,2020-08-25 17:41:09,2020-08-25 17:41:12,2.965s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Button/extract""))",Chrome 84.0.4147.135,,,2020-08-25 17:41:12,2020-08-25 17:41:15,2.335s,PASSED
+"check(findTestObject(""Generic/articleCheckbox"", [""index"":1]))",Chrome 84.0.4147.135,,,2020-08-25 17:41:15,2020-08-25 17:41:20,5.373s,PASSED
+"check(findTestObject(""Generic/articleCheckbox"", [""index"":3]))",Chrome 84.0.4147.135,,,2020-08-25 17:41:20,2020-08-25 17:41:24,3.371s,PASSED
+"check(findTestObject(""Generic/articleCheckbox"", [""index"":5]))",Chrome 84.0.4147.135,,,2020-08-25 17:41:24,2020-08-25 17:41:27,3.421s,PASSED
+"testObject = modifyObjectProperty(findTestObject(""Generic/header""), ""class"", ""not equals"", ""heading"", true)",Chrome 84.0.4147.135,,,2020-08-25 17:41:27,2020-08-25 17:41:27,0.257s,PASSED
+"getText().contains(""3"")",Chrome 84.0.4147.135,,,2020-08-25 17:41:27,2020-08-25 17:41:29,2.093s,PASSED
+"scrollToElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Import FAQs from link""]), 10)",Chrome 84.0.4147.135,,,2020-08-25 17:41:29,2020-08-25 17:41:32,2.228s,PASSED
+"check(findTestObject(""Generic/allFaqCheckbox""))",Chrome 84.0.4147.135,,,2020-08-25 17:41:32,2020-08-25 17:41:35,3.548s,PASSED
+"getText().contains(""10"")",Chrome 84.0.4147.135,,,2020-08-25 17:41:35,2020-08-25 17:41:37,2.060s,PASSED
+"scrollToElement(findTestObject(""Generic/faqImportBtn""), 10)",Chrome 84.0.4147.135,,,2020-08-25 17:41:37,2020-08-25 17:41:39,2.214s,PASSED
+"override = modifyObjectProperty(findTestObject(""Toggle/override""), ""xpath"", ""not equals"", ""//mat-slide-toggle[@formcontrolname='Override']//label/div"", true, STOP_ON_FAILURE)",Chrome 84.0.4147.135,,,2020-08-25 17:41:39,2020-08-25 17:41:40,0.229s,PASSED
+platform.Method.clickOnElement(override),Chrome 84.0.4147.135,,,2020-08-25 17:41:40,2020-08-25 17:41:42,2.107s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/faqImportBtn""))",Chrome 84.0.4147.135,,,2020-08-25 17:41:42,2020-08-25 17:41:44,2.290s,PASSED
+"verifyElementText(findTestObject(""Generic/articleState""), ""Saved"", STOP_ON_FAILURE)",Chrome 84.0.4147.135,,,2020-08-25 17:41:44,2020-08-25 17:41:46,2.350s,PASSED
+"verifyElementPresent(findTestObject(""Generic/nextPage""), 5, STOP_ON_FAILURE)",Chrome 84.0.4147.135,,,2020-08-25 17:41:46,2020-08-25 17:41:48,1.234s,PASSED
+platform.Method.trainAndComment(comment),Chrome 84.0.4147.135,,,2020-08-25 17:41:48,2020-08-25 17:41:54,6.420s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 20, STOP_ON_FAILURE)",Chrome 84.0.4147.135,,,2020-08-25 17:41:54,2020-08-25 17:42:16,21.597s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 84.0.4147.135,,,2020-08-25 17:42:16,2020-08-25 17:42:22,6.279s,ERROR
+,,,,,,,
+Test Cases/FAQ/searchArticle_Test,Chrome 84.0.4147.135,TestCase Agenda: Verify if the search bar for article is able to display result properly,,2020-08-25 17:42:22,2020-08-25 17:42:41,19.480s,PASSED
+"sendKeys(findTestObject(""Input/searchForQuestion""), searchQuestion)",Chrome 84.0.4147.135,,,2020-08-25 17:42:23,2020-08-25 17:42:25,2.841s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/searchResult""))",Chrome 84.0.4147.135,,,2020-08-25 17:42:25,2020-08-25 17:42:28,2.675s,PASSED
+"firstQuestion = findWebElement(findTestObject(""Generic/header""), 10).getText()",Chrome 84.0.4147.135,,,2020-08-25 17:42:28,2020-08-25 17:42:30,2.366s,PASSED
+"setText(findTestObject(""Input/searchForQuestion""), newSearchQuestion)",Chrome 84.0.4147.135,,,2020-08-25 17:42:30,2020-08-25 17:42:34,3.735s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/searchResult""))",Chrome 84.0.4147.135,,,2020-08-25 17:42:34,2020-08-25 17:42:37,2.351s,PASSED
+"newFirstQuestion = findWebElement(findTestObject(""Generic/header""), 10).getText()",Chrome 84.0.4147.135,,,2020-08-25 17:42:37,2020-08-25 17:42:39,2.329s,PASSED
+assert firstQuestion.equalsIgnoreCase(newFirstQuestion) == false,Chrome 84.0.4147.135,,,2020-08-25 17:42:39,2020-08-25 17:42:39,0.007s,PASSED
+"clearText(findTestObject(""Input/searchForQuestion""))",Chrome 84.0.4147.135,,,2020-08-25 17:42:39,2020-08-25 17:42:41,2.448s,PASSED
+,,,,,,,
+Test Cases/FAQ/downvoteWithComment_Test,Chrome 84.0.4147.135,"TestCase Agenda: To verify if bot response can be downvoted and add a comment to it
+
+Step 1: Preview bot for response
+Step 2: Downvote response
+Step 3: Got to room in Sessions 
+Step 4: Verify downvote with comment",,2020-08-25 17:42:41,2020-08-25 17:43:09,27.486s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.135,,,2020-08-25 17:42:43,2020-08-25 17:42:45,2.207s,PASSED
+platform.Method.trainAndComment(comment),Chrome 84.0.4147.135,,,2020-08-25 17:42:45,2020-08-25 17:42:52,6.265s,PASSED
+try,Chrome 84.0.4147.135,,,2020-08-25 17:42:52,2020-08-25 17:43:03,10.858s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 84.0.4147.135,,,2020-08-25 17:43:03,2020-08-25 17:43:09,6.244s,ERROR
+,,,,,,,
+Test Cases/FAQ/addToCurationFromSessions_Test,Chrome 84.0.4147.135,"TestCase Agenda: To verify if a bot response can be added from sessions to curation
+
+Step 1: Preview bot
+Step 2: Go to room in sessions
+Step 3: Add to curation a response
+Step 4: Navigate to Curation and click on from sessions to filter result
+Step 5: Filter value by room Id
+Step 3: Add to",,2020-08-25 17:43:09,2020-08-25 17:43:28,18.742s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.135,,,2020-08-25 17:43:10,2020-08-25 17:43:12,2.240s,PASSED
+platform.Method.trainAndComment(comment),Chrome 84.0.4147.135,,,2020-08-25 17:43:12,2020-08-25 17:43:18,6.329s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/session""))",Chrome 84.0.4147.135,,,2020-08-25 17:43:18,2020-08-25 17:43:21,2.732s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 84.0.4147.135,,,2020-08-25 17:43:21,2020-08-25 17:43:28,6.697s,ERROR
+,,,,,,,
+Test Cases/FAQ/createArticleWithRichResponseInCategory_Test,Chrome 84.0.4147.135,"TestCase Agenda: Creation of category with new article manually and query bot response for rich response
+
+Step 1: Create a new article of carousel type
+Step 2: Preview bot
+Step 3: Verify bot response with carousel title",,2020-08-25 17:43:28,2020-08-25 17:44:24,56.412s,ERROR
+"platform.Method.toClickOnWebElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.135,,,2020-08-25 17:43:29,2020-08-25 17:43:31,2.447s,PASSED
+"testData = findTestData(""Data Files/testData_FAQ"")",Chrome 84.0.4147.135,,,2020-08-25 17:43:31,2020-08-25 17:43:31,0.415s,PASSED
+"platform.Articles.createNewArticle(testData, testData.getValue(""default_question"", 1))",Chrome 84.0.4147.135,,,2020-08-25 17:43:31,2020-08-25 17:43:38,6.131s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/carousel""))",Chrome 84.0.4147.135,,,2020-08-25 17:43:38,2020-08-25 17:43:40,2.568s,PASSED
+platform.ResponseDesigner.deleteDefaultTextTemplate(),Chrome 84.0.4147.135,,,2020-08-25 17:43:40,2020-08-25 17:43:47,7.033s,PASSED
+"platform.ResponseDesigner.configureCarouselResponse(1, null, testData.getValue(""carousel_url"", 1), testData.getValue(""label_value"", 1), ""default"", ""how can you help"")",Chrome 84.0.4147.135,,,2020-08-25 17:43:47,2020-08-25 17:44:18,30.568s,PASSED
+platform.Articles.saveAndTrainArticleToNewCategory(categoryName),Chrome 84.0.4147.135,,,2020-08-25 17:44:18,2020-08-25 17:44:24,6.266s,ERROR
+,,,,,,,
+Test Cases/FAQ/modifyCategory_Test,Chrome 84.0.4147.135,TestCase Agenda: To modify an exisiting category,,2020-08-25 17:44:24,2020-08-25 17:44:33,9.208s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.135,,,2020-08-25 17:44:25,2020-08-25 17:44:27,2.193s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Modify""]))",Chrome 84.0.4147.135,,,2020-08-25 17:44:27,2020-08-25 17:44:33,6.326s,ERROR
+,,,,,,,
+Test Cases/FAQ/fallbackCurationByAddToExistingArticle_Test,Chrome 84.0.4147.135,,,2020-08-25 17:44:33,2020-08-25 17:44:43,9.813s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/curation""))",Chrome 84.0.4147.135,,,2020-08-25 17:44:34,2020-08-25 17:44:37,2.328s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":"" Fallback ""]))",Chrome 84.0.4147.135,,,2020-08-25 17:44:37,2020-08-25 17:44:43,6.357s,ERROR
+,,,,,,,
+Test Cases/FAQ/partialMatchCurationByCreateNewArticle_Test,Chrome 84.0.4147.135,"TestCase Agenda: Verify if partial match in curation and add to new article
+
+Step 1: Preview bot with question which would give partial match result
+Step 2: Verify partial match updated answer
+Step 3: Curate the partial match by creating a new article
+Step 4: Train the bot
+Step 5: Verify the bot with the same question and assert the value
+Step 6: Go to curation and check the room id in resolved section",,2020-08-25 17:44:43,2020-08-25 17:45:02,18.689s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.135,,,2020-08-25 17:44:45,2020-08-25 17:44:47,2.148s,PASSED
+platform.Method.trainAndComment(comment),Chrome 84.0.4147.135,,,2020-08-25 17:44:47,2020-08-25 17:44:53,6.270s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/curation""))",Chrome 84.0.4147.135,,,2020-08-25 17:44:53,2020-08-25 17:44:55,2.225s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 84.0.4147.135,,,2020-08-25 17:44:55,2020-08-25 17:45:02,6.369s,ERROR
+,,,,,,,
+Test Cases/FAQ/filterSessionsBy_Test,Chrome 84.0.4147.135,TestCase Agenda: To verify if sessions function is working as per expectation for user or not,,2020-08-25 17:45:02,2020-08-25 17:45:12,9.754s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/session""))",Chrome 84.0.4147.135,,,2020-08-25 17:45:03,2020-08-25 17:45:05,2.341s,PASSED
+"platform.Session.searchByRoomMetaData(""Downvoted"")",Chrome 84.0.4147.135,,,2020-08-25 17:45:05,2020-08-25 17:45:12,6.548s,ERROR
+,,,,,,,
+Test Cases/FAQ/oneClickTestingTrainedVersion_Test,Chrome 84.0.4147.135,"TestCase Agenda: Verify if user is able to successfully able to type in test cases, auto selection of value from dropdown and upload test case feature that the handson table presents",,2020-08-25 17:45:12,2020-08-25 17:45:55,43.380s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.135,,,2020-08-25 17:45:13,2020-08-25 17:45:15,2.231s,PASSED
+"if (verifyElementVisible(findTestObject(""Button/makeLive""), OPTIONAL))",Chrome 84.0.4147.135,,,2020-08-25 17:45:15,2020-08-25 17:45:28,12.853s,PASSED
+"testData = findTestData(""Data Files/testData_OneClickTesting"")",Chrome 84.0.4147.135,,,2020-08-25 17:45:28,2020-08-25 17:45:28,0.159s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/oneClickTest""))",Chrome 84.0.4147.135,,,2020-08-25 17:45:28,2020-08-25 17:45:31,2.564s,PASSED
+"verifyTextPresent(""Message"", false, STOP_ON_FAILURE)",Chrome 84.0.4147.135,,,2020-08-25 17:45:31,2020-08-25 17:45:35,4.216s,PASSED
+"verifyTextPresent(""Expected article"", false, STOP_ON_FAILURE)",Chrome 84.0.4147.135,,,2020-08-25 17:45:35,2020-08-25 17:45:38,3.528s,PASSED
+"verifyTextPresent(""Reset previous context"", false, STOP_ON_FAILURE)",Chrome 84.0.4147.135,,,2020-08-25 17:45:38,2020-08-25 17:45:42,3.195s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/importIcon""))",Chrome 84.0.4147.135,,,2020-08-25 17:45:42,2020-08-25 17:45:44,2.244s,PASSED
+"platform.Method.uploadCsvFile(false, uploadFAQTestCases)",Chrome 84.0.4147.135,,,2020-08-25 17:45:44,2020-08-25 17:45:49,4.862s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/updateBtn""))",Chrome 84.0.4147.135,,,2020-08-25 17:45:49,2020-08-25 17:45:55,6.255s,ERROR
+,,,,,,,
+Test Cases/FAQ/agentHandoverE2E_Test,Chrome 84.0.4147.135,"TestCase Agenda:
+
+Step 1:",,2020-08-25 17:45:55,2020-08-25 17:47:01,1m - 6.107s,ERROR
+"platform.Method.clickOnElement(findTestObject(""ICONS/sidebarSettings""))",Chrome 84.0.4147.135,,,2020-08-25 17:45:56,2020-08-25 17:45:59,3.374s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Bot configuration""]), 10, OPTIONAL)",Chrome 84.0.4147.135,,,2020-08-25 17:45:59,2020-08-25 17:46:01,1.197s,PASSED
+"platform.Method.enableAgentHandover(true, 3)",Chrome 84.0.4147.135,,,2020-08-25 17:46:01,2020-08-25 17:46:24,23.799s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.135,,,2020-08-25 17:46:24,2020-08-25 17:46:27,2.337s,PASSED
+platform.Method.trainAndComment(comment),Chrome 84.0.4147.135,,,2020-08-25 17:46:27,2020-08-25 17:46:33,6.526s,PASSED
+try,Chrome 84.0.4147.135,,,2020-08-25 17:46:33,2020-08-25 17:46:55,21.531s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 84.0.4147.135,,,2020-08-25 17:46:55,2020-08-25 17:47:01,6.298s,ERROR
+,,,,,,,
+Test Cases/FAQ/disabledLowConfidenceAndDownvote_Test,Chrome 84.0.4147.135,TestCase Agenda: Verify if issues can be found in curation after all the settings has been disabled for FAQ bot,,2020-08-25 17:47:01,2020-08-25 17:47:17,15.674s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.135,,,2020-08-25 17:47:02,2020-08-25 17:47:04,2.197s,PASSED
+platform.Method.trainAndComment(comment),Chrome 84.0.4147.135,,,2020-08-25 17:47:04,2020-08-25 17:47:11,6.327s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 84.0.4147.135,,,2020-08-25 17:47:11,2020-08-25 17:47:17,6.255s,ERROR
+,,,,,,,
+Test Cases/FAQ/disabledPartialMatch_Test,Chrome 84.0.4147.135,"TestCase Agenda:
+
+1. Perform partial match",,2020-08-25 17:47:17,2020-08-25 17:47:39,22.526s,ERROR
+"platform.Method.toClickOnWebElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.135,,,2020-08-25 17:47:17,2020-08-25 17:47:20,2.387s,PASSED
+platform.Method.trainAndComment(comment),Chrome 84.0.4147.135,,,2020-08-25 17:47:20,2020-08-25 17:47:26,6.267s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Generic/curation""))",Chrome 84.0.4147.135,,,2020-08-25 17:47:26,2020-08-25 17:47:29,2.730s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""NewRepo2/settingsOnCuration""))",Chrome 84.0.4147.135,,,2020-08-25 17:47:29,2020-08-25 17:47:32,3.006s,PASSED
+platform.CurationSettings.disablePartialMatch(true),Chrome 84.0.4147.135,,,2020-08-25 17:47:32,2020-08-25 17:47:34,2.510s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Button/updateSettings""))",Chrome 84.0.4147.135,,,2020-08-25 17:47:34,2020-08-25 17:47:39,4.966s,ERROR
+,,,,,,,
+Test Cases/FAQ/disabledFallback_Test,Chrome 84.0.4147.135,"TestCase Agenda:
+
+Step 1: Disable fallback",,2020-08-25 17:47:39,2020-08-25 17:48:02,22.964s,ERROR
+"platform.Method.toClickOnWebElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.135,,,2020-08-25 17:47:40,2020-08-25 17:47:43,2.406s,PASSED
+platform.Method.trainAndComment(comment),Chrome 84.0.4147.135,,,2020-08-25 17:47:43,2020-08-25 17:47:49,6.560s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Generic/curation""))",Chrome 84.0.4147.135,,,2020-08-25 17:47:49,2020-08-25 17:47:52,2.702s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""NewRepo2/settingsOnCuration""))",Chrome 84.0.4147.135,,,2020-08-25 17:47:52,2020-08-25 17:47:55,2.690s,PASSED
+platform.CurationSettings.disableFallback(true),Chrome 84.0.4147.135,,,2020-08-25 17:47:55,2020-08-25 17:47:57,2.619s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Button/updateSettings""))",Chrome 84.0.4147.135,,,2020-08-25 17:47:57,2020-08-25 17:48:02,4.915s,ERROR
+,,,,,,,
+Test Cases/FAQ/defaultQuestionInArticle_Test,Chrome 84.0.4147.135,"TestCase Agenda: Verify if a user can save an article with no default question, update the default question and the header on article page changes and addition of variant doesn't impact the default question",,2020-08-25 17:48:02,2020-08-25 17:48:18,15.674s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 84.0.4147.135,,,2020-08-25 17:48:03,2020-08-25 17:48:05,2.317s,PASSED
+"testData = findTestData(""Data Files/testData_FAQ"")",Chrome 84.0.4147.135,,,2020-08-25 17:48:05,2020-08-25 17:48:05,0.182s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":testData.getValue(""first_question"", 1)]))",Chrome 84.0.4147.135,,,2020-08-25 17:48:05,2020-08-25 17:48:08,2.595s,PASSED
+"defaultQuestionField = findWebElement(findTestObject(""Input/defaultQuestion""), 10)",Chrome 84.0.4147.135,,,2020-08-25 17:48:08,2020-08-25 17:48:09,1.266s,PASSED
+"defaultQuestionField.sendKeys(Keys.chord(CONTROL, ""a""))",Chrome 84.0.4147.135,,,2020-08-25 17:48:09,2020-08-25 17:48:11,1.252s,PASSED
+defaultQuestionField.sendKeys(Keys.chord(DELETE)),Chrome 84.0.4147.135,,,2020-08-25 17:48:11,2020-08-25 17:48:12,1.145s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/addVariant""))",Chrome 84.0.4147.135,,,2020-08-25 17:48:12,2020-08-25 17:48:18,6.294s,ERROR
+,,,,,,,
+Test Cases/FAQ/encryptionOnSessions_Test,Chrome 84.0.4147.135,"TestCase Agenda:
+
+Step 1: Enable ADP
+Step 2: Navigate to Session and verify 
+Step 3: Navigate to Curation and verify",,2020-08-25 17:48:18,2020-08-25 17:49:11,53.417s,ERROR
+"platform.Method.clickOnElement(findTestObject(""ICONS/sidebarSettings""))",Chrome 84.0.4147.135,,,2020-08-25 17:48:19,2020-08-25 17:48:21,2.252s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Bot configuration""]), 10, OPTIONAL)",Chrome 84.0.4147.135,,,2020-08-25 17:48:21,2020-08-25 17:48:32,10.953s,PASSED
+delay(2),Chrome 84.0.4147.135,,,2020-08-25 17:48:32,2020-08-25 17:48:34,2.058s,PASSED
+platform.Method.enableADP(true),Chrome 84.0.4147.135,,,2020-08-25 17:48:34,2020-08-25 17:49:11,37.144s,ERROR

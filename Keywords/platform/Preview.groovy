@@ -45,7 +45,7 @@ public class Preview extends Method {
 		List<WebElement> webElements = WebUiCommonHelper.findWebElements(findTestObject('Generic/getBotName'), 5)
 		for(int count=0;count<webElements.size();count++){
 			if(webElements.get(count).getText().contains(botName)){
-				toClickOnWebElement(findTestObject('Button/botCardPreview',['number':count+1]))
+				clickOnElement(findTestObject('Button/botCardPreview',['number':count+1]))
 			}
 		}
 	}

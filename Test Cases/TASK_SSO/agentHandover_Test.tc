@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: Verify if agent handover happens when user various criteria are met for handover to happen</description>
+   <name>agentHandover_Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8d2a0ce8-93c9-438d-90d3-9ed331c410ea</testCaseGuid>
+   <variable>
+      <defaultValue>'Please wait while I redirect you to one of our team member.'</defaultValue>
+      <description></description>
+      <id>511b8205-0518-4076-b696-5606577b045f</id>
+      <masked>false</masked>
+      <name>agentHandover</name>
+   </variable>
+   <variable>
+      <defaultValue>'IH-98/26, Katalon area'</defaultValue>
+      <description></description>
+      <id>6e29c01d-bd68-437f-8b85-2b6e2ebe303c</id>
+      <masked>false</masked>
+      <name>userQuery</name>
+   </variable>
+   <variable>
+      <defaultValue>'Delivery service in chennai'</defaultValue>
+      <description></description>
+      <id>8c6e278f-7580-46b4-9b66-7e7d2657c808</id>
+      <masked>false</masked>
+      <name>retry</name>
+   </variable>
+</TestCaseEntity>

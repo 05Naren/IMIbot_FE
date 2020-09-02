@@ -7,10 +7,9 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [:], FailureHandling.STOP_ON_FAILURE)
+/*WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [:], FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'platform.Method.navigateToBot'('Router bots', GlobalVariable.ROUTER_BOT)
-
+CustomKeywords.'platform.Method.navigateToBot'('Router bots', GlobalVariable.ROUTER_BOT)*/
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/logic'))
 
 TestData testData = findTestData('Data Files/testData_Router')
@@ -36,7 +35,10 @@ CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/preview')
 WebUI.sendKeys(findTestObject('Input/chatInput'), Keys.chord('How do I report a suspected fraud?', Keys.ENTER // hardcoded question
         ))
 
-WebUI.delay(3)
+WebUI.waitForElementVisible(findTestObject('GenericII/getBotResponse', [('index') : 1]), 20, FailureHandling.OPTIONAL)
 
 WebUI.verifyElementText(findTestObject('GenericII/getBotResponse', [('index') : 1]), testData.getValue('bankbot_answer', 
         1), FailureHandling.STOP_ON_FAILURE)
+
+CustomKeywords.'platform.Method.clickOnElement'(findTestObject('GenericII/minimize'))
+

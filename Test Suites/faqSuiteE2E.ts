@@ -551,12 +551,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>33b33163-fd60-4d41-8691-bbf37ec312aa</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/SetUp/setUpCustomSyn_ShareablePreview3</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>66e78b2f-0fa0-48b8-ab18-6d38aecc6ca6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+deleteAllBot,Chrome 84.0.4147.125,,,2020-08-19 11:32:16,2020-08-19 11:36:52,4m - 36.677s,INCOMPLETE
+,,,,,,,
+Test Cases/Routerbot/botDeletion_Test,Chrome 84.0.4147.125,"TestCase Agenda: Verify if a user(Admin) can successfully delete a router bot
+
+Step 1: Navigate to bot 
+Step 2: Click on kebab menu on top right and select 'Delete' option
+Step 3: Click on delete bot button (confirmation)
+Step 4: Navigate to router bots page to verify if bot name is present",,2020-08-19 11:32:17,2020-08-19 11:33:21,1m - 3.842s,ERROR
+Start listener action : setUp,Chrome 84.0.4147.125,,,2020-08-19 11:32:17,2020-08-19 11:32:39,22.362s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 84.0.4147.125,,,2020-08-19 11:32:40,2020-08-19 11:33:09,29.146s,PASSED
+"platform.Method.navigateToBot(""Router bots"", ROUTER_BOT)",Chrome 84.0.4147.125,,,2020-08-19 11:33:09,2020-08-19 11:33:21,11.502s,ERROR
+,,,,,,,
+Test Cases/Faqbot/botDeletion_Test,Chrome 84.0.4147.125,TestCase Agenda: Successfully able to delete a bot,,2020-08-19 11:33:21,2020-08-19 11:34:16,54.886s,ERROR
+Start listener action : setUp,Chrome 84.0.4147.125,,,2020-08-19 11:33:21,2020-08-19 11:33:37,16.238s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 84.0.4147.125,,,2020-08-19 11:33:38,2020-08-19 11:34:05,27.659s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", FAQ_BOT)",Chrome 84.0.4147.125,,,2020-08-19 11:34:05,2020-08-19 11:34:16,10.193s,ERROR
+,,,,,,,
+Test Cases/Smartbot/botDeletion_Test,Chrome 84.0.4147.125,TestCase Agenda: Verify successfully deletion of smart bot,,2020-08-19 11:34:16,2020-08-19 11:35:08,52.278s,ERROR
+Start listener action : setUp,Chrome 84.0.4147.125,,,2020-08-19 11:34:16,2020-08-19 11:34:32,15.843s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 84.0.4147.125,,,2020-08-19 11:34:32,2020-08-19 11:34:57,24.818s,PASSED
+"platform.Method.navigateToBot(""Smart bots"", SMART_BOT)",Chrome 84.0.4147.125,,,2020-08-19 11:34:57,2020-08-19 11:35:08,10.613s,ERROR
+,,,,,,,
+Test Cases/Taskbot/botDeletion_Test,Chrome 84.0.4147.125,TestCase Agenda: To successfully delete a task bot,,2020-08-19 11:35:08,2020-08-19 11:35:59,51.090s,ERROR
+Start listener action : setUp,Chrome 84.0.4147.125,,,2020-08-19 11:35:08,2020-08-19 11:35:23,15.343s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 84.0.4147.125,,,2020-08-19 11:35:24,2020-08-19 11:35:48,24.419s,PASSED
+"platform.Method.navigateToBot(""Task bots"", TASK_BOT)",Chrome 84.0.4147.125,,,2020-08-19 11:35:48,2020-08-19 11:35:59,10.514s,ERROR
+,,,,,,,
+Test Cases/Pipelinebot/verify_pipeline_bot_deletion,Chrome 84.0.4147.125,TestCase Agenda: Verify successful deletion of pipeline bot,,2020-08-19 11:35:59,2020-08-19 11:36:52,53.369s,ERROR
+Start listener action : setUp,Chrome 84.0.4147.125,,,2020-08-19 11:35:59,2020-08-19 11:36:16,17.276s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [:], STOP_ON_FAILURE)",Chrome 84.0.4147.125,,,2020-08-19 11:36:17,2020-08-19 11:36:42,24.879s,PASSED
+"platform.Method.navigateToBot(""Pipeline bots"", PIPELINE_BOT)",Chrome 84.0.4147.125,,,2020-08-19 11:36:42,2020-08-19 11:36:52,10.465s,ERROR

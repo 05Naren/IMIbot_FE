@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: Preview bot to answer with a fallback response, save the room id so later we can use it curate the query</description>
+   <name>botCardMenuWithFallbackMessage_Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0761fd56-9f85-447c-abfe-ffcf24861920</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('fallback_question', 1)</defaultValue>
+      <description></description>
+      <id>d9fdc99f-f644-42ab-9894-3f3a309db944</id>
+      <masked>false</masked>
+      <name>userQuery</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sorry, I could not understand your message. Could you please rephrase that?'</defaultValue>
+      <description></description>
+      <id>8080d9ab-e6d2-4a30-8a55-2ed4177f50ae</id>
+      <masked>false</masked>
+      <name>botResponse</name>
+   </variable>
+   <variable>
+      <defaultValue>'FAQ bot'</defaultValue>
+      <description></description>
+      <id>c6f47f13-0e54-4027-a5cb-50d72d628f75</id>
+      <masked>false</masked>
+      <name>sheetName</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>29942316-7ff8-4044-9d7a-c14c10b8ebdb</id>
+      <masked>false</masked>
+      <name>rowNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>7ab44fcf-fe11-4134-bf77-96300e11bf3c</id>
+      <masked>false</masked>
+      <name>cellNumber</name>
+   </variable>
+</TestCaseEntity>

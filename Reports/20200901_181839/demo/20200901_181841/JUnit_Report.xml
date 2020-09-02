@@ -1,0 +1,1608 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="demo" time="45" tests="0" failures="1" errors="20">
+    <testsuite name="demo" tests="0" failures="1" errors="20" time="45" timestamp="2020-09-01 18:18:56" hostname="narendra.n - WLPT580.imidomain.com" id="Test Suites/demo">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="D:\\IMIbot.ai-Project\\Reports\\20200901_181839\\demo\\20200901_181841"/>
+            <property name="logFiles" value="D:\\IMIbot.ai-Project\\Reports\\20200901_181839\\demo\\20200901_181841\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="narendra.n - WLPT580.imidomain.com"/>
+            <property name="hostAddress" value="192.168.29.195"/>
+            <property name="os" value="Windows 8.1 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+        </properties>
+        <testcase name="Test Cases/FAQ_SSO/botCreation_Test" classname="Test Cases/FAQ_SSO/botCreation_Test" status="ERROR">
+            <error type="ERROR" message="Test Cases/FAQ_SSO/botCreation_Test FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'&#xA;Driver info: driver.version: DriverFactory$getWebDriver&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;&#xA;&#x9;at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;&#xA;&#x9;at botCreation_Test.run(botCreation_Test:18)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;&#xA;"/>
+            <system-out>2020-09-01 18:19:21 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/botCreation_Test: Test Cases/FAQ_SSO/botCreation_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at botCreation_Test.run(botCreation_Test:18)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;
+&#xD;
+&#xD;
+2020-09-01 18:19:23 - [TEST_STEP][ERROR] - platform.Method.clickOnElement(findTestObject("Button/createBot")): Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+&#xD;
+2020-09-01 18:19:23 - [MESSAGE][ERROR] - Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver</system-out>
+            <system-err>2020-09-01 18:19:21 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/botCreation_Test: Test Cases/FAQ_SSO/botCreation_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at botCreation_Test.run(botCreation_Test:18)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/FAQ_SSO/botSideOptionsNavigation_Test" classname="Test Cases/FAQ_SSO/botSideOptionsNavigation_Test" status="ERROR">
+            <error type="ERROR" message="Test Cases/FAQ_SSO/botSideOptionsNavigation_Test FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'&#xA;Driver info: driver.version: DriverFactory$getWebDriver&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;&#xA;&#x9;at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;&#xA;&#x9;at botSideOptionsNavigation_Test.run(botSideOptionsNavigation_Test:18)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;&#xA;"/>
+            <system-out>2020-09-01 18:19:23 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/botSideOptionsNavigation_Test: Test Cases/FAQ_SSO/botSideOptionsNavigation_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at botSideOptionsNavigation_Test.run(botSideOptionsNavigation_Test:18)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;
+&#xD;
+&#xD;
+2020-09-01 18:19:24 - [TEST_STEP][ERROR] - platform.Method.clickOnElement(findTestObject("ICONS/sidebarSettings")): Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+&#xD;
+2020-09-01 18:19:24 - [MESSAGE][ERROR] - Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver</system-out>
+            <system-err>2020-09-01 18:19:23 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/botSideOptionsNavigation_Test: Test Cases/FAQ_SSO/botSideOptionsNavigation_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at botSideOptionsNavigation_Test.run(botSideOptionsNavigation_Test:18)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/FAQ_SSO/botUrlAndDefaultArticleConfiguration_Test" classname="Test Cases/FAQ_SSO/botUrlAndDefaultArticleConfiguration_Test" status="ERROR">
+            <error type="ERROR" message="Test Cases/FAQ_SSO/botUrlAndDefaultArticleConfiguration_Test FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'&#xA;Driver info: driver.version: DriverFactory$getWebDriver&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;&#xA;&#x9;at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;&#xA;&#x9;at botUrlAndDefaultArticleConfiguration_Test.run(botUrlAndDefaultArticleConfiguration_Test:20)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;&#xA;"/>
+            <system-out>2020-09-01 18:19:24 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/botUrlAndDefaultArticleConfiguration_Test: Test Cases/FAQ_SSO/botUrlAndDefaultArticleConfiguration_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at botUrlAndDefaultArticleConfiguration_Test.run(botUrlAndDefaultArticleConfiguration_Test:20)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;
+&#xD;
+&#xD;
+2020-09-01 18:19:33 - [TEST_STEP][ERROR] - platform.Method.clickOnElement(findTestObject("ICONS/sidebarSettings")): Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+&#xD;
+2020-09-01 18:19:33 - [MESSAGE][ERROR] - Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver</system-out>
+            <system-err>2020-09-01 18:19:24 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/botUrlAndDefaultArticleConfiguration_Test: Test Cases/FAQ_SSO/botUrlAndDefaultArticleConfiguration_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at botUrlAndDefaultArticleConfiguration_Test.run(botUrlAndDefaultArticleConfiguration_Test:20)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/FAQ_SSO/botCardMenuWithFallbackMessage_Test" classname="Test Cases/FAQ_SSO/botCardMenuWithFallbackMessage_Test" status="ERROR">
+            <error type="ERROR" message="Test Cases/FAQ_SSO/botCardMenuWithFallbackMessage_Test FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'&#xA;Driver info: driver.version: DriverFactory$getWebDriver&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;&#xA;&#x9;at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;&#xA;&#x9;at botCardMenuWithFallbackMessage_Test.run(botCardMenuWithFallbackMessage_Test:12)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;&#xA;"/>
+            <system-out>2020-09-01 18:19:33 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/botCardMenuWithFallbackMessage_Test: Test Cases/FAQ_SSO/botCardMenuWithFallbackMessage_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at botCardMenuWithFallbackMessage_Test.run(botCardMenuWithFallbackMessage_Test:12)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;
+&#xD;
+&#xD;
+2020-09-01 18:19:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Button/createBot"), 20, OPTIONAL): Unable to wait for object 'Object Repository/Button/createBot' to be visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to wait for object 'Object Repository/Button/createBot' to be visible&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.waitForElementVisible(WaitForElementVisibleKeyword.groovy:98)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.execute(WaitForElementVisibleKeyword.groovy:68)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(WebUiBuiltInKeywords.groovy:418)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementVisible$0.call(Unknown Source)&#xD;
+	at botCardMenuWithFallbackMessage_Test.run(botCardMenuWithFallbackMessage_Test:10)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:712)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword$findWebElement.call(Unknown Source)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword$_waitForElementVisible_closure1.doCall(WaitForElementVisibleKeyword.groovy:79)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword$_waitForElementVisible_closure1.doCall(WaitForElementVisibleKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.waitForElementVisible(WaitForElementVisibleKeyword.groovy:98)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.execute(WaitForElementVisibleKeyword.groovy:68)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(WebUiBuiltInKeywords.groovy:418)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementVisible$0.call(Unknown Source)&#xD;
+	at Script1598428429646.run(Script1598428429646.groovy:10)&#xD;
+	... 13 more&#xD;
+)&#xD;
+&#xD;
+2020-09-01 18:19:34 - [MESSAGE][WARNING] - Cannot take screenshot&#xD;
+&#xD;
+2020-09-01 18:19:34 - [MESSAGE][WARNING] - Unable to wait for object 'Object Repository/Button/createBot' to be visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to wait for object 'Object Repository/Button/createBot' to be visible&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.waitForElementVisible(WaitForElementVisibleKeyword.groovy:98)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.execute(WaitForElementVisibleKeyword.groovy:68)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(WebUiBuiltInKeywords.groovy:418)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementVisible$0.call(Unknown Source)&#xD;
+	at botCardMenuWithFallbackMessage_Test.run(botCardMenuWithFallbackMessage_Test:10)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:712)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword$findWebElement.call(Unknown Source)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword$_waitForElementVisible_closure1.doCall(WaitForElementVisibleKeyword.groovy:79)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword$_waitForElementVisible_closure1.doCall(WaitForElementVisibleKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.waitForElementVisible(WaitForElementVisibleKeyword.groovy:98)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.execute(WaitForElementVisibleKeyword.groovy:68)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(WebUiBuiltInKeywords.groovy:418)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementVisible$0.call(Unknown Source)&#xD;
+	at Script1598428429646.run(Script1598428429646.groovy:10)&#xD;
+	... 13 more&#xD;
+)&#xD;
+&#xD;
+2020-09-01 18:19:34 - [TEST_STEP][ERROR] - botCardOptions = platform.Method.verifyBotCardMenu("Q&amp;A bots", FAQ_BOT): Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+&#xD;
+2020-09-01 18:19:34 - [MESSAGE][ERROR] - Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver</system-out>
+            <system-err>2020-09-01 18:19:33 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/botCardMenuWithFallbackMessage_Test: Test Cases/FAQ_SSO/botCardMenuWithFallbackMessage_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at botCardMenuWithFallbackMessage_Test.run(botCardMenuWithFallbackMessage_Test:12)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/FAQ_SSO/importArticlesFromCsv_Test" classname="Test Cases/FAQ_SSO/importArticlesFromCsv_Test" status="ERROR">
+            <error type="ERROR" message="Test Cases/FAQ_SSO/importArticlesFromCsv_Test FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'&#xA;Driver info: driver.version: DriverFactory$getWebDriver&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;&#xA;&#x9;at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;&#xA;&#x9;at importArticlesFromCsv_Test.run(importArticlesFromCsv_Test:13)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;&#xA;"/>
+            <system-out>2020-09-01 18:19:34 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/importArticlesFromCsv_Test: Test Cases/FAQ_SSO/importArticlesFromCsv_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at importArticlesFromCsv_Test.run(importArticlesFromCsv_Test:13)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;
+&#xD;
+&#xD;
+2020-09-01 18:19:34 - [TEST_STEP][ERROR] - platform.Method.clickOnElement(findTestObject("Generic/articles")): Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+&#xD;
+2020-09-01 18:19:34 - [MESSAGE][ERROR] - Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver</system-out>
+            <system-err>2020-09-01 18:19:34 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/importArticlesFromCsv_Test: Test Cases/FAQ_SSO/importArticlesFromCsv_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at importArticlesFromCsv_Test.run(importArticlesFromCsv_Test:13)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/FAQ_SSO/extractArticleFromExternalLink_Test" classname="Test Cases/FAQ_SSO/extractArticleFromExternalLink_Test" status="ERROR">
+            <error type="ERROR" message="Test Cases/FAQ_SSO/extractArticleFromExternalLink_Test FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'&#xA;Driver info: driver.version: DriverFactory$getWebDriver&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;&#xA;&#x9;at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;&#xA;&#x9;at extractArticleFromExternalLink_Test.run(extractArticleFromExternalLink_Test:23)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;&#xA;"/>
+            <system-out>2020-09-01 18:19:34 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/extractArticleFromExternalLink_Test: Test Cases/FAQ_SSO/extractArticleFromExternalLink_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at extractArticleFromExternalLink_Test.run(extractArticleFromExternalLink_Test:23)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;
+&#xD;
+&#xD;
+2020-09-01 18:19:35 - [TEST_STEP][ERROR] - platform.Method.clickOnElement(findTestObject("Generic/articles")): Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+&#xD;
+2020-09-01 18:19:35 - [MESSAGE][ERROR] - Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver</system-out>
+            <system-err>2020-09-01 18:19:34 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/extractArticleFromExternalLink_Test: Test Cases/FAQ_SSO/extractArticleFromExternalLink_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at extractArticleFromExternalLink_Test.run(extractArticleFromExternalLink_Test:23)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/FAQ_SSO/searchArticle_Test" classname="Test Cases/FAQ_SSO/searchArticle_Test" status="FAILED">
+            <failure type="FAILED" message="Test Cases/FAQ_SSO/searchArticle_Test FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.exception.StepFailedException: Unable to send keys 'how can you help?' to object 'Object Repository/Input/searchForQuestion'&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$1.call(Unknown Source)&#xD;&#xA;&#x9;at searchArticle_Test.run(searchArticle_Test:21)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;&#xA;Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'&#xA;Driver info: driver.version: unknown&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:712)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:52)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;&#xA;&#x9;... 19 more&#xD;&#xA;"/>
+            <system-out>2020-09-01 18:19:35 - [TEST_CASE][FAILED] - Test Cases/FAQ_SSO/searchArticle_Test: Test Cases/FAQ_SSO/searchArticle_Test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys 'how can you help?' to object 'Object Repository/Input/searchForQuestion'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$1.call(Unknown Source)&#xD;
+	at searchArticle_Test.run(searchArticle_Test:21)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:712)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:52)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more&#xD;
+&#xD;
+&#xD;
+2020-09-01 18:19:35 - [TEST_STEP][FAILED] - sendKeys(findTestObject("Input/searchForQuestion"), searchQuestion): Unable to send keys 'how can you help?' to object 'Object Repository/Input/searchForQuestion' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to send keys 'how can you help?' to object 'Object Repository/Input/searchForQuestion'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$1.call(Unknown Source)&#xD;
+	at searchArticle_Test.run(searchArticle_Test:21)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:712)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:52)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$1.call(Unknown Source)&#xD;
+	at Script1598428430071.run(Script1598428430071.groovy:21)&#xD;
+	... 13 more&#xD;
+)&#xD;
+&#xD;
+2020-09-01 18:19:35 - [MESSAGE][WARNING] - Cannot take screenshot&#xD;
+&#xD;
+2020-09-01 18:19:35 - [MESSAGE][FAILED] - Unable to send keys 'how can you help?' to object 'Object Repository/Input/searchForQuestion' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to send keys 'how can you help?' to object 'Object Repository/Input/searchForQuestion'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$1.call(Unknown Source)&#xD;
+	at searchArticle_Test.run(searchArticle_Test:21)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:712)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:52)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$1.call(Unknown Source)&#xD;
+	at Script1598428430071.run(Script1598428430071.groovy:21)&#xD;
+	... 13 more&#xD;
+)</system-out>
+            <system-err>2020-09-01 18:19:35 - [TEST_CASE][FAILED] - Test Cases/FAQ_SSO/searchArticle_Test: Test Cases/FAQ_SSO/searchArticle_Test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys 'how can you help?' to object 'Object Repository/Input/searchForQuestion'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$1.call(Unknown Source)&#xD;
+	at searchArticle_Test.run(searchArticle_Test:21)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:712)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:52)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more</system-err>
+        </testcase>
+        <testcase name="Test Cases/FAQ_SSO/downvoteWithComment_Test" classname="Test Cases/FAQ_SSO/downvoteWithComment_Test" status="ERROR">
+            <error type="ERROR" message="Test Cases/FAQ_SSO/downvoteWithComment_Test FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'&#xA;Driver info: driver.version: DriverFactory$getWebDriver&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;&#xA;&#x9;at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;&#xA;&#x9;at downvoteWithComment_Test.run(downvoteWithComment_Test:24)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;&#xA;"/>
+            <system-out>2020-09-01 18:19:35 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/downvoteWithComment_Test: Test Cases/FAQ_SSO/downvoteWithComment_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at downvoteWithComment_Test.run(downvoteWithComment_Test:24)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;
+&#xD;
+&#xD;
+2020-09-01 18:19:36 - [TEST_STEP][ERROR] - platform.Method.clickOnElement(findTestObject("Generic/articles")): Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+&#xD;
+2020-09-01 18:19:36 - [MESSAGE][ERROR] - Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver</system-out>
+            <system-err>2020-09-01 18:19:35 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/downvoteWithComment_Test: Test Cases/FAQ_SSO/downvoteWithComment_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at downvoteWithComment_Test.run(downvoteWithComment_Test:24)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/FAQ_SSO/addToCurationFromSessions_Test" classname="Test Cases/FAQ_SSO/addToCurationFromSessions_Test" status="ERROR">
+            <error type="ERROR" message="Test Cases/FAQ_SSO/addToCurationFromSessions_Test FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'&#xA;Driver info: driver.version: DriverFactory$getWebDriver&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;&#xA;&#x9;at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;&#xA;&#x9;at addToCurationFromSessions_Test.run(addToCurationFromSessions_Test:12)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;&#xA;"/>
+            <system-out>2020-09-01 18:19:36 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/addToCurationFromSessions_Test: Test Cases/FAQ_SSO/addToCurationFromSessions_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at addToCurationFromSessions_Test.run(addToCurationFromSessions_Test:12)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;
+&#xD;
+&#xD;
+2020-09-01 18:19:36 - [TEST_STEP][ERROR] - platform.Method.clickOnElement(findTestObject("Generic/articles")): Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+&#xD;
+2020-09-01 18:19:37 - [MESSAGE][ERROR] - Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver</system-out>
+            <system-err>2020-09-01 18:19:36 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/addToCurationFromSessions_Test: Test Cases/FAQ_SSO/addToCurationFromSessions_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at addToCurationFromSessions_Test.run(addToCurationFromSessions_Test:12)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/FAQ_SSO/createArticleWithRichResponseInCategory_Test" classname="Test Cases/FAQ_SSO/createArticleWithRichResponseInCategory_Test" status="ERROR">
+            <error type="ERROR" message="Test Cases/FAQ_SSO/createArticleWithRichResponseInCategory_Test FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'&#xA;Driver info: driver.version: DriverFactory$getWebDriver&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;&#xA;&#x9;at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;&#xA;&#x9;at createArticleWithRichResponseInCategory_Test.run(createArticleWithRichResponseInCategory_Test:15)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;&#xA;"/>
+            <system-out>2020-09-01 18:19:37 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/createArticleWithRichResponseInCategory_Test: Test Cases/FAQ_SSO/createArticleWithRichResponseInCategory_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at createArticleWithRichResponseInCategory_Test.run(createArticleWithRichResponseInCategory_Test:15)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;
+&#xD;
+&#xD;
+2020-09-01 18:19:37 - [TEST_STEP][ERROR] - platform.Method.clickOnElement(findTestObject("Generic/articles")): Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+&#xD;
+2020-09-01 18:19:37 - [MESSAGE][ERROR] - Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver</system-out>
+            <system-err>2020-09-01 18:19:37 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/createArticleWithRichResponseInCategory_Test: Test Cases/FAQ_SSO/createArticleWithRichResponseInCategory_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at createArticleWithRichResponseInCategory_Test.run(createArticleWithRichResponseInCategory_Test:15)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/FAQ_SSO/modifyCategory_Test" classname="Test Cases/FAQ_SSO/modifyCategory_Test" status="ERROR">
+            <error type="ERROR" message="Test Cases/FAQ_SSO/modifyCategory_Test FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'&#xA;Driver info: driver.version: DriverFactory$getWebDriver&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;&#xA;&#x9;at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;&#xA;&#x9;at modifyCategory_Test.run(modifyCategory_Test:11)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;&#xA;"/>
+            <system-out>2020-09-01 18:19:37 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/modifyCategory_Test: Test Cases/FAQ_SSO/modifyCategory_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at modifyCategory_Test.run(modifyCategory_Test:11)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;
+&#xD;
+&#xD;
+2020-09-01 18:19:37 - [TEST_STEP][ERROR] - platform.Method.clickOnElement(findTestObject("Generic/articles")): Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+&#xD;
+2020-09-01 18:19:37 - [MESSAGE][ERROR] - Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver</system-out>
+            <system-err>2020-09-01 18:19:37 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/modifyCategory_Test: Test Cases/FAQ_SSO/modifyCategory_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at modifyCategory_Test.run(modifyCategory_Test:11)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/FAQ_SSO/fallbackCurationByAddToExistingArticle_Test" classname="Test Cases/FAQ_SSO/fallbackCurationByAddToExistingArticle_Test" status="ERROR">
+            <error type="ERROR" message="Test Cases/FAQ_SSO/fallbackCurationByAddToExistingArticle_Test FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'&#xA;Driver info: driver.version: DriverFactory$getWebDriver&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;&#xA;&#x9;at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;&#xA;&#x9;at fallbackCurationByAddToExistingArticle_Test.run(fallbackCurationByAddToExistingArticle_Test:13)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;&#xA;"/>
+            <system-out>2020-09-01 18:19:37 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/fallbackCurationByAddToExistingArticle_Test: Test Cases/FAQ_SSO/fallbackCurationByAddToExistingArticle_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at fallbackCurationByAddToExistingArticle_Test.run(fallbackCurationByAddToExistingArticle_Test:13)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;
+&#xD;
+&#xD;
+2020-09-01 18:19:38 - [TEST_STEP][ERROR] - platform.Method.clickOnElement(findTestObject("Generic/curation")): Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+&#xD;
+2020-09-01 18:19:38 - [MESSAGE][ERROR] - Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver</system-out>
+            <system-err>2020-09-01 18:19:37 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/fallbackCurationByAddToExistingArticle_Test: Test Cases/FAQ_SSO/fallbackCurationByAddToExistingArticle_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at fallbackCurationByAddToExistingArticle_Test.run(fallbackCurationByAddToExistingArticle_Test:13)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/FAQ_SSO/partialMatchCurationByCreateNewArticle_Test" classname="Test Cases/FAQ_SSO/partialMatchCurationByCreateNewArticle_Test" status="ERROR">
+            <error type="ERROR" message="Test Cases/FAQ_SSO/partialMatchCurationByCreateNewArticle_Test FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'&#xA;Driver info: driver.version: DriverFactory$getWebDriver&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;&#xA;&#x9;at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;&#xA;&#x9;at partialMatchCurationByCreateNewArticle_Test.run(partialMatchCurationByCreateNewArticle_Test:15)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;&#xA;"/>
+            <system-out>2020-09-01 18:19:38 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/partialMatchCurationByCreateNewArticle_Test: Test Cases/FAQ_SSO/partialMatchCurationByCreateNewArticle_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at partialMatchCurationByCreateNewArticle_Test.run(partialMatchCurationByCreateNewArticle_Test:15)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;
+&#xD;
+&#xD;
+2020-09-01 18:19:38 - [TEST_STEP][ERROR] - platform.Method.clickOnElement(findTestObject("Generic/articles")): Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+&#xD;
+2020-09-01 18:19:38 - [MESSAGE][ERROR] - Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver</system-out>
+            <system-err>2020-09-01 18:19:38 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/partialMatchCurationByCreateNewArticle_Test: Test Cases/FAQ_SSO/partialMatchCurationByCreateNewArticle_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at partialMatchCurationByCreateNewArticle_Test.run(partialMatchCurationByCreateNewArticle_Test:15)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/FAQ_SSO/filterSessionsBy_Test" classname="Test Cases/FAQ_SSO/filterSessionsBy_Test" status="ERROR">
+            <error type="ERROR" message="Test Cases/FAQ_SSO/filterSessionsBy_Test FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'&#xA;Driver info: driver.version: DriverFactory$getWebDriver&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;&#xA;&#x9;at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;&#xA;&#x9;at filterSessionsBy_Test.run(filterSessionsBy_Test:20)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;&#xA;"/>
+            <system-out>2020-09-01 18:19:38 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/filterSessionsBy_Test: Test Cases/FAQ_SSO/filterSessionsBy_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at filterSessionsBy_Test.run(filterSessionsBy_Test:20)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;
+&#xD;
+&#xD;
+2020-09-01 18:19:39 - [TEST_STEP][ERROR] - platform.Method.clickOnElement(findTestObject("Generic/session")): Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+&#xD;
+2020-09-01 18:19:39 - [MESSAGE][ERROR] - Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver</system-out>
+            <system-err>2020-09-01 18:19:38 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/filterSessionsBy_Test: Test Cases/FAQ_SSO/filterSessionsBy_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at filterSessionsBy_Test.run(filterSessionsBy_Test:20)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/FAQ_SSO/oneClickTestingTrainedVersion_Test" classname="Test Cases/FAQ_SSO/oneClickTestingTrainedVersion_Test" status="ERROR">
+            <error type="ERROR" message="Test Cases/FAQ_SSO/oneClickTestingTrainedVersion_Test FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'&#xA;Driver info: driver.version: DriverFactory$getWebDriver&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;&#xA;&#x9;at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;&#xA;&#x9;at oneClickTestingTrainedVersion_Test.run(oneClickTestingTrainedVersion_Test:22)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;&#xA;"/>
+            <system-out>2020-09-01 18:19:39 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/oneClickTestingTrainedVersion_Test: Test Cases/FAQ_SSO/oneClickTestingTrainedVersion_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at oneClickTestingTrainedVersion_Test.run(oneClickTestingTrainedVersion_Test:22)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;
+&#xD;
+&#xD;
+2020-09-01 18:19:39 - [TEST_STEP][ERROR] - platform.Method.clickOnElement(findTestObject("Generic/articles")): Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+&#xD;
+2020-09-01 18:19:39 - [MESSAGE][ERROR] - Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver</system-out>
+            <system-err>2020-09-01 18:19:39 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/oneClickTestingTrainedVersion_Test: Test Cases/FAQ_SSO/oneClickTestingTrainedVersion_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at oneClickTestingTrainedVersion_Test.run(oneClickTestingTrainedVersion_Test:22)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/FAQ_SSO/agentHandoverE2E_Test" classname="Test Cases/FAQ_SSO/agentHandoverE2E_Test" status="ERROR">
+            <error type="ERROR" message="Test Cases/FAQ_SSO/agentHandoverE2E_Test FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'&#xA;Driver info: driver.version: DriverFactory$getWebDriver&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;&#xA;&#x9;at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;&#xA;&#x9;at agentHandoverE2E_Test.run(agentHandoverE2E_Test:23)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;&#xA;"/>
+            <system-out>2020-09-01 18:19:39 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/agentHandoverE2E_Test: Test Cases/FAQ_SSO/agentHandoverE2E_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at agentHandoverE2E_Test.run(agentHandoverE2E_Test:23)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;
+&#xD;
+&#xD;
+2020-09-01 18:19:40 - [TEST_STEP][ERROR] - platform.Method.clickOnElement(findTestObject("ICONS/sidebarSettings")): Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+&#xD;
+2020-09-01 18:19:40 - [MESSAGE][ERROR] - Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver</system-out>
+            <system-err>2020-09-01 18:19:39 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/agentHandoverE2E_Test: Test Cases/FAQ_SSO/agentHandoverE2E_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at agentHandoverE2E_Test.run(agentHandoverE2E_Test:23)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/FAQ_SSO/disabledLowConfidenceAndDownvote_Test" classname="Test Cases/FAQ_SSO/disabledLowConfidenceAndDownvote_Test" status="ERROR">
+            <error type="ERROR" message="Test Cases/FAQ_SSO/disabledLowConfidenceAndDownvote_Test FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'&#xA;Driver info: driver.version: DriverFactory$getWebDriver&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;&#xA;&#x9;at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;&#xA;&#x9;at disabledLowConfidenceAndDownvote_Test.run(disabledLowConfidenceAndDownvote_Test:21)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;&#xA;"/>
+            <system-out>2020-09-01 18:19:40 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/disabledLowConfidenceAndDownvote_Test: Test Cases/FAQ_SSO/disabledLowConfidenceAndDownvote_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at disabledLowConfidenceAndDownvote_Test.run(disabledLowConfidenceAndDownvote_Test:21)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;
+&#xD;
+&#xD;
+2020-09-01 18:19:40 - [TEST_STEP][ERROR] - platform.Method.clickOnElement(findTestObject("Generic/articles")): Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+&#xD;
+2020-09-01 18:19:40 - [MESSAGE][ERROR] - Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver</system-out>
+            <system-err>2020-09-01 18:19:40 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/disabledLowConfidenceAndDownvote_Test: Test Cases/FAQ_SSO/disabledLowConfidenceAndDownvote_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at disabledLowConfidenceAndDownvote_Test.run(disabledLowConfidenceAndDownvote_Test:21)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/FAQ_SSO/disabledPartialMatch_Test" classname="Test Cases/FAQ_SSO/disabledPartialMatch_Test" status="ERROR">
+            <error type="ERROR" message="Test Cases/FAQ_SSO/disabledPartialMatch_Test FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'&#xA;Driver info: driver.version: DriverFactory$getWebDriver&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;&#xA;&#x9;at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;&#xA;&#x9;at disabledPartialMatch_Test.run(disabledPartialMatch_Test:13)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;&#xA;"/>
+            <system-out>2020-09-01 18:19:40 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/disabledPartialMatch_Test: Test Cases/FAQ_SSO/disabledPartialMatch_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at disabledPartialMatch_Test.run(disabledPartialMatch_Test:13)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;
+&#xD;
+&#xD;
+2020-09-01 18:19:40 - [TEST_STEP][ERROR] - platform.Method.clickOnElement(findTestObject("Generic/articles")): Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+&#xD;
+2020-09-01 18:19:40 - [MESSAGE][ERROR] - Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver</system-out>
+            <system-err>2020-09-01 18:19:40 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/disabledPartialMatch_Test: Test Cases/FAQ_SSO/disabledPartialMatch_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at disabledPartialMatch_Test.run(disabledPartialMatch_Test:13)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/FAQ_SSO/disabledFallback_Test" classname="Test Cases/FAQ_SSO/disabledFallback_Test" status="ERROR">
+            <error type="ERROR" message="Test Cases/FAQ_SSO/disabledFallback_Test FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'&#xA;Driver info: driver.version: DriverFactory$getWebDriver&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;&#xA;&#x9;at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;&#xA;&#x9;at disabledFallback_Test.run(disabledFallback_Test:21)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;&#xA;"/>
+            <system-out>2020-09-01 18:19:40 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/disabledFallback_Test: Test Cases/FAQ_SSO/disabledFallback_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at disabledFallback_Test.run(disabledFallback_Test:21)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;
+&#xD;
+&#xD;
+2020-09-01 18:19:41 - [TEST_STEP][ERROR] - platform.Method.clickOnElement(findTestObject("Generic/articles")): Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+&#xD;
+2020-09-01 18:19:41 - [MESSAGE][ERROR] - Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver</system-out>
+            <system-err>2020-09-01 18:19:40 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/disabledFallback_Test: Test Cases/FAQ_SSO/disabledFallback_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at disabledFallback_Test.run(disabledFallback_Test:21)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/FAQ_SSO/defaultQuestionInArticle_Test" classname="Test Cases/FAQ_SSO/defaultQuestionInArticle_Test" status="ERROR">
+            <error type="ERROR" message="Test Cases/FAQ_SSO/defaultQuestionInArticle_Test FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'&#xA;Driver info: driver.version: DriverFactory$getWebDriver&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;&#xA;&#x9;at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;&#xA;&#x9;at defaultQuestionInArticle_Test.run(defaultQuestionInArticle_Test:16)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;&#xA;"/>
+            <system-out>2020-09-01 18:19:41 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/defaultQuestionInArticle_Test: Test Cases/FAQ_SSO/defaultQuestionInArticle_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at defaultQuestionInArticle_Test.run(defaultQuestionInArticle_Test:16)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;
+&#xD;
+&#xD;
+2020-09-01 18:19:41 - [TEST_STEP][ERROR] - platform.Method.clickOnElement(findTestObject("Generic/articles")): Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+&#xD;
+2020-09-01 18:19:41 - [MESSAGE][ERROR] - Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver</system-out>
+            <system-err>2020-09-01 18:19:41 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/defaultQuestionInArticle_Test: Test Cases/FAQ_SSO/defaultQuestionInArticle_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at defaultQuestionInArticle_Test.run(defaultQuestionInArticle_Test:16)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/FAQ_SSO/encryptionOnSessions_Test" classname="Test Cases/FAQ_SSO/encryptionOnSessions_Test" status="ERROR">
+            <error type="ERROR" message="Test Cases/FAQ_SSO/encryptionOnSessions_Test FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'&#xA;Driver info: driver.version: DriverFactory$getWebDriver&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;&#xA;&#x9;at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;&#xA;&#x9;at encryptionOnSessions_Test.run(encryptionOnSessions_Test:20)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;&#xA;"/>
+            <system-out>2020-09-01 18:19:41 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/encryptionOnSessions_Test: Test Cases/FAQ_SSO/encryptionOnSessions_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at encryptionOnSessions_Test.run(encryptionOnSessions_Test:20)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)&#xD;
+&#xD;
+&#xD;
+2020-09-01 18:19:41 - [TEST_STEP][ERROR] - platform.Method.clickOnElement(findTestObject("ICONS/sidebarSettings")): Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+&#xD;
+2020-09-01 18:19:41 - [MESSAGE][ERROR] - Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver</system-out>
+            <system-err>2020-09-01 18:19:41 - [TEST_CASE][ERROR] - Test Cases/FAQ_SSO/encryptionOnSessions_Test: Test Cases/FAQ_SSO/encryptionOnSessions_Test FAILED.
+Reason:
+com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: DriverFactory$getWebDriver&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:714)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:699)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:685)&#xD;
+	at com.kms.katalon.core.webui.driver.DriverFactory$getWebDriver.call(Unknown Source)&#xD;
+	at platform.Method.&lt;init&gt;(Method.groovy:26)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)&#xD;
+	at encryptionOnSessions_Test.run(encryptionOnSessions_Test:20)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1598964521188.run(TempTestSuite1598964521188.groovy:35)</system-err>
+        </testcase>
+        <system-out>2020-09-01 18:18:56 - [TEST_SUITE][INCOMPLETE] - demo: null</system-out>
+        <system-err>2020-09-01 18:18:56 - [TEST_SUITE][INCOMPLETE] - demo: null</system-err>
+    </testsuite>
+</testsuites>

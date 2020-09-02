@@ -25,9 +25,10 @@ public class CurationSettings extends Method{
 	@Keyword
 	def disableCuration(boolean disable){
 		if(disable){
-			toClickOnWebElement(findTestObject('Toggle/curation'))
+//			clickOnElement(null)
+			clickOnElement(findTestObject('Toggle/curation'))
 		}else{
-			toClickOnWebElement(findTestObject('Toggle/curation'))
+			clickOnElement(findTestObject('Toggle/curation'))
 			KeywordUtil.logInfo('CURATION ENABLED')
 		}
 	}
@@ -35,9 +36,9 @@ public class CurationSettings extends Method{
 	@Keyword
 	def disableFallback(boolean disable){
 		if(disable){
-			toClickOnWebElement(findTestObject('Toggle/fallback'))
+			clickOnElement(findTestObject('Toggle/fallback'))
 		}else{
-			toClickOnWebElement(findTestObject('Toggle/fallback'))
+			clickOnElement(findTestObject('Toggle/fallback'))
 			KeywordUtil.logInfo('FALLBACK ENABLED')
 		}
 	}
@@ -45,9 +46,9 @@ public class CurationSettings extends Method{
 	@Keyword
 	def disablePartialMatch(boolean disable){
 		if(disable){
-			toClickOnWebElement(findTestObject('Toggle/partialMatch'))
+			clickOnElement(findTestObject('Toggle/partialMatch'))
 		}else{
-			toClickOnWebElement(findTestObject('Toggle/partialMatch'))
+			clickOnElement(findTestObject('Toggle/partialMatch'))
 			KeywordUtil.logInfo('PARTIAL MATCH ENABLED')
 		}
 	}
@@ -55,9 +56,9 @@ public class CurationSettings extends Method{
 	@Keyword
 	def disableAgentHandover(boolean disable){
 		if(disable){
-			toClickOnWebElement(findTestObject('Toggle/agentHandover'))
+			clickOnElement(findTestObject('Toggle/agentHandover'))
 		}else{
-			toClickOnWebElement(findTestObject('Toggle/agentHandover'))
+			clickOnElement(findTestObject('Toggle/agentHandover'))
 			KeywordUtil.logInfo('AGENT HANDOVER ENABLED')
 		}
 	}
@@ -65,9 +66,9 @@ public class CurationSettings extends Method{
 	@Keyword
 	def disableDownvoted(boolean disable){
 		if(disable){
-			toClickOnWebElement(findTestObject('Toggle/downvoted'))
+			clickOnElement(findTestObject('Toggle/downvoted'))
 		}else{
-			toClickOnWebElement(findTestObject('Toggle/downvoted'))
+			clickOnElement(findTestObject('Toggle/downvoted'))
 			KeywordUtil.logInfo('DOWNVOTE ENABLED')
 		}
 	}
@@ -75,9 +76,9 @@ public class CurationSettings extends Method{
 	@Keyword
 	def disableAddFromSession(boolean disable){
 		if(disable){
-			toClickOnWebElement(findTestObject('Toggle/addFromSession'))
+			clickOnElement(findTestObject('Toggle/addFromSession'))
 		}else{
-			toClickOnWebElement(findTestObject('Toggle/addFromSession'))
+			clickOnElement(findTestObject('Toggle/addFromSession'))
 			KeywordUtil.logInfo('ADD FROM SESSION ENABLED')
 		}
 	}
@@ -85,9 +86,9 @@ public class CurationSettings extends Method{
 	@Keyword
 	def disableLowConfidence(boolean disable){
 		if(disable){
-			toClickOnWebElement(findTestObject('Toggle/lowConfidence'))
+			clickOnElement(findTestObject('Toggle/lowConfidence'))
 		}else{
-			toClickOnWebElement(findTestObject('Toggle/lowConfidence'))
+			clickOnElement(findTestObject('Toggle/lowConfidence'))
 			WebUI.setText(findTestObject('Input/lowConfidenceValue'), GlobalVariable.LOW_CONFIDENCE_SCORE)
 			KeywordUtil.logInfo('LOW CONFIDENCE ENABLED')
 		}
@@ -95,8 +96,8 @@ public class CurationSettings extends Method{
 
 	@Keyword
 	def filterRuleTriggered(String filterBy){
-		toClickOnWebElement(findTestObject('Generic/webObjectWithText',['textValue':'Rule triggered']))
-		toClickOnWebElement(findTestObject('Generic/webObjectWithText',['textValue':' '+filterBy+' ']))
-		toClickOnWebElement(findTestObject('Button/filter'))
+		clickOnElement(findTestObject('Generic/webObjectWithText',['textValue':'Rule triggered']))
+		clickOnElement(findTestObject('Generic/webObjectWithText',['textValue':' '+filterBy+' ']))
+		clickOnElement(findTestObject('Button/filter'))
 	}
 }

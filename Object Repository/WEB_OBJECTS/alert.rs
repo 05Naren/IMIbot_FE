@@ -3,11 +3,11 @@
    <description></description>
    <name>alert</name>
    <tag></tag>
-   <elementGuidId>95ebc45f-e78c-45cb-a56a-3512ed8039a1</elementGuidId>
+   <elementGuidId>05188c64-912c-4388-9e93-15905b9ce1de</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[text()=' Required! ']</value>
+         <value>//span[@class='control-error' and text() = ' ${alert_value} ']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[text()=' Required! ']</value>
+      <value>//span[@class='control-error' and text() = ' ${alert_value} ']</value>
    </webElementProperties>
 </WebElementEntity>

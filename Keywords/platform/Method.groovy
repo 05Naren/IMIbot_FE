@@ -3,6 +3,7 @@ package platform
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import org.openqa.selenium.JavascriptExecutor
+import org.openqa.selenium.Keys
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.interactions.Actions
@@ -30,6 +31,13 @@ public class Method {
 		JavascriptExecutor js = (JavascriptExecutor)driver
 		WebElement element = WebUiCommonHelper.findWebElement(testObject, 5)
 		js.executeScript("arguments[0].click();", element)
+	}
+
+
+	@Keyword
+	def logOut(){
+		WebUI.mouseOver(findTestObject('Generic/userInitials'))
+		clickOnElement(findTestObject('Button/signOut'))
 	}
 
 	/*
@@ -127,6 +135,22 @@ public class Method {
 			}
 		}
 		return count
+	}
+
+	/*@Keyword
+	 def selectFromTheList(TestObject testObject, String textToFind){
+	 List<WebElement> webElements = WebUiCommonHelper.findWebElements(testObject, 5)
+	 int count
+	 for(count=0 ; count< webElements.size(); count++){
+	 if(webElements.get(count).getText().contains(textToFind)){
+	 webElements.get(count+1).click()
+	 }
+	 }
+	 }*/
+
+	@Keyword
+	def removeFocus(TestObject testObject){
+		WebUiCommonHelper.findWebElement(testObject, 20).sendKeys(Keys.TAB)
 	}
 
 	@Keyword

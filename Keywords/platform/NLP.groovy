@@ -30,7 +30,8 @@ public class NLP extends Method {
 		clickOnElement(findTestObject('Button/createConcept'))
 		WebUI.sendKeys(findTestObject('Input/conceptName'), conceptName)
 		WebUI.uploadFile(findTestObject('Input/uploadFile'), Method.PATH+fileName)
-		toClickOnWebElement(findTestObject('NewRepo/createtBtn'))
+		clickOnElement(findTestObject('NewRepo/createBtn'))
+		WebUI.waitForElementPresent(findTestObject('ICONS/toastMsg'), 45, FailureHandling.CONTINUE_ON_FAILURE)
 	}
 
 	@Keyword
@@ -53,6 +54,6 @@ public class NLP extends Method {
 
 		WebUI.sendKeys(findTestObject('Input/conceptName'), conceptName)
 		WebUI.uploadFile(findTestObject('Input/uploadFile'), Method.PATH+fileName)
-		clickOnElement(findTestObject('NewRepo/createtBtn'))
+		clickOnElement(findTestObject('NewRepo/createBtn'))
 	}
 }

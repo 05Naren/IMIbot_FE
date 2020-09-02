@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: To verify if bot response can be downvoted and add a comment to it
+
+Step 1: Preview bot for response
+Step 2: Downvote response
+Step 3: Got to room in Sessions 
+Step 4: Verify downvote with comment</description>
+   <name>downvoteWithComment_Test</name>
+   <tag></tag>
+   <comment>comment
+downvoteComment</comment>
+   <testCaseGuid>67b535cc-42ad-4025-89b3-1c24e915b9f0</testCaseGuid>
+   <variable>
+      <defaultValue>'post faq extraction test'</defaultValue>
+      <description></description>
+      <id>44fdfc88-4210-4c94-aaa0-6bcccd300d90</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('downvote_question', 1)</defaultValue>
+      <description></description>
+      <id>38eb76d7-260b-4f1a-80ef-986fc5d922ed</id>
+      <masked>false</masked>
+      <name>userQuery</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('downvote_response', 1)</defaultValue>
+      <description></description>
+      <id>7a5f90d8-0d35-4274-83a0-5671af33fbd7</id>
+      <masked>false</masked>
+      <name>botResponse</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('downvote_comment', 1)</defaultValue>
+      <description></description>
+      <id>08f23b81-f16e-4506-bbd4-b8c5e7fc2f29</id>
+      <masked>false</masked>
+      <name>downvoteComment</name>
+   </variable>
+   <variable>
+      <defaultValue>'FAQ bot'</defaultValue>
+      <description></description>
+      <id>2153ee38-3ba5-40e8-a3be-0b1565afec49</id>
+      <masked>false</masked>
+      <name>sheetName</name>
+   </variable>
+   <variable>
+      <defaultValue>2</defaultValue>
+      <description></description>
+      <id>b0a0a987-fe0c-4455-a5bf-b61f1160adb0</id>
+      <masked>false</masked>
+      <name>rowNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>250d673e-6d1e-4da9-a362-0e0856adce91</id>
+      <masked>false</masked>
+      <name>cellNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('partial_match', 1)</defaultValue>
+      <description></description>
+      <id>c3707fe0-1a37-456c-9319-873a44e62af1</id>
+      <masked>false</masked>
+      <name>customMessage</name>
+   </variable>
+</TestCaseEntity>

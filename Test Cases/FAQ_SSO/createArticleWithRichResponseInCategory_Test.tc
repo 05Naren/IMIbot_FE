@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: Creation of category with new article manually and query bot response for rich response
+
+Step 1: Create a new article of carousel type
+Step 2: Preview bot
+Step 3: Verify bot response with carousel title</description>
+   <name>createArticleWithRichResponseInCategory_Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7a6481a1-9a84-414f-aa23-fcbc33e3d8b5</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('new_category', 1)</defaultValue>
+      <description></description>
+      <id>d252d615-29bd-471b-9165-78e88585cd15</id>
+      <masked>false</masked>
+      <name>categoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'benefits of credit card?'</defaultValue>
+      <description></description>
+      <id>ad7157e4-2333-4066-af83-926085ea8fe0</id>
+      <masked>false</masked>
+      <name>userQuery</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('label_value', 1)</defaultValue>
+      <description></description>
+      <id>c948a1eb-516c-45a8-8067-9a242c1e2414</id>
+      <masked>false</masked>
+      <name>expectedValue</name>
+   </variable>
+</TestCaseEntity>

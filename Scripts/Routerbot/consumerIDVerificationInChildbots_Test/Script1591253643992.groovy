@@ -13,7 +13,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [:], FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/imiLogo'))
+
+WebUI.waitForElementVisible(findTestObject('Button/createBot'), 20, FailureHandling.OPTIONAL)
 
 CustomKeywords.'platform.Method.navigateToBot'('Q&A bots', GlobalVariable.CHILD_BOT)
 
@@ -40,3 +43,4 @@ CustomKeywords.'platform.Session.searchByConsumerID'(consumerID)
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/webObjectWithText', [('textValue') : consumerID]))
 
 WebUI.verifyTextPresent(mgrRoomID, false, FailureHandling.STOP_ON_FAILURE)
+

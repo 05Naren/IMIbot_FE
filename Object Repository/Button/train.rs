@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//button[contains(text(),'Train')]</value>
+         <value>//button//span[contains(text(),'Train')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,6 +21,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[contains(text(),'Train')]</value>
+      <value>//button//span[contains(text(),'Train')]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -11,390 +11,555 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>ef681250-9d6a-4192-b891-4c7d5f9d75f8</testSuiteGuid>
    <testCaseLink>
-      <guid>3faa733b-04aa-409b-a812-e10a02e25a3d</guid>
+      <guid>6028d337-d889-44fd-be23-ff700424d3f6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Faqbot/botCreation_Test</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>3e16e2ca-7421-4054-ad31-6fe4568443fc</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/dryRun</testDataId>
-      </testDataLink>
+      <testCaseId>Test Cases/FAQ_SSO/botCreation_Test</testCaseId>
       <variableLink>
-         <testDataLinkId>3e16e2ca-7421-4054-ad31-6fe4568443fc</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>botName</value>
-         <variableId>8cbed633-6148-4005-b19d-c81f4e6aa81f</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>54b28ce9-704a-4161-90e9-6f27d888f545</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a8b034c0-a964-48b2-9bbc-e4ba7b4f67af</guid>
+      <guid>1f29c1b5-b5f1-4450-b481-1783d51a8bcd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Faqbot/botSideOptionsNavigation_Test</testCaseId>
+      <testCaseId>Test Cases/FAQ_SSO/botSideOptionsNavigation_Test</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>92b03ba9-9ef3-46c4-8dfd-f26c2da1f87e</guid>
+      <guid>bb7ed7e3-cd39-4170-828c-2ce3737bde7b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Faqbot/botUrlAndDefaultArticleConfiguration_Test</testCaseId>
+      <testCaseId>Test Cases/FAQ_SSO/botUrlAndDefaultArticleConfiguration_Test</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>aa994c75-1bc1-4f3a-a12d-4eeee22b537a</variableId>
+         <variableId>22386e7f-ed56-4887-9d88-7743ea567440</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>80bfff37-b144-4dfb-aeba-a3b989ae88af</variableId>
+         <variableId>8422c5ef-68e8-4a9b-9b19-abc6dd672f16</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>f24a21be-9150-46d5-a957-67e3d6f58cab</variableId>
+         <variableId>c3ccdc1e-50cb-44ac-90d7-261ac95b06ba</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>dab31603-8956-4ab5-90d5-a91fdb8221a9</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2bddf69e-c06a-4920-a731-65da90bc12ea</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Faqbot/botCardMenuWithFallbackMessage_Test</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c1dd5505-bd5f-4a32-b998-1bd3b28d8bc9</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a0305f5d-5ece-4741-8757-faf253a5bd1b</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>0a189ead-2095-47c0-a0d1-51bc827dcc4b</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>35d67a2b-ab8f-4ae4-a32c-2f8b1bbc79e7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>aee8a6e9-561c-43a7-980e-5cc82a6e1e91</variableId>
+         <variableId>7a89f6c4-cbd2-491c-a8b7-82f0ef96b3ab</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>4b00b0ab-6074-4aaf-bfd3-cbcc27f8ac74</guid>
+      <guid>76548351-0605-4d74-91ef-b7aab5299e8d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Faqbot/importArticlesFromCsv_Test</testCaseId>
+      <testCaseId>Test Cases/FAQ_SSO/botCardMenuWithFallbackMessage_Test</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>5b7a0d83-cf72-4548-bee8-74684c00f39b</variableId>
+         <variableId>d9fdc99f-f644-42ab-9894-3f3a309db944</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>aaeb031f-8082-4ec2-83c5-a271a709015a</variableId>
+         <variableId>8080d9ab-e6d2-4a30-8a55-2ed4177f50ae</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>61866d72-ec9a-436e-ae42-9f887d127f7a</variableId>
+         <variableId>c6f47f13-0e54-4027-a5cb-50d72d628f75</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>b6170963-e547-4825-9e94-b3791f646750</variableId>
+         <variableId>29942316-7ff8-4044-9d7a-c14c10b8ebdb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7ab44fcf-fe11-4134-bf77-96300e11bf3c</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>b37ca8a5-212f-4dad-b691-bedb1a709ca0</guid>
+      <guid>d96c2e7f-b8a4-42f6-ae5e-ec028832d4a9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Faqbot/extractArticleFromExternalLink_Test</testCaseId>
+      <testCaseId>Test Cases/FAQ_SSO/importArticlesFromCsv_Test</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>23137af1-a587-4766-af22-6dd4a37d7613</variableId>
+         <variableId>c542a163-97c4-4bfc-bef4-624b86c8023d</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>080576d5-3cab-4bf5-bbea-9f6eed5c903b</variableId>
+         <variableId>b36da167-c6da-4259-a66f-7960eedcc4a9</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>57dd9441-2fc8-4df7-ba8b-50292f222c7a</variableId>
+         <variableId>3e1e49b8-b1ad-4828-9b93-2c66eaad18c5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8da60c58-2dec-470a-a5e2-6b42cf18b0d6</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a73fb3fc-38db-448c-8a49-9384ff0c033e</guid>
+      <guid>11293aa0-0dfa-43b3-a139-208ebee374b1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Faqbot/searchArticle_Test</testCaseId>
+      <testCaseId>Test Cases/FAQ_SSO/extractArticleFromExternalLink_Test</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>ae6412db-7dcc-4c03-bb63-746df0bb27d9</variableId>
+         <variableId>ea366a94-33f5-4068-bea5-61e34ac57bf4</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>85c0fa73-e392-4df7-bd42-6a8aadc3d9d0</variableId>
+         <variableId>48acaca9-def9-4587-9cbd-8c3676ccb364</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cebef41b-0763-47ab-ba11-189706064f67</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>f460c112-87bc-4e96-9e60-d2c50f5b3116</guid>
+      <guid>fe718bb3-c17d-4c08-b1b6-00a39e2cb3e6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Faqbot/downvoteWithComment_Test</testCaseId>
+      <testCaseId>Test Cases/FAQ_SSO/searchArticle_Test</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>38221743-3644-48fb-8052-62d48fc14eaf</variableId>
+         <variableId>647218ad-7776-469c-8701-e439cbedcc92</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>7773d280-7493-4860-8df8-baed8e138e6f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7b6ef952-b80f-4d75-976a-603c3e2b3982</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>cc7e284d-2596-4708-9e36-54a38b7376fa</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a08d8708-37ed-4e1f-ac09-893a24575676</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>2da026c3-f729-41fe-aefe-a7716b8c914d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6fd08b15-3da9-4b3a-a453-3b6a981640b5</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a6f91eba-6b40-4dd8-9f38-7e6b48118f62</variableId>
+         <variableId>972b86b4-af3d-4f8a-932d-7789d573a202</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>d5185e19-428f-44a2-a477-810a2a021911</guid>
+      <guid>e63fe5ff-d21c-4186-bffb-83d329ec6d4f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Faqbot/addToCurationFromSessions_Test</testCaseId>
+      <testCaseId>Test Cases/FAQ_SSO/downvoteWithComment_Test</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>d08ac8b1-3809-4b78-bb03-082b3170c279</variableId>
+         <variableId>44fdfc88-4210-4c94-aaa0-6bcccd300d90</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>fd024525-913f-4bde-840b-5c218c9106fd</variableId>
+         <variableId>38eb76d7-260b-4f1a-80ef-986fc5d922ed</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>c9b9243d-485a-47a5-9c45-7651f12469a7</variableId>
+         <variableId>7a5f90d8-0d35-4274-83a0-5671af33fbd7</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>b3b066d8-8872-43b4-82ac-56865435de97</variableId>
+         <variableId>08f23b81-f16e-4506-bbd4-b8c5e7fc2f29</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>143e2c60-758d-4c2c-9abc-37bce6d55549</variableId>
+         <variableId>2153ee38-3ba5-40e8-a3be-0b1565afec49</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b0a0a987-fe0c-4455-a5bf-b61f1160adb0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>250d673e-6d1e-4da9-a362-0e0856adce91</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c3707fe0-1a37-456c-9319-873a44e62af1</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>1245c9a5-4297-47b9-93e7-e5d94c45e709</guid>
+      <guid>5a467ec4-2f80-435a-8f34-62371e603044</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Faqbot/createArticleWithRichResponseInCategory_Test</testCaseId>
+      <testCaseId>Test Cases/FAQ_SSO/addToCurationFromSessions_Test</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>ea77cce4-2be9-4298-b4b6-23ef34cddfb8</variableId>
+         <variableId>f2657b11-f1a5-40c7-8035-cb6cf7d264f2</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>1e59dd62-f050-4e65-8fc0-4a66c067b67a</variableId>
+         <variableId>51cb9937-97d5-43b9-b33b-3d8151955ff3</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>3bd67cd4-51ba-4699-92b9-e9f7f93cf6a4</variableId>
+         <variableId>5699993d-03f7-40ca-b490-0cb2a79b3b6b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dd934396-689a-43d4-9789-2c790ca36a9c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cda811e2-df99-4f62-97bb-6deed2434697</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>43181f9d-ace2-47b5-91a7-c390bf925d69</guid>
+      <guid>6a7ac9aa-6df7-4eb4-bc22-b1036c7b4743</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Faqbot/modifyCategory_Test</testCaseId>
+      <testCaseId>Test Cases/FAQ_SSO/createArticleWithRichResponseInCategory_Test</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>67fbcebf-5525-4025-bf72-80175feee954</variableId>
+         <variableId>d252d615-29bd-471b-9165-78e88585cd15</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ad7157e4-2333-4066-af83-926085ea8fe0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c948a1eb-516c-45a8-8067-9a242c1e2414</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>0049aa1a-bc0b-4bbd-9c0e-4c6ce3a891b6</guid>
+      <guid>010d129a-253e-4686-a1e0-3e641651614c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Faqbot/fallbackCurationByAddToExistingArticle_Test</testCaseId>
+      <testCaseId>Test Cases/FAQ_SSO/modifyCategory_Test</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>72918d71-5ad3-4726-8570-eb1445cc4877</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>02ed9b0b-ced3-49cc-b803-5dbce16d8164</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>2c03c3b8-c136-4678-a254-c5a8b560d554</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7fe60e0f-5688-4c4c-9549-1a6687d0e063</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>9eab2e19-89a4-42f3-97ba-0ac3b94719cc</variableId>
+         <variableId>f09add91-d47b-4d27-bbe6-fc95a5d5aa9d</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>1e90da80-34e3-4915-84bf-ffe3750d83d3</guid>
+      <guid>dd81e7ed-5a75-4ef5-8cda-844d8c8f7a89</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Faqbot/partialMatchCurationByCreateNewArticle_Test</testCaseId>
+      <testCaseId>Test Cases/FAQ_SSO/fallbackCurationByAddToExistingArticle_Test</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>05be56a1-0932-4699-b645-91af123d8beb</variableId>
+         <variableId>5b8f3704-736d-42e0-90fe-f783a590ef0a</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>ee4147a3-efee-41ea-a256-a17c036f7f36</variableId>
+         <variableId>ee32b751-1869-4351-9487-5c94142a0665</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>a92c8fbf-40f8-4f7d-b74c-95e4b22cbfa0</variableId>
+         <variableId>418a5b73-0ddd-47f0-b4f0-5339ff6919a2</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>746a7aff-1375-4da9-9f72-1d568b1107b7</variableId>
+         <variableId>60cc7234-4cd1-4b40-9a05-91a429a3c2f7</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>f535f48d-cae0-4303-af9b-643c9c2edcc7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>02f796a9-ed55-4cad-ab5c-8b6fd0318317</variableId>
+         <variableId>65c08d89-d0be-4799-ac6c-95d9287ffd5e</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>473bcda0-1d05-4652-b262-949f26266efa</guid>
+      <guid>b834c36a-d008-4973-8a21-808a4a2f5190</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Faqbot/filterSessionsBy_Test</testCaseId>
+      <testCaseId>Test Cases/FAQ_SSO/partialMatchCurationByCreateNewArticle_Test</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>dbc3be87-e0ea-43a1-8bf4-180d7a77d05c</variableId>
+         <variableId>81a9fe90-15d7-45d1-a432-cbf96c351ca2</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>0f7a0ecf-cd0b-4081-8efb-1c0a98fa5ce2</variableId>
+         <variableId>b8567aa8-465a-4f38-9eed-bc436e247310</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f8a00bd8-28c6-4f55-be7b-4af5d9bc5b12</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7a622e3a-8dc4-45c5-bb4a-02faa9f936ef</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cbdf4c35-0223-4d60-8e1f-9445172650ba</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0e73eed1-200f-4645-9fce-c2fdcc9b0955</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a0854029-7b74-4bd9-80d6-bff30270e00c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FAQ_SSO/filterSessionsBy_Test</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c43fd688-9a07-4eb7-8c1f-900930699143</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>aad597e6-46a4-4911-bc1c-612c0147f230</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>943f63b6-046f-4f7d-bc27-6ddfd301ab5a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FAQ_SSO/oneClickTestingTrainedVersion_Test</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>26bd1b9f-e8a0-4052-b52b-49a5a72077fc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>17abd265-dce1-4839-b67a-e80c11a78475</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>debaa206-dcc5-468b-aec1-f2fc5dadb3a1</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9f26eaaa-b087-4ab3-b7a1-98a3eee9cf3a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FAQ_SSO/agentHandoverE2E_Test</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>780ef44c-200a-4ddd-a4f1-2357a30aa627</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>21e69836-ca76-4739-a425-f3723be5819c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>31e2f886-b1d3-441b-8a26-be0127aa5344</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>45d6e03b-197b-4f7c-aa8a-ee4ab91110f3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5e32a944-58c7-440e-b30c-32d95d893eea</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d641cb96-dd6e-48fc-9224-4dd9ae0acbe8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4ce97d19-39f5-4123-8809-cca7b85540ba</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FAQ_SSO/disabledLowConfidenceAndDownvote_Test</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>edc227cb-0457-4007-a130-c773fa894def</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e5102dc3-95a8-4cb8-b09e-d89bd8c9c39d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1dc5d703-38dd-4657-b3df-937cd99efcae</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FAQ_SSO/disabledPartialMatch_Test</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0c5376bf-e558-4075-ade6-13ecff1678f2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dc3522bf-c086-4f03-8536-84793b9a5864</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7d1af073-13af-4b6c-821c-97c9fdfd874b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bce00a77-5991-4a36-83d5-d8f61792075e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FAQ_SSO/disabledFallback_Test</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>703bb8a1-a3b9-493e-a719-daa5f87cbf00</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>595baeb8-6529-4b71-9d70-da0dc73baf10</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>84666825-7967-4710-b087-9b12a5790d8d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>471f228b-196b-42fc-8370-648add606fc3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FAQ_SSO/defaultQuestionInArticle_Test</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>601edbfa-3344-493a-94d9-348e9a1a81e6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>26c21daa-46f3-45aa-907f-e957abcc21f1</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9220d815-2180-49bc-8b18-09bef18db1ff</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FAQ_SSO/encryptionOnSessions_Test</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5c06d7de-5570-4c84-bb9c-d7ea958e6f53</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>eda14724-2c8d-4b99-bfca-bd5824b02c5d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FAQ_SSO/customSynonymsE2E_Test</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ff21349c-132d-4112-859e-1171113ee490</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

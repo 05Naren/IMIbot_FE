@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda:
+
+Step 1: Disable fallback</description>
+   <name>disabledFallback_Test</name>
+   <tag></tag>
+   <comment>comment</comment>
+   <testCaseGuid>cc0f9f29-b30c-47c6-84a6-c62372a8a062</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('comment', 7)</defaultValue>
+      <description></description>
+      <id>703bb8a1-a3b9-493e-a719-daa5f87cbf00</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+   <variable>
+      <defaultValue>'qwerty asdfg zxcvb'</defaultValue>
+      <description></description>
+      <id>595baeb8-6529-4b71-9d70-da0dc73baf10</id>
+      <masked>false</masked>
+      <name>userQuery</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sorry, I could not understand your message. Could you please rephrase that?'</defaultValue>
+      <description></description>
+      <id>84666825-7967-4710-b087-9b12a5790d8d</id>
+      <masked>false</masked>
+      <name>fallbackMessage</name>
+   </variable>
+</TestCaseEntity>

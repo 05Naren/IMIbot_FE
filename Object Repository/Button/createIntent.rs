@@ -6,12 +6,11 @@
    <elementGuidId>2c2fe6f0-a533-4cf7-8430-4c6e63ff396c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//button//span[contains(text(),'+ Create intent')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button/span/span[contains(text(),'+ Create intent')]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

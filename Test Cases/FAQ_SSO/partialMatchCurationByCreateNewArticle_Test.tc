@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: Verify if partial match in curation and add to new article
+
+Step 1: Preview bot with question which would give partial match result
+Step 2: Verify partial match updated answer
+Step 3: Curate the partial match by creating a new article
+Step 4: Train the bot
+Step 5: Verify the bot with the same question and assert the value
+Step 6: Go to curation and check the room id in resolved section</description>
+   <name>partialMatchCurationByCreateNewArticle_Test</name>
+   <tag></tag>
+   <comment>comment</comment>
+   <testCaseGuid>60138b47-849a-4fdc-bb58-2b6403fe8935</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('comment', 3)</defaultValue>
+      <description></description>
+      <id>81a9fe90-15d7-45d1-a432-cbf96c351ca2</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('partial_match_query', 1)</defaultValue>
+      <description></description>
+      <id>b8567aa8-465a-4f38-9eed-bc436e247310</id>
+      <masked>false</masked>
+      <name>userQuery</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('downvote_comment', 1)</defaultValue>
+      <description></description>
+      <id>f8a00bd8-28c6-4f55-be7b-4af5d9bc5b12</id>
+      <masked>false</masked>
+      <name>feedback</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('new_article_response', 1)</defaultValue>
+      <description></description>
+      <id>7a622e3a-8dc4-45c5-bb4a-02faa9f936ef</id>
+      <masked>false</masked>
+      <name>newArticleResponse</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('update_category', 1)</defaultValue>
+      <description></description>
+      <id>cbdf4c35-0223-4d60-8e1f-9445172650ba</id>
+      <masked>false</masked>
+      <name>saveArticleTo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_FAQ').getValue('partial_match', 1)</defaultValue>
+      <description></description>
+      <id>0e73eed1-200f-4645-9fce-c2fdcc9b0955</id>
+      <masked>false</masked>
+      <name>stringToCheck</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,104 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+demo,,,,2020-09-01 18:28:42,2020-09-01 18:29:16,34.536s,INCOMPLETE
+,,,,,,,
+Test Cases/FAQ_SSO/botCreation_Test,,TestCase Agenda: To test faq bot creation,,2020-09-01 18:28:53,2020-09-01 18:28:54,1.217s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Button/createBot""))",,,,2020-09-01 18:28:54,2020-09-01 18:28:54,0.321s,ERROR
+,,,,,,,
+Test Cases/FAQ_SSO/botSideOptionsNavigation_Test,,TestCase Agenda: To navigate module within a FAQ bot,,2020-09-01 18:28:54,2020-09-01 18:28:55,0.639s,ERROR
+"platform.Method.clickOnElement(findTestObject(""ICONS/sidebarSettings""))",,,,2020-09-01 18:28:55,2020-09-01 18:28:55,0.187s,ERROR
+,,,,,,,
+Test Cases/FAQ_SSO/botUrlAndDefaultArticleConfiguration_Test,,TestCase Agenda: Update bot logo and welcome message,,2020-09-01 18:28:55,2020-09-01 18:29:00,4.634s,ERROR
+"platform.Method.clickOnElement(findTestObject(""ICONS/sidebarSettings""))",,,,2020-09-01 18:28:59,2020-09-01 18:29:00,0.284s,ERROR
+,,,,,,,
+Test Cases/FAQ_SSO/botCardMenuWithFallbackMessage_Test,,"TestCase Agenda: Preview bot to answer with a fallback response, save the room id so later we can use it curate the query",,2020-09-01 18:29:00,2020-09-01 18:29:01,1.245s,ERROR
+"waitForElementVisible(findTestObject(""Button/createBot""), 20, OPTIONAL)",,,,2020-09-01 18:29:00,2020-09-01 18:29:01,0.422s,PASSED
+"botCardOptions = platform.Method.verifyBotCardMenu(""Q&A bots"", FAQ_BOT)",,,,2020-09-01 18:29:01,2020-09-01 18:29:01,0.008s,ERROR
+,,,,,,,
+Test Cases/FAQ_SSO/importArticlesFromCsv_Test,,"TestCase Agenda: Import articles from csv, train bot with data and query bot for response",,2020-09-01 18:29:01,2020-09-01 18:29:02,0.606s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",,,,2020-09-01 18:29:01,2020-09-01 18:29:02,0.139s,ERROR
+,,,,,,,
+Test Cases/FAQ_SSO/extractArticleFromExternalLink_Test,,"TestCase Agenda: To ensure if faq bots are able to extract faq from external site
+
+Step 1: Extract question from external link
+Step 2: Train bot with new data
+Step 3: Preview bot 
+Step 4: Verify bot response",,2020-09-01 18:29:02,2020-09-01 18:29:03,1.322s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",,,,2020-09-01 18:29:03,2020-09-01 18:29:03,0.144s,ERROR
+,,,,,,,
+Test Cases/FAQ_SSO/searchArticle_Test,,TestCase Agenda: Verify if the search bar for article is able to display result properly,,2020-09-01 18:29:03,2020-09-01 18:29:04,0.785s,FAILED
+"sendKeys(findTestObject(""Input/searchForQuestion""), searchQuestion)",,,,2020-09-01 18:29:04,2020-09-01 18:29:04,0.158s,FAILED
+,,,,,,,
+Test Cases/FAQ_SSO/downvoteWithComment_Test,,"TestCase Agenda: To verify if bot response can be downvoted and add a comment to it
+
+Step 1: Preview bot for response
+Step 2: Downvote response
+Step 3: Got to room in Sessions 
+Step 4: Verify downvote with comment",,2020-09-01 18:29:04,2020-09-01 18:29:07,2.986s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",,,,2020-09-01 18:29:06,2020-09-01 18:29:07,0.253s,ERROR
+,,,,,,,
+Test Cases/FAQ_SSO/addToCurationFromSessions_Test,,"TestCase Agenda: To verify if a bot response can be added from sessions to curation
+
+Step 1: Preview bot
+Step 2: Go to room in sessions
+Step 3: Add to curation a response
+Step 4: Navigate to Curation and click on from sessions to filter result
+Step 5: Filter value by room Id
+Step 3: Add to",,2020-09-01 18:29:07,2020-09-01 18:29:07,0.607s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",,,,2020-09-01 18:29:07,2020-09-01 18:29:07,0.277s,ERROR
+,,,,,,,
+Test Cases/FAQ_SSO/createArticleWithRichResponseInCategory_Test,,"TestCase Agenda: Creation of category with new article manually and query bot response for rich response
+
+Step 1: Create a new article of carousel type
+Step 2: Preview bot
+Step 3: Verify bot response with carousel title",,2020-09-01 18:29:07,2020-09-01 18:29:08,0.811s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",,,,2020-09-01 18:29:08,2020-09-01 18:29:08,0.115s,ERROR
+,,,,,,,
+Test Cases/FAQ_SSO/modifyCategory_Test,,TestCase Agenda: To modify an exisiting category,,2020-09-01 18:29:08,2020-09-01 18:29:09,0.643s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",,,,2020-09-01 18:29:09,2020-09-01 18:29:09,0.108s,ERROR
+,,,,,,,
+Test Cases/FAQ_SSO/fallbackCurationByAddToExistingArticle_Test,,,,2020-09-01 18:29:09,2020-09-01 18:29:10,0.943s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/curation""))",,,,2020-09-01 18:29:10,2020-09-01 18:29:10,0.085s,ERROR
+,,,,,,,
+Test Cases/FAQ_SSO/partialMatchCurationByCreateNewArticle_Test,,"TestCase Agenda: Verify if partial match in curation and add to new article
+
+Step 1: Preview bot with question which would give partial match result
+Step 2: Verify partial match updated answer
+Step 3: Curate the partial match by creating a new article
+Step 4: Train the bot
+Step 5: Verify the bot with the same question and assert the value
+Step 6: Go to curation and check the room id in resolved section",,2020-09-01 18:29:10,2020-09-01 18:29:11,0.856s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",,,,2020-09-01 18:29:11,2020-09-01 18:29:11,0.087s,ERROR
+,,,,,,,
+Test Cases/FAQ_SSO/filterSessionsBy_Test,,TestCase Agenda: To verify if sessions function is working as per expectation for user or not,,2020-09-01 18:29:11,2020-09-01 18:29:11,0.787s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/session""))",,,,2020-09-01 18:29:11,2020-09-01 18:29:11,0.088s,ERROR
+,,,,,,,
+Test Cases/FAQ_SSO/oneClickTestingTrainedVersion_Test,,"TestCase Agenda: Verify if user is able to successfully able to type in test cases, auto selection of value from dropdown and upload test case feature that the handson table presents",,2020-09-01 18:29:11,2020-09-01 18:29:12,0.623s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",,,,2020-09-01 18:29:12,2020-09-01 18:29:12,0.091s,ERROR
+,,,,,,,
+Test Cases/FAQ_SSO/agentHandoverE2E_Test,,"TestCase Agenda:
+
+Step 1:",,2020-09-01 18:29:12,2020-09-01 18:29:13,0.483s,ERROR
+"platform.Method.clickOnElement(findTestObject(""ICONS/sidebarSettings""))",,,,2020-09-01 18:29:13,2020-09-01 18:29:13,0.036s,ERROR
+,,,,,,,
+Test Cases/FAQ_SSO/disabledLowConfidenceAndDownvote_Test,,TestCase Agenda: Verify if issues can be found in curation after all the settings has been disabled for FAQ bot,,2020-09-01 18:29:13,2020-09-01 18:29:13,0.748s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",,,,2020-09-01 18:29:13,2020-09-01 18:29:13,0.172s,ERROR
+,,,,,,,
+Test Cases/FAQ_SSO/disabledPartialMatch_Test,,"TestCase Agenda:
+
+1. Perform partial match",,2020-09-01 18:29:13,2020-09-01 18:29:14,0.740s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",,,,2020-09-01 18:29:14,2020-09-01 18:29:14,0.148s,ERROR
+,,,,,,,
+Test Cases/FAQ_SSO/disabledFallback_Test,,"TestCase Agenda:
+
+Step 1: Disable fallback",,2020-09-01 18:29:14,2020-09-01 18:29:15,0.926s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",,,,2020-09-01 18:29:15,2020-09-01 18:29:15,0.151s,ERROR
+,,,,,,,
+Test Cases/FAQ_SSO/defaultQuestionInArticle_Test,,"TestCase Agenda: Verify if a user can save an article with no default question, update the default question and the header on article page changes and addition of variant doesn't impact the default question",,2020-09-01 18:29:15,2020-09-01 18:29:16,0.522s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",,,,2020-09-01 18:29:15,2020-09-01 18:29:16,0.097s,ERROR
+,,,,,,,
+Test Cases/FAQ_SSO/encryptionOnSessions_Test,,"TestCase Agenda:
+
+Step 1: Enable ADP
+Step 2: Navigate to Session and verify 
+Step 3: Navigate to Curation and verify",,2020-09-01 18:29:16,2020-09-01 18:29:16,0.759s,ERROR
+"platform.Method.clickOnElement(findTestObject(""ICONS/sidebarSettings""))",,,,2020-09-01 18:29:16,2020-09-01 18:29:16,0.134s,ERROR

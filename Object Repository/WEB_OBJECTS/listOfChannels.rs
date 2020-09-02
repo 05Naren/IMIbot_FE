@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>listOfChannels</name>
+   <tag></tag>
+   <elementGuidId>a8830af5-b0d6-4c9c-b6bd-efcfedde3c82</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[starts-with(@class,'channel-ribbon')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[starts-with(@class,'channel-ribbon')]</value>
+   </webElementProperties>
+</WebElementEntity>
