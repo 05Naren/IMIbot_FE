@@ -11,9 +11,16 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//tbody[2]/tr[${rowValue}]/td[3]/mat-checkbox</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//tbody[2]/tr[${rowValue}]/td[3]/mat-checkbox</value>
+   </webElementProperties>
 </WebElementEntity>

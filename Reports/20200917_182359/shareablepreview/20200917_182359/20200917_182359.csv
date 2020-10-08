@@ -1,0 +1,53 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+shareablepreview,Chrome 85.0.4183.102,,,2020-09-17 18:24:08,2020-09-17 18:35:20,11m - 11.636s,INCOMPLETE
+,,,,,,,
+Test Cases/SetUp/setUpCustomSyn_ShareablePreview1,Chrome 85.0.4183.102,Agenda: Set up articles only for shareable preview faq bot,,2020-09-17 18:24:51,2020-09-17 18:25:27,35.681s,ERROR
+"callTestCase(findTestCase(""FAQ_SSO/botCreation_Test""), [""nameOfTheBot"":PREVIEW_BOT], STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-17 18:24:52,2020-09-17 18:25:16,23.706s,PASSED
+"testData = findTestData(""Data Files/testData_Dummy"")",Chrome 85.0.4183.102,,,2020-09-17 18:25:16,2020-09-17 18:25:20,4.379s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/minimize""))",Chrome 85.0.4183.102,,,2020-09-17 18:25:20,2020-09-17 18:25:27,6.327s,ERROR
+,,,,,,,
+Test Cases/SetUp/setUpCustomSyn_ShareablePreview2,Chrome 85.0.4183.102,,,2020-09-17 18:25:27,2020-09-17 18:31:51,6m - 23.929s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 85.0.4183.102,,,2020-09-17 18:25:28,2020-09-17 18:25:30,2.218s,PASSED
+"testData = findTestData(""Data Files/testData_Dummy"")",Chrome 85.0.4183.102,,,2020-09-17 18:25:30,2020-09-17 18:25:30,0.399s,PASSED
+"platform.Articles.createNewArticle(testData, testData.getValue(""carousel_question"", 1))",Chrome 85.0.4183.102,,,2020-09-17 18:25:30,2020-09-17 18:25:36,5.992s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/carousel""))",Chrome 85.0.4183.102,,,2020-09-17 18:25:36,2020-09-17 18:25:39,2.596s,PASSED
+platform.ResponseDesigner.deleteDefaultTextTemplate(),Chrome 85.0.4183.102,,,2020-09-17 18:25:39,2020-09-17 18:25:46,6.893s,PASSED
+"for ([count = 1, count <= testData.getRowNumbers(), (count++)])",Chrome 85.0.4183.102,,,2020-09-17 18:25:46,2020-09-17 18:27:56,2m - 10.130s,PASSED
+"platform.Articles.saveAndTrainArticleToExistingCategory("" Unassigned "")",Chrome 85.0.4183.102,,,2020-09-17 18:27:56,2020-09-17 18:28:05,9.281s,PASSED
+"verifyElementPresent(findTestObject(""ICONS/toastMsg""), 30, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-17 18:28:05,2020-09-17 18:28:11,5.855s,PASSED
+"platform.Articles.createNewArticle(testData, testData.getValue(""carousel_question"", 2))",Chrome 85.0.4183.102,,,2020-09-17 18:28:11,2020-09-17 18:28:17,5.406s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/carousel""))",Chrome 85.0.4183.102,,,2020-09-17 18:28:17,2020-09-17 18:28:19,2.477s,PASSED
+platform.ResponseDesigner.deleteDefaultTextTemplate(),Chrome 85.0.4183.102,,,2020-09-17 18:28:19,2020-09-17 18:28:26,6.927s,PASSED
+"for ([count = 1, count <= testData.getRowNumbers(), (count++)])",Chrome 85.0.4183.102,,,2020-09-17 18:28:26,2020-09-17 18:29:45,1m - 18.795s,PASSED
+"platform.Articles.saveAndTrainArticleToExistingCategory("" Unassigned "")",Chrome 85.0.4183.102,,,2020-09-17 18:29:45,2020-09-17 18:29:54,9.266s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 20, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-17 18:29:54,2020-09-17 18:30:00,5.898s,PASSED
+"platform.Articles.createNewArticle(testData, testData.getValue(""carousel_question"", 3))",Chrome 85.0.4183.102,,,2020-09-17 18:30:00,2020-09-17 18:30:05,5.579s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/carousel""))",Chrome 85.0.4183.102,,,2020-09-17 18:30:05,2020-09-17 18:30:08,2.511s,PASSED
+platform.ResponseDesigner.deleteDefaultTextTemplate(),Chrome 85.0.4183.102,,,2020-09-17 18:30:08,2020-09-17 18:30:15,6.990s,PASSED
+"for ([count = 1, count <= testData.getRowNumbers(), (count++)])",Chrome 85.0.4183.102,,,2020-09-17 18:30:15,2020-09-17 18:31:35,1m - 20.128s,PASSED
+"platform.Articles.saveAndTrainArticleToExistingCategory("" Unassigned "")",Chrome 85.0.4183.102,,,2020-09-17 18:31:35,2020-09-17 18:31:45,9.588s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 20, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-17 18:31:45,2020-09-17 18:31:51,5.917s,PASSED
+,,,,,,,
+Test Cases/SetUp/setUpCustomSyn_ShareablePreview3,Chrome 85.0.4183.102,,,2020-09-17 18:31:51,2020-09-17 18:35:20,3m - 29.081s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 85.0.4183.102,,,2020-09-17 18:31:51,2020-09-17 18:31:54,2.247s,PASSED
+"testData = findTestData(""Data Files/testData_Dummy"")",Chrome 85.0.4183.102,,,2020-09-17 18:31:54,2020-09-17 18:31:54,0.346s,PASSED
+"platform.Articles.createNewArticle(testData, testData.getValue(""article_default_question"", 3))",Chrome 85.0.4183.102,,,2020-09-17 18:31:54,2020-09-17 18:31:59,5.458s,PASSED
+"platform.Method.clickOnElement(findTestObject(""ICONS/quickReply""))",Chrome 85.0.4183.102,,,2020-09-17 18:31:59,2020-09-17 18:32:02,2.358s,PASSED
+platform.ResponseDesigner.deleteDefaultTextTemplate(),Chrome 85.0.4183.102,,,2020-09-17 18:32:02,2020-09-17 18:32:09,6.832s,PASSED
+"platform.ResponseDesigner.configureQuickReplyResponse(testData.getValue(""quick_reply"", 1))",Chrome 85.0.4183.102,,,2020-09-17 18:32:09,2020-09-17 18:32:13,4.378s,PASSED
+"for ([count = 1, count <= testData.getRowNumbers(), (count++)])",Chrome 85.0.4183.102,,,2020-09-17 18:32:13,2020-09-17 18:33:28,1m - 14.873s,PASSED
+"platform.Articles.saveAndTrainArticleToNewCategory(testData.getValue(""category"", 3))",Chrome 85.0.4183.102,,,2020-09-17 18:33:28,2020-09-17 18:33:38,10.019s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 20, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-17 18:33:38,2020-09-17 18:33:45,7.351s,PASSED
+"platform.Articles.createNewArticle(testData, ""मैं कुछ सुखदायक संगीत सुनना चाहता हूं"")",Chrome 85.0.4183.102,,,2020-09-17 18:33:45,2020-09-17 18:33:51,5.768s,PASSED
+"platform.ResponseDesigner.configureMediaResponse(""audio"", ""https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_700KB.mp3"")",Chrome 85.0.4183.102,,,2020-09-17 18:33:51,2020-09-17 18:33:59,7.869s,PASSED
+platform.ResponseDesigner.deleteDefaultTextTemplate(),Chrome 85.0.4183.102,,,2020-09-17 18:33:59,2020-09-17 18:34:06,6.755s,PASSED
+"platform.Articles.saveAndTrainArticleToExistingCategory("" Unassigned "")",Chrome 85.0.4183.102,,,2020-09-17 18:34:06,2020-09-17 18:34:15,9.037s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 20, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-17 18:34:15,2020-09-17 18:34:21,5.876s,PASSED
+"platform.Articles.createNewArticle(testData, ""عرض فيديو مثير للاهتمام"")",Chrome 85.0.4183.102,,,2020-09-17 18:34:21,2020-09-17 18:34:26,5.373s,PASSED
+"platform.ResponseDesigner.configureMediaResponse(""video"", ""https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_480_1_5MG.mp4"")",Chrome 85.0.4183.102,,,2020-09-17 18:34:26,2020-09-17 18:34:34,8.266s,PASSED
+platform.ResponseDesigner.deleteDefaultTextTemplate(),Chrome 85.0.4183.102,,,2020-09-17 18:34:34,2020-09-17 18:34:41,6.799s,PASSED
+"platform.Articles.saveAndTrainArticleToExistingCategory("" Unassigned "")",Chrome 85.0.4183.102,,,2020-09-17 18:34:41,2020-09-17 18:34:51,10.134s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 20, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-17 18:34:51,2020-09-17 18:34:58,6.342s,PASSED
+"platform.Articles.selectFromKebabMenu(findTestObject(""Button/importIcon""), ""Import From CSV"")",Chrome 85.0.4183.102,,,2020-09-17 18:34:58,2020-09-17 18:35:05,7.349s,PASSED
+"platform.Method.uploadCsvFile(false, ""faq_CS.csv"")",Chrome 85.0.4183.102,,,2020-09-17 18:35:05,2020-09-17 18:35:10,4.886s,PASSED
+"platform.Method.trainAndComment(""imported hindi arabic article"")",Chrome 85.0.4183.102,,,2020-09-17 18:35:10,2020-09-17 18:35:20,9.938s,PASSED

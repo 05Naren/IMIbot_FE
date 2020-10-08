@@ -79,6 +79,6 @@ CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/webObjec
 WebUI.sendKeys(findTestObject('Input/roomID', [('value') : 'room_id']), roomID.get(0).toString( // filter by room id
         ))
 
-CustomKeywords.'platform.Method.toClickOnWebElement'(findTestObject('Button/filter'))
+CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/filter'))
 
 WebUI.verifyTextPresent(roomID.get(0).toString(), false, FailureHandling.STOP_ON_FAILURE)

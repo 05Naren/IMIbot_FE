@@ -22,11 +22,11 @@ TestData testData = findTestData('Data Files/testData_OneClickTesting')
 WebUI.verifyElementPresent(findTestObject('Toggle/oneClickCallback'), 20, FailureHandling.STOP_ON_FAILURE)
 
 //Verify table column headers
-WebUI.verifyTextPresent('Message', false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyTextPresent('Message', false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyTextPresent('Expected template', false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyTextPresent('Expected template', false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyTextPresent('Reset previous context', false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyTextPresent('Reset previous context', false, FailureHandling.CONTINUE_ON_FAILURE)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/importIcon'))
 
@@ -35,18 +35,18 @@ CustomKeywords.'platform.Method.uploadCsvFile'(false, uploadTaskTestCases //kept
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/updateBtn'))
 
-WebUI.verifyElementPresent(findTestObject('ICONS/toastMsg'), 30, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('ICONS/toastMsg'), 30, FailureHandling.CONTINUE_ON_FAILURE)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('NewRepo2/execution'))
 
-WebUI.waitForElementPresent(findTestObject('Button/btnExecute'), 20, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('Button/btnExecute'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 //Execution starts from here and there after verify the test status post execution
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/btnExecute'))
 
 CustomKeywords.'platform.Method.runOneClickTestOnLiveData'(false)
 
-WebUI.waitForElementVisible(findTestObject('Generic/testSummary', [('status') : 'summery-status-completed']), 90, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('Generic/testSummary', [('status') : 'summery-status-completed']), 90, FailureHandling.CONTINUE_ON_FAILURE)
 
 /*List<Object> testResults = CustomKeywords.'platform.Utility.storeTestCaseStatus'()
 
@@ -57,17 +57,17 @@ for (int count = 0; count < testResults.size(); count++) {
 }*/
 
 //Verify execute table column header
-WebUI.verifyTextPresent('Status', false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyTextPresent('Status', false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyTextPresent('Utterance', false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyTextPresent('Utterance', false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyTextPresent('Expected template', false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyTextPresent('Expected template', false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyTextPresent('Actual template', false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyTextPresent('Actual template', false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyTextPresent('Room ID', false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyTextPresent('Room ID', false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyTextPresent('Actions', false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyTextPresent('Actions', false, FailureHandling.CONTINUE_ON_FAILURE)
 
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('ICONS/action', [('index') : 3]) // hardcoded the action on test case

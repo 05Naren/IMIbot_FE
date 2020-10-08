@@ -41,15 +41,15 @@ WebUI.sendKeys(findTestObject('Input/roomID', [('value') : 'room_id']), roomID)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/filter'))
 
-WebUI.waitForElementVisible(findTestObject('Button/addToNewIntent'), 20, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('Button/addToNewIntent'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/addToNewIntent'))
 
-WebUI.verifyElementText(findTestObject('Generic/header'), 'Create intent', FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Generic/header'), 'Create intent', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.sendKeys(findTestObject('Input/intentName'), testData.getValue('intent_name', 6))
 
-WebUI.sendKeys(findTestObject('Input/finalTempKey'), testData.getValue('final_template', 3 // final template value set from test data which will be updated to dynamic type
+WebUI.setText(findTestObject('Input/finalTempKey'), testData.getValue('final_template', 3 // final template value set from test data which will be updated to dynamic type
         ))
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/save', [('value') : ' Save ']))
@@ -66,7 +66,7 @@ CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/preview')
 WebUI.sendKeys(findTestObject('Input/chatInput'), Keys.chord(userQuery, Keys.ENTER))
 
 WebUI.verifyElementText(findTestObject('Generic/botReponse', [('index') : 2]), testData.getValue('rich_template_value', 
-        5), FailureHandling.STOP_ON_FAILURE)
+        5), FailureHandling.CONTINUE_ON_FAILURE)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('GenericII/minimize'))
 

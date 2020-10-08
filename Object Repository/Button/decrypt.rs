@@ -7,13 +7,20 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[text()='Decrypt ']</value>
+         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//button[contains(text(),'Decrypt')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[contains(text(),'Decrypt')]</value>
+   </webElementProperties>
 </WebElementEntity>

@@ -14,16 +14,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser(GlobalVariable.URL)
+/*WebUI.openBrowser(GlobalVariable.URL)
 
 WebUI.maximizeWindow()
+*/
+CustomKeywords.'platform.Method.clickOnElement'(findTestObject('GenericII/closePopup'))
 
-WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [('username') : 'lil.zakk@gmail.com', ('password') : GlobalVariable.PASSWORD], 
-    FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'platform.Method.logOut'()
 
-// Verify if newly created bot user account has any bot 
+// Part 1 begins here
+WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [('username') : 'naren.n@yopmail.com', ('password') : GlobalVariable.PASSWORD], 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+// Verify if newly created bot user account has any bot
 try {
-    WebUI.verifyTextPresent('There are no Q&A bots in your account', false, FailureHandling.OPTIONAL)
+    WebUI.verifyTextPresent('There are no Q&A bots in your account', false, FailureHandling.CONTINUE_ON_FAILURE)
 }
 catch (Exception e) {
     KeywordUtil.logInfo('Test')
@@ -31,15 +36,27 @@ catch (Exception e) {
 
 CustomKeywords.'platform.Method.logOut'()
 
-WebUI.waitForElementVisible(findTestObject('Input/username'), 30, FailureHandling.OPTIONAL)
+// Part 1 ends, Part 2 begins
+WebUI.waitForElementVisible(findTestObject('Input/username'), 30, FailureHandling.CONTINUE_ON_FAILURE)
 
-// Configure newly created bot user account with auto bot addition
 WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [('username') : GlobalVariable.USERNAME, ('password') : GlobalVariable.PASSWORD], 
-    FailureHandling.STOP_ON_FAILURE)
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-CustomKeywords.'platform.Dashboard.newBotAdditionToUser'('narendra')
+CustomKeywords.'platform.Dashboard.newBotAdditionToUser'('naren')
 
-WebUI.waitForElementPresent(findTestObject('ICONS/toastMsg'), 45, FailureHandling.OPTIONAL)
+WebUI.waitForElementPresent(findTestObject('ICONS/toastMsg'), 30, FailureHandling.OPTIONAL)
 
-// Create a new bot using api, logout and see if it visible in the alternate user account
+CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/imiLogo'))
+
+WebUI.waitForElementVisible(findTestObject('Button/createBot'), 30, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FAQ_SSO/botCreation_Test'), [('nameOfTheBot') : 'new_bot_agent'], FailureHandling.STOP_ON_FAILURE)
+
+// Part 2 ends, Part 3 begins
+CustomKeywords.'platform.Method.logOut'()
+
+WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [('username') : 'naren.n@yopmail.com', ('password') : GlobalVariable.PASSWORD], 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('Generic/webObjectWithText', [('textValue') : ' new_bot_agent ']), 20, FailureHandling.STOP_ON_FAILURE)
 

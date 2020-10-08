@@ -1,9 +1,7 @@
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable as GlobalVariable
 
 /*WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -41,4 +39,3 @@ WebUI.waitForElementVisible(findTestObject('GenericII/getBotResponse', [('index'
 WebUI.verifyElementText(findTestObject('GenericII/getBotResponse', [('index') : 2]), botResponse2, FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('GenericII/minimize'))
-

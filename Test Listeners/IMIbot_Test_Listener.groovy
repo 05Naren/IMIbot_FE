@@ -1,7 +1,7 @@
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import org.openqa.selenium.Capabilities
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.remote.RemoteWebDriver
-import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.annotation.AfterTestSuite
 import com.kms.katalon.core.annotation.BeforeTestSuite
 import com.kms.katalon.core.configuration.RunConfiguration
@@ -9,7 +9,7 @@ import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
 import internal.GlobalVariable as GlobalVariable
 
 class IMIbot_Test_Listener {
@@ -39,12 +39,22 @@ class IMIbot_Test_Listener {
 	@AfterTestSuite
 	def displayExecutionInfo(){
 		WebDriver driver = DriverFactory.getWebDriver()
-		KeywordUtil.logInfo('BROWSER NAME:' + DriverFactory.getExecutedBrowser().getName())
-		KeywordUtil.logInfo('BROWSER VERSION:' + DriverFactory.getBrowserVersion(driver))
-		KeywordUtil.logInfo('ENVIRONMENT:' + RunConfiguration.getExecutionProfile())
-		KeywordUtil.logInfo('0S:' + RunConfiguration.getOS())
-		KeywordUtil.logInfo('ENVIRONMENT:' + RunConfiguration.getHostName())
 		Capabilities cap = ((RemoteWebDriver)driver).getCapabilities()
-		KeywordUtil.logInfo(cap.getBrowserName().toString()+' :'+ cap.getVersion().toString())
+
+		FileWriter fw=new FileWriter("D:\\IMIbot.ai-Project\\SuiteRunDetails.txt");
+		fw.write('ENVIRONMENT: '+ RunConfiguration.executionProfile+'\n')
+		fw.write('URL: '+ GlobalVariable.URL+'\n')
+		fw.write('RUN DATE: '+ java.time.LocalDate.now()+'\n')
+		fw.write('MACHINE NAME: ' + RunConfiguration.getHostName()+'\n')
+		fw.write('0S: ' + RunConfiguration.getOS()+'\n')
+		fw.write('BROWSER NAME: ' + cap.getBrowserName().toString().toUpperCase()+'\n')
+		fw.write("BROWSER VERSION: "+ cap.getVersion().toString())
+		/*	KeywordUtil.logInfo('BROWSER NAME:' + DriverFactory.getExecutedBrowser().getName())
+		 KeywordUtil.logInfo('BROWSER VERSION:' + DriverFactory.getBrowserVersion(driver))
+		 KeywordUtil.logInfo('ENVIRONMENT:' + RunConfiguration.getExecutionProfile())
+		 KeywordUtil.logInfo('0S:' + RunConfiguration.getOS())
+		 KeywordUtil.logInfo('ENVIRONMENT:' + RunConfiguration.getHostName())
+		 KeywordUtil.logInfo(cap.getBrowserName().toString()+' :'+ cap.getVersion().toString())
+		 */	fw.close();
 	}
 }

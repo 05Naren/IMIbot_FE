@@ -5,9 +5,9 @@ import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [:], FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/userOptions'))
+WebUI.mouseOver(findTestObject('Generic/userInitials'))
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/webObjectWithText', [('textValue') : 'Enterprise profile']))
 
@@ -27,7 +27,7 @@ CustomKeywords.'platform.Method.clickOnElement'(findTestObject('GenericII/delete
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/expire'))
 
-CustomKeywords.'platform.Method.toClickOnWebElement'(findTestObject('Generic/webObjectWithText', [('textValue') : 'Expired']))
+CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/webObjectWithText', [('textValue') : 'Expired']))
 
 List<WebElement> listOfExpiredServiceKeys = WebUiCommonHelper.findWebElements(findTestObject('GenericII/serviceKeyList'), 
     5)

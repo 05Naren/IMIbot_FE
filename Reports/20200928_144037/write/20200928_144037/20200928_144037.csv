@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+write,Chrome 85.0.4183.121,,,2020-09-28 14:40:47,2020-09-28 14:48:16,7m - 28.514s,INCOMPLETE
+,,,,,,,
+Test Cases/SetUp/setUpCustomSyn_ShareablePreview1,Chrome 85.0.4183.121,Agenda: Set up articles only for shareable preview faq bot,,2020-09-28 14:41:31,2020-09-28 14:41:45,14.370s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":PREVIEW_BOT]))",Chrome 85.0.4183.121,,,2020-09-28 14:41:32,2020-09-28 14:41:34,2.660s,PASSED
+"testData = findTestData(""Data Files/testData_Dummy"")",Chrome 85.0.4183.121,,,2020-09-28 14:41:34,2020-09-28 14:41:39,4.472s,PASSED
+"platform.Articles.createNewArticle(testData, testData.getValue(""article_default_question"", 1))",Chrome 85.0.4183.121,,,2020-09-28 14:41:39,2020-09-28 14:41:45,6.373s,ERROR
+,,,,,,,
+Test Cases/SetUp/setUpCustomSyn_ShareablePreview2,Chrome 85.0.4183.121,,,2020-09-28 14:41:45,2020-09-28 14:48:06,6m - 20.926s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 85.0.4183.121,,,2020-09-28 14:41:46,2020-09-28 14:41:49,2.544s,PASSED
+"testData = findTestData(""Data Files/testData_Dummy"")",Chrome 85.0.4183.121,,,2020-09-28 14:41:49,2020-09-28 14:41:50,0.814s,PASSED
+"platform.Articles.createNewArticle(testData, testData.getValue(""carousel_question"", 1))",Chrome 85.0.4183.121,,,2020-09-28 14:41:50,2020-09-28 14:41:56,6.068s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/carousel""))",Chrome 85.0.4183.121,,,2020-09-28 14:41:56,2020-09-28 14:41:58,2.605s,PASSED
+platform.ResponseDesigner.deleteDefaultTextTemplate(),Chrome 85.0.4183.121,,,2020-09-28 14:41:58,2020-09-28 14:42:06,7.571s,PASSED
+"for ([count = 1, count <= testData.getRowNumbers(), (count++)])",Chrome 85.0.4183.121,,,2020-09-28 14:42:06,2020-09-28 14:44:20,2m - 13.878s,PASSED
+"platform.Articles.saveAndTrainArticleToExistingCategory("" Unassigned "")",Chrome 85.0.4183.121,,,2020-09-28 14:44:20,2020-09-28 14:44:30,9.906s,PASSED
+"verifyElementPresent(findTestObject(""ICONS/toastMsg""), 30, STOP_ON_FAILURE)",Chrome 85.0.4183.121,,,2020-09-28 14:44:30,2020-09-28 14:44:36,6.386s,PASSED
+"platform.Articles.createNewArticle(testData, testData.getValue(""carousel_question"", 2))",Chrome 85.0.4183.121,,,2020-09-28 14:44:36,2020-09-28 14:44:42,5.323s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/carousel""))",Chrome 85.0.4183.121,,,2020-09-28 14:44:42,2020-09-28 14:44:44,2.400s,PASSED
+platform.ResponseDesigner.deleteDefaultTextTemplate(),Chrome 85.0.4183.121,,,2020-09-28 14:44:44,2020-09-28 14:44:51,7.155s,PASSED
+"for ([count = 1, count <= testData.getRowNumbers(), (count++)])",Chrome 85.0.4183.121,,,2020-09-28 14:44:51,2020-09-28 14:46:13,1m - 21.699s,PASSED
+"platform.Articles.saveAndTrainArticleToExistingCategory("" Unassigned "")",Chrome 85.0.4183.121,,,2020-09-28 14:46:13,2020-09-28 14:46:22,9.598s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 20, STOP_ON_FAILURE)",Chrome 85.0.4183.121,,,2020-09-28 14:46:22,2020-09-28 14:46:24,1.311s,PASSED
+"platform.Articles.createNewArticle(testData, testData.getValue(""carousel_question"", 3))",Chrome 85.0.4183.121,,,2020-09-28 14:46:24,2020-09-28 14:46:30,5.896s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/carousel""))",Chrome 85.0.4183.121,,,2020-09-28 14:46:30,2020-09-28 14:46:32,2.459s,PASSED
+platform.ResponseDesigner.deleteDefaultTextTemplate(),Chrome 85.0.4183.121,,,2020-09-28 14:46:32,2020-09-28 14:46:39,6.950s,PASSED
+"for ([count = 1, count <= testData.getRowNumbers(), (count++)])",Chrome 85.0.4183.121,,,2020-09-28 14:46:39,2020-09-28 14:47:58,1m - 18.534s,PASSED
+"platform.Articles.saveAndTrainArticleToExistingCategory("" Unassigned "")",Chrome 85.0.4183.121,,,2020-09-28 14:47:58,2020-09-28 14:48:06,8.497s,ERROR
+,,,,,,,
+Test Cases/SetUp/setUpCustomSyn_ShareablePreview3,Chrome 85.0.4183.121,,,2020-09-28 14:48:06,2020-09-28 14:48:16,9.554s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 85.0.4183.121,,,2020-09-28 14:48:07,2020-09-28 14:48:09,2.193s,PASSED
+"testData = findTestData(""Data Files/testData_Dummy"")",Chrome 85.0.4183.121,,,2020-09-28 14:48:09,2020-09-28 14:48:09,0.234s,PASSED
+"platform.Articles.createNewArticle(testData, testData.getValue(""article_default_question"", 3))",Chrome 85.0.4183.121,,,2020-09-28 14:48:09,2020-09-28 14:48:16,6.293s,ERROR

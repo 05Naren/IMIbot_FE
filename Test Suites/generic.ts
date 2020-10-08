@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>c1bab596-184a-4d3c-a0d3-33cba9c751be</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Generic/forgotPasswordLink_Test</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -25,7 +25,7 @@
    <testCaseLink>
       <guid>818321eb-011d-4535-b18c-c6a6c392cc6d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Generic/adminUserDetailsAndEnterpriseOption_Test</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -111,5 +111,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Generic/adminRoleDeletion_Test</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6edb4c70-c7dc-491d-8b2f-9b1914b65e79</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Sprint/v4.3/autoAddNewBots_Test</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

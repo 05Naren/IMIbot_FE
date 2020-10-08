@@ -23,11 +23,11 @@ WebUI.sendKeys(findTestObject('Input/roomID', [('value') : 'room_id']), testData
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/filter'))
 
-WebUI.verifyElementPresent(findTestObject('ICONS/downvote'), 10, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('ICONS/downvote'), 10, FailureHandling.CONTINUE_ON_FAILURE)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/addToNewIntent'))
 
-WebUI.verifyElementText(findTestObject('Generic/header'), 'Create intent', FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Generic/header'), 'Create intent', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.sendKeys(findTestObject('Input/intentName'), testData.getValue('intent_name', 4))
 
@@ -67,7 +67,7 @@ CustomKeywords.'platform.Method.trainAndComment'(testData.getValue('comment', 4 
 } else {
     KeywordUtil.logInfo('BOT IS READY!')
 }*/
-WebUI.verifyElementPresent(findTestObject('ICONS/toastMsg'), 20, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('ICONS/toastMsg'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/preview'))
 
@@ -76,12 +76,12 @@ WebUI.sendKeys(findTestObject('Input/chatInput'), Keys.chord(userQuery, Keys.ENT
 WebUI.delay(2)
 
 WebUI.verifyElementText(findTestObject('GenericII/getBotResponse', [('index') : 2]), testData.getValue('missing_entity_default_text', 
-        2), FailureHandling.STOP_ON_FAILURE)
+        2), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.sendKeys(findTestObject('Input/chatInput'), Keys.chord('00001234', Keys.ENTER))
 
 WebUI.verifyElementText(findTestObject('GenericII/getBotResponse', [('index') : 3]), testData.getValue('missing_entity_default_text', 
-        3), FailureHandling.STOP_ON_FAILURE)
+        3), FailureHandling.CONTINUE_ON_FAILURE)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/upvote'))
 

@@ -176,4 +176,20 @@ public class ResponseDesigner extends Method {
 	def addListpickerResponse(){
 		clickOnElement(findTestObject('ICONS/listPickerABC'))
 	}
+
+	/*
+	 * File template function:
+	 * 1. add template
+	 * 2. set url
+	 */
+
+	@Keyword
+	def addFileResponse(){
+		clickOnElement(findTestObject('ICONS/file'))
+	}
+
+	@Keyword
+	def setFileURL(){
+		WebUI.setText(findTestObject('WEB_OBJECTS/fileURL'))
+	}
 }

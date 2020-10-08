@@ -3,8 +3,9 @@ package platform
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import org.openqa.selenium.WebElement
-
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.annotation.Keyword
+import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.common.WebUiCommonHelper
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
@@ -28,3 +29,4 @@ public class Dashboard extends Method {
 		clickOnElement(findTestObject('WEB_OBJECTS/modify'))
 	}
 }
+	

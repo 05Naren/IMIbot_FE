@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[contains(text(),'Add new user')]</value>
+         <value>//button//span[contains(text(),'Add new user')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

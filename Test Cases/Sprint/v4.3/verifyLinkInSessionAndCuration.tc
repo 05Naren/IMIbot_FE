@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Agenda: Link should be indentifiable in Session and Curation
+
+Background: FAQ bot knowledge base should be in Trained state
+
+Given: When user preview bot for a link response
+When: User navigates to Session to verify the link on room
+Then: User should be able to see the link on session room</description>
+   <name>verifyLinkInSessionAndCuration</name>
+   <tag></tag>
+   <comment> *** THIS IS TO CHECK TEST SCENARIO BACKGROUND *** 
+ *** EXECUTING GIVEN STEP *** 
+
+ *** EXECUTING WHEN STEP *** 
+ *** EXECUTING THEN STEP *** 
+ *** VERFIY IN CURATION CONSOLE ***</comment>
+   <testCaseGuid>0083cab7-e41a-4c4d-94b7-97babaf0237e</testCaseGuid>
+   <variable>
+      <defaultValue>'//a[starts-with(@class,\'text\')]'</defaultValue>
+      <description></description>
+      <id>8dd55989-484e-4123-a9b2-a6faf6fd337a</id>
+      <masked>false</masked>
+      <name>newXpath</name>
+   </variable>
+</TestCaseEntity>

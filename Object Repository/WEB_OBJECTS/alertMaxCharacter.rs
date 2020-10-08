@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[text()=' Max permissible length is 512! ']</value>
+         <value>//span[text()=' Max permissible length is 512 ']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[text()=' Max permissible length is 512! ']</value>
+      <value>//span[text()=' Max permissible length is 512 ']</value>
    </webElementProperties>
 </WebElementEntity>

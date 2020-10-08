@@ -102,7 +102,7 @@ CustomKeywords.'platform.Method.trainAndComment'(testData.getValue('comment', 8)
 
 WebUI.waitForElementPresent(findTestObject('ICONS/toastMsg'), 20, FailureHandling.OPTIONAL)
 
-CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/preview'))S
+CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/preview'))
 
 WebUI.sendKeys(findTestObject('Input/chatInput'), Keys.chord('आत्मावलम्बी भारतवर्ष अभियान से जुड़े लाभ क्या हैं', Keys.ENTER //hardcoded question
         ))
@@ -154,3 +154,4 @@ WebUI.verifyElementPresent(findTestObject('ICONS/matChip', [('chipValue') : ' he
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/save', [('value') : 'Save']))
 
+WebUI.waitForElementPresent(findTestObject('ICONS/toastMsg'), 20, FailureHandling.OPTIONAL)

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//audio</value>
+         <value>//audio[@controls='controls']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//audio</value>
+      <value>//audio[@controls='controls']</value>
    </webElementProperties>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//app-custom-synonyms//div/button/span[text()=' + New Root Word ']</value>
+         <value>(//button//span[text()='+ New Root Word'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//app-custom-synonyms//div/button/span[text()=' + New Root Word ']</value>
+      <value>(//button//span[text()='+ New Root Word'])[1]</value>
    </webElementProperties>
 </WebElementEntity>

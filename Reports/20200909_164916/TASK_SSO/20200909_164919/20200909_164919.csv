@@ -1,0 +1,107 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TASK_SSO,Chrome 85.0.4183.83,,,2020-09-09 16:49:37,2020-09-09 17:02:16,12m - 39.490s,INCOMPLETE
+,,,,,,,
+Test Cases/TASK_SSO/botCreation_Test,Chrome 85.0.4183.83,TestCase Agenda: Verification of task bot creation,,2020-09-09 16:51:14,2020-09-09 16:51:22,7.853s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Task bots""]))",Chrome 85.0.4183.83,,,2020-09-09 16:51:14,2020-09-09 16:51:22,7.118s,ERROR
+,,,,,,,
+Test Cases/TASK_SSO/botCardPreview_Test,Chrome 85.0.4183.83,TestCase Agenda: Verify if preview is working for task bot,,2020-09-09 16:51:22,2020-09-09 16:51:32,10.238s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/imiLogo""))",Chrome 85.0.4183.83,,,2020-09-09 16:51:22,2020-09-09 16:51:32,9.405s,ERROR
+,,,,,,,
+Test Cases/TASK_SSO/botCardMenu_Test,Chrome 85.0.4183.83,TestCase Agenda: Verify bot card option for task bot,,2020-09-09 16:51:32,2020-09-09 16:52:39,1m - 6.696s,FAILED
+"botCardOptions = platform.Method.verifyBotCardMenu(""Task bots"", TASK_BOT)",Chrome 85.0.4183.83,,,2020-09-09 16:51:33,2020-09-09 16:52:27,54.372s,PASSED
+"verifyElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Copy Preview Link""]), 5, STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-09 16:52:27,2020-09-09 16:52:39,11.223s,FAILED
+,,,,,,,
+Test Cases/TASK_SSO/sideNavigation_Test,Chrome 85.0.4183.83,TestCase Agenda: To verify if the module on side navigation is accessible to user(Admin),,2020-09-09 16:52:39,2020-09-09 16:52:47,7.916s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":TASK_BOT]))",Chrome 85.0.4183.83,,,2020-09-09 16:52:40,2020-09-09 16:52:46,6.765s,ERROR
+,,,,,,,
+Test Cases/TASK_SSO/createRichDynamicResponse_Test,Chrome 85.0.4183.83,"TestCase Agenda: To verify creation of rich and dynamic response for the intent
+
+Step 1: Go to response module
+Step 2: Create rich & dynamic response template to be used in intent",,2020-09-09 16:52:47,2020-09-09 16:52:54,7.706s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/response""))",Chrome 85.0.4183.83,,,2020-09-09 16:52:47,2020-09-09 16:52:54,6.855s,ERROR
+,,,,,,,
+Test Cases/TASK_SSO/entitiesCreationAndUpdate_Test,Chrome 85.0.4183.83,TestCase Agenda: Verify custom entity creation process,,2020-09-09 16:52:54,2020-09-09 16:53:02,7.566s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/training""))",Chrome 85.0.4183.83,,,2020-09-09 16:52:55,2020-09-09 16:53:02,6.759s,ERROR
+,,,,,,,
+Test Cases/TASK_SSO/createIntentAndEditEntity_Test,Chrome 85.0.4183.83,"TestCase Agenda: Verify if entity gets recognised when user adds an utterance
+
+Step 1: Create an intent with entity in utterance
+Step 2: Verify entity in the slot",,2020-09-09 16:53:02,2020-09-09 16:53:09,7.121s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Intents""]))",Chrome 85.0.4183.83,,,2020-09-09 16:53:02,2020-09-09 16:53:09,6.570s,ERROR
+,,,,,,,
+Test Cases/TASK_SSO/intentWithResponseCreation_Test,Chrome 85.0.4183.83,"TestCase Agenda: Verify if user can create an intent along with response from intent page
+
+Step 1: Create an intent
+Step 2: Response creation from intent page
+Step 3: Verify created response on Response module",,2020-09-09 16:53:10,2020-09-09 16:53:17,7.636s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Intents""]))",Chrome 85.0.4183.83,,,2020-09-09 16:53:11,2020-09-09 16:53:17,6.338s,ERROR
+,,,,,,,
+Test Cases/TASK_SSO/updateResponse_Test,Chrome 85.0.4183.83,"TestCase Agenda: Verify if user can update a response type
+
+Step 1: Create an intent with instant response(text: default)
+Step 2: Go to response, convert it to dynamic and save it
+Step 3: Preview",,2020-09-09 16:53:17,2020-09-09 16:53:25,8.118s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/training""))",Chrome 85.0.4183.83,,,2020-09-09 16:53:18,2020-09-09 16:53:25,7.243s,ERROR
+,,,,,,,
+Test Cases/TASK_SSO/downvoteWithComment_Test,Chrome 85.0.4183.83,,,2020-09-09 16:53:25,2020-09-09 16:53:34,8.242s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/training""))",Chrome 85.0.4183.83,,,2020-09-09 16:53:27,2020-09-09 16:53:34,6.375s,ERROR
+,,,,,,,
+Test Cases/TASK_SSO/createNewIntentCuration_Test,Chrome 85.0.4183.83,"TestCase Agenda: verify if a new intent can be created from curation and preview bot for response
+
+Step 1: Preview bot
+Step 2:",,2020-09-09 16:53:34,2020-09-09 16:53:42,7.960s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/curation""))",Chrome 85.0.4183.83,,,2020-09-09 16:53:35,2020-09-09 16:53:42,6.520s,ERROR
+,,,,,,,
+Test Cases/TASK_SSO/newIntentCreation_WO_TemplateKeyCreationInCuration,Chrome 85.0.4183.83,,,2020-09-09 16:53:42,2020-09-09 16:53:49,7.650s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/curation""))",Chrome 85.0.4183.83,,,2020-09-09 16:53:43,2020-09-09 16:53:49,6.698s,ERROR
+,,,,,,,
+Test Cases/TASK_SSO/oneClickTestingNoCallback_Test,Chrome 85.0.4183.83,,,2020-09-09 16:53:49,2020-09-09 16:54:31,41.067s,ERROR
+"waitForElementPresent(findTestObject(""Generic/oneClickTest""), 30, OPTIONAL)",Chrome 85.0.4183.83,,,2020-09-09 16:53:51,2020-09-09 16:54:24,33.397s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/oneClickTest""))",Chrome 85.0.4183.83,,,2020-09-09 16:54:24,2020-09-09 16:54:31,6.488s,ERROR
+,,,,,,,
+Test Cases/TASK_SSO/agentHandover_Test,Chrome 85.0.4183.83,TestCase Agenda: Verify if agent handover happens when user various criteria are met for handover to happen,,2020-09-09 16:54:31,2020-09-09 16:54:38,7.277s,ERROR
+"platform.Method.clickOnElement(findTestObject(""ICONS/sidebarSettings""))",Chrome 85.0.4183.83,,,2020-09-09 16:54:31,2020-09-09 16:54:38,6.534s,ERROR
+,,,,,,,
+Test Cases/TASK_SSO/explictAgentHandover_Test,Chrome 85.0.4183.83,TestCase Agenda: Verify agent handover can be explicitly performed by creating an intent & agent handover happens on partial match,,2020-09-09 16:54:38,2020-09-09 16:54:45,6.861s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/training""))",Chrome 85.0.4183.83,,,2020-09-09 16:54:38,2020-09-09 16:54:45,6.281s,ERROR
+,,,,,,,
+Test Cases/TASK_SSO/partialMatchResponseConfiguration_Test,Chrome 85.0.4183.83,"TestCase Agenda: Configure partial match template with user defined message, verify if user a the same message appears when partial match happens.",,2020-09-09 16:54:45,2020-09-09 16:54:53,7.666s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/response""))",Chrome 85.0.4183.83,,,2020-09-09 16:54:46,2020-09-09 16:54:52,6.792s,ERROR
+,,,,,,,
+Test Cases/TASK_SSO/encryptionOnCurationAndSessions_Test,Chrome 85.0.4183.83,TestCase Agenda: Verify if user sees security protection on Sessions and Curation page after ADP is enabled,,2020-09-09 16:54:53,2020-09-09 16:55:00,7.143s,ERROR
+"platform.Method.clickOnElement(findTestObject(""ICONS/sidebarSettings""))",Chrome 85.0.4183.83,,,2020-09-09 16:54:53,2020-09-09 16:55:00,6.381s,ERROR
+,,,,,,,
+Test Cases/TASK_SSO/noneIntentE2E_Test,Chrome 85.0.4183.83,"TestCase Agenda: 
+1. Verify if a default intent is present at bot creation,
+2. Readonly state of intent name and final template key.
+3. Edit none intent utterance
+4. Curation setting on/off for none intent",,2020-09-09 16:55:00,2020-09-09 16:57:49,2m - 48.941s,FAILED
+"platform.Method.clickOnElement(findTestObject(""Generic/imiLogo""))",Chrome 85.0.4183.83,,,2020-09-09 16:55:00,2020-09-09 16:55:03,2.379s,PASSED
+"waitForElementVisible(findTestObject(""Button/createBot""), 20, OPTIONAL)",Chrome 85.0.4183.83,,,2020-09-09 16:55:03,2020-09-09 16:55:05,2.551s,PASSED
+"callTestCase(findTestCase(""TASK_SSO/botCreation_Test""), [""nameOfTheBot"":NONE_INTENT], STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-09 16:55:05,2020-09-09 16:55:35,29.999s,PASSED
+"verifyElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Default fallback intent""]), 20, STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-09 16:55:35,2020-09-09 16:55:37,1.434s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Default fallback intent""]))",Chrome 85.0.4183.83,,,2020-09-09 16:55:37,2020-09-09 16:55:40,3.673s,PASSED
+"verifyElementText(findTestObject(""Generic/header""), ""Default fallback intent"", STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-09 16:55:40,2020-09-09 16:55:43,2.471s,PASSED
+"verifyElementAttributeValue(findTestObject(""Input/intentName""), ""readonly"", ""true"", 10, STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-09 16:55:43,2020-09-09 16:55:46,3.604s,PASSED
+"verifyElementAttributeValue(findTestObject(""Input/finalTempKey""), ""readonly"", ""true"", 10, STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-09 16:55:46,2020-09-09 16:55:50,3.488s,PASSED
+"testData = findTestData(""Data Files/testData_Task"")",Chrome 85.0.4183.83,,,2020-09-09 16:55:50,2020-09-09 16:55:55,5.107s,PASSED
+"for ([count = 1, count < testData.getRowNumbers(), (count++)])",Chrome 85.0.4183.83,,,2020-09-09 16:55:55,2020-09-09 16:57:16,1m - 20.793s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/save"", [""value"":"" Save ""]))",Chrome 85.0.4183.83,,,2020-09-09 16:57:16,2020-09-09 16:57:18,2.457s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/intentGoBack""))",Chrome 85.0.4183.83,,,2020-09-09 16:57:18,2020-09-09 16:57:21,2.529s,PASSED
+"platform.Method.trainAndComment(testData.getValue(""comment"", 6))",Chrome 85.0.4183.83,,,2020-09-09 16:57:21,2020-09-09 16:57:32,10.931s,PASSED
+"verifyElementPresent(findTestObject(""ICONS/toastMsg""), 30, STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-09 16:57:32,2020-09-09 16:57:33,1.292s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 85.0.4183.83,,,2020-09-09 16:57:33,2020-09-09 16:57:36,2.543s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(""default test utterance"", ENTER))",Chrome 85.0.4183.83,,,2020-09-09 16:57:36,2020-09-09 16:57:49,13.028s,FAILED
+,,,,,,,
+Test Cases/TASK_SSO/globalSearchOnTraining_Test,Chrome 85.0.4183.83,TestCase Agenda: Verify the new global search funtionality on intents & entities,,2020-09-09 16:57:49,2020-09-09 17:02:16,4m - 27.407s,FAILED
+"platform.Method.clickOnElement(findTestObject(""Generic/training""))",Chrome 85.0.4183.83,,,2020-09-09 16:57:49,2020-09-09 16:57:51,2.179s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Entities""]))",Chrome 85.0.4183.83,,,2020-09-09 16:57:51,2020-09-09 16:57:54,2.399s,PASSED
+"testData = findTestData(""Data Files/testData_Task"")",Chrome 85.0.4183.83,,,2020-09-09 16:57:54,2020-09-09 16:57:55,1.088s,PASSED
+"for ([count = 1, count <= testData.getRowNumbers(), (count++)])",Chrome 85.0.4183.83,,,2020-09-09 16:57:55,2020-09-09 17:01:51,3m - 55.723s,PASSED
+"sendKeys(findTestObject(""Input/searchEntity""), ""ate"")",Chrome 85.0.4183.83,,,2020-09-09 17:01:51,2020-09-09 17:01:53,2.557s,PASSED
+"verifyElementText(findTestObject(""GenericII/listOfEntityNames""), ""date"", STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-09 17:01:53,2020-09-09 17:01:55,2.325s,PASSED
+"searchForEntity = findWebElement(findTestObject(""Input/searchEntity""), 10)",Chrome 85.0.4183.83,,,2020-09-09 17:01:55,2020-09-09 17:01:57,1.149s,PASSED
+"searchForEntity.sendKeys(Keys.chord(CONTROL, ""a""))",Chrome 85.0.4183.83,,,2020-09-09 17:01:57,2020-09-09 17:01:58,1.087s,PASSED
+searchForEntity.sendKeys(Keys.chord(DELETE)),Chrome 85.0.4183.83,,,2020-09-09 17:01:58,2020-09-09 17:01:59,1.244s,PASSED
+"sendKeys(findTestObject(""Input/searchEntityType""), ""non_"")",Chrome 85.0.4183.83,,,2020-09-09 17:01:59,2020-09-09 17:02:02,2.667s,PASSED
+"verifyElementText(findTestObject(""GenericII/listOfEntityNames""), ""non_geo_location"", STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-09 17:02:02,2020-09-09 17:02:16,14.483s,FAILED

@@ -1,0 +1,140 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FAQ_SSO,Chrome 85.0.4183.102,,,2020-09-11 19:22:01,2020-09-11 19:38:17,16m - 15.362s,INCOMPLETE
+,,,,,,,
+Test Cases/FAQ_SSO/customSynonymsE2E_Test,Chrome 85.0.4183.102,"TestCase Agenda: Verify all features available on FAQ bot custom synonyms like manual addition of a root word and add synonyms to it, delete a synonym, delete a root word, upload a csv file and other functionalities.",,2020-09-11 19:22:47,2020-09-11 19:25:20,2m - 32.289s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/imiLogo""))",Chrome 85.0.4183.102,,,2020-09-11 19:22:49,2020-09-11 19:22:51,2.450s,PASSED
+"waitForElementVisible(findTestObject(""Button/createBot""), 30, OPTIONAL)",Chrome 85.0.4183.102,,,2020-09-11 19:22:51,2020-09-11 19:22:54,2.610s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":PREVIEW_BOT]))",Chrome 85.0.4183.102,,,2020-09-11 19:22:54,2020-09-11 19:22:56,2.670s,PASSED
+"waitForElementVisible(findTestObject(""Generic/articles""), 30, OPTIONAL)",Chrome 85.0.4183.102,,,2020-09-11 19:22:56,2020-09-11 19:23:00,3.134s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 85.0.4183.102,,,2020-09-11 19:23:00,2020-09-11 19:23:02,2.493s,PASSED
+"sendKeys(findTestObject(""Input/searchForQuestion""), ""Hello there"")",Chrome 85.0.4183.102,,,2020-09-11 19:23:02,2020-09-11 19:23:05,2.692s,PASSED
+"if (waitForElementVisible(findTestObject(""Generic/searchResult""), 10, OPTIONAL))",Chrome 85.0.4183.102,,,2020-09-11 19:23:05,2020-09-11 19:23:16,11.085s,PASSED
+else,Chrome 85.0.4183.102,,,2020-09-11 19:23:16,2020-09-11 19:23:16,0.065s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 85.0.4183.102,,,2020-09-11 19:23:16,2020-09-11 19:23:19,2.623s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(""[स्वावलंबी] भारतवर्ष"", ENTER))",Chrome 85.0.4183.102,,,2020-09-11 19:23:19,2020-09-11 19:23:22,2.929s,PASSED
+"waitForElementPresent(findTestObject(""GenericII/getBotResponse"", [""index"":2]), 20, OPTIONAL)",Chrome 85.0.4183.102,,,2020-09-11 19:23:22,2020-09-11 19:23:23,1.259s,PASSED
+"verifyElementText(findTestObject(""GenericII/getBotResponse"", [""index"":2]), fallback, OPTIONAL)",Chrome 85.0.4183.102,,,2020-09-11 19:23:23,2020-09-11 19:23:25,2.250s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/minimize""))",Chrome 85.0.4183.102,,,2020-09-11 19:23:25,2020-09-11 19:23:27,2.311s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Custom synonyms""]))",Chrome 85.0.4183.102,,,2020-09-11 19:23:27,2020-09-11 19:23:30,2.393s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/rootword""))",Chrome 85.0.4183.102,,,2020-09-11 19:23:30,2020-09-11 19:23:32,2.509s,PASSED
+"testData = findTestData(""Data Files/testData_FAQ"")",Chrome 85.0.4183.102,,,2020-09-11 19:23:32,2020-09-11 19:23:36,3.563s,PASSED
+"setText(findTestObject(""Input/valueOfSynonym""), Keys.chord(testData.getValue(""custom_syn_value"", 1), ENTER))",Chrome 85.0.4183.102,,,2020-09-11 19:23:36,2020-09-11 19:23:39,3.668s,PASSED
+"for ([count = 1, count <= testData.getRowNumbers(), (count++)])",Chrome 85.0.4183.102,,,2020-09-11 19:23:39,2020-09-11 19:23:54,14.576s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/importIcon""))",Chrome 85.0.4183.102,,,2020-09-11 19:23:54,2020-09-11 19:23:56,2.376s,PASSED
+"platform.Method.uploadCsvFile(false, ""faqSynonyms.csv"")",Chrome 85.0.4183.102,,,2020-09-11 19:23:56,2020-09-11 19:24:01,4.679s,PASSED
+delay(2),Chrome 85.0.4183.102,,,2020-09-11 19:24:01,2020-09-11 19:24:03,2.114s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/btnDeleteChipOrRow"", [""chipValue"":"" \@unwell "", ""option"":""cancel ""]))",Chrome 85.0.4183.102,,,2020-09-11 19:24:03,2020-09-11 19:24:05,2.265s,PASSED
+"setText(findTestObject(""Input/searchCustomSyn""), ""FEELING GOOD"")",Chrome 85.0.4183.102,,,2020-09-11 19:24:05,2020-09-11 19:24:09,3.714s,PASSED
+"verifyElementPresent(findTestObject(""ICONS/matChip"", [""chipValue"":"" un-happy ""]), 10, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:24:09,2020-09-11 19:24:11,1.335s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/save"", [""value"":""Save""]))",Chrome 85.0.4183.102,,,2020-09-11 19:24:11,2020-09-11 19:24:13,2.366s,PASSED
+"verifyElementText(findTestObject(""Generic/articleState""), ""Saved"", STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:24:13,2020-09-11 19:24:15,2.311s,PASSED
+"platform.Method.trainAndComment(testData.getValue(""comment"", 8))",Chrome 85.0.4183.102,,,2020-09-11 19:24:15,2020-09-11 19:24:25,9.668s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 20, OPTIONAL)",Chrome 85.0.4183.102,,,2020-09-11 19:24:25,2020-09-11 19:24:28,2.862s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 85.0.4183.102,,,2020-09-11 19:24:28,2020-09-11 19:24:30,2.574s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(""आत्मावलम्बी भारतवर्ष अभियान से जुड़े लाभ क्या हैं"", ENTER))",Chrome 85.0.4183.102,,,2020-09-11 19:24:30,2020-09-11 19:24:34,3.188s,PASSED
+delay(2),Chrome 85.0.4183.102,,,2020-09-11 19:24:34,2020-09-11 19:24:36,2.010s,PASSED
+"verifyElementText(findTestObject(""GenericII/getBotResponse"", [""index"":2]), testData.getValue(""bot_answer"", 1), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:24:36,2020-09-11 19:24:38,2.259s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/upvote""))",Chrome 85.0.4183.102,,,2020-09-11 19:24:38,2020-09-11 19:24:40,2.236s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(""سحب خدمة الإخطار"", ENTER))",Chrome 85.0.4183.102,,,2020-09-11 19:24:40,2020-09-11 19:24:43,2.602s,PASSED
+delay(2),Chrome 85.0.4183.102,,,2020-09-11 19:24:43,2020-09-11 19:24:45,2.011s,PASSED
+"verifyElementText(findTestObject(""GenericII/getBotResponse"", [""index"":3]), testData.getValue(""bot_answer"", 2), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:24:45,2020-09-11 19:24:47,2.257s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(""नमस्ते,"", ENTER))",Chrome 85.0.4183.102,,,2020-09-11 19:24:47,2020-09-11 19:24:49,2.547s,PASSED
+delay(2),Chrome 85.0.4183.102,,,2020-09-11 19:24:49,2020-09-11 19:24:51,2.012s,PASSED
+"verifyElementText(findTestObject(""GenericII/getBotResponse"", [""index"":4]), testData.getValue(""bot_answer"", 3), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:24:51,2020-09-11 19:24:54,2.253s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(""show me some re@l-est@ate"", ENTER))",Chrome 85.0.4183.102,,,2020-09-11 19:24:54,2020-09-11 19:24:56,2.762s,PASSED
+delay(2),Chrome 85.0.4183.102,,,2020-09-11 19:24:56,2020-09-11 19:24:58,2.010s,PASSED
+"verifyElementText(findTestObject(""NewRepo/bannerTitle"", [""index"":2]), ""Residential serviced apartment"", STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:24:58,2020-09-11 19:25:01,2.240s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/minimize""))",Chrome 85.0.4183.102,,,2020-09-11 19:25:01,2020-09-11 19:25:03,2.324s,PASSED
+"platform.Method.clickOnElement(findTestObject(""ICONS/clearSearch""))",Chrome 85.0.4183.102,,,2020-09-11 19:25:03,2020-09-11 19:25:05,2.347s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/btnDeleteChipOrRow"", [""chipValue"":"" आन्दोलन "", ""option"":"" close ""]))",Chrome 85.0.4183.102,,,2020-09-11 19:25:05,2020-09-11 19:25:08,2.370s,PASSED
+"setText(findTestObject(""Input/synonyms"", [""index"":2]), Keys.chord(""help7less"", ENTER))",Chrome 85.0.4183.102,,,2020-09-11 19:25:08,2020-09-11 19:25:12,3.746s,PASSED
+"setText(findTestObject(""Input/searchCustomSyn""), ""7LeSS"")",Chrome 85.0.4183.102,,,2020-09-11 19:25:12,2020-09-11 19:25:15,3.496s,PASSED
+"verifyElementPresent(findTestObject(""ICONS/matChip"", [""chipValue"":"" help7less ""]), 10, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:25:15,2020-09-11 19:25:16,1.203s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/save"", [""value"":""Save""]))",Chrome 85.0.4183.102,,,2020-09-11 19:25:16,2020-09-11 19:25:18,2.246s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 20, OPTIONAL)",Chrome 85.0.4183.102,,,2020-09-11 19:25:18,2020-09-11 19:25:20,1.205s,PASSED
+,,,,,,,
+Test Cases/Sprint/v4.3/alertTestOnResponseDesignerTemplateFAQ,Chrome 85.0.4183.102,,,2020-09-11 19:25:20,2020-09-11 19:29:40,4m - 20.377s,FAILED
+"platform.Method.clickOnElement(findTestObject(""WEB_OBJECTS/getText"", [""value"":""Articles""]))",Chrome 85.0.4183.102,,,2020-09-11 19:25:21,2020-09-11 19:25:23,2.430s,PASSED
+"platform.Articles.createNewArticle(null, ""test alert on articles template"")",Chrome 85.0.4183.102,,,2020-09-11 19:25:23,2020-09-11 19:25:26,2.830s,PASSED
+"setText(findTestObject(""WEB_OBJECTS/textArea""), """")",Chrome 85.0.4183.102,,,2020-09-11 19:25:26,2020-09-11 19:25:29,3.551s,PASSED
+"platform.Method.removeFocus(findTestObject(""WEB_OBJECTS/textArea""))",Chrome 85.0.4183.102,,,2020-09-11 19:25:29,2020-09-11 19:25:32,2.276s,PASSED
+"verifyElementPresent(findTestObject(""WEB_OBJECTS/alertRequired""), 20, CONTINUE_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:25:32,2020-09-11 19:25:55,23.185s,FAILED
+"setText(findTestObject(""WEB_OBJECTS/textArea""), ""default value"")",Chrome 85.0.4183.102,,,2020-09-11 19:25:55,2020-09-11 19:25:59,3.633s,PASSED
+"platform.ResponseDesigner.configureMediaResponse(""image"", ""default text"")",Chrome 85.0.4183.102,,,2020-09-11 19:25:59,2020-09-11 19:26:05,6.168s,PASSED
+"platform.Method.removeFocus(findTestObject(""WEB_OBJECTS/mediaURL""))",Chrome 85.0.4183.102,,,2020-09-11 19:26:05,2020-09-11 19:26:07,2.215s,PASSED
+"verifyElementPresent(findTestObject(""WEB_OBJECTS/alertInvalidURL""), 20, CONTINUE_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:26:07,2020-09-11 19:26:30,23.135s,FAILED
+"setText(findTestObject(""WEB_OBJECTS/mediaURL""), image_url)",Chrome 85.0.4183.102,,,2020-09-11 19:26:30,2020-09-11 19:26:35,4.639s,PASSED
+"platform.Method.removeFocus(findTestObject(""WEB_OBJECTS/mediaURL""))",Chrome 85.0.4183.102,,,2020-09-11 19:26:35,2020-09-11 19:26:37,2.289s,PASSED
+"verifyElementPresent(findTestObject(""WEB_OBJECTS/alert"", [""alert_value"":""Needs to end with .jpg/.png/.jpeg""]), 20, CONTINUE_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:26:37,2020-09-11 19:26:38,1.183s,PASSED
+"setText(findTestObject(""WEB_OBJECTS/mediaURL""), "" "")",Chrome 85.0.4183.102,,,2020-09-11 19:26:38,2020-09-11 19:26:42,3.376s,PASSED
+"verifyElementPresent(findTestObject(""WEB_OBJECTS/alertInvalidData""), 20, CONTINUE_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:26:42,2020-09-11 19:27:05,23.447s,FAILED
+platform.ResponseDesigner.deleteSecondaryTemplate(2),Chrome 85.0.4183.102,,,2020-09-11 19:27:05,2020-09-11 19:27:12,6.858s,PASSED
+"platform.ResponseDesigner.configureMediaResponse(""audio"", ""default text"")",Chrome 85.0.4183.102,,,2020-09-11 19:27:12,2020-09-11 19:27:18,6.351s,PASSED
+"platform.Method.removeFocus(findTestObject(""WEB_OBJECTS/mediaURL""))",Chrome 85.0.4183.102,,,2020-09-11 19:27:18,2020-09-11 19:27:20,2.281s,PASSED
+"verifyElementPresent(findTestObject(""WEB_OBJECTS/alertInvalidURL""), 20, CONTINUE_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:27:20,2020-09-11 19:27:44,23.079s,FAILED
+"setText(findTestObject(""WEB_OBJECTS/mediaURL""), audio_url)",Chrome 85.0.4183.102,,,2020-09-11 19:27:44,2020-09-11 19:27:49,4.961s,PASSED
+"platform.Method.removeFocus(findTestObject(""WEB_OBJECTS/mediaURL""))",Chrome 85.0.4183.102,,,2020-09-11 19:27:49,2020-09-11 19:27:51,2.237s,PASSED
+"verifyElementPresent(findTestObject(""WEB_OBJECTS/alert"", [""alert_value"":""Needs to end with .mp3/.aac""]), 20, CONTINUE_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:27:51,2020-09-11 19:27:52,1.181s,PASSED
+"setText(findTestObject(""WEB_OBJECTS/mediaURL""), "" "")",Chrome 85.0.4183.102,,,2020-09-11 19:27:52,2020-09-11 19:27:55,3.393s,PASSED
+"verifyElementPresent(findTestObject(""WEB_OBJECTS/alertInvalidData""), 20, CONTINUE_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:27:55,2020-09-11 19:28:19,23.234s,FAILED
+platform.ResponseDesigner.deleteSecondaryTemplate(2),Chrome 85.0.4183.102,,,2020-09-11 19:28:19,2020-09-11 19:28:25,6.748s,PASSED
+"platform.ResponseDesigner.configureMediaResponse(""video"", ""default text"")",Chrome 85.0.4183.102,,,2020-09-11 19:28:25,2020-09-11 19:28:32,6.781s,PASSED
+"platform.Method.removeFocus(findTestObject(""WEB_OBJECTS/mediaURL""))",Chrome 85.0.4183.102,,,2020-09-11 19:28:32,2020-09-11 19:28:34,2.355s,PASSED
+"verifyElementPresent(findTestObject(""WEB_OBJECTS/alertInvalidURL""), 20, CONTINUE_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:28:34,2020-09-11 19:28:58,23.131s,FAILED
+"setText(findTestObject(""WEB_OBJECTS/mediaURL""), video_url)",Chrome 85.0.4183.102,,,2020-09-11 19:28:58,2020-09-11 19:29:03,5.411s,PASSED
+"platform.Method.removeFocus(findTestObject(""WEB_OBJECTS/mediaURL""))",Chrome 85.0.4183.102,,,2020-09-11 19:29:03,2020-09-11 19:29:05,2.315s,PASSED
+"verifyElementPresent(findTestObject(""WEB_OBJECTS/alert"", [""alert_value"":""Needs to end with .mp4""]), 20, CONTINUE_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:29:05,2020-09-11 19:29:07,1.255s,PASSED
+"setText(findTestObject(""WEB_OBJECTS/mediaURL""), "" "")",Chrome 85.0.4183.102,,,2020-09-11 19:29:07,2020-09-11 19:29:10,3.436s,PASSED
+"verifyElementPresent(findTestObject(""WEB_OBJECTS/alertInvalidData""), 20, CONTINUE_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:29:10,2020-09-11 19:29:33,23.226s,FAILED
+platform.ResponseDesigner.deleteSecondaryTemplate(2),Chrome 85.0.4183.102,,,2020-09-11 19:29:33,2020-09-11 19:29:40,6.782s,PASSED
+,,,,,,,
+Test Cases/Sprint/v4.3/appleBusinessChatFieldTestForFAQbot,Chrome 85.0.4183.102,,,2020-09-11 19:29:40,2020-09-11 19:38:17,8m - 36.539s,FAILED
+"platform.ResponseDesigner.addChannelToResponse("" Apple Business Chat"")",Chrome 85.0.4183.102,,,2020-09-11 19:29:41,2020-09-11 19:29:46,4.852s,PASSED
+assert platform.AppleBusinessChat.verifyListpickerOnTemplate() == true,Chrome 85.0.4183.102,,,2020-09-11 19:29:46,2020-09-11 19:29:49,2.472s,PASSED
+platform.ResponseDesigner.addListpickerResponse(),Chrome 85.0.4183.102,,,2020-09-11 19:29:49,2020-09-11 19:29:52,2.776s,PASSED
+"assert platform.AppleBusinessChat.verifyListpickerOnAddition(findTestObject(""WEB_OBJECTS/templateHeader"", [""index"":2])) == true",Chrome 85.0.4183.102,,,2020-09-11 19:29:52,2020-09-11 19:29:54,2.397s,PASSED
+"platform.AppleBusinessChat.setListPickerTitle("""")",Chrome 85.0.4183.102,,,2020-09-11 19:29:54,2020-09-11 19:30:00,5.630s,PASSED
+"platform.Method.removeFocus(findTestObject(""AppleBusinessChat/title""))",Chrome 85.0.4183.102,,,2020-09-11 19:30:00,2020-09-11 19:30:02,2.381s,PASSED
+"verifyElementPresent(findTestObject(""WEB_OBJECTS/alertRequired""), 20, CONTINUE_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:30:02,2020-09-11 19:30:25,23.157s,FAILED
+"platform.AppleBusinessChat.setListPickerTitle("" "")",Chrome 85.0.4183.102,,,2020-09-11 19:30:25,2020-09-11 19:30:31,5.686s,PASSED
+"platform.Method.removeFocus(findTestObject(""AppleBusinessChat/title""))",Chrome 85.0.4183.102,,,2020-09-11 19:30:31,2020-09-11 19:30:33,2.318s,PASSED
+"verifyElementPresent(findTestObject(""WEB_OBJECTS/alertInvalidData""), 20, CONTINUE_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:30:33,2020-09-11 19:30:56,23.103s,FAILED
+platform.AppleBusinessChat.setListPickerTitle(testData),Chrome 85.0.4183.102,,,2020-09-11 19:30:56,2020-09-11 19:31:11,15.112s,PASSED
+"verifyElementPresent(findTestObject(""WEB_OBJECTS/alertMaxCharacter""), 20, CONTINUE_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:31:11,2020-09-11 19:31:34,23.077s,FAILED
+"platform.AppleBusinessChat.setListPickerTitle(""dummy data"")",Chrome 85.0.4183.102,,,2020-09-11 19:31:34,2020-09-11 19:31:40,5.701s,PASSED
+"platform.AppleBusinessChat.setListPickerReplyTitle("""")",Chrome 85.0.4183.102,,,2020-09-11 19:31:40,2020-09-11 19:31:46,5.601s,PASSED
+"platform.Method.removeFocus(findTestObject(""AppleBusinessChat/replyTitle""))",Chrome 85.0.4183.102,,,2020-09-11 19:31:46,2020-09-11 19:31:48,2.254s,PASSED
+"verifyElementPresent(findTestObject(""WEB_OBJECTS/alertRequired""), 20, CONTINUE_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:31:48,2020-09-11 19:32:11,23.022s,FAILED
+"platform.AppleBusinessChat.setListPickerReplyTitle("" "")",Chrome 85.0.4183.102,,,2020-09-11 19:32:11,2020-09-11 19:32:17,5.607s,PASSED
+"platform.Method.removeFocus(findTestObject(""AppleBusinessChat/replyTitle""))",Chrome 85.0.4183.102,,,2020-09-11 19:32:17,2020-09-11 19:32:19,2.214s,PASSED
+"verifyElementPresent(findTestObject(""WEB_OBJECTS/alertInvalidData""), 20, CONTINUE_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:32:19,2020-09-11 19:32:42,23.089s,FAILED
+platform.AppleBusinessChat.setListPickerReplyTitle(testData),Chrome 85.0.4183.102,,,2020-09-11 19:32:42,2020-09-11 19:32:56,14.157s,PASSED
+"verifyElementPresent(findTestObject(""WEB_OBJECTS/alertMaxCharacter""), 20, CONTINUE_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:32:56,2020-09-11 19:33:19,23.088s,FAILED
+"platform.AppleBusinessChat.setListPickerTitle(""dummy reply title"")",Chrome 85.0.4183.102,,,2020-09-11 19:33:19,2020-09-11 19:33:25,5.817s,PASSED
+"platform.Method.clickOnElement(findTestObject(""AppleBusinessChat/listSection""))",Chrome 85.0.4183.102,,,2020-09-11 19:33:25,2020-09-11 19:33:27,2.366s,PASSED
+"platform.AppleBusinessChat.setListTitle(""1"", """")",Chrome 85.0.4183.102,,,2020-09-11 19:33:27,2020-09-11 19:33:33,5.778s,PASSED
+"platform.Method.removeFocus(findTestObject(""AppleBusinessChat/listTitle"", [""index"":""1""]))",Chrome 85.0.4183.102,,,2020-09-11 19:33:33,2020-09-11 19:33:36,2.356s,PASSED
+"verifyElementPresent(findTestObject(""WEB_OBJECTS/alertRequired""), 20, CONTINUE_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:33:36,2020-09-11 19:33:59,23.087s,FAILED
+"platform.AppleBusinessChat.setListTitle(""1"", "" "")",Chrome 85.0.4183.102,,,2020-09-11 19:33:59,2020-09-11 19:34:04,5.713s,PASSED
+"platform.Method.removeFocus(findTestObject(""AppleBusinessChat/listTitle"", [""index"":""1""]))",Chrome 85.0.4183.102,,,2020-09-11 19:34:04,2020-09-11 19:34:07,2.287s,PASSED
+"verifyElementPresent(findTestObject(""WEB_OBJECTS/alertInvalidData""), 20, CONTINUE_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:34:07,2020-09-11 19:34:30,23.077s,FAILED
+"platform.AppleBusinessChat.setListTitle(""1"", testData)",Chrome 85.0.4183.102,,,2020-09-11 19:34:30,2020-09-11 19:34:47,17.690s,PASSED
+"verifyElementPresent(findTestObject(""WEB_OBJECTS/alertMaxCharacter""), 20, CONTINUE_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:34:47,2020-09-11 19:35:11,23.206s,FAILED
+"platform.AppleBusinessChat.setListTitle(""1"", ""dummy list title"")",Chrome 85.0.4183.102,,,2020-09-11 19:35:11,2020-09-11 19:35:17,5.990s,PASSED
+"platform.AppleBusinessChat.setListItemTitle(""1"", """")",Chrome 85.0.4183.102,,,2020-09-11 19:35:17,2020-09-11 19:35:22,5.661s,PASSED
+"platform.Method.removeFocus(findTestObject(""AppleBusinessChat/itemTitle"", [""index"":""1""]))",Chrome 85.0.4183.102,,,2020-09-11 19:35:22,2020-09-11 19:35:25,2.302s,PASSED
+"verifyElementPresent(findTestObject(""WEB_OBJECTS/alertRequired""), 20, CONTINUE_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:35:25,2020-09-11 19:35:48,23.121s,FAILED
+"platform.AppleBusinessChat.setListItemTitle(""1"", "" "")",Chrome 85.0.4183.102,,,2020-09-11 19:35:48,2020-09-11 19:35:53,5.690s,PASSED
+"platform.Method.removeFocus(findTestObject(""AppleBusinessChat/itemTitle"", [""index"":""1""]))",Chrome 85.0.4183.102,,,2020-09-11 19:35:53,2020-09-11 19:35:56,2.236s,PASSED
+"verifyElementPresent(findTestObject(""WEB_OBJECTS/alertInvalidData""), 20, CONTINUE_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:35:56,2020-09-11 19:36:19,23.342s,FAILED
+"platform.AppleBusinessChat.setListItemTitle(""1"", testData)",Chrome 85.0.4183.102,,,2020-09-11 19:36:19,2020-09-11 19:36:36,17.221s,PASSED
+"verifyElementPresent(findTestObject(""WEB_OBJECTS/alertMaxCharacter""), 20, CONTINUE_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:36:36,2020-09-11 19:36:59,23.350s,FAILED
+"platform.AppleBusinessChat.setListItemTitle(""1"", ""dummy list item title"")",Chrome 85.0.4183.102,,,2020-09-11 19:36:59,2020-09-11 19:37:06,6.294s,PASSED
+"assert getText().contains(""dummy list item title"") == true",Chrome 85.0.4183.102,,,2020-09-11 19:37:06,2020-09-11 19:37:08,2.321s,PASSED
+"platform.AppleBusinessChat.setItemIdentifier(""1"", """")",Chrome 85.0.4183.102,,,2020-09-11 19:37:08,2020-09-11 19:37:14,5.874s,PASSED
+"platform.Method.removeFocus(findTestObject(""AppleBusinessChat/listItemIdentifier"", [""index"":""1""]))",Chrome 85.0.4183.102,,,2020-09-11 19:37:14,2020-09-11 19:37:16,2.280s,PASSED
+"verifyElementPresent(findTestObject(""WEB_OBJECTS/alertRequired""), 20, CONTINUE_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:37:16,2020-09-11 19:37:40,23.228s,FAILED
+"platform.AppleBusinessChat.setItemIdentifier(""1"", "" "")",Chrome 85.0.4183.102,,,2020-09-11 19:37:40,2020-09-11 19:37:45,5.600s,PASSED
+"platform.Method.removeFocus(findTestObject(""AppleBusinessChat/listItemIdentifier"", [""index"":""1""]))",Chrome 85.0.4183.102,,,2020-09-11 19:37:45,2020-09-11 19:37:47,2.300s,PASSED
+"verifyElementPresent(findTestObject(""WEB_OBJECTS/alertInvalidData""), 20, CONTINUE_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:37:47,2020-09-11 19:38:10,23.074s,FAILED
+"platform.AppleBusinessChat.setItemIdentifier(""1"", ""dummy list item title"")",Chrome 85.0.4183.102,,,2020-09-11 19:38:10,2020-09-11 19:38:17,6.117s,PASSED

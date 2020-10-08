@@ -31,7 +31,7 @@
    <testCaseLink>
       <guid>e777df4a-42bc-4cc1-a384-567807602fbb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Faqbot/faqShareablePreview_Test</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

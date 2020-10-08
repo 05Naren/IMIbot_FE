@@ -82,7 +82,7 @@ public class Training extends Method {
 		clickOnElement(findTestObject('Generic/listOfEntity'))
 		WebUI.comment('Entity Type: '+ typeOfEntity)
 		clickOnElement(findTestObject('Generic/webObjectWithText', ['textValue': typeOfEntity]))
-		if(typeOfEntity.toLowerCase().contentEquals('custom') || typeOfEntity.toLowerCase().contentEquals('regex')){
+		if(typeOfEntity.toLowerCase().contains('custom') || typeOfEntity.toLowerCase().contains('regex')){
 			WebUI.sendKeys(findTestObject('Input/defValueOfEntity'), defValue)
 		}
 		clickOnElement(findTestObject('Button/entityPageSaveButton'))

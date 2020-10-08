@@ -6,12 +6,11 @@
    <elementGuidId>07cfb87c-5318-42dc-93b3-8d796be465b6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//span[text()=' Invalid data! ']</value>
+         <key>XPATH</key>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//span[text()=' Invalid data ']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,6 +20,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[text()=' Invalid data! ']</value>
+      <value>//span[text()=' Invalid data ']</value>
    </webElementProperties>
 </WebElementEntity>

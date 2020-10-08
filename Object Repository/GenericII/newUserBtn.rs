@@ -7,13 +7,20 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//button//span[contains(text(),'New User')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//button[contains(text(),'New User')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button//span[contains(text(),'New User')]</value>
+   </webElementProperties>
 </WebElementEntity>

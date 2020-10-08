@@ -33,7 +33,7 @@ CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/preview')
 
 WebUI.sendKeys(findTestObject('Input/chatInput'), Keys.chord(userQuery, Keys.ENTER))
 
-WebUI.waitForElementPresent(findTestObject('Generic/botReponse', [('index') : 2]), 10, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('Generic/botReponse', [('index') : 2]), 10, FailureHandling.OPTIONAL)
 
 WebUI.verifyElementText(findTestObject('Generic/botReponse', [('index') : 2]), botResponse, FailureHandling.OPTIONAL)
 
@@ -61,7 +61,7 @@ CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/webObjec
 WebUI.mouseOver(findTestObject('Generic/webObjectWithText', [('textValue') : 'Downvoted with comment']))
 
 WebUI.verifyElementPresent(findTestObject('Generic/webObjectWithText', [('textValue') : 'Downvoted with comment']), 10, 
-    FailureHandling.STOP_ON_FAILURE)
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('GenericII/closePopup'))
 

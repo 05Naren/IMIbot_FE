@@ -36,6 +36,7 @@ public class Method {
 
 	@Keyword
 	def logOut(){
+		//		action.moveToElement(WebUiCommonHelper.findWebElement(findTestObject('Generic/userInitials'), 20)).build().perform()
 		WebUI.mouseOver(findTestObject('Generic/userInitials'))
 		clickOnElement(findTestObject('Button/signOut'))
 	}
@@ -244,4 +245,5 @@ public class Method {
 		}
 		clickOnElement(findTestObject('Button/continue'))
 	}
+	
 }

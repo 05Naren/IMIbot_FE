@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>TestCase Agenda:</description>
+   <description>TestCase Agenda:
+Part 1-> Verify user2 have no bots, sign out of user2 profile
+Part 2-> Login to user1 account, set user2 new_bot option to true, create a new bot
+Part 3-> Sign back into user2 account and verify if the new bot create gets auto added
+</description>
    <name>autoAddNewBots_Test</name>
    <tag></tag>
    <comment></comment>

@@ -15,7 +15,9 @@ import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-/*WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [:], FailureHandling.STOP_ON_FAILURE)
+/*WebUI.openBrowser(GlobalVariable.URL)
+
+WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [:], FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'platform.Method.navigateToBot'('Task bots', GlobalVariable.TASK_BOT)*/
 
@@ -28,7 +30,7 @@ TestData testData = findTestData('Data Files/testData_Task' // fetching test dat
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/createEntity'))
 
-CustomKeywords.'platform.Training.createEntity'('city name', 'Custom', 'mumbai' // creating entity with default value hardcoded
+CustomKeywords.'platform.Training.createEntity'('city name', ' Custom list ', 'mumbai' // creating entity with default value hardcoded
     )
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/createEntity'))

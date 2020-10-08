@@ -30,7 +30,7 @@ WebUI.waitForElementPresent(findTestObject('NewRepo/editCodeBtn'), 20, FailureHa
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('NewRepo/editCodeBtn'))
 
-CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/save', [('value') : 'Confirm ']))
+CustomKeywords.'platform.Method.clickOnElement'(findTestObject('WEB_OBJECTS/confirm'))
 
 WebUI.waitForElementClickable(findTestObject('Button/save', [('value') : 'Save']), 15, FailureHandling.OPTIONAL)
 

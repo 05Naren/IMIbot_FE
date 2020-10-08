@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+write,Chrome 85.0.4183.121,,,2020-09-28 14:32:28,2020-09-28 14:34:52,2m - 24.436s,INCOMPLETE
+,,,,,,,
+Test Cases/SetUp/setUpCustomSyn_ShareablePreview1,Chrome 85.0.4183.121,Agenda: Set up articles only for shareable preview faq bot,,2020-09-28 14:33:07,2020-09-28 14:34:32,1m - 24.251s,FAILED
+"callTestCase(findTestCase(""FAQ_SSO/botCreation_Test""), [""nameOfTheBot"":PREVIEW_BOT], STOP_ON_FAILURE)",Chrome 85.0.4183.121,,,2020-09-28 14:33:08,2020-09-28 14:33:32,24.265s,PASSED
+"testData = findTestData(""Data Files/testData_Dummy"")",Chrome 85.0.4183.121,,,2020-09-28 14:33:32,2020-09-28 14:33:37,4.472s,PASSED
+"platform.Articles.createNewArticle(testData, testData.getValue(""article_default_question"", 1))",Chrome 85.0.4183.121,,,2020-09-28 14:33:37,2020-09-28 14:33:43,6.293s,PASSED
+"setText(findTestObject(""WEB_OBJECTS/textArea""), testData.getValue(""text_response"", 1))",Chrome 85.0.4183.121,,,2020-09-28 14:33:43,2020-09-28 14:33:49,6.063s,PASSED
+"platform.ResponseDesigner.configureMediaResponse(""image"", testData.getValue(""image_url"", 1))",Chrome 85.0.4183.121,,,2020-09-28 14:33:49,2020-09-28 14:33:57,8.115s,PASSED
+"platform.Articles.saveAndTrainArticleToNewCategory(testData.getValue(""category"", 1))",Chrome 85.0.4183.121,,,2020-09-28 14:33:57,2020-09-28 14:34:07,9.900s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 20, STOP_ON_FAILURE)",Chrome 85.0.4183.121,,,2020-09-28 14:34:07,2020-09-28 14:34:13,5.968s,PASSED
+"platform.Articles.createNewArticle(testData, testData.getValue(""article_default_question"", 2))",Chrome 85.0.4183.121,,,2020-09-28 14:34:13,2020-09-28 14:34:19,5.708s,PASSED
+platform.ResponseDesigner.deleteDefaultTextTemplate(),Chrome 85.0.4183.121,,,2020-09-28 14:34:19,2020-09-28 14:34:31,12.775s,FAILED
+,,,,,,,
+Test Cases/SetUp/setUpCustomSyn_ShareablePreview2,Chrome 85.0.4183.121,,,2020-09-28 14:34:32,2020-09-28 14:34:42,10.469s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 85.0.4183.121,,,2020-09-28 14:34:33,2020-09-28 14:34:35,2.241s,PASSED
+"testData = findTestData(""Data Files/testData_Dummy"")",Chrome 85.0.4183.121,,,2020-09-28 14:34:35,2020-09-28 14:34:36,0.434s,PASSED
+"platform.Articles.createNewArticle(testData, testData.getValue(""carousel_question"", 1))",Chrome 85.0.4183.121,,,2020-09-28 14:34:36,2020-09-28 14:34:42,6.369s,ERROR
+,,,,,,,
+Test Cases/SetUp/setUpCustomSyn_ShareablePreview3,Chrome 85.0.4183.121,,,2020-09-28 14:34:42,2020-09-28 14:34:52,9.890s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 85.0.4183.121,,,2020-09-28 14:34:43,2020-09-28 14:34:45,2.285s,PASSED
+"testData = findTestData(""Data Files/testData_Dummy"")",Chrome 85.0.4183.121,,,2020-09-28 14:34:45,2020-09-28 14:34:46,0.290s,PASSED
+"platform.Articles.createNewArticle(testData, testData.getValue(""article_default_question"", 3))",Chrome 85.0.4183.121,,,2020-09-28 14:34:46,2020-09-28 14:34:52,6.366s,ERROR

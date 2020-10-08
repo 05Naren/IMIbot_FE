@@ -9,8 +9,10 @@ import internal.GlobalVariable as GlobalVariable
 
 /*WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [:], FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'platform.Method.navigateToBot'('Task bots', GlobalVariable.TASK_BOT)*/
-CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/training'))
+CustomKeywords.'platform.Method.navigateToBot'('Task bots', GlobalVariable.TASK_BOT)
+CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/training'))*/
+
+CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/webObjectWithText', [('textValue') : 'Intents']))
 
 TestData testData = findTestData('Data Files/testData_Task')
 

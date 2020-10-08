@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FAQ_SSO,Chrome 85.0.4183.102,,,2020-09-11 19:03:05,2020-09-11 19:06:01,2m - 56.189s,INCOMPLETE
+,,,,,,,
+Test Cases/FAQ_SSO/customSynonymsE2E_Test,Chrome 85.0.4183.102,"TestCase Agenda: Verify all features available on FAQ bot custom synonyms like manual addition of a root word and add synonyms to it, delete a synonym, delete a root word, upload a csv file and other functionalities.",,2020-09-11 19:03:50,2020-09-11 19:05:44,1m - 53.811s,FAILED
+"platform.Method.clickOnElement(findTestObject(""Generic/imiLogo""))",Chrome 85.0.4183.102,,,2020-09-11 19:03:52,2020-09-11 19:03:54,2.375s,PASSED
+"waitForElementVisible(findTestObject(""Button/createBot""), 30, OPTIONAL)",Chrome 85.0.4183.102,,,2020-09-11 19:03:54,2020-09-11 19:03:57,2.609s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":PREVIEW_BOT]))",Chrome 85.0.4183.102,,,2020-09-11 19:03:57,2020-09-11 19:03:59,2.827s,PASSED
+"waitForElementVisible(findTestObject(""Generic/articles""), 30, OPTIONAL)",Chrome 85.0.4183.102,,,2020-09-11 19:03:59,2020-09-11 19:04:03,4.055s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/articles""))",Chrome 85.0.4183.102,,,2020-09-11 19:04:03,2020-09-11 19:04:06,2.449s,PASSED
+"sendKeys(findTestObject(""Input/searchForQuestion""), ""Hello there"")",Chrome 85.0.4183.102,,,2020-09-11 19:04:06,2020-09-11 19:04:09,2.685s,PASSED
+"if (waitForElementVisible(findTestObject(""Generic/searchResult""), 10, OPTIONAL))",Chrome 85.0.4183.102,,,2020-09-11 19:04:09,2020-09-11 19:04:20,10.990s,PASSED
+else,Chrome 85.0.4183.102,,,2020-09-11 19:04:20,2020-09-11 19:04:20,0.017s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 85.0.4183.102,,,2020-09-11 19:04:20,2020-09-11 19:04:22,2.535s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(""[स्वावलंबी] भारतवर्ष"", ENTER))",Chrome 85.0.4183.102,,,2020-09-11 19:04:22,2020-09-11 19:04:25,3.001s,PASSED
+"waitForElementPresent(findTestObject(""GenericII/getBotResponse"", [""index"":2]), 20, OPTIONAL)",Chrome 85.0.4183.102,,,2020-09-11 19:04:25,2020-09-11 19:04:26,1.322s,PASSED
+"verifyElementText(findTestObject(""GenericII/getBotResponse"", [""index"":2]), fallback, OPTIONAL)",Chrome 85.0.4183.102,,,2020-09-11 19:04:26,2020-09-11 19:04:29,2.310s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/minimize""))",Chrome 85.0.4183.102,,,2020-09-11 19:04:29,2020-09-11 19:04:31,2.310s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Custom synonyms""]))",Chrome 85.0.4183.102,,,2020-09-11 19:04:31,2020-09-11 19:04:34,2.738s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/rootword""))",Chrome 85.0.4183.102,,,2020-09-11 19:04:34,2020-09-11 19:04:36,2.383s,PASSED
+"testData = findTestData(""Data Files/testData_FAQ"")",Chrome 85.0.4183.102,,,2020-09-11 19:04:36,2020-09-11 19:04:40,3.626s,PASSED
+"setText(findTestObject(""Input/valueOfSynonym""), Keys.chord(testData.getValue(""custom_syn_value"", 1), ENTER))",Chrome 85.0.4183.102,,,2020-09-11 19:04:40,2020-09-11 19:04:44,3.775s,PASSED
+"for ([count = 1, count <= testData.getRowNumbers(), (count++)])",Chrome 85.0.4183.102,,,2020-09-11 19:04:44,2020-09-11 19:04:58,14.830s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/importIcon""))",Chrome 85.0.4183.102,,,2020-09-11 19:04:58,2020-09-11 19:05:01,2.359s,PASSED
+"platform.Method.uploadCsvFile(false, ""faqSynonyms.csv"")",Chrome 85.0.4183.102,,,2020-09-11 19:05:01,2020-09-11 19:05:06,4.683s,PASSED
+delay(2),Chrome 85.0.4183.102,,,2020-09-11 19:05:06,2020-09-11 19:05:08,2.092s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/btnDeleteChipOrRow"", [""chipValue"":"" \@unwell "", ""option"":""cancel ""]))",Chrome 85.0.4183.102,,,2020-09-11 19:05:08,2020-09-11 19:05:10,2.238s,PASSED
+"setText(findTestObject(""Input/searchCustomSyn""), ""FEELING GOOD"")",Chrome 85.0.4183.102,,,2020-09-11 19:05:10,2020-09-11 19:05:14,3.998s,PASSED
+"verifyElementPresent(findTestObject(""ICONS/matChip"", [""chipValue"":"" un-happy ""]), 10, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:05:14,2020-09-11 19:05:15,1.265s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/save"", [""value"":""Save""]))",Chrome 85.0.4183.102,,,2020-09-11 19:05:15,2020-09-11 19:05:17,2.321s,PASSED
+"verifyElementText(findTestObject(""Generic/articleState""), ""Saved"", STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:05:17,2020-09-11 19:05:20,2.321s,PASSED
+"platform.Method.trainAndComment(testData.getValue(""comment"", 8))",Chrome 85.0.4183.102,,,2020-09-11 19:05:20,2020-09-11 19:05:29,9.536s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 20, OPTIONAL)",Chrome 85.0.4183.102,,,2020-09-11 19:05:29,2020-09-11 19:05:31,1.358s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 85.0.4183.102,,,2020-09-11 19:05:31,2020-09-11 19:05:33,2.636s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(""आत्मावलम्बी भारतवर्ष अभियान से जुड़े लाभ क्या हैं"", ENTER))",Chrome 85.0.4183.102,,,2020-09-11 19:05:33,2020-09-11 19:05:36,3.185s,PASSED
+delay(2),Chrome 85.0.4183.102,,,2020-09-11 19:05:36,2020-09-11 19:05:38,2.009s,PASSED
+"verifyElementText(findTestObject(""GenericII/getBotResponse"", [""index"":2]), testData.getValue(""bot_answer"", 1), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-11 19:05:38,2020-09-11 19:05:44,5.590s,FAILED
+,,,,,,,
+Test Cases/Sprint/v4.3/alertTestOnResponseDesignerTemplateFAQ,Chrome 85.0.4183.102,,,2020-09-11 19:05:44,2020-09-11 19:05:54,9.496s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Articles""]))",Chrome 85.0.4183.102,,,2020-09-11 19:05:45,2020-09-11 19:05:47,2.218s,PASSED
+"platform.Articles.createNewArticle(null, ""test alert on articles template"")",Chrome 85.0.4183.102,,,2020-09-11 19:05:47,2020-09-11 19:05:54,6.272s,ERROR
+,,,,,,,
+Test Cases/Sprint/v4.3/appleBusinessChatFieldTestForFAQbot,Chrome 85.0.4183.102,,,2020-09-11 19:05:54,2020-09-11 19:06:01,7.665s,ERROR
+"platform.Articles.createNewArticle(null, ""test listpicker on apple business chat"")",Chrome 85.0.4183.102,,,2020-09-11 19:05:55,2020-09-11 19:06:01,6.327s,ERROR

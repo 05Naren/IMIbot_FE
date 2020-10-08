@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+write,Chrome 85.0.4183.102,,,2020-09-19 00:22:01,2020-09-19 00:23:50,1m - 49.403s,INCOMPLETE
+,,,,,,,
+Test Cases/Generic/botPageAndHeaderAccess_Test,Chrome 85.0.4183.102,TestCase Agenda: To verify if navigation to header options is possible and  navigation back to home page,,2020-09-19 00:22:47,2020-09-19 00:23:50,1m - 2.793s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Dashboard""]))",Chrome 85.0.4183.102,,,2020-09-19 00:22:48,2020-09-19 00:22:51,2.353s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/imiLogo""))",Chrome 85.0.4183.102,,,2020-09-19 00:22:51,2020-09-19 00:22:53,2.312s,PASSED
+"verifyElementPresent(findTestObject(""Button/createBot""), 15, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-19 00:22:53,2020-09-19 00:22:54,1.274s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Knowledge""]))",Chrome 85.0.4183.102,,,2020-09-19 00:22:54,2020-09-19 00:22:57,2.744s,PASSED
+"verifyElementText(findTestObject(""Generic/kbHeader""), ""Enterprise Knowledge Base"", OPTIONAL)",Chrome 85.0.4183.102,,,2020-09-19 00:22:57,2020-09-19 00:22:59,2.405s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/imiLogo""))",Chrome 85.0.4183.102,,,2020-09-19 00:22:59,2020-09-19 00:23:05,5.784s,PASSED
+"verifyElementPresent(findTestObject(""Button/createBot""), 15, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-19 00:23:05,2020-09-19 00:23:08,3.436s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Analytics""]))",Chrome 85.0.4183.102,,,2020-09-19 00:23:08,2020-09-19 00:23:11,2.453s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/imiLogo""))",Chrome 85.0.4183.102,,,2020-09-19 00:23:11,2020-09-19 00:23:16,5.409s,PASSED
+"verifyElementPresent(findTestObject(""Button/createBot""), 15, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-19 00:23:16,2020-09-19 00:23:20,3.785s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Reports""]))",Chrome 85.0.4183.102,,,2020-09-19 00:23:20,2020-09-19 00:23:23,2.762s,PASSED
+"verifyElementClickable(findTestObject(""Button/newReport""), STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-19 00:23:23,2020-09-19 00:23:25,2.365s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/imiLogo""))",Chrome 85.0.4183.102,,,2020-09-19 00:23:25,2020-09-19 00:23:30,4.991s,PASSED
+"verifyElementPresent(findTestObject(""Button/createBot""), 15, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-19 00:23:30,2020-09-19 00:23:34,3.470s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Task bots""]))",Chrome 85.0.4183.102,,,2020-09-19 00:23:34,2020-09-19 00:23:37,3.068s,PASSED
+"comment(""Verification of Task bots"")",Chrome 85.0.4183.102,,,2020-09-19 00:23:37,2020-09-19 00:23:37,0.084s,PASSED
+"verifyElementPresent(findTestObject(""Button/createBot""), 20, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-19 00:23:37,2020-09-19 00:23:38,1.347s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Smart bots""]))",Chrome 85.0.4183.102,,,2020-09-19 00:23:38,2020-09-19 00:23:41,2.740s,PASSED
+"comment(""Verification of Smart bots"")",Chrome 85.0.4183.102,,,2020-09-19 00:23:41,2020-09-19 00:23:41,0.010s,PASSED
+"verifyElementPresent(findTestObject(""Button/createBot""), 20, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-19 00:23:41,2020-09-19 00:23:43,1.549s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Router bots""]))",Chrome 85.0.4183.102,,,2020-09-19 00:23:43,2020-09-19 00:23:45,2.484s,PASSED
+"comment(""Verification of Router bots"")",Chrome 85.0.4183.102,,,2020-09-19 00:23:45,2020-09-19 00:23:45,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Button/createBot""), 20, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-19 00:23:45,2020-09-19 00:23:46,1.338s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Pipeline bots""]))",Chrome 85.0.4183.102,,,2020-09-19 00:23:46,2020-09-19 00:23:49,2.476s,PASSED
+"comment(""Verification of Pipeline bots"")",Chrome 85.0.4183.102,,,2020-09-19 00:23:49,2020-09-19 00:23:49,0.012s,PASSED
+"verifyElementPresent(findTestObject(""Button/createBot""), 20, STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-19 00:23:49,2020-09-19 00:23:50,1.378s,PASSED

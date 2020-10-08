@@ -13,16 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Faqbot/botCreation_Test'), [('nameOfTheBot') : GlobalVariable.PREVIEW_BOT], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('FAQ_SSO/botCreation_Test'), [('nameOfTheBot') : GlobalVariable.PREVIEW_BOT], FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/webObjectWithText',['textValue':GlobalVariable.PREVIEW_BOT]))
 
 TestData testData = findTestData('Data Files/testData_Dummy')
 
-CustomKeywords.'platform.Method.clickOnElement'(findTestObject('GenericII/minimize'))
-
 CustomKeywords.'platform.Articles.createNewArticle'(testData, testData.getValue('article_default_question', 1))
 
-//CustomKeywords.'platform.Response.addImage'(false, testData.getValue('image_url', 1))
-//CustomKeywords.'platform.Response.addText'(testData.getValue('text_response', 1))
 WebUI.setText(findTestObject('WEB_OBJECTS/textArea'), testData.getValue('text_response', 1))
 
 CustomKeywords.'platform.ResponseDesigner.configureMediaResponse'('image', testData.getValue('image_url', 1))

@@ -14,7 +14,7 @@ import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [('username') : GlobalVariable.USERNAME, ('password') : GlobalVariable.PASSWORD], 
+/*WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [('username') : GlobalVariable.USERNAME, ('password') : GlobalVariable.PASSWORD], 
     FailureHandling.STOP_ON_FAILURE)
 
 // setting up stable environment
@@ -22,7 +22,7 @@ CustomKeywords.'platform.Method.navigateToBot'('Q&A bots', botName)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/articles'))
 
-CustomKeywords.'platform.Articles.createNewArticle'(null, 'test listpicker on apple business chat')
+CustomKeywords.'platform.Articles.createNewArticle'(null, 'test listpicker on apple business chat')*/
 
 CustomKeywords.'platform.ResponseDesigner.addChannelToResponse'(' Apple Business Chat')
 

@@ -13,15 +13,14 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser(GlobalVariable.URL)
+/*WebUI.openBrowser(GlobalVariable.URL)
 
 WebUI.maximizeWindow()
 
 WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [('username') : GlobalVariable.USERNAME, ('password') : GlobalVariable.PASSWORD], 
     FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'platform.Method.navigateToBot'('Task bots', 'file_text_attachment_bot')
-
+CustomKeywords.'platform.Method.navigateToBot'('Task bots', 'file_text_attachment_bot')*/
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/response'))
 
 CustomKeywords.'platform.Response.createRichResponse'('test alert', 'default value')
@@ -36,7 +35,8 @@ WebUI.setText(findTestObject('WEB_OBJECTS/mediaURL'), image_url)
 
 CustomKeywords.'platform.Method.removeFocus'(findTestObject('WEB_OBJECTS/mediaURL'))
 
-WebUI.verifyElementPresent(findTestObject('WEB_OBJECTS/alert',['alert_value':'Needs to end with .jpg/.png/.jpeg']), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('WEB_OBJECTS/alert', [('alert_value') : 'Needs to end with .jpg/.png/.jpeg']), 
+    20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('WEB_OBJECTS/mediaURL'), ' ')
 
@@ -54,7 +54,7 @@ WebUI.setText(findTestObject('WEB_OBJECTS/mediaURL'), audio_url)
 
 CustomKeywords.'platform.Method.removeFocus'(findTestObject('WEB_OBJECTS/mediaURL'))
 
-WebUI.verifyElementPresent(findTestObject('WEB_OBJECTS/alert',['alert_value':'Needs to end with .mp3/.aac']), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('WEB_OBJECTS/alert', [('alert_value') : 'Needs to end with .mp3/.aac']), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('WEB_OBJECTS/mediaURL'), ' ')
 
@@ -72,13 +72,11 @@ WebUI.setText(findTestObject('WEB_OBJECTS/mediaURL'), video_url)
 
 CustomKeywords.'platform.Method.removeFocus'(findTestObject('WEB_OBJECTS/mediaURL'))
 
-WebUI.verifyElementPresent(findTestObject('WEB_OBJECTS/alert',['alert_value':'Needs to end with .mp4']), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('WEB_OBJECTS/alert', [('alert_value') : 'Needs to end with .mp4']), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('WEB_OBJECTS/mediaURL'), ' ')
 
 WebUI.verifyElementPresent(findTestObject('WEB_OBJECTS/alertInvalidData'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 CustomKeywords.'platform.ResponseDesigner.deleteSecondaryTemplate'(2)
-
-
 

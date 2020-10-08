@@ -1,24 +1,14 @@
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import org.junit.After as After
+
 import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.WebElement as WebElement
+
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable as GlobalVariable
-
-WebUI.openBrowser(GlobalVariable.URL)
-
-WebUI.maximizeWindow()
-
-WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [:], FailureHandling.STOP_ON_FAILURE)
-
-//CustomKeywords.'platform.Method.navigateToBot'('Task bots', GlobalVariable.TASK_BOT)
-CustomKeywords.'platform.Method.navigateToBot'('Task bots', 'file_text_attachment_bot')
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/training'))
 
@@ -48,23 +38,20 @@ for (WebElement value : entityOptions) {
 
 KeywordUtil.markPassed('*** Map location entity not found ***')
 
-/*CustomKeywords.'platform.Method.clickOnElement'(findTestObject('NewRepo/intentGoBack'))
+CustomKeywords.'platform.Training.createNewEntityManually'(testData.getValue('map_entity', 3), ' Map location (whatsapp) ', 
+    null)
 
-WebUI.verifyElementVisible(findTestObject('WEB_OBJECTS/popUpConfirmation'), FailureHandling.OPTIONAL)
-
-CustomKeywords.'platform.Method.clickOnElement'(findTestObject('WEB_OBJECTS/btnClosingWithoutSaving'))
-*/
-CustomKeywords.'platform.Training.createNewEntityManually'(testData.getValue('map_entity', 3), ' Map location ', null)
-
-WebUI.waitForElementPresent(findTestObject('ICONS/toastMsg'), 30)
+WebUI.waitForElementPresent(findTestObject('ICONS/toastMsg'), 30, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementNotPresent(findTestObject('Slots/entityValue', [('rowValue') : 1]), 30, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.sendKeys(findTestObject('Input/intentName'), testData.getValue('intent_name', 7))
 
-WebUI.sendKeys(findTestObject('Input/finalTempKey'), findTestData('Data Files/testData_Task').getValue('rich_template',
-	1 // final template value set from test data
-	))
+WebUI.sendKeys(findTestObject('Input/finalTempKey'), findTestData('Data Files/testData_Task').getValue('rich_template', 
+        6 // final template value set from test data
+        ))
+
+WebUI.executeJavaScript("document.getElementsByClassName(\'bg-red\')[0].classList.remove(\'bg-red\');", null)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/save', [('value') : ' Save ']))
 
@@ -77,3 +64,7 @@ CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/webObjec
                 'intent_name', 7)]))
 
 WebUI.verifyElementNotPresent(findTestObject('Slots/markedUpEntity'), 20, FailureHandling.STOP_ON_FAILURE)
+
+CustomKeywords.'platform.Method.clickOnElement'(findTestObject('NewRepo/intentGoBack'))
+
+WebUI.verifyTextPresent('Training data', false, FailureHandling.CONTINUE_ON_FAILURE)

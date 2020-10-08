@@ -13,8 +13,16 @@ import internal.GlobalVariable as GlobalVariable
 /*WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [:], FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'platform.Method.navigateToBot'('Task bots', GlobalVariable.NONE_INTENT)*/
-
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/training'))
+
+try {
+    if (WebUI.verifyElementVisible(findTestObject('WEB_OBJECTS/popUpConfirmation'), FailureHandling.OPTIONAL)) {
+        CustomKeywords.'platform.Method.clickOnElement'(findTestObject('WEB_OBJECTS/confirm'))
+    }
+}
+catch (Exception e) {
+    KeywordUtil.logInfo('Pop up was not present')
+} 
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/webObjectWithText', [('textValue') : 'Entities']))
 

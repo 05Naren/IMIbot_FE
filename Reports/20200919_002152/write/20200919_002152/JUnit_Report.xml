@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="write" time="109" tests="1" failures="0" errors="0">
+    <testsuite name="write" tests="1" failures="0" errors="0" time="109" timestamp="2020-09-19 00:22:01" hostname="narendra.n - WLPT580.imidomain.com" id="Test Suites/write">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="D:\\IMIbot.ai-Project\\Reports\\20200919_002152\\write\\20200919_002152"/>
+            <property name="logFiles" value="D:\\IMIbot.ai-Project\\Reports\\20200919_002152\\write\\20200919_002152\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="narendra.n - WLPT580.imidomain.com"/>
+            <property name="os" value="Windows 8.1 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Chrome 85.0.4183.102"/>
+            <property name="hostAddress" value="192.168.29.195"/>
+            <property name="sessionId" value="cf5d28b40ce87bc55d93ae1c44397ccc"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 8.1"/>
+        </properties>
+        <testcase name="Test Cases/Generic/botPageAndHeaderAccess_Test" classname="Test Cases/Generic/botPageAndHeaderAccess_Test" status="PASSED">
+            <system-out>2020-09-19 00:22:47 - [TEST_CASE][PASSED] - Test Cases/Generic/botPageAndHeaderAccess_Test: Test Cases/Generic/botPageAndHeaderAccess_Test&#xD;
+&#xD;
+2020-09-19 00:22:48 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/webObjectWithText", ["textValue":"Dashboard"])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-09-19 00:22:51 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-09-19 00:22:51 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/imiLogo")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-09-19 00:22:53 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-09-19 00:22:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Button/createBot"), 15, STOP_ON_FAILURE): Object 'Object Repository/Button/createBot' is present&#xD;
+&#xD;
+2020-09-19 00:22:54 - [MESSAGE][PASSED] - Object 'Object Repository/Button/createBot' is present&#xD;
+&#xD;
+2020-09-19 00:22:54 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/webObjectWithText", ["textValue":"Knowledge"])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-09-19 00:22:57 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-09-19 00:22:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Generic/kbHeader"), "Enterprise Knowledge Base", OPTIONAL): Actual text and expected text of test object 'Object Repository/Generic/kbHeader' are matched.&#xD;
+&#xD;
+2020-09-19 00:22:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Generic/kbHeader' are matched.&#xD;
+&#xD;
+2020-09-19 00:22:59 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/imiLogo")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-09-19 00:23:05 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-09-19 00:23:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Button/createBot"), 15, STOP_ON_FAILURE): Object 'Object Repository/Button/createBot' is present&#xD;
+&#xD;
+2020-09-19 00:23:08 - [MESSAGE][PASSED] - Object 'Object Repository/Button/createBot' is present&#xD;
+&#xD;
+2020-09-19 00:23:08 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/webObjectWithText", ["textValue":"Analytics"])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-09-19 00:23:11 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-09-19 00:23:11 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/imiLogo")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-09-19 00:23:16 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-09-19 00:23:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Button/createBot"), 15, STOP_ON_FAILURE): Object 'Object Repository/Button/createBot' is present&#xD;
+&#xD;
+2020-09-19 00:23:20 - [MESSAGE][PASSED] - Object 'Object Repository/Button/createBot' is present&#xD;
+&#xD;
+2020-09-19 00:23:20 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/webObjectWithText", ["textValue":"Reports"])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-09-19 00:23:23 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-09-19 00:23:23 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Button/newReport"), STOP_ON_FAILURE): Object 'Object Repository/Button/newReport' is clickable&#xD;
+&#xD;
+2020-09-19 00:23:25 - [MESSAGE][PASSED] - Object 'Object Repository/Button/newReport' is clickable&#xD;
+&#xD;
+2020-09-19 00:23:25 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/imiLogo")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-09-19 00:23:30 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-09-19 00:23:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Button/createBot"), 15, STOP_ON_FAILURE): Object 'Object Repository/Button/createBot' is present&#xD;
+&#xD;
+2020-09-19 00:23:34 - [MESSAGE][PASSED] - Object 'Object Repository/Button/createBot' is present&#xD;
+&#xD;
+2020-09-19 00:23:34 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/webObjectWithText", ["textValue":"Task bots"])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-09-19 00:23:37 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-09-19 00:23:37 - [TEST_STEP][PASSED] - comment("Verification of Task bots"): Verification of Task bots&#xD;
+&#xD;
+2020-09-19 00:23:37 - [MESSAGE][INFO] - Verification of Task bots&#xD;
+&#xD;
+2020-09-19 00:23:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Button/createBot"), 20, STOP_ON_FAILURE): Object 'Object Repository/Button/createBot' is present&#xD;
+&#xD;
+2020-09-19 00:23:38 - [MESSAGE][PASSED] - Object 'Object Repository/Button/createBot' is present&#xD;
+&#xD;
+2020-09-19 00:23:38 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/webObjectWithText", ["textValue":"Smart bots"])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-09-19 00:23:41 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-09-19 00:23:41 - [TEST_STEP][PASSED] - comment("Verification of Smart bots"): Verification of Smart bots&#xD;
+&#xD;
+2020-09-19 00:23:41 - [MESSAGE][INFO] - Verification of Smart bots&#xD;
+&#xD;
+2020-09-19 00:23:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Button/createBot"), 20, STOP_ON_FAILURE): Object 'Object Repository/Button/createBot' is present&#xD;
+&#xD;
+2020-09-19 00:23:43 - [MESSAGE][PASSED] - Object 'Object Repository/Button/createBot' is present&#xD;
+&#xD;
+2020-09-19 00:23:43 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/webObjectWithText", ["textValue":"Router bots"])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-09-19 00:23:45 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-09-19 00:23:45 - [TEST_STEP][PASSED] - comment("Verification of Router bots"): Verification of Router bots&#xD;
+&#xD;
+2020-09-19 00:23:45 - [MESSAGE][INFO] - Verification of Router bots&#xD;
+&#xD;
+2020-09-19 00:23:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Button/createBot"), 20, STOP_ON_FAILURE): Object 'Object Repository/Button/createBot' is present&#xD;
+&#xD;
+2020-09-19 00:23:46 - [MESSAGE][PASSED] - Object 'Object Repository/Button/createBot' is present&#xD;
+&#xD;
+2020-09-19 00:23:46 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/webObjectWithText", ["textValue":"Pipeline bots"])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-09-19 00:23:49 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-09-19 00:23:49 - [TEST_STEP][PASSED] - comment("Verification of Pipeline bots"): Verification of Pipeline bots&#xD;
+&#xD;
+2020-09-19 00:23:49 - [MESSAGE][INFO] - Verification of Pipeline bots&#xD;
+&#xD;
+2020-09-19 00:23:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Button/createBot"), 20, STOP_ON_FAILURE): Object 'Object Repository/Button/createBot' is present&#xD;
+&#xD;
+2020-09-19 00:23:50 - [MESSAGE][PASSED] - Object 'Object Repository/Button/createBot' is present</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2020-09-19 00:22:01 - [TEST_SUITE][INCOMPLETE] - write: null</system-out>
+        <system-err>2020-09-19 00:22:01 - [TEST_SUITE][INCOMPLETE] - write: null</system-err>
+    </testsuite>
+</testsuites>

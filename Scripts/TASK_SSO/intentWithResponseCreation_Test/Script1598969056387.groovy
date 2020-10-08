@@ -16,8 +16,10 @@ import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 
 /*WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [:], FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'platform.Method.navigateToBot'('Task bots', GlobalVariable.TASK_BOT)*/
-CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/training'))
+CustomKeywords.'platform.Method.navigateToBot'('Task bots', GlobalVariable.TASK_BOT)
+CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/training'))*/
+
+CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/webObjectWithText', [('textValue') : 'Intents']))
 
 CustomKeywords.'platform.Training.addMultipleUtterance'(findTestData('Data Files/testData_Task'), 'first_intent_utterance' // data file has been hardcoded
     )

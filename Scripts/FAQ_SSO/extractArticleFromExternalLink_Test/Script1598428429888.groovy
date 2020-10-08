@@ -38,7 +38,7 @@ WebUI.check(findTestObject('Generic/articleCheckbox', [('index') : 3]))
 
 WebUI.check(findTestObject('Generic/articleCheckbox', [('index') : 5]))
 
-TestObject testObject = WebUI.modifyObjectProperty(findTestObject('Generic/header'), 'class', 'not equals', 'heading', true)
+TestObject testObject = WebUI.modifyObjectProperty(findTestObject('Generic/header'), 'xpath', 'not equals', "//div[@class='heading' and contains(text(),'Detected FAQs')]", true)
 
 WebUiCommonHelper.findWebElement(testObject, 10).getText().contains('3')
 

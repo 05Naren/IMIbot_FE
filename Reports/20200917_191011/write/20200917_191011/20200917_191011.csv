@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+write,Chrome 85.0.4183.102,,,2020-09-17 19:10:16,2020-09-17 19:11:20,1m - 4.162s,INCOMPLETE
+,,,,,,,
+Test Cases/Generic/successfulLogin_Test,Chrome 85.0.4183.102,TestCase Agenda: To verify if successful login to application is possible with correct credentials,,2020-09-17 19:11:07,2020-09-17 19:11:20,13.370s,FAILED
+"sendKeys(findTestObject(""Input/username""), username)",Chrome 85.0.4183.102,,,2020-09-17 19:11:07,2020-09-17 19:11:20,12.630s,FAILED
