@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Scenario 1: Verify if the data are arranged in the order of latest updated at top
+
+Given: User is on History module
+When: User goes to Audit log page
+Then: User should see the latest updated on top of the list (compare dates/time of last two updated item under updated at field)
+
+Scenario 2: Verify if data gets sorted (in increasing order) when user perform sort operation on field column
+
+Given: User is on Audit log page
+When: User clicks on sort icon on field column
+Then: All data on table should get sorted in ascending order; compare the field value data in alphabetical order
+
+Scenario 3: Verify if application displays result when user search for user name on Updated by field
+
+Given: User is on Audit log page
+When: User searches for a user name on Updated by field
+Then: All application should display result relevant to user name searched.</description>
+   <name>taskBotAuditLog_Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6c65c2d8-691f-4382-a52d-548d85663ed9</testCaseGuid>
+   <variable>
+      <defaultValue>'ayesh'</defaultValue>
+      <description></description>
+      <id>84e9b181-3b12-4c67-8810-9ae2c9e6a6c2</id>
+      <masked>false</masked>
+      <name>searchData</name>
+   </variable>
+   <variable>
+      <defaultValue>'Ayesh Reddy'</defaultValue>
+      <description></description>
+      <id>ddff0b37-f8e4-475a-9dfd-983483cd71de</id>
+      <masked>false</masked>
+      <name>user_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'crypt'</defaultValue>
+      <description></description>
+      <id>f33c1666-ce68-45db-bda5-9889668a00e7</id>
+      <masked>false</masked>
+      <name>fieldValue</name>
+   </variable>
+</TestCaseEntity>

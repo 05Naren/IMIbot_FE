@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Scenario 1: Verify if Freeform entity can successfully be created 
+
+Given: User is on new entity creation page
+
+When: User clicks on create entity button
+And: User enters entity name and selects entity type freeform
+And: User clicks on save button
+Then: A new entity of freeform type should get created and present on entity list 
+
+Scenario 2: Verify if Freeform entity can be updated successfully(Name of the entity can only be updated)
+
+Given: Freeform entity is already present on entity list
+
+When: User selects a freeform entity
+And: User modifies the name and clicks on save button
+Then: Application should successfully update the freeform entity name</description>
+   <name>freeformEntityCreation_Test</name>
+   <tag></tag>
+   <comment> *** SCENARIO 1 STARTED ***
+ *** VALIDATION --> ENTITY CREATION CHECK ***
+ *** SCENARIO 2 STARTED ***
+ *** VALIDATION --> ENTITY NAME UPDATE CHECK ***</comment>
+   <testCaseGuid>96e95968-598d-41b6-8c66-9f3655941cf7</testCaseGuid>
+</TestCaseEntity>

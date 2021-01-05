@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="v4.4_TaskSuite" time="1015" tests="3" failures="2" errors="3">
+    <testsuite name="v4.4_TaskSuite" tests="3" failures="2" errors="3" time="1015" timestamp="2020-11-02 18:19:08" hostname="narendra.n - WLPT580.imidomain.com" id="Test Suites/v4.4_TaskSuite">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="D:\\IMIbot.ai-Project\\Reports\\20201102_181826\\v4.4_TaskSuite\\20201102_181834"/>
+            <property name="logFiles" value="D:\\IMIbot.ai-Project\\Reports\\20201102_181826\\v4.4_TaskSuite\\20201102_181834\\execution0.log"/>
+            <property name="attachments" value="D:\\IMIbot.ai-Project\\Reports\\20201102_181826\\v4.4_TaskSuite\\20201102_181834\\1604322084061.png, D:\\IMIbot.ai-Project\\Reports\\20201102_181826\\v4.4_TaskSuite\\20201102_181834\\1604322322239.png, D:\\IMIbot.ai-Project\\Reports\\20201102_181826\\v4.4_TaskSuite\\20201102_181834\\1604322361462.png"/>
+            <property name="hostName" value="narendra.n - WLPT580.imidomain.com"/>
+            <property name="os" value="Windows 8.1 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Chrome 86.0.4240.111"/>
+            <property name="hostAddress" value="192.168.29.195"/>
+            <property name="sessionId" value="b26bee202c619adc7125eebcfcd87227"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 8.1"/>
+        </properties>
+        <testcase name="Test Cases/TASK_SSO/botCreation_Test" classname="Test Cases/TASK_SSO/botCreation_Test" status="PASSED">
+            <system-out>2020-11-02 18:22:02 - [TEST_CASE][PASSED] - Test Cases/TASK_SSO/botCreation_Test: Test Cases/TASK_SSO/botCreation_Test&#xD;
+&#xD;
+2020-11-02 18:22:04 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/webObjectWithText", ["textValue":"Task bots"])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:22:13 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:22:13 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Button/createBot")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:22:19 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:22:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Input/botName"), nameOfTheBot): Keys 'v4.4 Task-Testbot' sent to object: 'Object Repository/Input/botName'&#xD;
+&#xD;
+2020-11-02 18:22:26 - [MESSAGE][PASSED] - Keys 'v4.4 Task-Testbot' sent to object: 'Object Repository/Input/botName'&#xD;
+&#xD;
+2020-11-02 18:22:26 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Toggle/feedback")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:22:29 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:22:29 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Button/done")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:22:32 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:22:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Generic/modelState"), 60, OPTIONAL): Object 'Object Repository/Generic/modelState' is visible&#xD;
+&#xD;
+2020-11-02 18:22:59 - [MESSAGE][PASSED] - Object 'Object Repository/Generic/modelState' is visible&#xD;
+&#xD;
+2020-11-02 18:22:59 - [TEST_STEP][PASSED] - if (!(verifyElementText(findTestObject("Generic/modelState"), "Trained", OPTIONAL))): Actual text and expected text of test object 'Object Repository/Generic/modelState' are matched.&#xD;
+&#xD;
+2020-11-02 18:23:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Generic/modelState' are matched.</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Sprint/v4.4/mapLocationEntityCreation_Test" classname="Test Cases/Sprint/v4.4/mapLocationEntityCreation_Test" status="PASSED">
+            <system-out>2020-11-02 18:23:03 - [TEST_CASE][PASSED] - Test Cases/Sprint/v4.4/mapLocationEntityCreation_Test: Test Cases/Sprint/v4.4/mapLocationEntityCreation_Test&#xD;
+&#xD;
+2020-11-02 18:23:07 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/training")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:23:10 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:23:10 - [TEST_STEP][PASSED] - testData = findTestData("Data Files/testData_Task"): null&#xD;
+&#xD;
+2020-11-02 18:24:51 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/webObjectWithText", ["textValue":"Entities"])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:24:55 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:24:55 - [TEST_STEP][PASSED] - comment(" *** SCENARIO 1 STARTED ***"):  *** SCENARIO 1 STARTED ***&#xD;
+&#xD;
+2020-11-02 18:24:57 - [MESSAGE][INFO] -  *** SCENARIO 1 STARTED ***&#xD;
+&#xD;
+2020-11-02 18:24:57 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Button/createEntity")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:25:02 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:25:02 - [TEST_STEP][PASSED] - platform.Training.createEntity(testData.getValue("map_entity", 1), " Map location (whatsapp) ", null): platform.Training.createEntity is PASSED&#xD;
+&#xD;
+2020-11-02 18:25:28 - [MESSAGE][PASSED] - Keys 'map' sent to object: 'Object Repository/Input/entityName'&#xD;
+&#xD;
+2020-11-02 18:25:43 - [MESSAGE][INFO] - Entity Type:  Map location (whatsapp) &#xD;
+&#xD;
+2020-11-02 18:25:50 - [MESSAGE][PASSED] - platform.Training.createEntity is PASSED&#xD;
+&#xD;
+2020-11-02 18:25:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("ICONS/toastMsg"), 20, CONTINUE_ON_FAILURE): Object 'Object Repository/ICONS/toastMsg' is present&#xD;
+&#xD;
+2020-11-02 18:25:53 - [MESSAGE][PASSED] - Object 'Object Repository/ICONS/toastMsg' is present&#xD;
+&#xD;
+2020-11-02 18:25:53 - [TEST_STEP][PASSED] - comment(" *** VALIDATION --&gt; ENTITY CREATION CHECK ***"):  *** VALIDATION --&gt; ENTITY CREATION CHECK ***&#xD;
+&#xD;
+2020-11-02 18:25:53 - [MESSAGE][INFO] -  *** VALIDATION --&gt; ENTITY CREATION CHECK ***&#xD;
+&#xD;
+2020-11-02 18:25:53 - [TEST_STEP][PASSED] - mapElement = findWebElements(findTestObject("GenericII/listOfEntityNames"), 5).get(0): null&#xD;
+&#xD;
+2020-11-02 18:25:55 - [TEST_STEP][PASSED] - assert getText().contentEquals("map") == true: null&#xD;
+&#xD;
+2020-11-02 18:25:56 - [TEST_STEP][PASSED] - comment(" *** SCENARIO 2 STARTED ***"):  *** SCENARIO 2 STARTED ***&#xD;
+&#xD;
+2020-11-02 18:25:56 - [MESSAGE][INFO] -  *** SCENARIO 2 STARTED ***&#xD;
+&#xD;
+2020-11-02 18:25:56 - [TEST_STEP][PASSED] - mapElement.click(): null&#xD;
+&#xD;
+2020-11-02 18:26:04 - [TEST_STEP][PASSED] - setText(findTestObject("Input/entityName"), testData.getValue("map_entity", 2)): Text 'new map' is set on object 'Object Repository/Input/entityName'&#xD;
+&#xD;
+2020-11-02 18:26:09 - [MESSAGE][PASSED] - Text 'new map' is set on object 'Object Repository/Input/entityName'&#xD;
+&#xD;
+2020-11-02 18:26:09 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Button/entityPageSaveButton")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:26:13 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:26:13 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("ICONS/toastMsg"), 20, CONTINUE_ON_FAILURE): Object 'Object Repository/ICONS/toastMsg' is present&#xD;
+&#xD;
+2020-11-02 18:26:16 - [MESSAGE][PASSED] - Object 'Object Repository/ICONS/toastMsg' is present&#xD;
+&#xD;
+2020-11-02 18:26:16 - [TEST_STEP][PASSED] - comment(" *** VALIDATION --&gt; ENTITY NAME UPDATE CHECK ***"):  *** VALIDATION --&gt; ENTITY NAME UPDATE CHECK ***&#xD;
+&#xD;
+2020-11-02 18:26:16 - [MESSAGE][INFO] -  *** VALIDATION --&gt; ENTITY NAME UPDATE CHECK ***&#xD;
+&#xD;
+2020-11-02 18:26:16 - [TEST_STEP][PASSED] - mapElement = findWebElements(findTestObject("GenericII/listOfEntityNames"), 5).get(0): null&#xD;
+&#xD;
+2020-11-02 18:26:18 - [TEST_STEP][PASSED] - assert getText().contentEquals("new map") == true: null&#xD;
+&#xD;
+2020-11-02 18:26:19 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/response")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:26:24 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:26:24 - [TEST_STEP][PASSED] - platform.Response.createRichResponse(testData.getValue("rich_template", 6), testData.getValue("rich_template_value", 6)): platform.Response.createRichResponse is PASSED&#xD;
+&#xD;
+2020-11-02 18:26:51 - [MESSAGE][PASSED] - Text 'map_response' is set on object 'Object Repository/NewRepo2/templateKeyName'&#xD;
+&#xD;
+2020-11-02 18:26:58 - [MESSAGE][PASSED] - Delayed 2 second(s)&#xD;
+&#xD;
+2020-11-02 18:27:02 - [MESSAGE][PASSED] - Keys 'Your map response is stored in here' sent to object: 'Object Repository/Input/textResponse'&#xD;
+&#xD;
+2020-11-02 18:27:06 - [MESSAGE][PASSED] - platform.Response.createRichResponse is PASSED&#xD;
+&#xD;
+2020-11-02 18:27:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("ICONS/toastMsg"), 20, CONTINUE_ON_FAILURE): Object 'Object Repository/ICONS/toastMsg' is present&#xD;
+&#xD;
+2020-11-02 18:27:09 - [MESSAGE][PASSED] - Object 'Object Repository/ICONS/toastMsg' is present</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Sprint/v4.4/mapLocationEntityTaggingInIntent_Test" classname="Test Cases/Sprint/v4.4/mapLocationEntityTaggingInIntent_Test" status="PASSED">
+            <system-out>2020-11-02 18:27:55 - [TEST_CASE][PASSED] - Test Cases/Sprint/v4.4/mapLocationEntityTaggingInIntent_Test: Test Cases/Sprint/v4.4/mapLocationEntityTaggingInIntent_Test&#xD;
+&#xD;
+2020-11-02 18:28:03 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/training")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:28:08 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:28:08 - [TEST_STEP][PASSED] - testData = findTestData("Data Files/testData_Task"): null&#xD;
+&#xD;
+2020-11-02 18:28:09 - [TEST_STEP][PASSED] - platform.Training.addSingleUtterance(testData.getValue("map_utterance", 1)): platform.Training.addSingleUtterance is PASSED&#xD;
+&#xD;
+2020-11-02 18:28:20 - [MESSAGE][PASSED] - Keys 'map location test' sent to object: 'Object Repository/Input/utterance'&#xD;
+&#xD;
+2020-11-02 18:28:23 - [MESSAGE][PASSED] - platform.Training.addSingleUtterance is PASSED&#xD;
+&#xD;
+2020-11-02 18:28:23 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Slots/listOfUtterance"), 5): null&#xD;
+&#xD;
+2020-11-02 18:28:25 - [TEST_STEP][PASSED] - element.click(): null&#xD;
+&#xD;
+2020-11-02 18:28:27 - [TEST_STEP][PASSED] - element.sendKeys(Keys.chord(CONTROL, "a")): null&#xD;
+&#xD;
+2020-11-02 18:28:30 - [TEST_STEP][PASSED] - element.click(): null&#xD;
+&#xD;
+2020-11-02 18:28:36 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Generic/entitySelection"), 20, OPTIONAL) == false): Text 'No entities found' is present on page &#xD;
+&#xD;
+2020-11-02 18:29:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-select[@formcontrolname='entity_id']'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2020-11-02 18:29:46 - [MESSAGE][WARNING] - Cannot take screenshot&#xD;
+&#xD;
+2020-11-02 18:29:46 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/entitySelection' located by 'By.xpath: //mat-select[@formcontrolname='entity_id']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/entitySelection' located by 'By.xpath: //mat-select[@formcontrolname='entity_id']' not found&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1418)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$8.call(Unknown Source)&#xD;
+	at mapLocationEntityTaggingInIntent_Test.run(mapLocationEntityTaggingInIntent_Test:28)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1604321314507.run(TempTestSuite1604321314507.groovy:35)&#xD;
+)&#xD;
+&#xD;
+2020-11-02 18:29:46 - [TEST_STEP][PASSED] - verifyTextPresent("No entities found", false, CONTINUE_ON_FAILURE): Text 'No entities found' is present on page &#xD;
+&#xD;
+2020-11-02 18:29:52 - [MESSAGE][PASSED] - Text 'No entities found' is present on page &#xD;
+&#xD;
+2020-11-02 18:29:52 - [TEST_STEP][PASSED] - platform.Training.createNewEntityManually(testData.getValue("map_entity", 3), " Map location (whatsapp) ", null): platform.Training.createNewEntityManually is PASSED&#xD;
+&#xD;
+2020-11-02 18:29:59 - [MESSAGE][PASSED] - Keys 'demo map test' sent to object: 'Object Repository/Input/entityName'&#xD;
+&#xD;
+2020-11-02 18:30:03 - [MESSAGE][INFO] - Entity Type:  Map location (whatsapp) &#xD;
+&#xD;
+2020-11-02 18:30:08 - [MESSAGE][PASSED] - platform.Training.createNewEntityManually is PASSED&#xD;
+&#xD;
+2020-11-02 18:30:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("ICONS/toastMsg"), 30, CONTINUE_ON_FAILURE): Object 'Object Repository/ICONS/toastMsg' is present&#xD;
+&#xD;
+2020-11-02 18:30:09 - [MESSAGE][PASSED] - Object 'Object Repository/ICONS/toastMsg' is present&#xD;
+&#xD;
+2020-11-02 18:30:09 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Slots/entityValue", ["rowValue":1]), 30, STOP_ON_FAILURE): Web element with id: 'Object Repository/Slots/entityValue' located by 'By.xpath: //tbody[2]/tr[1]/td[2]' is not present after '30' second(s)&#xD;
+&#xD;
+2020-11-02 18:30:12 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Slots/entityValue' located by 'By.xpath: //tbody[2]/tr[1]/td[2]' is not present after '30' second(s)&#xD;
+&#xD;
+2020-11-02 18:30:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Input/intentName"), testData.getValue("intent_name", 7)): Keys 'map_intent' sent to object: 'Object Repository/Input/intentName'&#xD;
+&#xD;
+2020-11-02 18:30:15 - [MESSAGE][PASSED] - Keys 'map_intent' sent to object: 'Object Repository/Input/intentName'&#xD;
+&#xD;
+2020-11-02 18:30:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Input/finalTempKey"), findTestData("Data Files/testData_Task").getValue("rich_template", 6)): Keys 'map_response' sent to object: 'Object Repository/Input/finalTempKey'&#xD;
+&#xD;
+2020-11-02 18:30:19 - [MESSAGE][PASSED] - Keys 'map_response' sent to object: 'Object Repository/Input/finalTempKey'&#xD;
+&#xD;
+2020-11-02 18:30:19 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementsByClassName('bg-red')[0].classList.remove('bg-red');", null): Execute JavaScript 'document.getElementsByClassName('bg-red')[0].classList.remove('bg-red');' successfully&#xD;
+&#xD;
+2020-11-02 18:30:20 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementsByClassName('bg-red')[0].classList.remove('bg-red');' successfully&#xD;
+&#xD;
+2020-11-02 18:30:20 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Button/save", ["value":" Save "])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:30:23 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:30:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Generic/header"), "map_intent", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Generic/header' are matched.&#xD;
+&#xD;
+2020-11-02 18:30:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Generic/header' are matched.&#xD;
+&#xD;
+2020-11-02 18:30:26 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("NewRepo/intentGoBack")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:30:29 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:30:29 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/webObjectWithText", ["textValue":testData.getValue("intent_name", 7)])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:30:32 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:30:32 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Slots/markedUpEntity"), 20, STOP_ON_FAILURE): Web element with id: 'Object Repository/Slots/markedUpEntity' located by 'By.xpath: //span[@class='bg-red']' is not present after '20' second(s)&#xD;
+&#xD;
+2020-11-02 18:30:34 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Slots/markedUpEntity' located by 'By.xpath: //span[@class='bg-red']' is not present after '20' second(s)&#xD;
+&#xD;
+2020-11-02 18:30:34 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("NewRepo/intentGoBack")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:30:36 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:30:37 - [TEST_STEP][PASSED] - verifyTextPresent("Training data", false, CONTINUE_ON_FAILURE): Text 'Training data' is present on page &#xD;
+&#xD;
+2020-11-02 18:30:41 - [MESSAGE][PASSED] - Text 'Training data' is present on page</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Sprint/v4.4/mapLocationLinkToSlots_Test" classname="Test Cases/Sprint/v4.4/mapLocationLinkToSlots_Test" status="FAILED">
+            <failure type="FAILED" message="Test Cases/Sprint/v4.4/mapLocationLinkToSlots_Test FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:71)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2881)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$15.call(Unknown Source)&#xD;&#xA;&#x9;at mapLocationLinkToSlots_Test.run(mapLocationLinkToSlots_Test:63)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1604321314507.run(TempTestSuite1604321314507.groovy:35)&#xD;&#xA;Caused by: org.openqa.selenium.WebDriverException: unknown error: cannot activate web view&#xA;  (Session info: chrome=86.0.4240.111)&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'&#xA;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xA;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\narendra.n\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:49508}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#xA;Session ID: b26bee202c619adc7125eebcfcd87227&#xD;&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;&#xA;&#x9;at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:27)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:89)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;&#xA;&#x9;... 19 more&#xD;&#xA;"/>
+            <system-out>2020-11-02 18:30:41 - [TEST_CASE][FAILED] - Test Cases/Sprint/v4.4/mapLocationLinkToSlots_Test: Test Cases/Sprint/v4.4/mapLocationLinkToSlots_Test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:71)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2881)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$15.call(Unknown Source)&#xD;
+	at mapLocationLinkToSlots_Test.run(mapLocationLinkToSlots_Test:63)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1604321314507.run(TempTestSuite1604321314507.groovy:35)&#xD;
+Caused by: org.openqa.selenium.WebDriverException: unknown error: cannot activate web view
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\narendra.n\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:49508}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b26bee202c619adc7125eebcfcd87227&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)&#xD;
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:89)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more&#xD;
+&#xD;
+&#xD;
+2020-11-02 18:30:44 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/webObjectWithText", ["textValue":"map_intent"])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:30:47 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:30:47 - [TEST_STEP][PASSED] - comment(" *** SCENARIO 1 STARTED ***"):  *** SCENARIO 1 STARTED ***&#xD;
+&#xD;
+2020-11-02 18:30:47 - [MESSAGE][INFO] -  *** SCENARIO 1 STARTED ***&#xD;
+&#xD;
+2020-11-02 18:30:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Slots/linkEntity"), 10, CONTINUE_ON_FAILURE): Object 'Object Repository/Slots/linkEntity' is present&#xD;
+&#xD;
+2020-11-02 18:30:49 - [MESSAGE][PASSED] - Object 'Object Repository/Slots/linkEntity' is present&#xD;
+&#xD;
+2020-11-02 18:30:49 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Slots/linkEntity")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:30:52 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:30:52 - [TEST_STEP][PASSED] - listOfEntities = findWebElements(findTestObject("WEB_OBJECTS/entityList"), 20): null&#xD;
+&#xD;
+2020-11-02 18:30:55 - [TEST_STEP][PASSED] - flag = false: null&#xD;
+&#xD;
+2020-11-02 18:30:55 - [TEST_STEP][PASSED] - listOfElement = listOfEntities.iterator(): null&#xD;
+&#xD;
+2020-11-02 18:30:55 - [TEST_STEP][PASSED] - while (listOfElement.hasNext()): null&#xD;
+&#xD;
+2020-11-02 18:30:55 - [TEST_STEP][PASSED] - object = listOfElement.next(): null&#xD;
+&#xD;
+2020-11-02 18:30:55 - [TEST_STEP][PASSED] - if (getText().contentEquals("demo map test")): null&#xD;
+&#xD;
+2020-11-02 18:30:56 - [TEST_STEP][PASSED] - flag = true: null&#xD;
+&#xD;
+2020-11-02 18:30:56 - [TEST_STEP][PASSED] - if (flag == true): null&#xD;
+&#xD;
+2020-11-02 18:30:56 - [TEST_STEP][PASSED] - markPassed(" *** Map Location entity found *** "):  *** Map Location entity found *** &#xD;
+&#xD;
+2020-11-02 18:30:56 - [MESSAGE][PASSED] -  *** Map Location entity found *** &#xD;
+&#xD;
+2020-11-02 18:30:56 - [TEST_STEP][PASSED] - object.click(): null&#xD;
+&#xD;
+2020-11-02 18:30:59 - [TEST_STEP][PASSED] - break: null&#xD;
+&#xD;
+2020-11-02 18:30:59 - [TEST_STEP][PASSED] - if (flag == false): null&#xD;
+&#xD;
+2020-11-02 18:30:59 - [TEST_STEP][PASSED] - comment(" *** VALIDATION --&gt; ENTITY NAME IS PRESENT ON SLOTS ***"):  *** VALIDATION --&gt; ENTITY NAME IS PRESENT ON SLOTS ***&#xD;
+&#xD;
+2020-11-02 18:30:59 - [MESSAGE][INFO] -  *** VALIDATION --&gt; ENTITY NAME IS PRESENT ON SLOTS ***&#xD;
+&#xD;
+2020-11-02 18:30:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Slots/entityValue", ["rowValue":1]), "demo map test", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Slots/entityValue' are matched.&#xD;
+&#xD;
+2020-11-02 18:31:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Slots/entityValue' are matched.&#xD;
+&#xD;
+2020-11-02 18:31:02 - [TEST_STEP][PASSED] - comment(" *** SCENARIO 2 STARTED ***"):  *** SCENARIO 2 STARTED ***&#xD;
+&#xD;
+2020-11-02 18:31:02 - [MESSAGE][INFO] -  *** SCENARIO 2 STARTED ***&#xD;
+&#xD;
+2020-11-02 18:31:02 - [TEST_STEP][PASSED] - testObject = modifyObjectProperty(findTestObject("Slots/checkbox"), "xpath", "not equals", newXpath, true, STOP_ON_FAILURE): Modify property of object successfully&#xD;
+&#xD;
+2020-11-02 18:31:03 - [MESSAGE][PASSED] - Modify property of object successfully&#xD;
+&#xD;
+2020-11-02 18:31:03 - [TEST_STEP][PASSED] - comment(" *** VALIDATION --&gt; CHECKBOX FIELD SHOULD HAVE ATTRIBUTE *DISABLED* ***"):  *** VALIDATION --&gt; CHECKBOX FIELD SHOULD HAVE ATTRIBUTE *DISABLED* ***&#xD;
+&#xD;
+2020-11-02 18:31:03 - [MESSAGE][INFO] -  *** VALIDATION --&gt; CHECKBOX FIELD SHOULD HAVE ATTRIBUTE *DISABLED* ***&#xD;
+&#xD;
+2020-11-02 18:31:03 - [TEST_STEP][PASSED] - verifyElementHasAttribute(testObject, "disabled", 20, CONTINUE_ON_FAILURE): Object 'Object Repository/Slots/checkbox' has attribute 'disabled'&#xD;
+&#xD;
+2020-11-02 18:31:06 - [MESSAGE][PASSED] - Object 'Object Repository/Slots/checkbox' has attribute 'disabled'&#xD;
+&#xD;
+2020-11-02 18:31:06 - [TEST_STEP][PASSED] - comment(" *** SCENARIO 3 STARTED ***"):  *** SCENARIO 3 STARTED ***&#xD;
+&#xD;
+2020-11-02 18:31:06 - [MESSAGE][INFO] -  *** SCENARIO 3 STARTED ***&#xD;
+&#xD;
+2020-11-02 18:31:06 - [TEST_STEP][PASSED] - setText(findTestObject("Slots/retries", ["rowValue":"1"]), "6", OPTIONAL): Text '6' is set on object 'Object Repository/Slots/retries'&#xD;
+&#xD;
+2020-11-02 18:31:11 - [MESSAGE][PASSED] - Text '6' is set on object 'Object Repository/Slots/retries'&#xD;
+&#xD;
+2020-11-02 18:31:11 - [TEST_STEP][FAILED] - takeScreenshot(getProjectDir() + "/Screenshot/" + image_title): Cannot take screenshot (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:71)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2881)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$15.call(Unknown Source)&#xD;
+	at mapLocationLinkToSlots_Test.run(mapLocationLinkToSlots_Test:63)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1604321314507.run(TempTestSuite1604321314507.groovy:35)&#xD;
+Caused by: org.openqa.selenium.WebDriverException: unknown error: cannot activate web view
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\narendra.n\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:49508}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b26bee202c619adc7125eebcfcd87227&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)&#xD;
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:89)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:71)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2881)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$15.call(Unknown Source)&#xD;
+	at Script1600696224446.run(Script1600696224446.groovy:63)&#xD;
+	... 13 more&#xD;
+)&#xD;
+&#xD;
+2020-11-02 18:31:46 - [MESSAGE][FAILED] - Cannot take screenshot (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:71)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2881)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$15.call(Unknown Source)&#xD;
+	at mapLocationLinkToSlots_Test.run(mapLocationLinkToSlots_Test:63)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1604321314507.run(TempTestSuite1604321314507.groovy:35)&#xD;
+Caused by: org.openqa.selenium.WebDriverException: unknown error: cannot activate web view
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\narendra.n\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:49508}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b26bee202c619adc7125eebcfcd87227&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)&#xD;
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:89)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:71)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2881)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$15.call(Unknown Source)&#xD;
+	at Script1600696224446.run(Script1600696224446.groovy:63)&#xD;
+	... 13 more&#xD;
+)&#xD;
+[[ATTACHMENT|D:\\IMIbot.ai-Project\\Reports\\20201102_181826\\v4.4_TaskSuite\\20201102_181834\\1604322084061.png]]</system-out>
+            <system-err>2020-11-02 18:30:41 - [TEST_CASE][FAILED] - Test Cases/Sprint/v4.4/mapLocationLinkToSlots_Test: Test Cases/Sprint/v4.4/mapLocationLinkToSlots_Test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:71)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2881)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$15.call(Unknown Source)&#xD;
+	at mapLocationLinkToSlots_Test.run(mapLocationLinkToSlots_Test:63)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1604321314507.run(TempTestSuite1604321314507.groovy:35)&#xD;
+Caused by: org.openqa.selenium.WebDriverException: unknown error: cannot activate web view
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT580', ip: '192.168.29.195', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\narendra.n\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:49508}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b26bee202c619adc7125eebcfcd87227&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)&#xD;
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:89)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more</system-err>
+        </testcase>
+        <testcase name="Test Cases/Sprint/v4.4/freeformEntityCreation_Test" classname="Test Cases/Sprint/v4.4/freeformEntityCreation_Test" status="ERROR">
+            <error type="ERROR" message="Test Cases/Sprint/v4.4/freeformEntityCreation_Test FAILED.&#xA;Reason:&#xA;org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/webObjectWithText' located by 'By.xpath: //*[contains(text(),'Entities')]' not found&#xD;&#xA;&#x9;at platform.Method.invokeMethod(Method.groovy)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)&#xD;&#xA;&#x9;at freeformEntityCreation_Test.run(freeformEntityCreation_Test:17)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1604321314507.run(TempTestSuite1604321314507.groovy:35)&#xD;&#xA;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/webObjectWithText' located by 'By.xpath: //*[contains(text(),'Entities')]' not found&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.common.WebUiCommonHelper$findWebElement.call(Unknown Source)&#xD;&#xA;&#x9;at platform.Method.clickOnElement(Method.groovy:32)&#xD;&#xA;&#x9;... 16 more&#xD;&#xA;"/>
+            <system-out>2020-11-02 18:31:49 - [TEST_CASE][ERROR] - Test Cases/Sprint/v4.4/freeformEntityCreation_Test: Test Cases/Sprint/v4.4/freeformEntityCreation_Test FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/webObjectWithText' located by 'By.xpath: //*[contains(text(),'Entities')]' not found&#xD;
+	at platform.Method.invokeMethod(Method.groovy)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)&#xD;
+	at freeformEntityCreation_Test.run(freeformEntityCreation_Test:17)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1604321314507.run(TempTestSuite1604321314507.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/webObjectWithText' located by 'By.xpath: //*[contains(text(),'Entities')]' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$findWebElement.call(Unknown Source)&#xD;
+	at platform.Method.clickOnElement(Method.groovy:32)&#xD;
+	... 16 more&#xD;
+&#xD;
+&#xD;
+2020-11-02 18:31:50 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/training")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:31:52 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:31:52 - [TEST_STEP][PASSED] - testData = findTestData("Data Files/testData_Task"): null&#xD;
+&#xD;
+2020-11-02 18:31:53 - [TEST_STEP][ERROR] - platform.Method.clickOnElement(findTestObject("Generic/webObjectWithText", ["textValue":"Entities"])): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/webObjectWithText' located by 'By.xpath: //*[contains(text(),'Entities')]' not found&#xD;
+&#xD;
+2020-11-02 18:32:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[contains(text(),'Entities')]'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2020-11-02 18:32:00 - [MESSAGE][ERROR] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/webObjectWithText' located by 'By.xpath: //*[contains(text(),'Entities')]' not found</system-out>
+            <system-err>2020-11-02 18:31:49 - [TEST_CASE][ERROR] - Test Cases/Sprint/v4.4/freeformEntityCreation_Test: Test Cases/Sprint/v4.4/freeformEntityCreation_Test FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/webObjectWithText' located by 'By.xpath: //*[contains(text(),'Entities')]' not found&#xD;
+	at platform.Method.invokeMethod(Method.groovy)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)&#xD;
+	at freeformEntityCreation_Test.run(freeformEntityCreation_Test:17)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1604321314507.run(TempTestSuite1604321314507.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/webObjectWithText' located by 'By.xpath: //*[contains(text(),'Entities')]' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$findWebElement.call(Unknown Source)&#xD;
+	at platform.Method.clickOnElement(Method.groovy:32)&#xD;
+	... 16 more</system-err>
+        </testcase>
+        <testcase name="Test Cases/Sprint/v4.4/freeformEntityTaggingInIntent_Test" classname="Test Cases/Sprint/v4.4/freeformEntityTaggingInIntent_Test" status="ERROR">
+            <error type="ERROR" message="Test Cases/Sprint/v4.4/freeformEntityTaggingInIntent_Test FAILED.&#xA;Reason:&#xA;org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Button/createIntent' located by 'By.xpath: //button//span[contains(text(),'+ Create intent')]' not found&#xD;&#xA;&#x9;at platform.Method.invokeMethod(Method.groovy)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)&#xD;&#xA;&#x9;at freeformEntityTaggingInIntent_Test.run(freeformEntityTaggingInIntent_Test:21)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1604321314507.run(TempTestSuite1604321314507.groovy:35)&#xD;&#xA;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Button/createIntent' located by 'By.xpath: //button//span[contains(text(),'+ Create intent')]' not found&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.common.WebUiCommonHelper$findWebElement.call(Unknown Source)&#xD;&#xA;&#x9;at platform.Method.clickOnElement(Method.groovy:32)&#xD;&#xA;&#x9;at platform.Training.addSingleUtterance(Training.groovy:21)&#xD;&#xA;&#x9;... 16 more&#xD;&#xA;"/>
+            <system-out>2020-11-02 18:32:01 - [TEST_CASE][ERROR] - Test Cases/Sprint/v4.4/freeformEntityTaggingInIntent_Test: Test Cases/Sprint/v4.4/freeformEntityTaggingInIntent_Test FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Button/createIntent' located by 'By.xpath: //button//span[contains(text(),'+ Create intent')]' not found&#xD;
+	at platform.Method.invokeMethod(Method.groovy)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)&#xD;
+	at freeformEntityTaggingInIntent_Test.run(freeformEntityTaggingInIntent_Test:21)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1604321314507.run(TempTestSuite1604321314507.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Button/createIntent' located by 'By.xpath: //button//span[contains(text(),'+ Create intent')]' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$findWebElement.call(Unknown Source)&#xD;
+	at platform.Method.clickOnElement(Method.groovy:32)&#xD;
+	at platform.Training.addSingleUtterance(Training.groovy:21)&#xD;
+	... 16 more&#xD;
+&#xD;
+&#xD;
+2020-11-02 18:32:02 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/training")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:32:04 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:32:04 - [TEST_STEP][PASSED] - testData = findTestData("Data Files/testData_Task"): null&#xD;
+&#xD;
+2020-11-02 18:32:05 - [TEST_STEP][PASSED] - refresh(): Refresh successfully&#xD;
+&#xD;
+2020-11-02 18:33:43 - [MESSAGE][PASSED] - Refresh successfully&#xD;
+&#xD;
+2020-11-02 18:33:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Button/createIntent"), 40, STOP_ON_FAILURE): Web element with id: 'Object Repository/Button/createIntent' located by 'By.xpath: //button//span[contains(text(),'+ Create intent')]' not found&#xD;
+&#xD;
+2020-11-02 18:34:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button//span[contains(text(),'+ Create intent')]'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2020-11-02 18:34:26 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Button/createIntent' located by 'By.xpath: //button//span[contains(text(),'+ Create intent')]' not found&#xD;
+&#xD;
+2020-11-02 18:34:26 - [TEST_STEP][PASSED] - comment(" *** SCENARIO 1 STARTED *** "):  *** SCENARIO 1 STARTED *** &#xD;
+&#xD;
+2020-11-02 18:34:26 - [MESSAGE][INFO] -  *** SCENARIO 1 STARTED *** &#xD;
+&#xD;
+2020-11-02 18:34:26 - [TEST_STEP][ERROR] - platform.Training.addSingleUtterance(testData.getValue("freeform_utterance", 1)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Button/createIntent' located by 'By.xpath: //button//span[contains(text(),'+ Create intent')]' not found&#xD;
+&#xD;
+2020-11-02 18:34:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button//span[contains(text(),'+ Create intent')]'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2020-11-02 18:34:32 - [MESSAGE][ERROR] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Button/createIntent' located by 'By.xpath: //button//span[contains(text(),'+ Create intent')]' not found</system-out>
+            <system-err>2020-11-02 18:32:01 - [TEST_CASE][ERROR] - Test Cases/Sprint/v4.4/freeformEntityTaggingInIntent_Test: Test Cases/Sprint/v4.4/freeformEntityTaggingInIntent_Test FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Button/createIntent' located by 'By.xpath: //button//span[contains(text(),'+ Create intent')]' not found&#xD;
+	at platform.Method.invokeMethod(Method.groovy)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)&#xD;
+	at freeformEntityTaggingInIntent_Test.run(freeformEntityTaggingInIntent_Test:21)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1604321314507.run(TempTestSuite1604321314507.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Button/createIntent' located by 'By.xpath: //button//span[contains(text(),'+ Create intent')]' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$findWebElement.call(Unknown Source)&#xD;
+	at platform.Method.clickOnElement(Method.groovy:32)&#xD;
+	at platform.Training.addSingleUtterance(Training.groovy:21)&#xD;
+	... 16 more</system-err>
+        </testcase>
+        <testcase name="Test Cases/Sprint/v4.4/freeformLinkToSlots_Test" classname="Test Cases/Sprint/v4.4/freeformLinkToSlots_Test" status="ERROR">
+            <error type="ERROR" message="Test Cases/Sprint/v4.4/freeformLinkToSlots_Test FAILED.&#xA;Reason:&#xA;org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/webObjectWithText' located by 'By.xpath: //*[contains(text(),'freeform_test')]' not found&#xD;&#xA;&#x9;at platform.Method.invokeMethod(Method.groovy)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)&#xD;&#xA;&#x9;at freeformLinkToSlots_Test.run(freeformLinkToSlots_Test:20)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1604321314507.run(TempTestSuite1604321314507.groovy:35)&#xD;&#xA;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/webObjectWithText' located by 'By.xpath: //*[contains(text(),'freeform_test')]' not found&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.common.WebUiCommonHelper$findWebElement.call(Unknown Source)&#xD;&#xA;&#x9;at platform.Method.clickOnElement(Method.groovy:32)&#xD;&#xA;&#x9;... 16 more&#xD;&#xA;"/>
+            <system-out>2020-11-02 18:34:33 - [TEST_CASE][ERROR] - Test Cases/Sprint/v4.4/freeformLinkToSlots_Test: Test Cases/Sprint/v4.4/freeformLinkToSlots_Test FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/webObjectWithText' located by 'By.xpath: //*[contains(text(),'freeform_test')]' not found&#xD;
+	at platform.Method.invokeMethod(Method.groovy)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)&#xD;
+	at freeformLinkToSlots_Test.run(freeformLinkToSlots_Test:20)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1604321314507.run(TempTestSuite1604321314507.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/webObjectWithText' located by 'By.xpath: //*[contains(text(),'freeform_test')]' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$findWebElement.call(Unknown Source)&#xD;
+	at platform.Method.clickOnElement(Method.groovy:32)&#xD;
+	... 16 more&#xD;
+&#xD;
+&#xD;
+2020-11-02 18:34:34 - [TEST_STEP][ERROR] - platform.Method.clickOnElement(findTestObject("Generic/webObjectWithText", ["textValue":"freeform_test"])): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/webObjectWithText' located by 'By.xpath: //*[contains(text(),'freeform_test')]' not found&#xD;
+&#xD;
+2020-11-02 18:34:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[contains(text(),'freeform_test')]'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2020-11-02 18:34:41 - [MESSAGE][ERROR] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/webObjectWithText' located by 'By.xpath: //*[contains(text(),'freeform_test')]' not found</system-out>
+            <system-err>2020-11-02 18:34:33 - [TEST_CASE][ERROR] - Test Cases/Sprint/v4.4/freeformLinkToSlots_Test: Test Cases/Sprint/v4.4/freeformLinkToSlots_Test FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/webObjectWithText' located by 'By.xpath: //*[contains(text(),'freeform_test')]' not found&#xD;
+	at platform.Method.invokeMethod(Method.groovy)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)&#xD;
+	at freeformLinkToSlots_Test.run(freeformLinkToSlots_Test:20)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1604321314507.run(TempTestSuite1604321314507.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/webObjectWithText' located by 'By.xpath: //*[contains(text(),'freeform_test')]' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$findWebElement.call(Unknown Source)&#xD;
+	at platform.Method.clickOnElement(Method.groovy:32)&#xD;
+	... 16 more</system-err>
+        </testcase>
+        <testcase name="Test Cases/Sprint/v4.4/verifyFreeformPreview" classname="Test Cases/Sprint/v4.4/verifyFreeformPreview" status="FAILED">
+            <failure type="FAILED" message="Test Cases/Sprint/v4.4/verifyFreeformPreview FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.exception.StepFailedException: Unable to send keys 'freeform test' to object 'Object Repository/Input/chatInput'&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$1.call(Unknown Source)&#xD;&#xA;&#x9;at verifyFreeformPreview.run(verifyFreeformPreview:16)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1604321314507.run(TempTestSuite1604321314507.groovy:35)&#xD;&#xA;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Input/chatInput' located by 'By.xpath: //*[@data-cy = 'chat-input']' not found&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:52)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;&#xA;&#x9;... 19 more&#xD;&#xA;"/>
+            <system-out>2020-11-02 18:34:41 - [TEST_CASE][FAILED] - Test Cases/Sprint/v4.4/verifyFreeformPreview: Test Cases/Sprint/v4.4/verifyFreeformPreview FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys 'freeform test' to object 'Object Repository/Input/chatInput'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$1.call(Unknown Source)&#xD;
+	at verifyFreeformPreview.run(verifyFreeformPreview:16)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1604321314507.run(TempTestSuite1604321314507.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Input/chatInput' located by 'By.xpath: //*[@data-cy = 'chat-input']' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:52)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more&#xD;
+&#xD;
+&#xD;
+2020-11-02 18:34:44 - [TEST_STEP][PASSED] - platform.Method.trainAndComment("Freeform intent trained"): platform.Method.trainAndComment is PASSED&#xD;
+&#xD;
+2020-11-02 18:34:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-icon[text()='sync' or text()='autorenew']'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2020-11-02 18:34:50 - [MESSAGE][INFO] - BOT STATE IS TRAINED&#xD;
+&#xD;
+2020-11-02 18:34:50 - [MESSAGE][PASSED] - platform.Method.trainAndComment is PASSED&#xD;
+&#xD;
+2020-11-02 18:34:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ICONS/toastMsg"), 30, OPTIONAL): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ICONS/toastMsg' located by 'By.xpath: //simple-snack-bar' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ICONS/toastMsg' located by 'By.xpath: //simple-snack-bar' not found&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1418)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$8.call(Unknown Source)&#xD;
+	at verifyFreeformPreview.run(verifyFreeformPreview:8)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1604321314507.run(TempTestSuite1604321314507.groovy:35)&#xD;
+)&#xD;
+&#xD;
+2020-11-02 18:35:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //simple-snack-bar'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2020-11-02 18:35:25 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ICONS/toastMsg' located by 'By.xpath: //simple-snack-bar' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ICONS/toastMsg' located by 'By.xpath: //simple-snack-bar' not found&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1418)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$8.call(Unknown Source)&#xD;
+	at verifyFreeformPreview.run(verifyFreeformPreview:8)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1604321314507.run(TempTestSuite1604321314507.groovy:35)&#xD;
+)&#xD;
+[[ATTACHMENT|D:\\IMIbot.ai-Project\\Reports\\20201102_181826\\v4.4_TaskSuite\\20201102_181834\\1604322322239.png]]&#xD;
+&#xD;
+2020-11-02 18:35:25 - [TEST_STEP][PASSED] - comment("*** SCENARIO 1 STARTED ***"): *** SCENARIO 1 STARTED ***&#xD;
+&#xD;
+2020-11-02 18:35:25 - [MESSAGE][INFO] - *** SCENARIO 1 STARTED ***&#xD;
+&#xD;
+2020-11-02 18:35:25 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Button/preview")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:35:28 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-02 18:35:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Input/chatInput"), 20, CONTINUE_ON_FAILURE): Web element with id: 'Object Repository/Input/chatInput' located by 'By.xpath: //*[@data-cy = 'chat-input']' not found&#xD;
+&#xD;
+2020-11-02 18:35:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-cy = 'chat-input']'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2020-11-02 18:35:50 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Input/chatInput' located by 'By.xpath: //*[@data-cy = 'chat-input']' not found&#xD;
+&#xD;
+2020-11-02 18:35:50 - [TEST_STEP][FAILED] - sendKeys(findTestObject("Input/chatInput"), Keys.chord(userQuery, ENTER)): Unable to send keys 'freeform test' to object 'Object Repository/Input/chatInput' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to send keys 'freeform test' to object 'Object Repository/Input/chatInput'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$1.call(Unknown Source)&#xD;
+	at verifyFreeformPreview.run(verifyFreeformPreview:16)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1604321314507.run(TempTestSuite1604321314507.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Input/chatInput' located by 'By.xpath: //*[@data-cy = 'chat-input']' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:52)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$1.call(Unknown Source)&#xD;
+	at Script1602700771397.run(Script1602700771397.groovy:16)&#xD;
+	... 13 more&#xD;
+)&#xD;
+&#xD;
+2020-11-02 18:36:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@data-cy = 'chat-input']'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2020-11-02 18:36:03 - [MESSAGE][FAILED] - Unable to send keys 'freeform test' to object 'Object Repository/Input/chatInput' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to send keys 'freeform test' to object 'Object Repository/Input/chatInput'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$1.call(Unknown Source)&#xD;
+	at verifyFreeformPreview.run(verifyFreeformPreview:16)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1604321314507.run(TempTestSuite1604321314507.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Input/chatInput' located by 'By.xpath: //*[@data-cy = 'chat-input']' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:52)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$1.call(Unknown Source)&#xD;
+	at Script1602700771397.run(Script1602700771397.groovy:16)&#xD;
+	... 13 more&#xD;
+)&#xD;
+[[ATTACHMENT|D:\\IMIbot.ai-Project\\Reports\\20201102_181826\\v4.4_TaskSuite\\20201102_181834\\1604322361462.png]]</system-out>
+            <system-err>2020-11-02 18:34:41 - [TEST_CASE][FAILED] - Test Cases/Sprint/v4.4/verifyFreeformPreview: Test Cases/Sprint/v4.4/verifyFreeformPreview FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys 'freeform test' to object 'Object Repository/Input/chatInput'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$1.call(Unknown Source)&#xD;
+	at verifyFreeformPreview.run(verifyFreeformPreview:16)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1604321314507.run(TempTestSuite1604321314507.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Input/chatInput' located by 'By.xpath: //*[@data-cy = 'chat-input']' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:52)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more</system-err>
+        </testcase>
+        <system-out>2020-11-02 18:19:08 - [TEST_SUITE][INCOMPLETE] - v4.4_TaskSuite: null</system-out>
+        <system-err>2020-11-02 18:19:08 - [TEST_SUITE][INCOMPLETE] - v4.4_TaskSuite: null</system-err>
+    </testsuite>
+</testsuites>

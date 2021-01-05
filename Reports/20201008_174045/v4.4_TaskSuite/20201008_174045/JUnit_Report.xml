@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="v4.4_TaskSuite" time="73" tests="1" failures="0" errors="0">
+    <testsuite name="v4.4_TaskSuite" tests="1" failures="0" errors="0" time="73" timestamp="2020-10-08 17:40:54" hostname="narendra.n - WLPT580.imidomain.com" id="Test Suites/v4.4_TaskSuite">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="D:\\IMIbot.ai-Project\\Reports\\20201008_174045\\v4.4_TaskSuite\\20201008_174045"/>
+            <property name="logFiles" value="D:\\IMIbot.ai-Project\\Reports\\20201008_174045\\v4.4_TaskSuite\\20201008_174045\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="narendra.n - WLPT580.imidomain.com"/>
+            <property name="os" value="Windows 8.1 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Chrome 86.0.4240.75"/>
+            <property name="hostAddress" value="192.168.29.195"/>
+            <property name="sessionId" value="607e939ab0b2b5372030030452dbcfc7"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 8.1"/>
+        </properties>
+        <testcase name="Test Cases/TASK_SSO/botCreation_Test" classname="Test Cases/TASK_SSO/botCreation_Test" status="PASSED">
+            <system-out>2020-10-08 17:41:41 - [TEST_CASE][PASSED] - Test Cases/TASK_SSO/botCreation_Test: Test Cases/TASK_SSO/botCreation_Test&#xD;
+&#xD;
+2020-10-08 17:41:41 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/webObjectWithText", ["textValue":"Task bots"])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-10-08 17:41:44 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-10-08 17:41:44 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Button/createBot")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-10-08 17:41:48 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-10-08 17:41:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Input/botName"), nameOfTheBot): Keys 'v4.4 Task-Testbot' sent to object: 'Object Repository/Input/botName'&#xD;
+&#xD;
+2020-10-08 17:41:51 - [MESSAGE][PASSED] - Keys 'v4.4 Task-Testbot' sent to object: 'Object Repository/Input/botName'&#xD;
+&#xD;
+2020-10-08 17:41:51 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Toggle/feedback")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-10-08 17:41:53 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-10-08 17:41:53 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Button/done")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-10-08 17:41:56 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-10-08 17:41:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Generic/modelState"), 60, OPTIONAL): Object 'Object Repository/Generic/modelState' is visible&#xD;
+&#xD;
+2020-10-08 17:42:05 - [MESSAGE][PASSED] - Object 'Object Repository/Generic/modelState' is visible&#xD;
+&#xD;
+2020-10-08 17:42:05 - [TEST_STEP][PASSED] - if (!(verifyElementText(findTestObject("Generic/modelState"), "Trained", OPTIONAL))): Actual text and expected text of test object 'Object Repository/Generic/modelState' are matched.&#xD;
+&#xD;
+2020-10-08 17:42:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Generic/modelState' are matched.</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2020-10-08 17:40:54 - [TEST_SUITE][INCOMPLETE] - v4.4_TaskSuite: null</system-out>
+        <system-err>2020-10-08 17:40:54 - [TEST_SUITE][INCOMPLETE] - v4.4_TaskSuite: null</system-err>
+    </testsuite>
+</testsuites>

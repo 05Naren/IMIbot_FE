@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [:], FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'platform.Method.navigateToBot'('Q&A bots', GlobalVariable.FAQ_BOT)
+CustomKeywords.'platform.Method.navigateToBot'('Q&A bots', GlobalVariable.FAQ_BOT_BOT)
 
 CustomKeywords.'platform.Method.selectFromHamburgerMenu'('Delete')
 
@@ -23,5 +23,5 @@ CustomKeywords.'platform.Method.toClickOnWebElement'(findTestObject('Generic/bot
 
 WebUI.verifyElementPresent(findTestObject('Button/createBot'), 20, FailureHandling.OPTIONAL)
 
-WebUI.verifyTextNotPresent(GlobalVariable.FAQ_BOT, false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyTextNotPresent(GlobalVariable.FAQ_BOT_BOT, false, FailureHandling.STOP_ON_FAILURE)
 

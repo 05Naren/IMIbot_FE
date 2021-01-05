@@ -81,12 +81,12 @@ if (WebUI.verifyElementText(findTestObject('Generic/versionStatus'), 'Inactive',
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/preview'))
 
 for (int count = 1; count < testData.getRowNumbers(); count++) {
-    WebUI.sendKeys(findTestObject('Input/chatInput'), Keys.chord(testData.getValue('userQuery', count), Keys.ENTER), FailureHandling.STOP_ON_FAILURE)
+    WebUI.sendKeys(findTestObject('Input/chatInput'), Keys.chord(testData.getValue('userQuery', count), Keys.ENTER), FailureHandling.CONTINUE_ON_FAILURE)
 
     WebUI.delay(2)
 
-    WebUI.verifyElementText(findTestObject('GenericII/getBotResponse', [('index') : count]), testData.getValue('botResponse', 
-            count), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementText(findTestObject('GenericII/getBotResponse', [('index') : count+1]), testData.getValue('botResponse', 
+            count), FailureHandling.CONTINUE_ON_FAILURE)
 
     if (testData.getValue('userQuery', count + 1) == '') {
         break
@@ -109,9 +109,9 @@ WebUI.waitForElementPresent(findTestObject('Generic/webObjectWithText', [('textV
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/webObjectWithText', [('textValue') : roomID]))
 
-WebUI.verifyElementText(findTestObject('NewRepo2/messageInSession', [('index') : 1]), '4**************4', FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('NewRepo2/messageInSession', [('index') : 1]), '4**************4', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('NewRepo2/messageInSession', [('index') : 3]), 'o*e', FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('NewRepo2/messageInSession', [('index') : 3]), 'o*e', FailureHandling.CONTINUE_ON_FAILURE)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('GenericII/closePopup'))
 

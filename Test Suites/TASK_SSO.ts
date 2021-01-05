@@ -265,7 +265,7 @@
    <testCaseLink>
       <guid>b56f6921-b645-451f-b89e-726c1034080d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TASK_SSO/noneIntentE2E_Test</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -308,7 +308,7 @@
       <guid>90886a9c-0722-4477-bb56-d3fe59bb8752</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Sprint/v4.3/appleBusinessChatFieldTestForTaskbot</testCaseId>
+      <testCaseId>Test Cases/Sprint/v4.3/abc_ListPickerFieldTestForTaskbot</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

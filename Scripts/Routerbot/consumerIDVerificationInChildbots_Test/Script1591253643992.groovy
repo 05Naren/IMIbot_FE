@@ -44,3 +44,5 @@ CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/webObjec
 
 WebUI.verifyTextPresent(mgrRoomID, false, FailureHandling.STOP_ON_FAILURE)
 
+CustomKeywords.'platform.Method.clickOnElement'(findTestObject('GenericII/closePopup'))
+

@@ -17,10 +17,17 @@ Then: User should be able to see the link on session room</description>
  *** VERFIY IN CURATION CONSOLE ***</comment>
    <testCaseGuid>0083cab7-e41a-4c4d-94b7-97babaf0237e</testCaseGuid>
    <variable>
-      <defaultValue>'//a[starts-with(@class,\'text\')]'</defaultValue>
+      <defaultValue>'//a[@class=\'text-dark\']'</defaultValue>
       <description></description>
       <id>8dd55989-484e-4123-a9b2-a6faf6fd337a</id>
       <masked>false</masked>
       <name>newXpath</name>
+   </variable>
+   <variable>
+      <defaultValue>'//a[@class=\'color-action\']'</defaultValue>
+      <description></description>
+      <id>5cebea84-6d08-4e79-a7ac-70741d097e25</id>
+      <masked>false</masked>
+      <name>curXpath</name>
    </variable>
 </TestCaseEntity>

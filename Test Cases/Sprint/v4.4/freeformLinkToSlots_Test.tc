@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Scenario 1: Verify is user is able to link Map entity to slots in an intent	
+
+Given: User is on new intent creation page
+When: User clicks on link entity object on top of slot
+And: User clicks on entity name of Map type
+Then: Map entity should be visible and should get added to slots
+
+Scenario 2: Verify if Map entity in slot is editable
+
+Given: Map entity is added to the slots
+When: User clicks on the check box against entity name
+Then: The checkbox should be disabled (non-editable)
+
+Scenario 3: Verify on hover text on info icon
+
+Given: Map entity is added to the slots
+When: User mouse hovers on the info icon agains the retries field
+Then: The retries field should read a specific message
+</description>
+   <name>freeformLinkToSlots_Test</name>
+   <tag></tag>
+   <comment> *** SCENARIO 1 STARTED ***
+ *** VALIDATION --> ENTITY NAME IS PRESENT ON SLOTS ***
+ *** SCENARIO 2 STARTED ***
+ *** VALIDATION --> CHECKBOX FIELD SHOULD HAVE ATTRIBUTE *DISABLED* ***
+ *** SCENARIO 3 STARTED ***
+ *** Navigate out of intent ***</comment>
+   <testCaseGuid>652fc914-40b9-4a5c-aa99-08cbf089f558</testCaseGuid>
+   <variable>
+      <defaultValue>'//tbody[2]/tr[1]/td[3]/mat-checkbox//div/input'</defaultValue>
+      <description></description>
+      <id>a08ac529-31cb-45ea-a66b-1904e324a55d</id>
+      <masked>false</masked>
+      <name>newXpath</name>
+   </variable>
+   <variable>
+      <defaultValue>'freeform_loc.jpg'</defaultValue>
+      <description></description>
+      <id>c7193854-e285-475f-8450-02a545b2a6e6</id>
+      <masked>false</masked>
+      <name>image_title</name>
+   </variable>
+   <variable>
+      <defaultValue>'return document.querySelector(\'[type=&quot;number&quot;]\').value;'</defaultValue>
+      <description></description>
+      <id>72ca71dc-41ab-4fe8-bb70-4b53827d9041</id>
+      <masked>false</masked>
+      <name>getValue</name>
+   </variable>
+   <variable>
+      <defaultValue>'Retries are valid only on empty value'</defaultValue>
+      <description></description>
+      <id>ba201b30-61b8-4aad-afaa-e2f178b02ed8</id>
+      <masked>false</masked>
+      <name>testValue</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,120 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SMART_SSO,Chrome 86.0.4240.111,,,2020-10-30 10:00:37,2020-10-30 10:22:12,21m - 34.739s,INCOMPLETE
+,,,,,,,
+Test Cases/Smartbot/botCreation_Test,Chrome 86.0.4240.111,TestCase Agenda: Verify successful creation of smart bot,,2020-10-30 10:02:23,2020-10-30 10:03:05,41.801s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Smart bots""]))",Chrome 86.0.4240.111,,,2020-10-30 10:02:27,2020-10-30 10:02:34,6.921s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/createBot""))",Chrome 86.0.4240.111,,,2020-10-30 10:02:34,2020-10-30 10:02:38,3.724s,PASSED
+"sendKeys(findTestObject(""Input/botName""), nameOfTheBot)",Chrome 86.0.4240.111,,,2020-10-30 10:02:38,2020-10-30 10:02:40,2.914s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/smartContinueBtn""))",Chrome 86.0.4240.111,,,2020-10-30 10:02:40,2020-10-30 10:02:47,6.649s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Toggle/feedback""))",Chrome 86.0.4240.111,,,2020-10-30 10:02:47,2020-10-30 10:02:50,2.490s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/smartContinueBtn""))",Chrome 86.0.4240.111,,,2020-10-30 10:02:50,2020-10-30 10:02:52,2.392s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/done""))",Chrome 86.0.4240.111,,,2020-10-30 10:02:52,2020-10-30 10:02:55,3.193s,PASSED
+"waitForElementPresent(findTestObject(""Button/updateBot""), 30, OPTIONAL)",Chrome 86.0.4240.111,,,2020-10-30 10:02:55,2020-10-30 10:03:05,9.895s,PASSED
+,,,,,,,
+Test Cases/Smartbot/nlpConceptCreation_Test,Chrome 86.0.4240.111,TestCase Agenda: Verify if user create concept and add module to smart bot,,2020-10-30 10:03:05,2020-10-30 10:04:30,1m - 24.623s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/nlp""))",Chrome 86.0.4240.111,,,2020-10-30 10:03:29,2020-10-30 10:03:35,6.259s,PASSED
+"testData = findTestData(""testData_Smart"")",Chrome 86.0.4240.111,,,2020-10-30 10:03:35,2020-10-30 10:03:36,0.289s,PASSED
+platform.NLP.addCustom_NER(),Chrome 86.0.4240.111,,,2020-10-30 10:03:36,2020-10-30 10:03:55,19.478s,PASSED
+"platform.NLP.createConceptType(""Double Match"", false, testData.getValue(""concept_name"", 1), testData.getValue(""file_name"", 1))",Chrome 86.0.4240.111,,,2020-10-30 10:03:55,2020-10-30 10:04:21,26.046s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/conceptBackBtn""))",Chrome 86.0.4240.111,,,2020-10-30 10:04:21,2020-10-30 10:04:25,3.208s,PASSED
+"verifyTextPresent(""city"", false, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:04:25,2020-10-30 10:04:30,5.291s,PASSED
+,,,,,,,
+Test Cases/Smartbot/setUpLogicAndBotPreviewTest,Chrome 86.0.4240.111,TestCase Agenda: Verify if bot responsed correctly on weather information post logic set up,,2020-10-30 10:04:30,2020-10-30 10:12:48,8m - 17.938s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/logic""))",Chrome 86.0.4240.111,,,2020-10-30 10:04:32,2020-10-30 10:04:35,3.393s,PASSED
+"PATH = getProjectDir() + ""/Collection/""",Chrome 86.0.4240.111,,,2020-10-30 10:04:35,2020-10-30 10:04:35,0.002s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Generation Template""]))",Chrome 86.0.4240.111,,,2020-10-30 10:04:35,2020-10-30 10:04:38,2.844s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Toggle/code""))",Chrome 86.0.4240.111,,,2020-10-30 10:04:38,2020-10-30 10:04:43,4.953s,PASSED
+"waitForElementPresent(findTestObject(""NewRepo/editCodeBtn""), 20, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:04:43,2020-10-30 10:04:45,2.455s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/editCodeBtn""))",Chrome 86.0.4240.111,,,2020-10-30 10:04:45,2020-10-30 10:04:49,3.596s,PASSED
+"platform.Method.clickOnElement(findTestObject(""WEB_OBJECTS/confirm""))",Chrome 86.0.4240.111,,,2020-10-30 10:04:49,2020-10-30 10:04:53,3.957s,PASSED
+"waitForElementClickable(findTestObject(""Button/save"", [""value"":""Save""]), 15, OPTIONAL)",Chrome 86.0.4240.111,,,2020-10-30 10:04:53,2020-10-30 10:05:11,18.372s,PASSED
+"for ([count = 1, count <= findTestData(""testData_Smart"").getRowNumbers(), (count++)])",Chrome 86.0.4240.111,,,2020-10-30 10:05:11,2020-10-30 10:12:18,7m - 6.200s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 86.0.4240.111,,,2020-10-30 10:12:18,2020-10-30 10:12:22,4.364s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(userQuery, ENTER), STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:12:22,2020-10-30 10:12:27,5.042s,PASSED
+delay(1),Chrome 86.0.4240.111,,,2020-10-30 10:12:27,2020-10-30 10:12:29,1.770s,PASSED
+platform.Preview.verifyBotResponse(now().toString()),Chrome 86.0.4240.111,,,2020-10-30 10:12:29,2020-10-30 10:12:37,8.532s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/upvote""))",Chrome 86.0.4240.111,,,2020-10-30 10:12:37,2020-10-30 10:12:47,9.764s,ERROR
+,,,,,,,
+Test Cases/Smartbot/maskingConcept_Test,Chrome 86.0.4240.111,,,2020-10-30 10:12:48,2020-10-30 10:15:21,2m - 32.340s,FAILED
+"platform.Method.clickOnElement(findTestObject(""Generic/nlp""))",Chrome 86.0.4240.111,,,2020-10-30 10:13:07,2020-10-30 10:13:13,5.559s,PASSED
+"PATH = getProjectDir() + ""/Collection/""",Chrome 86.0.4240.111,,,2020-10-30 10:13:13,2020-10-30 10:13:13,0.003s,PASSED
+"testData = findTestData(""testData_Smart"")",Chrome 86.0.4240.111,,,2020-10-30 10:13:13,2020-10-30 10:13:15,1.701s,PASSED
+"platform.NLP.createConceptType(""Regex"", true, testData.getValue(""concept_name"", 2), testData.getValue(""file_name"", 2))",Chrome 86.0.4240.111,,,2020-10-30 10:13:15,2020-10-30 10:13:47,31.929s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/conceptBackBtn""))",Chrome 86.0.4240.111,,,2020-10-30 10:13:47,2020-10-30 10:13:49,2.758s,PASSED
+"platform.NLP.createConceptType(""Single Match"", true, testData.getValue(""concept_name"", 3), testData.getValue(""file_name"", 3))",Chrome 86.0.4240.111,,,2020-10-30 10:13:49,2020-10-30 10:14:15,25.119s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/logic""))",Chrome 86.0.4240.111,,,2020-10-30 10:14:15,2020-10-30 10:14:17,2.815s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/fork""))",Chrome 86.0.4240.111,,,2020-10-30 10:14:17,2020-10-30 10:14:20,2.540s,PASSED
+"sendKeys(findTestObject(""Input/forkComment""), ""Masked concept V2 created"")",Chrome 86.0.4240.111,,,2020-10-30 10:14:20,2020-10-30 10:14:23,3.360s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/createNewFork""))",Chrome 86.0.4240.111,,,2020-10-30 10:14:23,2020-10-30 10:14:26,2.500s,PASSED
+"for ([count = 1, count <= findTestData(""testData_Smart"").getRowNumbers(), (count++)])",Chrome 86.0.4240.111,,,2020-10-30 10:14:26,2020-10-30 10:14:59,33.108s,PASSED
+"if (verifyElementText(findTestObject(""Generic/versionStatus""), ""Inactive"", OPTIONAL))",Chrome 86.0.4240.111,,,2020-10-30 10:14:59,2020-10-30 10:15:04,5.081s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 86.0.4240.111,,,2020-10-30 10:15:04,2020-10-30 10:15:07,2.816s,PASSED
+"for ([count = 1, count < testData.getRowNumbers(), (count++)])",Chrome 86.0.4240.111,,,2020-10-30 10:15:07,2020-10-30 10:15:21,13.716s,FAILED
+,,,,,,,
+Test Cases/Smartbot/oneClickTestingDisabledCallback_Test,Chrome 86.0.4240.111,TestCase Agenda: Verify one click testing with smart bot when callback is disabled,,2020-10-30 10:15:21,2020-10-30 10:16:42,1m - 21.340s,PASSED
+"waitForElementPresent(findTestObject(""Generic/oneClickTest""), 30, OPTIONAL)",Chrome 86.0.4240.111,,,2020-10-30 10:15:21,2020-10-30 10:15:23,1.494s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/oneClickTest""))",Chrome 86.0.4240.111,,,2020-10-30 10:15:23,2020-10-30 10:15:26,2.810s,PASSED
+"testData = findTestData(""Data Files/testData_OneClickTesting"")",Chrome 86.0.4240.111,,,2020-10-30 10:15:26,2020-10-30 10:15:26,0.393s,PASSED
+"verifyElementPresent(findTestObject(""Toggle/oneClickCallback""), 20, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:15:26,2020-10-30 10:15:27,1.303s,PASSED
+"verifyTextPresent(""Message"", false, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:15:27,2020-10-30 10:15:32,4.977s,PASSED
+"verifyTextPresent(""Expected template"", false, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:15:32,2020-10-30 10:15:37,4.818s,PASSED
+"verifyTextPresent(""Reset previous context"", false, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:15:37,2020-10-30 10:15:42,4.498s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/importIcon""))",Chrome 86.0.4240.111,,,2020-10-30 10:15:42,2020-10-30 10:15:44,2.335s,PASSED
+"platform.Method.uploadCsvFile(false, uploadSmartTestCases)",Chrome 86.0.4240.111,,,2020-10-30 10:15:44,2020-10-30 10:15:49,5.188s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/updateBtn""))",Chrome 86.0.4240.111,,,2020-10-30 10:15:49,2020-10-30 10:15:52,2.305s,PASSED
+"verifyElementPresent(findTestObject(""ICONS/toastMsg""), 30, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:15:52,2020-10-30 10:15:53,1.365s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo2/execution""))",Chrome 86.0.4240.111,,,2020-10-30 10:15:53,2020-10-30 10:15:55,2.423s,PASSED
+"waitForElementPresent(findTestObject(""Button/btnExecute""), 20, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:15:55,2020-10-30 10:15:57,1.411s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/btnExecute""))",Chrome 86.0.4240.111,,,2020-10-30 10:15:57,2020-10-30 10:15:59,2.520s,PASSED
+"waitForElementVisible(findTestObject(""Generic/testSummary"", [""status"":""summery-status-completed""]), 90, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:15:59,2020-10-30 10:16:09,9.627s,PASSED
+"verifyTextPresent(""Status"", false, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:16:09,2020-10-30 10:16:13,3.798s,PASSED
+"verifyTextPresent(""Utterance"", false, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:16:13,2020-10-30 10:16:16,3.240s,PASSED
+"verifyTextPresent(""Expected template"", false, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:16:16,2020-10-30 10:16:19,3.199s,PASSED
+"verifyTextPresent(""Actual template"", false, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:16:19,2020-10-30 10:16:22,3.186s,PASSED
+"verifyTextPresent(""Room ID"", false, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:16:22,2020-10-30 10:16:26,3.869s,PASSED
+"verifyTextPresent(""Actions"", false, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:16:26,2020-10-30 10:16:30,3.877s,PASSED
+"platform.Method.clickOnElement(findTestObject(""ICONS/action"", [""index"":5]))",Chrome 86.0.4240.111,,,2020-10-30 10:16:30,2020-10-30 10:16:33,2.421s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/btnOptionsInOneClickTesting"", [""btnValue"":""Transaction details""]))",Chrome 86.0.4240.111,,,2020-10-30 10:16:33,2020-10-30 10:16:35,2.596s,PASSED
+"verifyElementPresent(findTestObject(""NewRepo2/sessionWindow""), 20, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:16:35,2020-10-30 10:16:38,2.723s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/closePopup""))",Chrome 86.0.4240.111,,,2020-10-30 10:16:38,2020-10-30 10:16:41,2.754s,PASSED
+"waitForElementPresent(findTestObject(""Generic/logic""), 20, OPTIONAL)",Chrome 86.0.4240.111,,,2020-10-30 10:16:41,2020-10-30 10:16:42,1.440s,PASSED
+,,,,,,,
+Test Cases/Smartbot/roomCloseCallback_Test,Chrome 86.0.4240.111,,,2020-10-30 10:16:42,2020-10-30 10:19:00,2m - 17.790s,FAILED
+"platform.Method.clickOnElement(findTestObject(""ICONS/sidebarSettings""))",Chrome 86.0.4240.111,,,2020-10-30 10:16:43,2020-10-30 10:16:47,4.180s,PASSED
+platform.Method.enableCloseCallback(true),Chrome 86.0.4240.111,,,2020-10-30 10:16:47,2020-10-30 10:17:01,13.483s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 86.0.4240.111,,,2020-10-30 10:17:01,2020-10-30 10:17:03,2.653s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(userQuery, ENTER), STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:17:03,2020-10-30 10:17:08,5.177s,PASSED
+delay(70),Chrome 86.0.4240.111,,,2020-10-30 10:17:08,2020-10-30 10:18:18,1m - 10.008s,PASSED
+"verifyElementText(findTestObject(""GenericII/getBotResponse"", [""index"":2]), botResponse, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:18:18,2020-10-30 10:18:23,4.385s,FAILED
+getRoomIdAt = new java.util.ArrayList(),Chrome 86.0.4240.111,,,2020-10-30 10:18:23,2020-10-30 10:18:23,0.002s,PASSED
+getRoomIdAt = platform.Utility.getRoomID(),Chrome 86.0.4240.111,,,2020-10-30 10:18:23,2020-10-30 10:18:30,7.116s,PASSED
+roomID = get(0).toString(),Chrome 86.0.4240.111,,,2020-10-30 10:18:30,2020-10-30 10:18:30,0.017s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""GenericII/minimize""))",Chrome 86.0.4240.111,,,2020-10-30 10:18:30,2020-10-30 10:18:33,2.899s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Generic/session""))",Chrome 86.0.4240.111,,,2020-10-30 10:18:33,2020-10-30 10:18:36,3.023s,PASSED
+platform.Session.searchByRoomID(roomID),Chrome 86.0.4240.111,,,2020-10-30 10:18:36,2020-10-30 10:18:43,7.255s,PASSED
+"verifyElementPresent(findTestObject(""NewRepo2/errorIcon""), 20, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:18:43,2020-10-30 10:18:45,1.437s,PASSED
+"platform.Method.toClickOnWebElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":roomID]))",Chrome 86.0.4240.111,,,2020-10-30 10:18:45,2020-10-30 10:18:48,2.935s,PASSED
+"verifyTextPresent(""error_outline"", false, OPTIONAL)",Chrome 86.0.4240.111,,,2020-10-30 10:18:48,2020-10-30 10:18:53,5.308s,PASSED
+"sendKeys(findTestObject(""NewRepo2/inputSessionSearch""), searchText)",Chrome 86.0.4240.111,,,2020-10-30 10:18:53,2020-10-30 10:18:57,3.685s,PASSED
+"verifyElementText(findTestObject(""NewRepo2/textHighlight""), searchText, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:18:57,2020-10-30 10:19:00,3.258s,PASSED
+,,,,,,,
+Test Cases/Sprint/v4.3/autoAddNewBots_Test,Chrome 86.0.4240.111,"TestCase Agenda:
+Part 1-> Verify user2 have no bots, sign out of user2 profile
+Part 2-> Login to user1 account, set user2 new_bot option to true, create a new bot
+Part 3-> Sign back into user2 account and verify if the new bot create gets auto added
+",,2020-10-30 10:19:00,2020-10-30 10:22:12,3m - 12.318s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/closePopup""))",Chrome 86.0.4240.111,,,2020-10-30 10:19:01,2020-10-30 10:19:04,2.459s,PASSED
+platform.Method.logOut(),Chrome 86.0.4240.111,,,2020-10-30 10:19:04,2020-10-30 10:19:09,5.697s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [""username"":""naren.n@yopmail.com"", ""password"":PASSWORD], CONTINUE_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:19:09,2020-10-30 10:19:54,45.025s,PASSED
+try,Chrome 86.0.4240.111,,,2020-10-30 10:19:54,2020-10-30 10:19:57,2.315s,PASSED
+platform.Method.logOut(),Chrome 86.0.4240.111,,,2020-10-30 10:19:57,2020-10-30 10:20:02,5.238s,PASSED
+"waitForElementVisible(findTestObject(""Input/username""), 30, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:20:02,2020-10-30 10:20:04,2.410s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [""username"":USERNAME, ""password"":PASSWORD], CONTINUE_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:20:04,2020-10-30 10:20:31,26.176s,PASSED
+"platform.Dashboard.newBotAdditionToUser(""naren"")",Chrome 86.0.4240.111,,,2020-10-30 10:20:31,2020-10-30 10:21:10,39.301s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 30, OPTIONAL)",Chrome 86.0.4240.111,,,2020-10-30 10:21:10,2020-10-30 10:21:14,4.328s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/imiLogo""))",Chrome 86.0.4240.111,,,2020-10-30 10:21:14,2020-10-30 10:21:17,2.348s,PASSED
+"waitForElementVisible(findTestObject(""Button/createBot""), 30, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:21:17,2020-10-30 10:21:28,11.306s,PASSED
+"callTestCase(findTestCase(""FAQ_SSO/botCreation_Test""), [""nameOfTheBot"":""new_bot_agent""], STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:21:28,2020-10-30 10:21:53,24.860s,PASSED
+platform.Method.logOut(),Chrome 86.0.4240.111,,,2020-10-30 10:21:53,2020-10-30 10:21:58,5.340s,PASSED
+"callTestCase(findTestCase(""Generic/successfulLogin_Test""), [""username"":""naren.n@yopmail.com"", ""password"":PASSWORD], CONTINUE_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:21:58,2020-10-30 10:22:11,12.492s,PASSED
+"verifyElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":"" new_bot_agent ""]), 20, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:22:11,2020-10-30 10:22:12,1.657s,PASSED

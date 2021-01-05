@@ -1,0 +1,119 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GENERIC1,Chrome 86.0.4240.183,,,2020-11-05 15:21:58,2020-11-05 15:28:39,6m - 41.466s,INCOMPLETE
+,,,,,,,
+Test Cases/Generic/botPageAndHeaderAccess_Test,Chrome 86.0.4240.183,TestCase Agenda: To verify if navigation to header options is possible and  navigation back to home page,,2020-11-05 15:22:45,2020-11-05 15:24:00,1m - 15.545s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Dashboard""]))",Chrome 86.0.4240.183,,,2020-11-05 15:22:45,2020-11-05 15:22:48,2.582s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/imiLogo""))",Chrome 86.0.4240.183,,,2020-11-05 15:22:48,2020-11-05 15:22:50,2.387s,PASSED
+"verifyElementPresent(findTestObject(""Button/createBot""), 15, STOP_ON_FAILURE)",Chrome 86.0.4240.183,,,2020-11-05 15:22:50,2020-11-05 15:22:52,1.266s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Knowledge""]))",Chrome 86.0.4240.183,,,2020-11-05 15:22:52,2020-11-05 15:22:55,3.083s,PASSED
+"verifyElementText(findTestObject(""Generic/kbHeader""), ""Enterprise Knowledge Base"", OPTIONAL)",Chrome 86.0.4240.183,,,2020-11-05 15:22:55,2020-11-05 15:22:57,2.697s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/imiLogo""))",Chrome 86.0.4240.183,,,2020-11-05 15:22:57,2020-11-05 15:23:00,2.366s,PASSED
+"verifyElementPresent(findTestObject(""Button/createBot""), 15, STOP_ON_FAILURE)",Chrome 86.0.4240.183,,,2020-11-05 15:23:00,2020-11-05 15:23:11,11.174s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Analytics""]))",Chrome 86.0.4240.183,,,2020-11-05 15:23:11,2020-11-05 15:23:13,2.256s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/imiLogo""))",Chrome 86.0.4240.183,,,2020-11-05 15:23:13,2020-11-05 15:23:16,3.109s,PASSED
+"verifyElementPresent(findTestObject(""Button/createBot""), 15, STOP_ON_FAILURE)",Chrome 86.0.4240.183,,,2020-11-05 15:23:16,2020-11-05 15:23:25,8.449s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Reports""]))",Chrome 86.0.4240.183,,,2020-11-05 15:23:25,2020-11-05 15:23:28,3.202s,PASSED
+"verifyElementClickable(findTestObject(""Button/newReport""), STOP_ON_FAILURE)",Chrome 86.0.4240.183,,,2020-11-05 15:23:28,2020-11-05 15:23:30,2.508s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/imiLogo""))",Chrome 86.0.4240.183,,,2020-11-05 15:23:30,2020-11-05 15:23:33,2.506s,PASSED
+"verifyElementPresent(findTestObject(""Button/createBot""), 15, STOP_ON_FAILURE)",Chrome 86.0.4240.183,,,2020-11-05 15:23:33,2020-11-05 15:23:42,9.526s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Task bots""]))",Chrome 86.0.4240.183,,,2020-11-05 15:23:42,2020-11-05 15:23:46,3.342s,PASSED
+"comment(""Verification of Task bots"")",Chrome 86.0.4240.183,,,2020-11-05 15:23:46,2020-11-05 15:23:46,0.122s,PASSED
+"verifyElementPresent(findTestObject(""Button/createBot""), 20, STOP_ON_FAILURE)",Chrome 86.0.4240.183,,,2020-11-05 15:23:46,2020-11-05 15:23:47,1.416s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Smart bots""]))",Chrome 86.0.4240.183,,,2020-11-05 15:23:47,2020-11-05 15:23:51,3.545s,PASSED
+"comment(""Verification of Smart bots"")",Chrome 86.0.4240.183,,,2020-11-05 15:23:51,2020-11-05 15:23:51,0.011s,PASSED
+"verifyElementPresent(findTestObject(""Button/createBot""), 20, STOP_ON_FAILURE)",Chrome 86.0.4240.183,,,2020-11-05 15:23:51,2020-11-05 15:23:52,1.373s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Router bots""]))",Chrome 86.0.4240.183,,,2020-11-05 15:23:52,2020-11-05 15:23:55,2.604s,PASSED
+"comment(""Verification of Router bots"")",Chrome 86.0.4240.183,,,2020-11-05 15:23:55,2020-11-05 15:23:55,0.012s,PASSED
+"verifyElementPresent(findTestObject(""Button/createBot""), 20, STOP_ON_FAILURE)",Chrome 86.0.4240.183,,,2020-11-05 15:23:55,2020-11-05 15:23:56,1.354s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Pipeline bots""]))",Chrome 86.0.4240.183,,,2020-11-05 15:23:56,2020-11-05 15:23:59,2.617s,PASSED
+"comment(""Verification of Pipeline bots"")",Chrome 86.0.4240.183,,,2020-11-05 15:23:59,2020-11-05 15:23:59,0.013s,PASSED
+"verifyElementPresent(findTestObject(""Button/createBot""), 20, STOP_ON_FAILURE)",Chrome 86.0.4240.183,,,2020-11-05 15:23:59,2020-11-05 15:24:00,1.374s,PASSED
+,,,,,,,
+Test Cases/Generic/adminServiceKeyFunctionality_Test,Chrome 86.0.4240.183,TestCase Agenda: To verify overview page service key functionality for user of type 'Admin',,2020-11-05 15:24:00,2020-11-05 15:24:34,33.383s,PASSED
+"mouseOver(findTestObject(""Generic/userInitials""))",Chrome 86.0.4240.183,,,2020-11-05 15:24:01,2020-11-05 15:24:03,2.620s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Enterprise profile""]))",Chrome 86.0.4240.183,,,2020-11-05 15:24:03,2020-11-05 15:24:10,6.190s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/newToken""))",Chrome 86.0.4240.183,,,2020-11-05 15:24:10,2020-11-05 15:24:12,2.431s,PASSED
+description = now().toString(),Chrome 86.0.4240.183,,,2020-11-05 15:24:12,2020-11-05 15:24:12,0.106s,PASSED
+"sendKeys(findTestObject(""Input/newTokenDescription""), description)",Chrome 86.0.4240.183,,,2020-11-05 15:24:12,2020-11-05 15:24:15,2.769s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/create""))",Chrome 86.0.4240.183,,,2020-11-05 15:24:15,2020-11-05 15:24:17,2.322s,PASSED
+"listOfServiceKeys = findWebElements(findTestObject(""GenericII/serviceKeyList""), 5)",Chrome 86.0.4240.183,,,2020-11-05 15:24:17,2020-11-05 15:24:19,1.886s,PASSED
+assert getText().contentEquals(description) == true,Chrome 86.0.4240.183,,,2020-11-05 15:24:19,2020-11-05 15:24:21,1.675s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/deleteServiceKey"", [""index"":1]))",Chrome 86.0.4240.183,,,2020-11-05 15:24:21,2020-11-05 15:24:24,3.045s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/expire""))",Chrome 86.0.4240.183,,,2020-11-05 15:24:24,2020-11-05 15:24:26,2.363s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Expired""]))",Chrome 86.0.4240.183,,,2020-11-05 15:24:26,2020-11-05 15:24:31,5.128s,PASSED
+"listOfExpiredServiceKeys = findWebElements(findTestObject(""GenericII/serviceKeyList""), 5)",Chrome 86.0.4240.183,,,2020-11-05 15:24:31,2020-11-05 15:24:33,1.302s,PASSED
+assert getText().contentEquals(description) == true,Chrome 86.0.4240.183,,,2020-11-05 15:24:33,2020-11-05 15:24:34,1.069s,PASSED
+,,,,,,,
+Test Cases/Generic/adminUserManagement_Test,Chrome 86.0.4240.183,TestCase Agenda: Verify custom user creation by an 'Admin',,2020-11-05 15:24:34,2020-11-05 15:25:11,36.971s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Users""]))",Chrome 86.0.4240.183,,,2020-11-05 15:24:34,2020-11-05 15:24:37,2.391s,PASSED
+"verifyTextPresent(""Users management"", false, STOP_ON_FAILURE)",Chrome 86.0.4240.183,,,2020-11-05 15:24:37,2020-11-05 15:24:42,5.171s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/newUserBtn""))",Chrome 86.0.4240.183,,,2020-11-05 15:24:42,2020-11-05 15:24:45,3.093s,PASSED
+"verifyTextPresent(""Add a new user to the enterprise"", false, STOP_ON_FAILURE)",Chrome 86.0.4240.183,,,2020-11-05 15:24:45,2020-11-05 15:24:50,4.739s,PASSED
+"sendKeys(findTestObject(""Input/newUserFirstName""), firstName)",Chrome 86.0.4240.183,,,2020-11-05 15:24:50,2020-11-05 15:24:52,2.599s,PASSED
+"sendKeys(findTestObject(""Input/newUserLastName""), lastName)",Chrome 86.0.4240.183,,,2020-11-05 15:24:52,2020-11-05 15:24:55,2.791s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Select role""]))",Chrome 86.0.4240.183,,,2020-11-05 15:24:55,2020-11-05 15:24:57,2.301s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":"" "" + USER_ROLE + "" ""]))",Chrome 86.0.4240.183,,,2020-11-05 15:24:57,2020-11-05 15:25:00,2.335s,PASSED
+"sendKeys(findTestObject(""Input/newUserEmail""), emailAddress)",Chrome 86.0.4240.183,,,2020-11-05 15:25:00,2020-11-05 15:25:03,3.170s,PASSED
+"verifyTextPresent(""Add Bots"", false, OPTIONAL)",Chrome 86.0.4240.183,,,2020-11-05 15:25:03,2020-11-05 15:25:08,5.426s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/addNewUser""))",Chrome 86.0.4240.183,,,2020-11-05 15:25:08,2020-11-05 15:25:11,2.280s,PASSED
+,,,,,,,
+Test Cases/Generic/adminRoleManagement_Test,Chrome 86.0.4240.183,TestCase Agenda: To verify role creation by Admin user,,2020-11-05 15:25:11,2020-11-05 15:25:45,34.314s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Roles""]))",Chrome 86.0.4240.183,,,2020-11-05 15:25:12,2020-11-05 15:25:14,2.526s,PASSED
+"verifyElementClickable(findTestObject(""Button/newRole""), STOP_ON_FAILURE)",Chrome 86.0.4240.183,,,2020-11-05 15:25:14,2020-11-05 15:25:17,2.529s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/newRole""))",Chrome 86.0.4240.183,,,2020-11-05 15:25:17,2020-11-05 15:25:19,2.517s,PASSED
+"sendKeys(findTestObject(""Input/newRoleName""), ROLE_NAME)",Chrome 86.0.4240.183,,,2020-11-05 15:25:19,2020-11-05 15:25:23,3.375s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Base role""]))",Chrome 86.0.4240.183,,,2020-11-05 15:25:23,2020-11-05 15:25:25,2.504s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":typeOfUser]))",Chrome 86.0.4240.183,,,2020-11-05 15:25:25,2020-11-05 15:25:28,2.743s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":permissionToUser]))",Chrome 86.0.4240.183,,,2020-11-05 15:25:28,2020-11-05 15:25:30,2.383s,PASSED
+"listOfPermissions = findWebElements(findTestObject(""GenericII/listOfPermissions""), 5)",Chrome 86.0.4240.183,,,2020-11-05 15:25:30,2020-11-05 15:25:32,1.241s,PASSED
+index = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 86.0.4240.183,,,2020-11-05 15:25:32,2020-11-05 15:25:32,0.002s,PASSED
+"for ([index = 0, index < listOfPermissions.size(), (index++)])",Chrome 86.0.4240.183,,,2020-11-05 15:25:32,2020-11-05 15:25:33,1.085s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/addPermissionBtn"", [""index"":index]))",Chrome 86.0.4240.183,,,2020-11-05 15:25:33,2020-11-05 15:25:35,2.302s,PASSED
+"verifyElementClickable(findTestObject(""Button/createRole""), STOP_ON_FAILURE)",Chrome 86.0.4240.183,,,2020-11-05 15:25:35,2020-11-05 15:25:37,2.366s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/createRole""))",Chrome 86.0.4240.183,,,2020-11-05 15:25:37,2020-11-05 15:25:40,2.244s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":ROLE_NAME]), 20, OPTIONAL)",Chrome 86.0.4240.183,,,2020-11-05 15:25:40,2020-11-05 15:25:42,2.778s,PASSED
+"verifyTextPresent(ROLE_NAME, false)",Chrome 86.0.4240.183,,,2020-11-05 15:25:42,2020-11-05 15:25:45,2.593s,PASSED
+,,,,,,,
+Test Cases/Generic/adminRoleDeletion_Test,Chrome 86.0.4240.183,TestCase Agenda: To verify if user with role of 'Admin' can delete a custom created role,,2020-11-05 15:25:45,2020-11-05 15:26:09,23.610s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Roles""]))",Chrome 86.0.4240.183,,,2020-11-05 15:25:46,2020-11-05 15:25:48,2.291s,PASSED
+"role = findWebElements(findTestObject(""GenericII/listOfAllRoleName""), 5)",Chrome 86.0.4240.183,,,2020-11-05 15:25:48,2020-11-05 15:25:49,1.195s,PASSED
+count = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 86.0.4240.183,,,2020-11-05 15:25:49,2020-11-05 15:25:49,0.002s,PASSED
+"for ([count = 0, count < role.size(), (count++)])",Chrome 86.0.4240.183,,,2020-11-05 15:25:49,2020-11-05 15:25:56,6.576s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/modifyRole"", [""index"":count]))",Chrome 86.0.4240.183,,,2020-11-05 15:25:56,2020-11-05 15:25:58,2.339s,PASSED
+"verifyTextPresent(""Edit role"", false, STOP_ON_FAILURE)",Chrome 86.0.4240.183,,,2020-11-05 15:25:58,2020-11-05 15:26:01,2.907s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/delete""))",Chrome 86.0.4240.183,,,2020-11-05 15:26:01,2020-11-05 15:26:04,2.288s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/remove""))",Chrome 86.0.4240.183,,,2020-11-05 15:26:04,2020-11-05 15:26:06,2.443s,PASSED
+"verifyTextNotPresent(ROLE_NAME, false, STOP_ON_FAILURE)",Chrome 86.0.4240.183,,,2020-11-05 15:26:06,2020-11-05 15:26:09,2.606s,PASSED
+,,,,,,,
+Test Cases/Sprint/v4.4/loadUpFreeformData_Setup,Chrome 86.0.4240.183,"SOP: create intent with entity, later which can be used for freeform bot",,2020-11-05 15:26:09,2020-11-05 15:28:39,2m - 30.531s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/imiLogo""))",Chrome 86.0.4240.183,,,2020-11-05 15:26:15,2020-11-05 15:26:17,2.465s,PASSED
+"waitForElementVisible(findTestObject(""Button/createBot""), 30, OPTIONAL)",Chrome 86.0.4240.183,,,2020-11-05 15:26:17,2020-11-05 15:26:29,11.587s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Task bots""]))",Chrome 86.0.4240.183,,,2020-11-05 15:26:29,2020-11-05 15:26:32,3.563s,PASSED
+"waitForElementVisible(findTestObject(""Generic/webObjectWithText"", [""textValue"":testBot]), 45, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.183,,,2020-11-05 15:26:32,2020-11-05 15:26:35,2.368s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":testBot]))",Chrome 86.0.4240.183,,,2020-11-05 15:26:35,2020-11-05 15:26:37,2.237s,PASSED
+"waitForElementVisible(findTestObject(""Generic/training""), 45, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.183,,,2020-11-05 15:26:37,2020-11-05 15:26:40,3.268s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/training""))",Chrome 86.0.4240.183,,,2020-11-05 15:26:40,2020-11-05 15:26:43,2.445s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Entities""]))",Chrome 86.0.4240.183,,,2020-11-05 15:26:43,2020-11-05 15:26:45,2.579s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/createEntity""))",Chrome 86.0.4240.183,,,2020-11-05 15:26:45,2020-11-05 15:26:48,2.485s,PASSED
+"platform.Training.createEntity(""pin-code"", ""Regex"", regex_value)",Chrome 86.0.4240.183,,,2020-11-05 15:26:48,2020-11-05 15:27:00,12.487s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""pin-code""]), 20, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.183,,,2020-11-05 15:27:00,2020-11-05 15:27:01,1.358s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/response""))",Chrome 86.0.4240.183,,,2020-11-05 15:27:01,2020-11-05 15:27:04,2.452s,PASSED
+"platform.Response.createRichResponse(temp_key, key_value)",Chrome 86.0.4240.183,,,2020-11-05 15:27:04,2020-11-05 15:27:23,18.611s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 20, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.183,,,2020-11-05 15:27:23,2020-11-05 15:27:24,1.294s,PASSED
+"platform.Response.createRichResponse(missing_key, new_key_value)",Chrome 86.0.4240.183,,,2020-11-05 15:27:24,2020-11-05 15:27:42,18.116s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 20, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.183,,,2020-11-05 15:27:42,2020-11-05 15:27:43,1.253s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/training""))",Chrome 86.0.4240.183,,,2020-11-05 15:27:43,2020-11-05 15:27:46,2.593s,PASSED
+"waitForElementVisible(findTestObject(""Button/createIntent""), 30, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.183,,,2020-11-05 15:27:46,2020-11-05 15:27:48,2.469s,PASSED
+"platform.Training.addSingleUtterance(""do you deliver?"")",Chrome 86.0.4240.183,,,2020-11-05 15:27:48,2020-11-05 15:27:56,7.507s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Slots/linkEntity""))",Chrome 86.0.4240.183,,,2020-11-05 15:27:56,2020-11-05 15:27:58,2.308s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""pin-code""]))",Chrome 86.0.4240.183,,,2020-11-05 15:27:58,2020-11-05 15:28:00,2.370s,PASSED
+"check(findTestObject(""Slots/checkbox"", [""rowValue"":1]))",Chrome 86.0.4240.183,,,2020-11-05 15:28:00,2020-11-05 15:28:04,3.736s,PASSED
+"setText(findTestObject(""Slots/retries"", [""rowValue"":1]), ""2"")",Chrome 86.0.4240.183,,,2020-11-05 15:28:04,2020-11-05 15:28:08,4.076s,PASSED
+"setText(findTestObject(""Slots/templateKey"", [""rowValue"":1]), missing_key)",Chrome 86.0.4240.183,,,2020-11-05 15:28:08,2020-11-05 15:28:12,4.024s,PASSED
+"setText(findTestObject(""Input/finalTempKey""), temp_key)",Chrome 86.0.4240.183,,,2020-11-05 15:28:12,2020-11-05 15:28:16,3.939s,PASSED
+"setText(findTestObject(""Input/intentName""), ""service"")",Chrome 86.0.4240.183,,,2020-11-05 15:28:16,2020-11-05 15:28:20,3.884s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/save"", [""value"":"" Save ""]))",Chrome 86.0.4240.183,,,2020-11-05 15:28:20,2020-11-05 15:28:23,2.386s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/intentGoBack""))",Chrome 86.0.4240.183,,,2020-11-05 15:28:23,2020-11-05 15:28:25,2.492s,PASSED
+"verifyTextPresent(""Training data"", false, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.183,,,2020-11-05 15:28:25,2020-11-05 15:28:28,3.203s,PASSED
+"platform.Method.trainAndComment(""service intent added"")",Chrome 86.0.4240.183,,,2020-11-05 15:28:28,2020-11-05 15:28:38,9.631s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 30, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.183,,,2020-11-05 15:28:38,2020-11-05 15:28:39,1.278s,PASSED

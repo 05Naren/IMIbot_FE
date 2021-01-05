@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Verify if map location entity can successfully be created and updated</description>
+   <description>Scenario 1: Verify if Map location entity can successfully be created 
+
+Given: User is on new entity creation page
+
+When: User clicks on create entity button
+And: User enters entity name and selects entity type map location
+And: User clicks on save button
+Then: A new entity of map type should get created and present on entity list 
+
+Scenario 2: Verify if Map location entity can be updated successfully(Name of the entity can only be updated)
+
+Given: Map entity is already present on entity list
+
+When: User selects a map entity
+And: User modifies the name and clicks on save button
+Then: Application should successfully update the map entity name</description>
    <name>mapLocationEntityCreation_Test</name>
    <tag></tag>
-   <comment></comment>
+   <comment> *** SCENARIO 1 STARTED ***
+ *** VALIDATION --> ENTITY CREATION CHECK ***
+ *** SCENARIO 2 STARTED ***
+ *** VALIDATION --> ENTITY NAME UPDATE CHECK ***</comment>
    <testCaseGuid>913a5845-5197-417c-be57-3e48b6b4eba3</testCaseGuid>
 </TestCaseEntity>

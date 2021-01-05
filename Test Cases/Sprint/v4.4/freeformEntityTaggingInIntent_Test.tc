@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Scenario 1: Verify if a freeform entity gets auto recognised to a new or existing intent.
+
+Given: User is on intent creation page
+
+When: User adds an utterance to intent 
+And: User double clicks on a word on utterance to tag it existing freeform entity
+Then: User should not be able to see the freeform entity name on the list
+
+Scenario 2: Verify if a freeform entity gets added to slot when created from the intent page
+
+Given: User is on intent creation page
+
+When: User double clicks on a word on utterance and selects create new entity
+And: User creates a new freeform type entity and save it
+Then: Newly created freeform entity should not be present on slot</description>
+   <name>freeformEntityTaggingInIntent_Test</name>
+   <tag></tag>
+   <comment> *** SCENARIO 1 STARTED *** 
+ *** SCENARIO 2 STARTED *** 
+ *** VALIDATION: VERIFY FREEFORM ENTITY ON SLOT ***</comment>
+   <testCaseGuid>f44eef89-44fb-42e9-9877-2a104b2a73ed</testCaseGuid>
+   <variable>
+      <defaultValue>'div[class=\'cdk-overlay-container\']'</defaultValue>
+      <description></description>
+      <id>e1bd6d4f-0068-482e-b5e6-0221cfb45732</id>
+      <masked>false</masked>
+      <name>newCSS</name>
+   </variable>
+</TestCaseEntity>

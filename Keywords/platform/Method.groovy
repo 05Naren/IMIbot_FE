@@ -245,5 +245,5 @@ public class Method {
 		}
 		clickOnElement(findTestObject('Button/continue'))
 	}
-	
+
 }

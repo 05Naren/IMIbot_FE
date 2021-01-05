@@ -141,7 +141,7 @@ public class ResponseDesigner extends Method {
 		}catch(Exception e){
 			KeywordUtil.markFailed('Label Missing or Text missing')
 		}
-		WebUI.sendKeys(findTestObject('WEB_OBJECTS/searchField'), payload)
+		WebUI.setText(findTestObject('WEB_OBJECTS/searchField'), payload)
 		try{
 			WebUI.verifyElementPresent(findTestObject('Generic/searchResult'), 20, FailureHandling.OPTIONAL)
 			clickOnElement(findTestObject('Generic/searchResult'))

@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="ROUTER_SSO" time="539" tests="8" failures="0" errors="0">
+    <testsuite name="ROUTER_SSO" tests="8" failures="0" errors="0" time="539" timestamp="2020-11-25 12:22:34" hostname="narendra.n - WLPT580.imidomain.com" id="Test Suites/ROUTER_SSO">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="D:\\IMIbot.ai-Project\\Reports\\20201125_122219\\ROUTER_SSO\\20201125_122219"/>
+            <property name="logFiles" value="D:\\IMIbot.ai-Project\\Reports\\20201125_122219\\ROUTER_SSO\\20201125_122219\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="narendra.n - WLPT580.imidomain.com"/>
+            <property name="os" value="Windows 8.1 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Chrome 87.0.4280.66"/>
+            <property name="hostAddress" value="192.168.29.195"/>
+            <property name="sessionId" value="c62ed684fe77d478ddceda8171d70afd"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 8.1"/>
+        </properties>
+        <testcase name="Test Cases/Routerbot/botCreation_Test" classname="Test Cases/Routerbot/botCreation_Test" status="PASSED">
+            <system-out>2020-11-25 12:23:26 - [TEST_CASE][PASSED] - Test Cases/Routerbot/botCreation_Test: Test Cases/Routerbot/botCreation_Test&#xD;
+&#xD;
+2020-11-25 12:23:27 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/webObjectWithText", ["textValue":"Router bots"])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:23:31 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:23:31 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Button/createBot")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:23:36 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:23:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Input/botName"), nameOfTheBot): Keys 'HF Router' sent to object: 'Object Repository/Input/botName'&#xD;
+&#xD;
+2020-11-25 12:23:39 - [MESSAGE][PASSED] - Keys 'HF Router' sent to object: 'Object Repository/Input/botName'&#xD;
+&#xD;
+2020-11-25 12:23:39 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("GenericII/smartContinueBtn")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:23:42 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:23:42 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("NewRepo/labelForChildBot")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:23:45 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:23:45 - [TEST_STEP][PASSED] - index = platform.Method.getIndexFromTheList(findTestObject("NewRepo/listOfChildBots"), childBotName): platform.Method.getIndexFromTheList is PASSED&#xD;
+&#xD;
+2020-11-25 12:24:06 - [MESSAGE][PASSED] - platform.Method.getIndexFromTheList is PASSED&#xD;
+&#xD;
+2020-11-25 12:24:06 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("NewRepo/childBotCheckbox", ["index":index])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:24:09 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:24:09 - [TEST_STEP][PASSED] - newIndex = platform.Method.getIndexFromTheList(findTestObject("NewRepo/listOfChildBots"), childBotName2): platform.Method.getIndexFromTheList is PASSED&#xD;
+&#xD;
+2020-11-25 12:25:13 - [MESSAGE][PASSED] - platform.Method.getIndexFromTheList is PASSED&#xD;
+&#xD;
+2020-11-25 12:25:13 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("NewRepo/childBotCheckbox", ["index":newIndex])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:25:16 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:25:16 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Toggle/feedback")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:25:19 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:25:19 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("GenericII/smartContinueBtn")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:25:21 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:25:21 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Button/done")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:25:24 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Routerbot/sideOptionsNavigation_Test" classname="Test Cases/Routerbot/sideOptionsNavigation_Test" status="PASSED">
+            <system-out>2020-11-25 12:25:24 - [TEST_CASE][PASSED] - Test Cases/Routerbot/sideOptionsNavigation_Test: Test Cases/Routerbot/sideOptionsNavigation_Test&#xD;
+&#xD;
+2020-11-25 12:25:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ICONS/sidebarSettings"), 20, STOP_ON_FAILURE): Object 'Object Repository/ICONS/sidebarSettings' is visible&#xD;
+&#xD;
+2020-11-25 12:25:34 - [MESSAGE][PASSED] - Object 'Object Repository/ICONS/sidebarSettings' is visible&#xD;
+&#xD;
+2020-11-25 12:25:34 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("ICONS/sidebarSettings")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:25:37 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:25:37 - [TEST_STEP][PASSED] - verifyTextPresent("Bot configuration", false, STOP_ON_FAILURE): Text 'Bot configuration' is present on page &#xD;
+&#xD;
+2020-11-25 12:25:40 - [MESSAGE][PASSED] - Text 'Bot configuration' is present on page &#xD;
+&#xD;
+2020-11-25 12:25:40 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/nlp")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:25:42 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:25:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2020-11-25 12:25:43 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2020-11-25 12:25:43 - [TEST_STEP][PASSED] - verifyTextPresent("Input recognition", false, STOP_ON_FAILURE): Text 'Input recognition' is present on page &#xD;
+&#xD;
+2020-11-25 12:25:47 - [MESSAGE][PASSED] - Text 'Input recognition' is present on page &#xD;
+&#xD;
+2020-11-25 12:25:47 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/logic")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:25:49 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:25:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2020-11-25 12:25:50 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2020-11-25 12:25:50 - [TEST_STEP][PASSED] - verifyTextPresent("Logic", false, STOP_ON_FAILURE): Text 'Logic' is present on page &#xD;
+&#xD;
+2020-11-25 12:25:53 - [MESSAGE][PASSED] - Text 'Logic' is present on page &#xD;
+&#xD;
+2020-11-25 12:25:53 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/session")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:25:56 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:25:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2020-11-25 12:25:57 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2020-11-25 12:25:57 - [TEST_STEP][PASSED] - verifyTextPresent("Conversations", false, STOP_ON_FAILURE): Text 'Conversations' is present on page &#xD;
+&#xD;
+2020-11-25 12:25:59 - [MESSAGE][PASSED] - Text 'Conversations' is present on page</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Routerbot/nlpConceptCreation_Test" classname="Test Cases/Routerbot/nlpConceptCreation_Test" status="PASSED">
+            <system-out>2020-11-25 12:25:59 - [TEST_CASE][PASSED] - Test Cases/Routerbot/nlpConceptCreation_Test: Test Cases/Routerbot/nlpConceptCreation_Test&#xD;
+&#xD;
+2020-11-25 12:26:04 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/nlp")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:26:07 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:26:07 - [TEST_STEP][PASSED] - platform.NLP.addCustom_NER(): platform.NLP.addCustom_NER is PASSED&#xD;
+&#xD;
+2020-11-25 12:26:10 - [MESSAGE][PASSED] - Keys 'custom' sent to object: 'Object Repository/Input/librariesAndModules'&#xD;
+&#xD;
+2020-11-25 12:26:22 - [MESSAGE][PASSED] - Object 'Object Repository/ICONS/toastMsg' is present&#xD;
+&#xD;
+2020-11-25 12:26:22 - [MESSAGE][PASSED] - platform.NLP.addCustom_NER is PASSED&#xD;
+&#xD;
+2020-11-25 12:26:22 - [TEST_STEP][PASSED] - platform.NLP.createConcept(conceptName, fileName): platform.NLP.createConcept is PASSED&#xD;
+&#xD;
+2020-11-25 12:26:24 - [MESSAGE][PASSED] - Object 'Object Repository/Generic/webObjectWithText' is present&#xD;
+&#xD;
+2020-11-25 12:26:31 - [MESSAGE][PASSED] - Keys 'banking_faq' sent to object: 'Object Repository/Input/conceptName'&#xD;
+&#xD;
+2020-11-25 12:26:34 - [MESSAGE][PASSED] - File 'D:/IMIbot.ai-Project/Collection/bankConcept.txt' sent to object: 'Object Repository/Input/uploadFile'&#xD;
+&#xD;
+2020-11-25 12:26:37 - [MESSAGE][PASSED] - Object 'Object Repository/ICONS/toastMsg' is present&#xD;
+&#xD;
+2020-11-25 12:26:37 - [MESSAGE][PASSED] - platform.NLP.createConcept is PASSED&#xD;
+&#xD;
+2020-11-25 12:26:37 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("NewRepo/conceptBackBtn")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:26:40 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:26:40 - [TEST_STEP][PASSED] - verifyTextPresent(conceptName, false, STOP_ON_FAILURE): Text 'banking_faq' is present on page &#xD;
+&#xD;
+2020-11-25 12:26:42 - [MESSAGE][PASSED] - Text 'banking_faq' is present on page &#xD;
+&#xD;
+2020-11-25 12:26:42 - [TEST_STEP][PASSED] - platform.NLP.createConcept(conceptName2, fileName2): platform.NLP.createConcept is PASSED&#xD;
+&#xD;
+2020-11-25 12:26:44 - [MESSAGE][PASSED] - Object 'Object Repository/Generic/webObjectWithText' is present&#xD;
+&#xD;
+2020-11-25 12:26:52 - [MESSAGE][PASSED] - Keys 'dhan_yojna' sent to object: 'Object Repository/Input/conceptName'&#xD;
+&#xD;
+2020-11-25 12:26:55 - [MESSAGE][PASSED] - File 'D:/IMIbot.ai-Project/Collection/pmjdy.py' sent to object: 'Object Repository/Input/uploadFile'&#xD;
+&#xD;
+2020-11-25 12:26:58 - [MESSAGE][PASSED] - Object 'Object Repository/ICONS/toastMsg' is present&#xD;
+&#xD;
+2020-11-25 12:26:58 - [MESSAGE][PASSED] - platform.NLP.createConcept is PASSED&#xD;
+&#xD;
+2020-11-25 12:26:58 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("NewRepo/conceptBackBtn")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:27:01 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:27:01 - [TEST_STEP][PASSED] - verifyTextPresent(conceptName2, false, STOP_ON_FAILURE): Text 'dhan_yojna' is present on page &#xD;
+&#xD;
+2020-11-25 12:27:04 - [MESSAGE][PASSED] - Text 'dhan_yojna' is present on page</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Routerbot/ruleConfiguration_Test" classname="Test Cases/Routerbot/ruleConfiguration_Test" status="PASSED">
+            <system-out>2020-11-25 12:27:04 - [TEST_CASE][PASSED] - Test Cases/Routerbot/ruleConfiguration_Test: Test Cases/Routerbot/ruleConfiguration_Test&#xD;
+&#xD;
+2020-11-25 12:27:05 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/logic")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:27:07 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:27:07 - [TEST_STEP][PASSED] - testData = findTestData("Data Files/testData_Router"): null&#xD;
+&#xD;
+2020-11-25 12:27:08 - [TEST_STEP][PASSED] - setText(findTestObject("NewRepo/leftVariable", ["index":1]), testData.getValue("left_variable", 1)): Text 'nlp.custom_ners.banking_faq' is set on object 'Object Repository/NewRepo/leftVariable'&#xD;
+&#xD;
+2020-11-25 12:27:12 - [MESSAGE][PASSED] - Text 'nlp.custom_ners.banking_faq' is set on object 'Object Repository/NewRepo/leftVariable'&#xD;
+&#xD;
+2020-11-25 12:27:12 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/webObjectWithText", ["textValue":"Exists"])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:27:15 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:27:15 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/webObjectWithText", ["textValue":"Equals to"])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:27:17 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:27:17 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/webObjectWithText", ["textValue":"Reply with message"])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:27:20 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:27:20 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/webObjectWithText", ["textValue":"Route to child bot"])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:27:22 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:27:22 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("NewRepo/destinationBot", ["index":1])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:27:25 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:27:25 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/webObjectWithText", ["textValue":"BankBot 2020"])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:27:27 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:27:27 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Button/updateRules")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:27:29 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:27:29 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Button/preview")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:27:32 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:27:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Input/chatInput"), Keys.chord("How do I report a suspected fraud?", ENTER)): Keys 'ENTER + How do I report a suspected fraud?' sent to object: 'Object Repository/Input/chatInput'&#xD;
+&#xD;
+2020-11-25 12:27:35 - [MESSAGE][PASSED] - Keys 'ENTER + How do I report a suspected fraud?' sent to object: 'Object Repository/Input/chatInput'&#xD;
+&#xD;
+2020-11-25 12:27:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("GenericII/getBotResponse", ["index":2]), 20, OPTIONAL): Object 'Object Repository/GenericII/getBotResponse' is visible&#xD;
+&#xD;
+2020-11-25 12:27:38 - [MESSAGE][PASSED] - Object 'Object Repository/GenericII/getBotResponse' is visible&#xD;
+&#xD;
+2020-11-25 12:27:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("GenericII/getBotResponse", ["index":2]), testData.getValue("bankbot_answer", 1), CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/GenericII/getBotResponse' are matched.&#xD;
+&#xD;
+2020-11-25 12:27:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GenericII/getBotResponse' are matched.&#xD;
+&#xD;
+2020-11-25 12:27:40 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("GenericII/minimize")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:27:43 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Routerbot/ruleAddition_Test" classname="Test Cases/Routerbot/ruleAddition_Test" status="PASSED">
+            <system-out>2020-11-25 12:27:43 - [TEST_CASE][PASSED] - Test Cases/Routerbot/ruleAddition_Test: Test Cases/Routerbot/ruleAddition_Test&#xD;
+&#xD;
+2020-11-25 12:27:45 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/logic")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:27:47 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:27:47 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("NewRepo/addRule")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:27:50 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:27:50 - [TEST_STEP][PASSED] - setText(findTestObject("NewRepo/leftVariable", ["index":2]), leftVariable): Text 'nlp.custom_ners.dhan_yojna' is set on object 'Object Repository/NewRepo/leftVariable'&#xD;
+&#xD;
+2020-11-25 12:27:55 - [MESSAGE][PASSED] - Text 'nlp.custom_ners.dhan_yojna' is set on object 'Object Repository/NewRepo/leftVariable'&#xD;
+&#xD;
+2020-11-25 12:27:55 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/webObjectWithText", ["textValue":"string"])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:27:57 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:27:57 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/webObjectWithText", ["textValue":" boolean "])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:28:00 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:28:00 - [TEST_STEP][PASSED] - setText(findTestObject("NewRepo/rightVariable", ["index":2]), rightVariable): Text 'true' is set on object 'Object Repository/NewRepo/rightVariable'&#xD;
+&#xD;
+2020-11-25 12:28:04 - [MESSAGE][PASSED] - Text 'true' is set on object 'Object Repository/NewRepo/rightVariable'&#xD;
+&#xD;
+2020-11-25 12:28:04 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("NewRepo/destinationBot", ["index":2])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:28:07 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:28:07 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/webObjectWithText", ["textValue":childBotName])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:28:09 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:28:09 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Button/updateRules")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:28:11 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:28:11 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Button/preview")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:28:14 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:28:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Input/chatInput"), Keys.chord(userQuery, ENTER)): Keys 'ENTER + पीएमजेडीवाई खाते कहां खोले जा सकते हैं?' sent to object: 'Object Repository/Input/chatInput'&#xD;
+&#xD;
+2020-11-25 12:28:18 - [MESSAGE][PASSED] - Keys 'ENTER + पीएमजेडीवाई खाते कहां खोले जा सकते हैं?' sent to object: 'Object Repository/Input/chatInput'&#xD;
+&#xD;
+2020-11-25 12:28:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("GenericII/getBotResponse", ["index":2]), 20, OPTIONAL): Object 'Object Repository/GenericII/getBotResponse' is visible&#xD;
+&#xD;
+2020-11-25 12:28:20 - [MESSAGE][PASSED] - Object 'Object Repository/GenericII/getBotResponse' is visible&#xD;
+&#xD;
+2020-11-25 12:28:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("GenericII/getBotResponse", ["index":2]), botResponse, CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/GenericII/getBotResponse' are matched.&#xD;
+&#xD;
+2020-11-25 12:28:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GenericII/getBotResponse' are matched.&#xD;
+&#xD;
+2020-11-25 12:28:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Input/chatInput"), Keys.chord(userQuery2, ENTER)): Keys 'ENTER + पीएमजेडीवाई खाताधारकों के सामने आने वाली समस्या के मामले में वे किससे संपर्क कर सकते हैं?' sent to object: 'Object Repository/Input/chatInput'&#xD;
+&#xD;
+2020-11-25 12:28:26 - [MESSAGE][PASSED] - Keys 'ENTER + पीएमजेडीवाई खाताधारकों के सामने आने वाली समस्या के मामले में वे किससे संपर्क कर सकते हैं?' sent to object: 'Object Repository/Input/chatInput'&#xD;
+&#xD;
+2020-11-25 12:28:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("GenericII/getBotResponse", ["index":3]), 20, OPTIONAL): Object 'Object Repository/GenericII/getBotResponse' is visible&#xD;
+&#xD;
+2020-11-25 12:28:29 - [MESSAGE][PASSED] - Object 'Object Repository/GenericII/getBotResponse' is visible&#xD;
+&#xD;
+2020-11-25 12:28:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("GenericII/getBotResponse", ["index":3]), botResponse2, CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/GenericII/getBotResponse' are matched.&#xD;
+&#xD;
+2020-11-25 12:28:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GenericII/getBotResponse' are matched.&#xD;
+&#xD;
+2020-11-25 12:28:31 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("GenericII/minimize")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:28:33 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Routerbot/feedbackFunctionality_Test" classname="Test Cases/Routerbot/feedbackFunctionality_Test" status="PASSED">
+            <system-out>2020-11-25 12:28:33 - [TEST_CASE][PASSED] - Test Cases/Routerbot/feedbackFunctionality_Test: Test Cases/Routerbot/feedbackFunctionality_Test&#xD;
+&#xD;
+2020-11-25 12:28:35 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Button/preview")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:28:37 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:28:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Input/chatInput"), Keys.chord(userQuery1, ENTER)): Keys 'ENTER + प्रधानमंत्री जन-धन योजना क्या है?' sent to object: 'Object Repository/Input/chatInput'&#xD;
+&#xD;
+2020-11-25 12:28:41 - [MESSAGE][PASSED] - Keys 'ENTER + प्रधानमंत्री जन-धन योजना क्या है?' sent to object: 'Object Repository/Input/chatInput'&#xD;
+&#xD;
+2020-11-25 12:28:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)&#xD;
+&#xD;
+2020-11-25 12:28:43 - [MESSAGE][PASSED] - Delayed 2 second(s)&#xD;
+&#xD;
+2020-11-25 12:28:43 - [TEST_STEP][PASSED] - platform.Preview.downvoteResponseWithComment(comment): platform.Preview.downvoteResponseWithComment is PASSED&#xD;
+&#xD;
+2020-11-25 12:28:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Button/downvote' is clicked on&#xD;
+&#xD;
+2020-11-25 12:28:48 - [MESSAGE][PASSED] - Keys 'feedback testing' sent to object: 'Object Repository/Input/downvoteComment'&#xD;
+&#xD;
+2020-11-25 12:28:50 - [MESSAGE][PASSED] - platform.Preview.downvoteResponseWithComment is PASSED&#xD;
+&#xD;
+2020-11-25 12:28:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Input/chatInput"), Keys.chord(userQuery2, ENTER)): Keys 'ENTER + how to report suspected fraud?' sent to object: 'Object Repository/Input/chatInput'&#xD;
+&#xD;
+2020-11-25 12:28:53 - [MESSAGE][PASSED] - Keys 'ENTER + how to report suspected fraud?' sent to object: 'Object Repository/Input/chatInput'&#xD;
+&#xD;
+2020-11-25 12:28:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)&#xD;
+&#xD;
+2020-11-25 12:28:55 - [MESSAGE][PASSED] - Delayed 2 second(s)&#xD;
+&#xD;
+2020-11-25 12:28:55 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Button/upvote")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:28:57 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:28:57 - [TEST_STEP][PASSED] - getSession = platform.Utility.getRoomID(): platform.Utility.getRoomID is PASSED&#xD;
+&#xD;
+2020-11-25 12:29:04 - [MESSAGE][PASSED] - platform.Utility.getRoomID is PASSED&#xD;
+&#xD;
+2020-11-25 12:29:04 - [TEST_STEP][PASSED] - roomID = get(0).toString(): null&#xD;
+&#xD;
+2020-11-25 12:29:04 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("GenericII/minimize")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:29:07 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:29:07 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/session")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:29:09 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:29:09 - [TEST_STEP][PASSED] - platform.Session.searchByRoomMetaData("Downvoted"): platform.Session.searchByRoomMetaData is PASSED&#xD;
+&#xD;
+2020-11-25 12:29:14 - [MESSAGE][PASSED] - platform.Session.searchByRoomMetaData is PASSED&#xD;
+&#xD;
+2020-11-25 12:29:14 - [TEST_STEP][PASSED] - setText(findTestObject("Input/roomID", ["value":"id"]), roomID): Text '1988644' is set on object 'Object Repository/Input/roomID'&#xD;
+&#xD;
+2020-11-25 12:29:17 - [MESSAGE][PASSED] - Text '1988644' is set on object 'Object Repository/Input/roomID'&#xD;
+&#xD;
+2020-11-25 12:29:17 - [TEST_STEP][PASSED] - platform.Utility.overWriteTestData("Router bot", 1, 1, roomID): platform.Utility.overWriteTestData is PASSED&#xD;
+&#xD;
+2020-11-25 12:29:18 - [MESSAGE][PASSED] - platform.Utility.overWriteTestData is PASSED&#xD;
+&#xD;
+2020-11-25 12:29:18 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Button/submitSession")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:29:21 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:29:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Generic/webObjectWithText", ["textValue":roomID]), 20, OPTIONAL): Object 'Object Repository/Generic/webObjectWithText' is visible&#xD;
+&#xD;
+2020-11-25 12:29:23 - [MESSAGE][PASSED] - Object 'Object Repository/Generic/webObjectWithText' is visible&#xD;
+&#xD;
+2020-11-25 12:29:23 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/webObjectWithText", ["textValue":roomID])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:29:26 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:29:26 - [TEST_STEP][PASSED] - verifyTextPresent("Downvoted with comment", false, STOP_ON_FAILURE): Text 'Downvoted with comment' is present on page &#xD;
+&#xD;
+2020-11-25 12:29:31 - [MESSAGE][PASSED] - Text 'Downvoted with comment' is present on page &#xD;
+&#xD;
+2020-11-25 12:29:31 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Generic/webObjectWithText", ["textValue":"Upvoted"]), STOP_ON_FAILURE): Object: 'Object Repository/Generic/webObjectWithText' is hovered&#xD;
+&#xD;
+2020-11-25 12:29:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/webObjectWithText' is hovered&#xD;
+&#xD;
+2020-11-25 12:29:39 - [TEST_STEP][PASSED] - verifyTextPresent("Upvoted", false, STOP_ON_FAILURE): Text 'Upvoted' is present on page &#xD;
+&#xD;
+2020-11-25 12:29:45 - [MESSAGE][PASSED] - Text 'Upvoted' is present on page &#xD;
+&#xD;
+2020-11-25 12:29:45 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("GenericII/closePopup")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:29:47 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:29:47 - [TEST_STEP][PASSED] - platform.Utility.overWriteTestData("Router bot", 1, 2, getText(findTestObject("NewRepo2/extractConsumerID"))): platform.Utility.overWriteTestData is PASSED&#xD;
+&#xD;
+2020-11-25 12:29:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/NewRepo2/extractConsumerID' is: '676631'&#xD;
+&#xD;
+2020-11-25 12:29:49 - [MESSAGE][PASSED] - platform.Utility.overWriteTestData is PASSED</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Routerbot/consumerIDVerificationInChildbots_Test" classname="Test Cases/Routerbot/consumerIDVerificationInChildbots_Test" status="PASSED">
+            <system-out>2020-11-25 12:29:49 - [TEST_CASE][PASSED] - Test Cases/Routerbot/consumerIDVerificationInChildbots_Test: Test Cases/Routerbot/consumerIDVerificationInChildbots_Test&#xD;
+&#xD;
+2020-11-25 12:29:51 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/imiLogo")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:29:53 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:29:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Button/createBot"), 20, OPTIONAL): Object 'Object Repository/Button/createBot' is visible&#xD;
+&#xD;
+2020-11-25 12:30:06 - [MESSAGE][PASSED] - Object 'Object Repository/Button/createBot' is visible&#xD;
+&#xD;
+2020-11-25 12:30:06 - [TEST_STEP][PASSED] - platform.Method.navigateToBot("Q&amp;A bots", CHILD_BOT): platform.Method.navigateToBot is PASSED&#xD;
+&#xD;
+2020-11-25 12:30:07 - [MESSAGE][PASSED] - Object 'Object Repository/Button/createBot' is present&#xD;
+&#xD;
+2020-11-25 12:30:10 - [MESSAGE][INFO] - Performing click action on bot&#xD;
+&#xD;
+2020-11-25 12:30:13 - [MESSAGE][PASSED] - platform.Method.navigateToBot is PASSED&#xD;
+&#xD;
+2020-11-25 12:30:13 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/session")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:30:17 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:30:17 - [TEST_STEP][PASSED] - platform.Session.searchByConsumerID(consumerID): platform.Session.searchByConsumerID is PASSED&#xD;
+&#xD;
+2020-11-25 12:30:20 - [MESSAGE][PASSED] - Text '676631' is set on object 'Object Repository/Input/consumerID'&#xD;
+&#xD;
+2020-11-25 12:30:23 - [MESSAGE][PASSED] - platform.Session.searchByConsumerID is PASSED&#xD;
+&#xD;
+2020-11-25 12:30:23 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/webObjectWithText", ["textValue":consumerID])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:30:25 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:30:25 - [TEST_STEP][PASSED] - verifyTextPresent(mgrRoomID, false, STOP_ON_FAILURE): Text '1988644' is present on page &#xD;
+&#xD;
+2020-11-25 12:30:30 - [MESSAGE][PASSED] - Text '1988644' is present on page &#xD;
+&#xD;
+2020-11-25 12:30:30 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("GenericII/closePopup")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:30:32 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:30:32 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Button/dashboard")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:30:34 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:30:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)&#xD;
+&#xD;
+2020-11-25 12:30:39 - [MESSAGE][PASSED] - Delayed 5 second(s)&#xD;
+&#xD;
+2020-11-25 12:30:39 - [TEST_STEP][PASSED] - platform.Method.navigateToBot("Q&amp;A bots", "BankBot 2020"): platform.Method.navigateToBot is PASSED&#xD;
+&#xD;
+2020-11-25 12:30:46 - [MESSAGE][PASSED] - Object 'Object Repository/Button/createBot' is present&#xD;
+&#xD;
+2020-11-25 12:30:48 - [MESSAGE][INFO] - Performing click action on bot&#xD;
+&#xD;
+2020-11-25 12:30:51 - [MESSAGE][PASSED] - platform.Method.navigateToBot is PASSED&#xD;
+&#xD;
+2020-11-25 12:30:51 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/session")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:30:54 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:30:54 - [TEST_STEP][PASSED] - platform.Session.searchByConsumerID(consumerID): platform.Session.searchByConsumerID is PASSED&#xD;
+&#xD;
+2020-11-25 12:30:58 - [MESSAGE][PASSED] - Text '676631' is set on object 'Object Repository/Input/consumerID'&#xD;
+&#xD;
+2020-11-25 12:31:01 - [MESSAGE][PASSED] - platform.Session.searchByConsumerID is PASSED&#xD;
+&#xD;
+2020-11-25 12:31:01 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/webObjectWithText", ["textValue":consumerID])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:31:03 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:31:03 - [TEST_STEP][PASSED] - verifyTextPresent(mgrRoomID, false, STOP_ON_FAILURE): Text '1988644' is present on page &#xD;
+&#xD;
+2020-11-25 12:31:07 - [MESSAGE][PASSED] - Text '1988644' is present on page</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Pipelinebot/verify_pipeline_bot_creation" classname="Test Cases/Pipelinebot/verify_pipeline_bot_creation" status="PASSED">
+            <system-out>2020-11-25 12:31:07 - [TEST_CASE][PASSED] - Test Cases/Pipelinebot/verify_pipeline_bot_creation: Test Cases/Pipelinebot/verify_pipeline_bot_creation&#xD;
+&#xD;
+2020-11-25 12:31:08 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/imiLogo")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:31:10 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:31:10 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Button/createBot"), 20, OPTIONAL): Object 'Object Repository/Button/createBot' is visible&#xD;
+&#xD;
+2020-11-25 12:31:22 - [MESSAGE][PASSED] - Object 'Object Repository/Button/createBot' is visible&#xD;
+&#xD;
+2020-11-25 12:31:22 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Generic/webObjectWithText", ["textValue":"Pipeline bots"])): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:31:26 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:31:26 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Button/createBot")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:31:28 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:31:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Input/botName"), nameOfTheBot): Keys 'HF PIPELINE' sent to object: 'Object Repository/Input/botName'&#xD;
+&#xD;
+2020-11-25 12:31:32 - [MESSAGE][PASSED] - Keys 'HF PIPELINE' sent to object: 'Object Repository/Input/botName'&#xD;
+&#xD;
+2020-11-25 12:31:32 - [TEST_STEP][PASSED] - platform.Method.clickOnElement(findTestObject("Button/done")): platform.Method.clickOnElement is PASSED&#xD;
+&#xD;
+2020-11-25 12:31:34 - [MESSAGE][PASSED] - platform.Method.clickOnElement is PASSED</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2020-11-25 12:22:34 - [TEST_SUITE][INCOMPLETE] - ROUTER_SSO: null</system-out>
+        <system-err>2020-11-25 12:22:34 - [TEST_SUITE][INCOMPLETE] - ROUTER_SSO: null</system-err>
+    </testsuite>
+</testsuites>

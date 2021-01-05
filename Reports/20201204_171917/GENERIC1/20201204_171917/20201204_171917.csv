@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GENERIC1,,,,2020-12-04 17:19:27,2020-12-04 17:19:33,6.446s,INCOMPLETE
+,,,,,,,
+Test Cases/Generic/botPageAndHeaderAccess_Test,,TestCase Agenda: To verify if navigation to header options is possible and  navigation back to home page,,2020-12-04 17:19:29,2020-12-04 17:19:30,1.016s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Dashboard""]))",,,,2020-12-04 17:19:29,2020-12-04 17:19:30,0.267s,ERROR
+,,,,,,,
+Test Cases/Generic/adminServiceKeyFunctionality_Test,,TestCase Agenda: To verify overview page service key functionality for user of type 'Admin',,2020-12-04 17:19:30,2020-12-04 17:19:31,1.090s,FAILED
+"mouseOver(findTestObject(""Generic/userInitials""))",,,,2020-12-04 17:19:30,2020-12-04 17:19:30,0.504s,FAILED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Enterprise profile""]))",,,,2020-12-04 17:19:30,2020-12-04 17:19:31,0.200s,ERROR
+,,,,,,,
+Test Cases/Generic/adminUserManagement_Test,,TestCase Agenda: Verify custom user creation by an 'Admin',,2020-12-04 17:19:31,2020-12-04 17:19:32,1.619s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Users""]))",,,,2020-12-04 17:19:32,2020-12-04 17:19:32,0.110s,ERROR
+,,,,,,,
+Test Cases/Generic/adminRoleManagement_Test,,TestCase Agenda: To verify role creation by Admin user,,2020-12-04 17:19:32,2020-12-04 17:19:33,0.419s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Roles""]))",,,,2020-12-04 17:19:33,2020-12-04 17:19:33,0.079s,ERROR
+,,,,,,,
+Test Cases/Generic/adminRoleDeletion_Test,,TestCase Agenda: To verify if user with role of 'Admin' can delete a custom created role,,2020-12-04 17:19:33,2020-12-04 17:19:33,0.365s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Roles""]))",,,,2020-12-04 17:19:33,2020-12-04 17:19:33,0.065s,ERROR

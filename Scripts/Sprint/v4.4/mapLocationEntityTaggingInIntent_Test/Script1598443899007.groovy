@@ -1,9 +1,7 @@
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
 import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.WebElement as WebElement
-
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
@@ -27,16 +25,19 @@ element.sendKeys(Keys.chord(Keys.CONTROL, 'a'))
 
 element.click()
 
-CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/entitySelection'))
+if (WebUI.verifyElementPresent(findTestObject('Generic/entitySelection'), 20, FailureHandling.OPTIONAL) == false) {
+    WebUI.verifyTextPresent('No entities found', false, FailureHandling.CONTINUE_ON_FAILURE)
+} else {
+    CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/entitySelection'))
 
-ArrayList entityOptions = WebUiCommonHelper.findWebElements(findTestObject('WEB_OBJECTS/getOptions'), 20)
+    ArrayList entityOptions = WebUiCommonHelper.findWebElements(findTestObject('WEB_OBJECTS/getOptions'), 20)
 
-//assert entityOptions.contains(testData.getValue('map_entity', 2)) == false
-for (WebElement value : entityOptions) {
-    assert value.getText().contentEquals(testData.getValue('map_entity', 2)) == false
+    for (WebElement value : entityOptions) {
+        assert value.getText().contentEquals(testData.getValue('map_entity', 2)) == false
+    }
+    
+    KeywordUtil.markPassed('*** Map location entity not found ***')
 }
-
-KeywordUtil.markPassed('*** Map location entity not found ***')
 
 CustomKeywords.'platform.Training.createNewEntityManually'(testData.getValue('map_entity', 3), ' Map location (whatsapp) ', 
     null)
@@ -51,7 +52,7 @@ WebUI.sendKeys(findTestObject('Input/finalTempKey'), findTestData('Data Files/te
         6 // final template value set from test data
         ))
 
-WebUI.executeJavaScript("document.getElementsByClassName(\'bg-red\')[0].classList.remove(\'bg-red\');", null)
+WebUI.executeJavaScript('document.getElementsByClassName(\'bg-red\')[0].classList.remove(\'bg-red\');', null)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/save', [('value') : ' Save ']))
 

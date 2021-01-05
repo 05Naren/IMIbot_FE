@@ -7,12 +7,20 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value>//span[text()='Downvote']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@class='feedback undefined' and @title='Not helpful']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[text()='Downvote']</value>
+   </webElementProperties>
 </WebElementEntity>

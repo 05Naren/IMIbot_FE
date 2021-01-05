@@ -75,4 +75,7 @@ WebUI.sendKeys(findTestObject('Input/roomID', [('value') : 'room_id']), roomID)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/filter'))
 
+testObject = WebUI.modifyObjectProperty(findTestObject('WEB_OBJECTS/textLink'), 'xpath', 'not equals', curXpath,
+	true, FailureHandling.OPTIONAL)
+
 WebUI.verifyElementPresent(testObject, 20, FailureHandling.STOP_ON_FAILURE)

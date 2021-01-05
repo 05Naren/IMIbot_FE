@@ -60,7 +60,7 @@ WebUI.comment(' *** SCENARIO 3 STARTED ***')
 WebUI.setText(findTestObject('Slots/retries', [('rowValue') : '1']), '6', FailureHandling.OPTIONAL // set value
     )
 
-WebUI.takeScreenshot((RunConfiguration.getProjectDir() + '/Screenshot/') + image_title)
+//WebUI.takeScreenshot((RunConfiguration.getProjectDir() + '/Screenshot/') + image_title)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/save', [('value') : ' Save ']))
 
@@ -73,3 +73,7 @@ CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/webObjec
 String retryValue = WebUI.executeJavaScript(getValue, null) 
 
 assert retryValue.toString().contentEquals('6') == true
+
+WebUI.comment(' *** Navigate out of intent ***')
+
+CustomKeywords.'platform.Method.clickOnElement'(findTestObject('NewRepo/intentGoBack'))

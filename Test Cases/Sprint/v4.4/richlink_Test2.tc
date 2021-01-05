@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Description: Addition and field level validation of richlink template
+
+Scenario 1: Validate richlink template on abc channel
+Given: User is on response designer
+When: User adds abc channel to response
+Then: User should be able to see richlink template
+ 
+Scenario 2: Validate field validation of richlink template
+Given: Richlink template is added
+When: User enter values of different type
+Then: Application should display inline alert for non-supported values and on empty</description>
+   <name>richlink_Test2</name>
+   <tag></tag>
+   <comment>**SCENARIO 1 -- STARTS**
+**VALIDATION COMPLETES**
+**SCENARIO 2 -- STARTS**</comment>
+   <testCaseGuid>ecbb96d6-bdf1-4e45-8cca-ae11ee192646</testCaseGuid>
+   <variable>
+      <defaultValue>'https://i.ytimg.com/vi/N-VkY-r0OZE/maxresdefault.jpg'</defaultValue>
+      <description></description>
+      <id>84d6377e-2030-4682-b1d9-27858d57aed1</id>
+      <masked>false</masked>
+      <name>img_url_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://www.apple.com/iphone-12/'</defaultValue>
+      <description></description>
+      <id>96b31e93-2030-4bef-bf99-094c0f9cf759</id>
+      <masked>false</masked>
+      <name>website_url</name>
+   </variable>
+</TestCaseEntity>

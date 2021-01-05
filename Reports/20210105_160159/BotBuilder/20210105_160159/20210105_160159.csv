@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BotBuilder,Chrome 87.0.4280.88,,,2021-01-05 16:02:07,2021-01-05 16:03:56,1m - 48.289s,INCOMPLETE
+,,,,,,,
+Test Cases/Connect-botbuilder/login_to_bot_builder,Chrome 87.0.4280.88,,,2021-01-05 16:02:28,2021-01-05 16:03:01,32.977s,PASSED
+"sendKeys(findTestObject(""BOTBUILDER/inputUserName""), CONNECT_USERNAME)",Chrome 87.0.4280.88,,,2021-01-05 16:02:30,2021-01-05 16:02:33,3.205s,PASSED
+"platform.Method.clickOnElement(findTestObject(""BOTBUILDER/btnNext""))",Chrome 87.0.4280.88,,,2021-01-05 16:02:33,2021-01-05 16:02:36,2.686s,PASSED
+"sendKeys(findTestObject(""BOTBUILDER/inputPassword""), CONNECT_PASSWORD)",Chrome 87.0.4280.88,,,2021-01-05 16:02:36,2021-01-05 16:02:38,2.796s,PASSED
+"platform.Method.clickOnElement(findTestObject(""BOTBUILDER/btnLogin""))",Chrome 87.0.4280.88,,,2021-01-05 16:02:38,2021-01-05 16:02:41,2.466s,PASSED
+currentWindow = getWebDriver().getWindowHandle(),Chrome 87.0.4280.88,,,2021-01-05 16:02:41,2021-01-05 16:02:42,1.018s,PASSED
+"mouseOver(findTestObject(""BOTBUILDER/iconAppTray""), CONTINUE_ON_FAILURE)",Chrome 87.0.4280.88,,,2021-01-05 16:02:42,2021-01-05 16:02:45,2.782s,PASSED
+"platform.Method.clickOnElement(findTestObject(""BOTBUILDER/linkBotBuilder""))",Chrome 87.0.4280.88,,,2021-01-05 16:02:45,2021-01-05 16:02:48,2.982s,PASSED
+allTabTitle = getWebDriver().getWindowHandles(),Chrome 87.0.4280.88,,,2021-01-05 16:02:48,2021-01-05 16:02:49,1.029s,PASSED
+windowIterator = allTabTitle.iterator(),Chrome 87.0.4280.88,,,2021-01-05 16:02:49,2021-01-05 16:02:49,0.051s,PASSED
+while (windowIterator.hasNext()),Chrome 87.0.4280.88,,,2021-01-05 16:02:49,2021-01-05 16:02:50,1.141s,PASSED
+"assert getTitle().contentEquals(""IMIbot.ai"") == true",Chrome 87.0.4280.88,,,2021-01-05 16:02:50,2021-01-05 16:02:54,3.567s,PASSED
+"verifyElementPresent(findTestObject(""Button/createBot""), 30, CONTINUE_ON_FAILURE)",Chrome 87.0.4280.88,,,2021-01-05 16:02:54,2021-01-05 16:03:01,7.740s,PASSED
+,,,,,,,
+Test Cases/FAQ_SSO/botCreation_Test,Chrome 87.0.4280.88,TestCase Agenda: To test faq bot creation,,2021-01-05 16:03:01,2021-01-05 16:03:26,24.343s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/createBot""))",Chrome 87.0.4280.88,,,2021-01-05 16:03:02,2021-01-05 16:03:05,2.773s,PASSED
+"sendKeys(findTestObject(""Input/botName""), nameOfTheBot)",Chrome 87.0.4280.88,,,2021-01-05 16:03:05,2021-01-05 16:03:08,2.756s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Toggle/feedback""))",Chrome 87.0.4280.88,,,2021-01-05 16:03:08,2021-01-05 16:03:10,2.484s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/done""))",Chrome 87.0.4280.88,,,2021-01-05 16:03:10,2021-01-05 16:03:13,2.671s,PASSED
+"waitForElementVisible(findTestObject(""Generic/articleState""), 60, OPTIONAL)",Chrome 87.0.4280.88,,,2021-01-05 16:03:13,2021-01-05 16:03:21,7.800s,PASSED
+"if (!(verifyElementText(findTestObject(""Generic/articleState""), ""Trained"", OPTIONAL)))",Chrome 87.0.4280.88,,,2021-01-05 16:03:21,2021-01-05 16:03:23,2.320s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/minimize""))",Chrome 87.0.4280.88,,,2021-01-05 16:03:23,2021-01-05 16:03:26,2.339s,PASSED
+,,,,,,,
+Test Cases/Connect-botbuilder/switch_to_dashboard,Chrome 87.0.4280.88,,,2021-01-05 16:03:26,2021-01-05 16:03:34,8.351s,PASSED
+"waitForElementVisible(findTestObject(""Generic/imiLogo""), 20, CONTINUE_ON_FAILURE)",Chrome 87.0.4280.88,,,2021-01-05 16:03:26,2021-01-05 16:03:29,2.375s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/imiLogo""))",Chrome 87.0.4280.88,,,2021-01-05 16:03:29,2021-01-05 16:03:31,2.389s,PASSED
+"waitForElementVisible(findTestObject(""Button/createBot""), 20, CONTINUE_ON_FAILURE)",Chrome 87.0.4280.88,,,2021-01-05 16:03:31,2021-01-05 16:03:34,2.818s,PASSED
+,,,,,,,
+Test Cases/TASK_SSO/botCreation_Test,Chrome 87.0.4280.88,TestCase Agenda: Verification of task bot creation,,2021-01-05 16:03:34,2021-01-05 16:03:56,21.698s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Task bots""]))",Chrome 87.0.4280.88,,,2021-01-05 16:03:34,2021-01-05 16:03:37,2.382s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/createBot""))",Chrome 87.0.4280.88,,,2021-01-05 16:03:37,2021-01-05 16:03:39,2.562s,PASSED
+"sendKeys(findTestObject(""Input/botName""), nameOfTheBot)",Chrome 87.0.4280.88,,,2021-01-05 16:03:39,2021-01-05 16:03:42,2.588s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Toggle/feedback""))",Chrome 87.0.4280.88,,,2021-01-05 16:03:42,2021-01-05 16:03:44,2.419s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/done""))",Chrome 87.0.4280.88,,,2021-01-05 16:03:44,2021-01-05 16:03:47,2.341s,PASSED
+"waitForElementVisible(findTestObject(""Generic/modelState""), 60, OPTIONAL)",Chrome 87.0.4280.88,,,2021-01-05 16:03:47,2021-01-05 16:03:53,6.086s,PASSED
+"if (!(verifyElementText(findTestObject(""Generic/modelState""), ""Trained"", OPTIONAL)))",Chrome 87.0.4280.88,,,2021-01-05 16:03:53,2021-01-05 16:03:56,2.945s,PASSED

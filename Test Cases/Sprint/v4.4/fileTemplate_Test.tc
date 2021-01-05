@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Scenario 1: Verify inline alert on url input field for file template (I've covered multiple test in this one test scenario)
+
+Given: User is on article creation page
+When: User adds a file type template
+And: User provides different type of data like spaces or url with spaces at start on input field
+Then: Application should display inline alert as per different condition</description>
+   <name>fileTemplate_Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a131cc9e-bc64-4dae-8884-2a80b9e684ec</testCaseGuid>
+</TestCaseEntity>

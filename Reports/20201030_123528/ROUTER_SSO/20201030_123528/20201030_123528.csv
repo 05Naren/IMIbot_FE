@@ -1,0 +1,107 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ROUTER_SSO,Chrome 86.0.4240.111,,,2020-10-30 12:35:40,2020-10-30 12:42:36,6m - 56.369s,INCOMPLETE
+,,,,,,,
+Test Cases/Routerbot/botCreation_Test,Chrome 86.0.4240.111,"TestCase Agenda: Verify if a user(Admin) can successfully create a router bot
+
+Step 1: Navigate to bot type
+Step 2: Click on create bot button and fill in details
+Step 3: Click on done button to complete creation process",,2020-10-30 12:36:27,2020-10-30 12:38:13,1m - 46.103s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Router bots""]))",Chrome 86.0.4240.111,,,2020-10-30 12:36:28,2020-10-30 12:36:32,4.385s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/createBot""))",Chrome 86.0.4240.111,,,2020-10-30 12:36:32,2020-10-30 12:36:36,4.183s,PASSED
+"sendKeys(findTestObject(""Input/botName""), nameOfTheBot)",Chrome 86.0.4240.111,,,2020-10-30 12:36:36,2020-10-30 12:36:39,2.820s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/smartContinueBtn""))",Chrome 86.0.4240.111,,,2020-10-30 12:36:39,2020-10-30 12:36:42,2.640s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/labelForChildBot""))",Chrome 86.0.4240.111,,,2020-10-30 12:36:42,2020-10-30 12:36:45,2.799s,PASSED
+"index = platform.Method.getIndexFromTheList(findTestObject(""NewRepo/listOfChildBots""), childBotName)",Chrome 86.0.4240.111,,,2020-10-30 12:36:45,2020-10-30 12:37:05,20.250s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/childBotCheckbox"", [""index"":index]))",Chrome 86.0.4240.111,,,2020-10-30 12:37:05,2020-10-30 12:37:07,2.350s,PASSED
+"newIndex = platform.Method.getIndexFromTheList(findTestObject(""NewRepo/listOfChildBots""), childBotName2)",Chrome 86.0.4240.111,,,2020-10-30 12:37:07,2020-10-30 12:38:03,56.057s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/childBotCheckbox"", [""index"":newIndex]))",Chrome 86.0.4240.111,,,2020-10-30 12:38:03,2020-10-30 12:38:06,2.374s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Toggle/feedback""))",Chrome 86.0.4240.111,,,2020-10-30 12:38:06,2020-10-30 12:38:08,2.449s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/smartContinueBtn""))",Chrome 86.0.4240.111,,,2020-10-30 12:38:08,2020-10-30 12:38:11,2.452s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/done""))",Chrome 86.0.4240.111,,,2020-10-30 12:38:11,2020-10-30 12:38:13,2.780s,PASSED
+,,,,,,,
+Test Cases/Routerbot/sideOptionsNavigation_Test,Chrome 86.0.4240.111,TestCase Agenda: Verify if all side bar navigation is possible,,2020-10-30 12:38:13,2020-10-30 12:38:49,35.175s,PASSED
+"waitForElementVisible(findTestObject(""ICONS/sidebarSettings""), 20, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 12:38:14,2020-10-30 12:38:24,9.214s,PASSED
+"platform.Method.clickOnElement(findTestObject(""ICONS/sidebarSettings""))",Chrome 86.0.4240.111,,,2020-10-30 12:38:24,2020-10-30 12:38:26,2.209s,PASSED
+"verifyTextPresent(""Bot configuration"", false, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 12:38:26,2020-10-30 12:38:29,3.021s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/nlp""))",Chrome 86.0.4240.111,,,2020-10-30 12:38:29,2020-10-30 12:38:32,3.109s,PASSED
+delay(1),Chrome 86.0.4240.111,,,2020-10-30 12:38:32,2020-10-30 12:38:33,1.146s,PASSED
+"verifyTextPresent(""Input recognition"", false, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 12:38:33,2020-10-30 12:38:36,2.872s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/logic""))",Chrome 86.0.4240.111,,,2020-10-30 12:38:36,2020-10-30 12:38:38,2.415s,PASSED
+delay(1),Chrome 86.0.4240.111,,,2020-10-30 12:38:38,2020-10-30 12:38:40,1.016s,PASSED
+"verifyTextPresent(""Logic"", false, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 12:38:40,2020-10-30 12:38:42,2.642s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/session""))",Chrome 86.0.4240.111,,,2020-10-30 12:38:42,2020-10-30 12:38:45,2.838s,PASSED
+delay(1),Chrome 86.0.4240.111,,,2020-10-30 12:38:45,2020-10-30 12:38:46,1.010s,PASSED
+"verifyTextPresent(""Conversations"", false, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 12:38:46,2020-10-30 12:38:49,2.567s,PASSED
+,,,,,,,
+Test Cases/Routerbot/nlpConceptCreation_Test,Chrome 86.0.4240.111,TestCase Agenda: To add module and create concept on a router bot,,2020-10-30 12:38:49,2020-10-30 12:39:52,1m - 3.426s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/nlp""))",Chrome 86.0.4240.111,,,2020-10-30 12:38:54,2020-10-30 12:38:57,2.684s,PASSED
+platform.NLP.addCustom_NER(),Chrome 86.0.4240.111,,,2020-10-30 12:38:57,2020-10-30 12:39:12,15.301s,PASSED
+"platform.NLP.createConcept(conceptName, fileName)",Chrome 86.0.4240.111,,,2020-10-30 12:39:12,2020-10-30 12:39:27,14.725s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/conceptBackBtn""))",Chrome 86.0.4240.111,,,2020-10-30 12:39:27,2020-10-30 12:39:29,2.355s,PASSED
+"verifyTextPresent(conceptName, false, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 12:39:29,2020-10-30 12:39:32,2.759s,PASSED
+"platform.NLP.createConcept(conceptName2, fileName2)",Chrome 86.0.4240.111,,,2020-10-30 12:39:32,2020-10-30 12:39:47,15.076s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/conceptBackBtn""))",Chrome 86.0.4240.111,,,2020-10-30 12:39:47,2020-10-30 12:39:49,2.360s,PASSED
+"verifyTextPresent(conceptName2, false, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 12:39:49,2020-10-30 12:39:52,2.741s,PASSED
+,,,,,,,
+Test Cases/Routerbot/ruleConfiguration_Test,Chrome 86.0.4240.111,TestCase Agenda: Verify if router bot's rule can be updated,,2020-10-30 12:39:52,2020-10-30 12:40:30,37.760s,FAILED
+"platform.Method.clickOnElement(findTestObject(""Generic/logic""))",Chrome 86.0.4240.111,,,2020-10-30 12:39:52,2020-10-30 12:39:55,2.508s,PASSED
+"testData = findTestData(""Data Files/testData_Router"")",Chrome 86.0.4240.111,,,2020-10-30 12:39:55,2020-10-30 12:39:56,0.625s,PASSED
+"setText(findTestObject(""NewRepo/leftVariable"", [""index"":1]), testData.getValue(""left_variable"", 1))",Chrome 86.0.4240.111,,,2020-10-30 12:39:56,2020-10-30 12:40:00,4.024s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Exists""]))",Chrome 86.0.4240.111,,,2020-10-30 12:40:00,2020-10-30 12:40:02,2.280s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Equals to""]))",Chrome 86.0.4240.111,,,2020-10-30 12:40:02,2020-10-30 12:40:04,2.471s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Reply with message""]))",Chrome 86.0.4240.111,,,2020-10-30 12:40:04,2020-10-30 12:40:07,2.391s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Route to child bot""]))",Chrome 86.0.4240.111,,,2020-10-30 12:40:07,2020-10-30 12:40:09,2.327s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/destinationBot"", [""index"":1]))",Chrome 86.0.4240.111,,,2020-10-30 12:40:09,2020-10-30 12:40:11,2.341s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""BankBot 2020""]))",Chrome 86.0.4240.111,,,2020-10-30 12:40:11,2020-10-30 12:40:14,2.453s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/updateRules""))",Chrome 86.0.4240.111,,,2020-10-30 12:40:14,2020-10-30 12:40:16,2.397s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 86.0.4240.111,,,2020-10-30 12:40:16,2020-10-30 12:40:19,2.470s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(""How do I report a suspected fraud?"", ENTER))",Chrome 86.0.4240.111,,,2020-10-30 12:40:19,2020-10-30 12:40:22,2.903s,PASSED
+"waitForElementVisible(findTestObject(""GenericII/getBotResponse"", [""index"":1]), 20, OPTIONAL)",Chrome 86.0.4240.111,,,2020-10-30 12:40:22,2020-10-30 12:40:24,2.432s,PASSED
+"verifyElementText(findTestObject(""GenericII/getBotResponse"", [""index"":1]), testData.getValue(""bankbot_answer"", 1), STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 12:40:24,2020-10-30 12:40:30,5.628s,FAILED
+,,,,,,,
+Test Cases/Routerbot/ruleAddition_Test,Chrome 86.0.4240.111,TestCase Agenda: Verify if a single rule present in an router bot's logic can be deleted,,2020-10-30 12:40:30,2020-10-30 12:41:08,38.667s,FAILED
+"platform.Method.clickOnElement(findTestObject(""Generic/logic""))",Chrome 86.0.4240.111,,,2020-10-30 12:40:32,2020-10-30 12:40:34,2.177s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/addRule""))",Chrome 86.0.4240.111,,,2020-10-30 12:40:34,2020-10-30 12:40:36,2.422s,PASSED
+"setText(findTestObject(""NewRepo/leftVariable"", [""index"":2]), leftVariable)",Chrome 86.0.4240.111,,,2020-10-30 12:40:36,2020-10-30 12:40:40,3.985s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""string""]))",Chrome 86.0.4240.111,,,2020-10-30 12:40:40,2020-10-30 12:40:43,2.381s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":"" boolean ""]))",Chrome 86.0.4240.111,,,2020-10-30 12:40:43,2020-10-30 12:40:45,2.305s,PASSED
+"setText(findTestObject(""NewRepo/rightVariable"", [""index"":2]), rightVariable)",Chrome 86.0.4240.111,,,2020-10-30 12:40:45,2020-10-30 12:40:48,3.610s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/destinationBot"", [""index"":2]))",Chrome 86.0.4240.111,,,2020-10-30 12:40:48,2020-10-30 12:40:51,2.406s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":childBotName]))",Chrome 86.0.4240.111,,,2020-10-30 12:40:51,2020-10-30 12:40:53,2.381s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/updateRules""))",Chrome 86.0.4240.111,,,2020-10-30 12:40:53,2020-10-30 12:40:55,2.274s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 86.0.4240.111,,,2020-10-30 12:40:55,2020-10-30 12:40:58,2.352s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(userQuery, ENTER))",Chrome 86.0.4240.111,,,2020-10-30 12:40:58,2020-10-30 12:41:01,2.855s,PASSED
+"waitForElementVisible(findTestObject(""GenericII/getBotResponse"", [""index"":1]), 20, OPTIONAL)",Chrome 86.0.4240.111,,,2020-10-30 12:41:01,2020-10-30 12:41:03,2.334s,PASSED
+"verifyElementText(findTestObject(""GenericII/getBotResponse"", [""index"":1]), botResponse, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 12:41:03,2020-10-30 12:41:08,5.453s,FAILED
+,,,,,,,
+Test Cases/Routerbot/feedbackFunctionality_Test,Chrome 86.0.4240.111,"TestCase Agenda: Verify if user is able to provide feedback on bot response
+
+Step 1: Navigate to bot 
+Step 2: Preview bot and provide feedback on bot response
+Step 3: Store session ID to filter it on session
+Step 4: Filter the session with session ID
+Step 5: Go to session, verify feedback
+Step 3: Query bot and verify bot returned response",,2020-10-30 12:41:09,2020-10-30 12:41:33,24.724s,FAILED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 86.0.4240.111,,,2020-10-30 12:41:10,2020-10-30 12:41:13,2.927s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(userQuery1, ENTER))",Chrome 86.0.4240.111,,,2020-10-30 12:41:13,2020-10-30 12:41:16,2.812s,PASSED
+delay(2),Chrome 86.0.4240.111,,,2020-10-30 12:41:16,2020-10-30 12:41:18,2.009s,PASSED
+platform.Preview.downvoteResponseWithComment(comment),Chrome 86.0.4240.111,,,2020-10-30 12:41:18,2020-10-30 12:41:33,15.221s,FAILED
+,,,,,,,
+Test Cases/Routerbot/consumerIDVerificationInChildbots_Test,Chrome 86.0.4240.111,"TestCase Agenda: To verify same consumer id in child bots after preview in router bot
+
+Step 1: Navigate to child bots
+Step 2: Verify consumer id in sessions",,2020-10-30 12:41:33,2020-10-30 12:42:12,38.768s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/imiLogo""))",Chrome 86.0.4240.111,,,2020-10-30 12:41:35,2020-10-30 12:41:37,2.380s,PASSED
+"waitForElementVisible(findTestObject(""Button/createBot""), 20, OPTIONAL)",Chrome 86.0.4240.111,,,2020-10-30 12:41:37,2020-10-30 12:41:49,11.961s,PASSED
+"platform.Method.navigateToBot(""Q&A bots"", CHILD_BOT)",Chrome 86.0.4240.111,,,2020-10-30 12:41:49,2020-10-30 12:41:56,6.992s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/session""))",Chrome 86.0.4240.111,,,2020-10-30 12:41:56,2020-10-30 12:42:00,3.319s,PASSED
+platform.Session.searchByConsumerID(consumerID),Chrome 86.0.4240.111,,,2020-10-30 12:42:00,2020-10-30 12:42:06,5.996s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":consumerID]))",Chrome 86.0.4240.111,,,2020-10-30 12:42:06,2020-10-30 12:42:12,6.406s,ERROR
+,,,,,,,
+Test Cases/Pipelinebot/verify_pipeline_bot_creation,Chrome 86.0.4240.111,TestCase Agenda: Verify creation of a pipeline bot,,2020-10-30 12:42:12,2020-10-30 12:42:36,23.944s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/imiLogo""))",Chrome 86.0.4240.111,,,2020-10-30 12:42:13,2020-10-30 12:42:15,2.320s,PASSED
+"waitForElementVisible(findTestObject(""Button/createBot""), 20, OPTIONAL)",Chrome 86.0.4240.111,,,2020-10-30 12:42:15,2020-10-30 12:42:25,9.916s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Pipeline bots""]))",Chrome 86.0.4240.111,,,2020-10-30 12:42:25,2020-10-30 12:42:28,3.098s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/createBot""))",Chrome 86.0.4240.111,,,2020-10-30 12:42:28,2020-10-30 12:42:31,2.874s,PASSED
+"sendKeys(findTestObject(""Input/botName""), nameOfTheBot)",Chrome 86.0.4240.111,,,2020-10-30 12:42:31,2020-10-30 12:42:34,2.678s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/done""))",Chrome 86.0.4240.111,,,2020-10-30 12:42:34,2020-10-30 12:42:36,2.417s,PASSED

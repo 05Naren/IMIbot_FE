@@ -35,10 +35,10 @@ CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/preview')
 WebUI.sendKeys(findTestObject('Input/chatInput'), Keys.chord('How do I report a suspected fraud?', Keys.ENTER // hardcoded question
         ))
 
-WebUI.waitForElementVisible(findTestObject('GenericII/getBotResponse', [('index') : 1]), 20, FailureHandling.OPTIONAL)
+WebUI.waitForElementVisible(findTestObject('GenericII/getBotResponse', [('index') : 2]), 20, FailureHandling.OPTIONAL)
 
-WebUI.verifyElementText(findTestObject('GenericII/getBotResponse', [('index') : 1]), testData.getValue('bankbot_answer', 
-        1), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('GenericII/getBotResponse', [('index') : 2]), testData.getValue('bankbot_answer', 
+        1), FailureHandling.CONTINUE_ON_FAILURE)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('GenericII/minimize'))
 

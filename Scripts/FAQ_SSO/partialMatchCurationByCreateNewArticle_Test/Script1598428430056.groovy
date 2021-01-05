@@ -10,7 +10,7 @@ import internal.GlobalVariable as GlobalVariable
 
 /*WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [:], FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'platform.Method.navigateToBot'('Q&A bots', GlobalVariable.FAQ_BOT)
+CustomKeywords.'platform.Method.navigateToBot'('Q&A bots', GlobalVariable.FAQ_BOT_BOT)
 */
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/articles'))
 
@@ -61,7 +61,7 @@ catch (StaleElementReferenceException ex) {
     CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/addToNewArticle'))
 } 
 
-WebUI.sendKeys(findTestObject('Input/textResponse'), newArticleResponse)
+WebUI.setText(findTestObject('Input/textResponse'), newArticleResponse)
 
 CustomKeywords.'platform.Articles.saveAndTrainArticleToExistingCategory'((' ' + saveArticleTo) + ' ')
 

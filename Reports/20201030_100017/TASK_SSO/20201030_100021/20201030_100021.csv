@@ -1,0 +1,210 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TASK_SSO,Chrome 86.0.4240.111,,,2020-10-30 10:00:42,2020-10-30 10:20:56,20m - 13.668s,INCOMPLETE
+,,,,,,,
+Test Cases/TASK_SSO/botCreation_Test,Chrome 86.0.4240.111,TestCase Agenda: Verification of task bot creation,,2020-10-30 10:02:23,2020-10-30 10:03:16,52.786s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Task bots""]))",Chrome 86.0.4240.111,,,2020-10-30 10:02:26,2020-10-30 10:02:33,7.339s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/createBot""))",Chrome 86.0.4240.111,,,2020-10-30 10:02:33,2020-10-30 10:02:36,2.793s,PASSED
+"sendKeys(findTestObject(""Input/botName""), nameOfTheBot)",Chrome 86.0.4240.111,,,2020-10-30 10:02:36,2020-10-30 10:02:38,2.397s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Toggle/feedback""))",Chrome 86.0.4240.111,,,2020-10-30 10:02:38,2020-10-30 10:02:40,2.336s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/done""))",Chrome 86.0.4240.111,,,2020-10-30 10:02:40,2020-10-30 10:02:44,3.453s,PASSED
+"waitForElementVisible(findTestObject(""Generic/modelState""), 60, OPTIONAL)",Chrome 86.0.4240.111,,,2020-10-30 10:02:44,2020-10-30 10:03:12,27.874s,PASSED
+"if (!(verifyElementText(findTestObject(""Generic/modelState""), ""Trained"", OPTIONAL)))",Chrome 86.0.4240.111,,,2020-10-30 10:03:12,2020-10-30 10:03:16,4.137s,PASSED
+,,,,,,,
+Test Cases/TASK_SSO/botCardPreview_Test,Chrome 86.0.4240.111,TestCase Agenda: Verify if preview is working for task bot,,2020-10-30 10:03:16,2020-10-30 10:05:39,2m - 23.119s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/imiLogo""))",Chrome 86.0.4240.111,,,2020-10-30 10:03:16,2020-10-30 10:03:19,2.775s,PASSED
+"waitForElementVisible(findTestObject(""Button/createBot""), 20, OPTIONAL)",Chrome 86.0.4240.111,,,2020-10-30 10:03:19,2020-10-30 10:03:40,20.504s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Task bots""]))",Chrome 86.0.4240.111,,,2020-10-30 10:03:40,2020-10-30 10:03:45,5.561s,PASSED
+"waitForElementVisible(findTestObject(""Button/createBot""), 20, OPTIONAL)",Chrome 86.0.4240.111,,,2020-10-30 10:03:45,2020-10-30 10:03:48,2.459s,PASSED
+"platform.Preview.startBotCardPreview(""Task bots"", TASK_BOT)",Chrome 86.0.4240.111,,,2020-10-30 10:03:48,2020-10-30 10:05:07,1m - 18.926s,PASSED
+"waitForElementPresent(findTestObject(""Input/chatInput""), 5, OPTIONAL)",Chrome 86.0.4240.111,,,2020-10-30 10:05:07,2020-10-30 10:05:10,3.418s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(userQuery, ENTER), STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:05:10,2020-10-30 10:05:18,8.271s,PASSED
+delay(3),Chrome 86.0.4240.111,,,2020-10-30 10:05:18,2020-10-30 10:05:23,4.847s,PASSED
+platform.Preview.verifyBotResponse(stringToCheck),Chrome 86.0.4240.111,,,2020-10-30 10:05:23,2020-10-30 10:05:36,12.873s,PASSED
+"platform.Method.clickOnElement(findTestObject(""GenericII/minimize""))",Chrome 86.0.4240.111,,,2020-10-30 10:05:36,2020-10-30 10:05:39,2.862s,PASSED
+,,,,,,,
+Test Cases/TASK_SSO/botCardMenu_Test,Chrome 86.0.4240.111,TestCase Agenda: Verify bot card option for task bot,,2020-10-30 10:05:40,2020-10-30 10:07:16,1m - 35.763s,PASSED
+"botCardOptions = platform.Method.verifyBotCardMenu(""Task bots"", TASK_BOT)",Chrome 86.0.4240.111,,,2020-10-30 10:05:48,2020-10-30 10:06:12,23.990s,PASSED
+"verifyElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Copy Preview Link""]), 5, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:06:12,2020-10-30 10:06:16,3.422s,PASSED
+assert botCardOptions.containsAll(BOT_CARD_OPTION) == true,Chrome 86.0.4240.111,,,2020-10-30 10:06:16,2020-10-30 10:06:16,0.668s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":TASK_BOT]))",Chrome 86.0.4240.111,,,2020-10-30 10:06:16,2020-10-30 10:06:22,5.297s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Bot configuration""]), 10, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:06:22,2020-10-30 10:06:27,5.514s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/nlp""))",Chrome 86.0.4240.111,,,2020-10-30 10:06:27,2020-10-30 10:06:42,14.580s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Input recognition""]), 10, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:06:42,2020-10-30 10:06:44,2.392s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/training""))",Chrome 86.0.4240.111,,,2020-10-30 10:06:44,2020-10-30 10:06:48,3.561s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Training data""]), 10, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:06:48,2020-10-30 10:06:49,1.719s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/response""))",Chrome 86.0.4240.111,,,2020-10-30 10:06:50,2020-10-30 10:06:53,3.813s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Responses""]), 10, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:06:53,2020-10-30 10:06:57,3.530s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/curation""))",Chrome 86.0.4240.111,,,2020-10-30 10:06:57,2020-10-30 10:07:03,5.786s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Unresolved issues""]), 10, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:07:03,2020-10-30 10:07:06,3.286s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/session""))",Chrome 86.0.4240.111,,,2020-10-30 10:07:06,2020-10-30 10:07:10,4.085s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Conversations""]), 10, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:07:10,2020-10-30 10:07:11,1.204s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""History""]))",Chrome 86.0.4240.111,,,2020-10-30 10:07:11,2020-10-30 10:07:14,2.544s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""History""]), 10, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:07:14,2020-10-30 10:07:16,1.882s,PASSED
+,,,,,,,
+Test Cases/TASK_SSO/sideNavigation_Test,Chrome 86.0.4240.111,TestCase Agenda: To verify if the module on side navigation is accessible to user(Admin),,2020-10-30 10:07:16,2020-10-30 10:08:08,51.918s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":TASK_BOT]))",Chrome 86.0.4240.111,,,2020-10-30 10:07:18,2020-10-30 10:07:20,2.587s,PASSED
+"waitForElementVisible(findTestObject(""ICONS/sidebarSettings""), 20, OPTIONAL)",Chrome 86.0.4240.111,,,2020-10-30 10:07:20,2020-10-30 10:07:23,2.800s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Bot configuration""]), 10, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:07:23,2020-10-30 10:07:35,11.994s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/nlp""))",Chrome 86.0.4240.111,,,2020-10-30 10:07:35,2020-10-30 10:07:38,2.792s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Input recognition""]), 10, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:07:38,2020-10-30 10:07:40,1.722s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/training""))",Chrome 86.0.4240.111,,,2020-10-30 10:07:40,2020-10-30 10:07:44,4.034s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Training data""]), 10, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:07:44,2020-10-30 10:07:45,1.597s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/response""))",Chrome 86.0.4240.111,,,2020-10-30 10:07:45,2020-10-30 10:07:48,2.771s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Responses""]), 10, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:07:48,2020-10-30 10:07:50,2.076s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/curation""))",Chrome 86.0.4240.111,,,2020-10-30 10:07:50,2020-10-30 10:07:54,3.943s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Unresolved issues""]), 10, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:07:54,2020-10-30 10:07:56,1.433s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/session""))",Chrome 86.0.4240.111,,,2020-10-30 10:07:56,2020-10-30 10:07:59,2.920s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Conversations""]), 10, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:07:59,2020-10-30 10:08:01,2.609s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""History""]))",Chrome 86.0.4240.111,,,2020-10-30 10:08:01,2020-10-30 10:08:04,3.140s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""History""]), 10, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:08:04,2020-10-30 10:08:08,3.256s,PASSED
+,,,,,,,
+Test Cases/TASK_SSO/createRichDynamicResponse_Test,Chrome 86.0.4240.111,"TestCase Agenda: To verify creation of rich and dynamic response for the intent
+
+Step 1: Go to response module
+Step 2: Create rich & dynamic response template to be used in intent",,2020-10-30 10:08:08,2020-10-30 10:11:12,3m - 3.977s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/response""))",Chrome 86.0.4240.111,,,2020-10-30 10:08:10,2020-10-30 10:08:14,3.489s,PASSED
+"testData = findTestData(""Data Files/testData_Task"")",Chrome 86.0.4240.111,,,2020-10-30 10:08:14,2020-10-30 10:08:46,32.257s,PASSED
+"platform.Response.createRichResponse(testData.getValue(""rich_template"", 1), testData.getValue(""rich_template_value"", 1))",Chrome 86.0.4240.111,,,2020-10-30 10:08:46,2020-10-30 10:09:11,25.330s,PASSED
+"platform.Response.createRichResponse(testData.getValue(""rich_template"", 2), testData.getValue(""rich_template_value"", 2))",Chrome 86.0.4240.111,,,2020-10-30 10:09:11,2020-10-30 10:09:30,18.159s,PASSED
+"platform.Response.createRichResponse(testData.getValue(""rich_template"", 3), testData.getValue(""rich_template_value"", 3))",Chrome 86.0.4240.111,,,2020-10-30 10:09:30,2020-10-30 10:10:01,31.135s,PASSED
+"platform.Response.createRichResponse(testData.getValue(""rich_template"", 5), testData.getValue(""rich_template_value"", 5))",Chrome 86.0.4240.111,,,2020-10-30 10:10:01,2020-10-30 10:10:19,18.561s,PASSED
+"platform.Response.createDynamicResponse(testData.getValue(""dynamic_template"", 1), testData.getValue(""dynamic_template_file"", 1))",Chrome 86.0.4240.111,,,2020-10-30 10:10:19,2020-10-30 10:10:43,23.556s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Welcome message ""]), 20, OPTIONAL)",Chrome 86.0.4240.111,,,2020-10-30 10:10:43,2020-10-30 10:10:44,1.348s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Welcome message ""]))",Chrome 86.0.4240.111,,,2020-10-30 10:10:44,2020-10-30 10:10:47,2.929s,PASSED
+"platform.Response.createDynamicResponse(testData.getValue(""dynamic_template"", 2), testData.getValue(""dynamic_template_file"", 2))",Chrome 86.0.4240.111,,,2020-10-30 10:10:47,2020-10-30 10:11:09,21.381s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 20, OPTIONAL)",Chrome 86.0.4240.111,,,2020-10-30 10:11:09,2020-10-30 10:11:12,3.036s,PASSED
+,,,,,,,
+Test Cases/TASK_SSO/entitiesCreationAndUpdate_Test,Chrome 86.0.4240.111,TestCase Agenda: Verify custom entity creation process,,2020-10-30 10:11:12,2020-10-30 10:13:59,2m - 47.544s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/training""))",Chrome 86.0.4240.111,,,2020-10-30 10:11:15,2020-10-30 10:11:18,3.689s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Entities""]))",Chrome 86.0.4240.111,,,2020-10-30 10:11:18,2020-10-30 10:11:21,2.544s,PASSED
+"testData = findTestData(""Data Files/testData_Task"")",Chrome 86.0.4240.111,,,2020-10-30 10:11:21,2020-10-30 10:11:24,2.745s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/createEntity""))",Chrome 86.0.4240.111,,,2020-10-30 10:11:24,2020-10-30 10:11:26,2.596s,PASSED
+"platform.Training.createEntity(""city name"", "" Custom list "", ""mumbai"")",Chrome 86.0.4240.111,,,2020-10-30 10:11:26,2020-10-30 10:12:02,35.254s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/createEntity""))",Chrome 86.0.4240.111,,,2020-10-30 10:12:02,2020-10-30 10:12:06,4.675s,PASSED
+"platform.Training.createEntity(""date"", "" Date "", null)",Chrome 86.0.4240.111,,,2020-10-30 10:12:06,2020-10-30 10:12:20,13.362s,PASSED
+"for ([count = 2, count <= testData.getRowNumbers(), (count++)])",Chrome 86.0.4240.111,,,2020-10-30 10:12:20,2020-10-30 10:13:11,51.720s,PASSED
+"waitForElementPresent(findTestObject(""Generic/webObjectWithText"", [""textValue"":""city name""]), 15, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:13:11,2020-10-30 10:13:13,1.374s,PASSED
+"platform.Training.editEntity(""city name"")",Chrome 86.0.4240.111,,,2020-10-30 10:13:13,2020-10-30 10:13:23,10.171s,PASSED
+"testObject = modifyObjectProperty(findTestObject(""Input/entityName""), ""formcontrolname"", ""equals"", ""name"", true, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:13:23,2020-10-30 10:13:24,0.515s,PASSED
+"setText(testObject, testData.getValue(""entity_name"", 1))",Chrome 86.0.4240.111,,,2020-10-30 10:13:24,2020-10-30 10:13:27,3.525s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/importIcon""))",Chrome 86.0.4240.111,,,2020-10-30 10:13:27,2020-10-30 10:13:29,2.444s,PASSED
+"platform.Method.uploadCsvFile(true, testData.getValue(""custom_entity_file"", 1))",Chrome 86.0.4240.111,,,2020-10-30 10:13:29,2020-10-30 10:13:39,9.358s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/save"", [""value"":"" Save ""]))",Chrome 86.0.4240.111,,,2020-10-30 10:13:39,2020-10-30 10:13:42,2.722s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 15, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:13:42,2020-10-30 10:13:43,1.828s,PASSED
+"assert getText().contentEquals(""store_name"") == true",Chrome 86.0.4240.111,,,2020-10-30 10:13:43,2020-10-30 10:13:46,2.567s,PASSED
+"platform.Method.trainAndComment(testData.getValue(""comment"", 2))",Chrome 86.0.4240.111,,,2020-10-30 10:13:46,2020-10-30 10:13:58,11.856s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 15, OPTIONAL)",Chrome 86.0.4240.111,,,2020-10-30 10:13:58,2020-10-30 10:13:59,1.401s,PASSED
+,,,,,,,
+Test Cases/TASK_SSO/createIntentAndEditEntity_Test,Chrome 86.0.4240.111,"TestCase Agenda: Verify if entity gets recognised when user adds an utterance
+
+Step 1: Create an intent with entity in utterance
+Step 2: Verify entity in the slot",,2020-10-30 10:13:59,2020-10-30 10:15:31,1m - 32.058s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Intents""]))",Chrome 86.0.4240.111,,,2020-10-30 10:14:01,2020-10-30 10:14:04,3.228s,PASSED
+"testData = findTestData(""Data Files/testData_Task"")",Chrome 86.0.4240.111,,,2020-10-30 10:14:04,2020-10-30 10:14:05,0.714s,PASSED
+"platform.Training.addMultipleUtterance(testData, ""track_order_utterance"")",Chrome 86.0.4240.111,,,2020-10-30 10:14:05,2020-10-30 10:14:39,33.891s,PASSED
+"sendKeys(findTestObject(""Input/intentName""), testData.getValue(""intent_name"", 3))",Chrome 86.0.4240.111,,,2020-10-30 10:14:39,2020-10-30 10:14:42,2.879s,PASSED
+"verifyElementText(findTestObject(""Slots/entityValue"", [""rowValue"":1]), ""order_id"", STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:14:42,2020-10-30 10:14:44,2.364s,PASSED
+"sendKeys(findTestObject(""Input/finalTempKey""), ""order_status_template"")",Chrome 86.0.4240.111,,,2020-10-30 10:14:44,2020-10-30 10:14:48,3.687s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/save"", [""value"":"" Save ""]))",Chrome 86.0.4240.111,,,2020-10-30 10:14:48,2020-10-30 10:14:50,2.538s,PASSED
+"verifyElementText(findTestObject(""Generic/header""), ""track_order"", STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:14:50,2020-10-30 10:14:53,2.710s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/intentGoBack""))",Chrome 86.0.4240.111,,,2020-10-30 10:14:53,2020-10-30 10:14:56,2.849s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Entities""]))",Chrome 86.0.4240.111,,,2020-10-30 10:14:56,2020-10-30 10:14:59,2.789s,PASSED
+"platform.Training.editEntity(""product_names"")",Chrome 86.0.4240.111,,,2020-10-30 10:14:59,2020-10-30 10:15:07,8.430s,PASSED
+"sendKeys(findTestObject(""Input/synonyms"", [""index"":1]), Keys.chord(""wooden chair"", ENTER))",Chrome 86.0.4240.111,,,2020-10-30 10:15:07,2020-10-30 10:15:11,4.143s,PASSED
+"sendKeys(findTestObject(""Input/synonyms"", [""index"":1]), Keys.chord(""plastic chair"", ENTER))",Chrome 86.0.4240.111,,,2020-10-30 10:15:11,2020-10-30 10:15:14,2.808s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/importIcon""))",Chrome 86.0.4240.111,,,2020-10-30 10:15:14,2020-10-30 10:15:17,2.667s,PASSED
+"platform.Method.uploadCsvFile(false, testData.getValue(""custom_entity_file"", 2))",Chrome 86.0.4240.111,,,2020-10-30 10:15:17,2020-10-30 10:15:23,6.053s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/btnDeleteChipOrRow"", [""chipValue"":"" plastic chair "", ""option"":""cancel""]))",Chrome 86.0.4240.111,,,2020-10-30 10:15:23,2020-10-30 10:15:25,2.570s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/btnDeleteChipOrRow"", [""chipValue"":"" wooden chair "", ""option"":""close ""]))",Chrome 86.0.4240.111,,,2020-10-30 10:15:25,2020-10-30 10:15:28,2.329s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/save"", [""value"":"" Save ""]))",Chrome 86.0.4240.111,,,2020-10-30 10:15:28,2020-10-30 10:15:30,2.270s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 20, OPTIONAL)",Chrome 86.0.4240.111,,,2020-10-30 10:15:30,2020-10-30 10:15:31,1.582s,PASSED
+,,,,,,,
+Test Cases/TASK_SSO/intentWithResponseCreation_Test,Chrome 86.0.4240.111,"TestCase Agenda: Verify if user can create an intent along with response from intent page
+
+Step 1: Create an intent
+Step 2: Response creation from intent page
+Step 3: Verify created response on Response module",,2020-10-30 10:15:31,2020-10-30 10:16:25,53.866s,FAILED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Intents""]))",Chrome 86.0.4240.111,,,2020-10-30 10:15:32,2020-10-30 10:15:34,2.291s,PASSED
+"platform.Training.addMultipleUtterance(findTestData(""Data Files/testData_Task""), ""first_intent_utterance"")",Chrome 86.0.4240.111,,,2020-10-30 10:15:34,2020-10-30 10:16:08,33.370s,PASSED
+"sendKeys(findTestObject(""Input/intentName""), findTestData(""Data Files/testData_Task"").getValue(""intent_name"", 1))",Chrome 86.0.4240.111,,,2020-10-30 10:16:08,2020-10-30 10:16:11,3.577s,PASSED
+"check(findTestObject(""Slots/checkbox"", [""rowValue"":1]))",Chrome 86.0.4240.111,,,2020-10-30 10:16:11,2020-10-30 10:16:25,13.899s,FAILED
+,,,,,,,
+Test Cases/TASK_SSO/updateResponse_Test,Chrome 86.0.4240.111,"TestCase Agenda: Verify if user can update a response type
+
+Step 1: Create an intent with instant response(text: default)
+Step 2: Go to response, convert it to dynamic and save it
+Step 3: Preview",,2020-10-30 10:16:25,2020-10-30 10:16:35,9.977s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/training""))",Chrome 86.0.4240.111,,,2020-10-30 10:16:26,2020-10-30 10:16:28,2.225s,PASSED
+"testData = findTestData(""Data Files/testData_Task"")",Chrome 86.0.4240.111,,,2020-10-30 10:16:28,2020-10-30 10:16:29,0.359s,PASSED
+"platform.Training.addMultipleUtterance(testData, ""stock_check_utterance"")",Chrome 86.0.4240.111,,,2020-10-30 10:16:29,2020-10-30 10:16:35,6.635s,ERROR
+,,,,,,,
+Test Cases/TASK_SSO/downvoteWithComment_Test,Chrome 86.0.4240.111,,,2020-10-30 10:16:35,2020-10-30 10:17:41,1m - 5.980s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/training""))",Chrome 86.0.4240.111,,,2020-10-30 10:16:37,2020-10-30 10:16:39,2.342s,PASSED
+platform.Method.trainAndComment(comment),Chrome 86.0.4240.111,,,2020-10-30 10:16:39,2020-10-30 10:16:46,6.681s,PASSED
+try,Chrome 86.0.4240.111,,,2020-10-30 10:16:46,2020-10-30 10:17:09,23.547s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 86.0.4240.111,,,2020-10-30 10:17:09,2020-10-30 10:17:12,2.561s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(userQuery, ENTER))",Chrome 86.0.4240.111,,,2020-10-30 10:17:12,2020-10-30 10:17:15,3.069s,PASSED
+"waitForElementPresent(findTestObject(""Generic/botReponse"", [""index"":2]), 10, OPTIONAL)",Chrome 86.0.4240.111,,,2020-10-30 10:17:15,2020-10-30 10:17:18,3.037s,PASSED
+"verifyElementText(findTestObject(""Generic/botReponse"", [""index"":2]), botResponse, OPTIONAL)",Chrome 86.0.4240.111,,,2020-10-30 10:17:18,2020-10-30 10:17:22,4.000s,PASSED
+"platform.Preview.downvoteResponseWithComment(findTestData(""Data Files/testData_Task"").getValue(""comment"", 3))",Chrome 86.0.4240.111,,,2020-10-30 10:17:22,2020-10-30 10:17:41,19.524s,ERROR
+,,,,,,,
+Test Cases/TASK_SSO/createNewIntentCuration_Test,Chrome 86.0.4240.111,"TestCase Agenda: verify if a new intent can be created from curation and preview bot for response
+
+Step 1: Preview bot
+Step 2:",,2020-10-30 10:17:41,2020-10-30 10:17:51,9.800s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/curation""))",Chrome 86.0.4240.111,,,2020-10-30 10:17:42,2020-10-30 10:17:44,2.331s,PASSED
+"testData = findTestData(""Data Files/testData_Task"")",Chrome 86.0.4240.111,,,2020-10-30 10:17:44,2020-10-30 10:17:45,0.234s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Issues""]))",Chrome 86.0.4240.111,,,2020-10-30 10:17:45,2020-10-30 10:17:51,6.657s,ERROR
+,,,,,,,
+Test Cases/TASK_SSO/newIntentCreation_WO_TemplateKeyCreationInCuration,Chrome 86.0.4240.111,,,2020-10-30 10:17:51,2020-10-30 10:18:19,27.919s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/curation""))",Chrome 86.0.4240.111,,,2020-10-30 10:17:52,2020-10-30 10:17:54,2.281s,PASSED
+"testData = findTestData(""Data Files/testData_Task"")",Chrome 86.0.4240.111,,,2020-10-30 10:17:54,2020-10-30 10:17:55,0.332s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/preview""))",Chrome 86.0.4240.111,,,2020-10-30 10:17:55,2020-10-30 10:17:57,2.625s,PASSED
+"sendKeys(findTestObject(""Input/chatInput""), Keys.chord(userQuery, ENTER))",Chrome 86.0.4240.111,,,2020-10-30 10:17:57,2020-10-30 10:18:00,3.159s,PASSED
+platform.Preview.downvoteResponseWithoutComment(),Chrome 86.0.4240.111,,,2020-10-30 10:18:00,2020-10-30 10:18:19,18.768s,ERROR
+,,,,,,,
+Test Cases/TASK_SSO/oneClickTestingNoCallback_Test,Chrome 86.0.4240.111,,,2020-10-30 10:18:19,2020-10-30 10:18:42,22.523s,FAILED
+"waitForElementPresent(findTestObject(""Generic/oneClickTest""), 30, OPTIONAL)",Chrome 86.0.4240.111,,,2020-10-30 10:18:20,2020-10-30 10:18:21,1.371s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/oneClickTest""))",Chrome 86.0.4240.111,,,2020-10-30 10:18:21,2020-10-30 10:18:23,2.267s,PASSED
+"testData = findTestData(""Data Files/testData_OneClickTesting"")",Chrome 86.0.4240.111,,,2020-10-30 10:18:23,2020-10-30 10:18:24,0.302s,PASSED
+"verifyElementPresent(findTestObject(""Toggle/oneClickCallback""), 20, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:18:24,2020-10-30 10:18:25,1.466s,PASSED
+"verifyTextPresent(""Message"", false, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:18:25,2020-10-30 10:18:28,3.282s,FAILED
+"verifyTextPresent(""Expected template"", false, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:18:28,2020-10-30 10:18:32,3.657s,FAILED
+"verifyTextPresent(""Reset previous context"", false, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:18:32,2020-10-30 10:18:35,3.201s,FAILED
+"platform.Method.clickOnElement(findTestObject(""Button/importIcon""))",Chrome 86.0.4240.111,,,2020-10-30 10:18:35,2020-10-30 10:18:42,6.426s,ERROR
+,,,,,,,
+Test Cases/TASK_SSO/agentHandover_Test,Chrome 86.0.4240.111,TestCase Agenda: Verify if agent handover happens when user various criteria are met for handover to happen,,2020-10-30 10:18:42,2020-10-30 10:18:52,9.820s,ERROR
+"platform.Method.clickOnElement(findTestObject(""ICONS/sidebarSettings""))",Chrome 86.0.4240.111,,,2020-10-30 10:18:42,2020-10-30 10:18:45,2.577s,PASSED
+"testData = findTestData(""Data Files/testData_Task"")",Chrome 86.0.4240.111,,,2020-10-30 10:18:45,2020-10-30 10:18:45,0.262s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Handover and Inference""]))",Chrome 86.0.4240.111,,,2020-10-30 10:18:45,2020-10-30 10:18:52,6.386s,ERROR
+,,,,,,,
+Test Cases/TASK_SSO/explictAgentHandover_Test,Chrome 86.0.4240.111,TestCase Agenda: Verify agent handover can be explicitly performed by creating an intent & agent handover happens on partial match,,2020-10-30 10:18:52,2020-10-30 10:19:02,10.314s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/training""))",Chrome 86.0.4240.111,,,2020-10-30 10:18:52,2020-10-30 10:18:55,2.264s,PASSED
+"testData = findTestData(""Data Files/testData_Task"")",Chrome 86.0.4240.111,,,2020-10-30 10:18:55,2020-10-30 10:18:55,0.154s,PASSED
+"platform.Training.addMultipleUtterance(testData, ""handover_utterance"")",Chrome 86.0.4240.111,,,2020-10-30 10:18:55,2020-10-30 10:19:02,7.069s,ERROR
+,,,,,,,
+Test Cases/TASK_SSO/partialMatchResponseConfiguration_Test,Chrome 86.0.4240.111,"TestCase Agenda: Configure partial match template with user defined message, verify if user a the same message appears when partial match happens.",,2020-10-30 10:19:02,2020-10-30 10:19:12,10.454s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/response""))",Chrome 86.0.4240.111,,,2020-10-30 10:19:03,2020-10-30 10:19:06,2.423s,PASSED
+"testData = findTestData(""Data Files/testData_Task"")",Chrome 86.0.4240.111,,,2020-10-30 10:19:06,2020-10-30 10:19:06,0.349s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Partial match ""]))",Chrome 86.0.4240.111,,,2020-10-30 10:19:06,2020-10-30 10:19:12,6.535s,ERROR
+,,,,,,,
+Test Cases/TASK_SSO/encryptionOnCurationAndSessions_Test,Chrome 86.0.4240.111,TestCase Agenda: Verify if user sees security protection on Sessions and Curation page after ADP is enabled,,2020-10-30 10:19:12,2020-10-30 10:20:25,1m - 12.877s,ERROR
+"platform.Method.clickOnElement(findTestObject(""ICONS/sidebarSettings""))",Chrome 86.0.4240.111,,,2020-10-30 10:19:13,2020-10-30 10:19:16,2.333s,PASSED
+"waitForElementPresent(findTestObject(""Button/updateBot""), 30, STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:19:16,2020-10-30 10:19:47,31.262s,PASSED
+platform.Method.enableADP(true),Chrome 86.0.4240.111,,,2020-10-30 10:19:47,2020-10-30 10:20:25,38.439s,ERROR
+,,,,,,,
+Test Cases/TASK_SSO/noneIntentE2E_Test,Chrome 86.0.4240.111,"TestCase Agenda: 
+1. Verify if a default intent is present at bot creation,
+2. Readonly state of intent name and final template key.
+3. Edit none intent utterance
+4. Curation setting on/off for none intent",,2020-10-30 10:20:25,2020-10-30 10:20:38,12.515s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/imiLogo""))",Chrome 86.0.4240.111,,,2020-10-30 10:20:26,2020-10-30 10:20:28,2.401s,PASSED
+"waitForElementVisible(findTestObject(""Button/createBot""), 20, OPTIONAL)",Chrome 86.0.4240.111,,,2020-10-30 10:20:28,2020-10-30 10:20:31,2.599s,PASSED
+"callTestCase(findTestCase(""TASK_SSO/botCreation_Test""), [""nameOfTheBot"":NONE_INTENT], STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-30 10:20:31,2020-10-30 10:20:38,6.804s,FAILED
+,,,,,,,
+Test Cases/Sprint/v4.3/alertTestOnResponseDesignerTemplateTask,Chrome 86.0.4240.111,,,2020-10-30 10:20:38,2020-10-30 10:20:47,9.506s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/response""))",Chrome 86.0.4240.111,,,2020-10-30 10:20:39,2020-10-30 10:20:41,2.244s,PASSED
+"platform.Response.createRichResponse(""test alert"", ""default value"")",Chrome 86.0.4240.111,,,2020-10-30 10:20:41,2020-10-30 10:20:47,6.597s,ERROR
+,,,,,,,
+Test Cases/Sprint/v4.3/appleBusinessChatFieldTestForTaskbot,Chrome 86.0.4240.111,,,2020-10-30 10:20:48,2020-10-30 10:20:56,8.341s,ERROR
+"platform.ResponseDesigner.addChannelToResponse("" Apple Business Chat"")",Chrome 86.0.4240.111,,,2020-10-30 10:20:49,2020-10-30 10:20:56,6.980s,ERROR

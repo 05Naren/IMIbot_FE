@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 //WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//CustomKeywords.'platform.Method.navigateToBot'('Q&A bots', GlobalVariable.FAQ_BOT)
+//CustomKeywords.'platform.Method.navigateToBot'('Q&A bots', GlobalVariable.FAQ_BOT_BOT)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('ICONS/sidebarSettings'))
 
@@ -25,7 +25,7 @@ WebUI.setText(findTestObject('Input/botLogo'), botLogo)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/updateBot'))
 
-WebUI.verifyElementPresent(findTestObject('ICONS/toastMsg'), 15, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('ICONS/toastMsg'), 15, FailureHandling.CONTINUE_ON_FAILURE)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/articles'))
 
@@ -43,11 +43,11 @@ WebUI.setText(findTestObject('Input/textResponse'), customMessage)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/save', [('value') : 'Save']))
 
-WebUI.verifyElementNotPresent(findTestObject('Button/train'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotPresent(findTestObject('Button/train'), 5, FailureHandling.CONTINUE_ON_FAILURE)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/preview'))
 
-WebUI.verifyElementText(findTestObject('Generic/botReponse', [('index') : 1]), welcomeMessage, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Generic/botReponse', [('index') : 1]), welcomeMessage, FailureHandling.CONTINUE_ON_FAILURE)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('GenericII/minimize'))
 

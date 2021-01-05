@@ -7,13 +7,13 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [:], FailureHandling.STOP_ON_FAILURE)
 
-List<StringBuilder> botCardOptions = CustomKeywords.'platform.Method.verifyBotCardMenu'('Q&A bots', GlobalVariable.FAQ_BOT)
+List<StringBuilder> botCardOptions = CustomKeywords.'platform.Method.verifyBotCardMenu'('Q&A bots', GlobalVariable.FAQ_BOT_BOT)
 
 WebUI.verifyElementPresent(findTestObject('Generic/webObjectWithText', [('textValue') : 'Copy Preview Link']), 5, FailureHandling.STOP_ON_FAILURE)
 
 assert botCardOptions.containsAll(GlobalVariable.BOT_CARD_OPTION) == true
 
-CustomKeywords.'platform.Response.clickOnElement'(findTestObject('Generic/webObjectWithText', [('textValue') : GlobalVariable.FAQ_BOT]))
+CustomKeywords.'platform.Response.clickOnElement'(findTestObject('Generic/webObjectWithText', [('textValue') : GlobalVariable.FAQ_BOT_BOT]))
 
 CustomKeywords.'platform.Response.clickOnElement'(findTestObject('Button/preview'))
 

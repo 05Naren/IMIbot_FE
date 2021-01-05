@@ -28,14 +28,14 @@ CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/preview')
 
 WebUI.sendKeys(findTestObject('Input/chatInput'), Keys.chord(userQuery, Keys.ENTER))
 
-WebUI.waitForElementVisible(findTestObject('GenericII/getBotResponse', [('index') : 1]), 20, FailureHandling.OPTIONAL)
+WebUI.waitForElementVisible(findTestObject('GenericII/getBotResponse', [('index') : 2]), 20, FailureHandling.OPTIONAL)
 
-WebUI.verifyElementText(findTestObject('GenericII/getBotResponse', [('index') : 1]), botResponse, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('GenericII/getBotResponse', [('index') : 2]), botResponse, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.sendKeys(findTestObject('Input/chatInput'), Keys.chord(userQuery2, Keys.ENTER))
 
-WebUI.waitForElementVisible(findTestObject('GenericII/getBotResponse', [('index') : 2]), 20, FailureHandling.OPTIONAL)
+WebUI.waitForElementVisible(findTestObject('GenericII/getBotResponse', [('index') : 3]), 20, FailureHandling.OPTIONAL)
 
-WebUI.verifyElementText(findTestObject('GenericII/getBotResponse', [('index') : 2]), botResponse2, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('GenericII/getBotResponse', [('index') : 3]), botResponse2, FailureHandling.CONTINUE_ON_FAILURE)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('GenericII/minimize'))

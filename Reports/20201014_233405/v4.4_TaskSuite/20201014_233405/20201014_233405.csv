@@ -1,0 +1,244 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+v4.4_TaskSuite,Chrome 86.0.4240.75,,,2020-10-14 23:34:11,2020-10-14 23:40:46,6m - 35.237s,INCOMPLETE
+,,,,,,,
+Test Cases/TASK_SSO/botCreation_Test,Chrome 86.0.4240.75,TestCase Agenda: Verification of task bot creation,,2020-10-14 23:35:05,2020-10-14 23:35:31,26.005s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Task bots""]))",Chrome 86.0.4240.75,,,2020-10-14 23:35:06,2020-10-14 23:35:09,3.514s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/createBot""))",Chrome 86.0.4240.75,,,2020-10-14 23:35:09,2020-10-14 23:35:12,3.269s,PASSED
+"sendKeys(findTestObject(""Input/botName""), nameOfTheBot)",Chrome 86.0.4240.75,,,2020-10-14 23:35:12,2020-10-14 23:35:15,2.742s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Toggle/feedback""))",Chrome 86.0.4240.75,,,2020-10-14 23:35:15,2020-10-14 23:35:17,2.310s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/done""))",Chrome 86.0.4240.75,,,2020-10-14 23:35:17,2020-10-14 23:35:20,2.531s,PASSED
+"waitForElementVisible(findTestObject(""Generic/modelState""), 60, OPTIONAL)",Chrome 86.0.4240.75,,,2020-10-14 23:35:20,2020-10-14 23:35:29,9.172s,PASSED
+"if (!(verifyElementText(findTestObject(""Generic/modelState""), ""Trained"", OPTIONAL)))",Chrome 86.0.4240.75,,,2020-10-14 23:35:29,2020-10-14 23:35:31,2.284s,PASSED
+,,,,,,,
+Test Cases/Sprint/v4.4/mapLocationEntityCreation_Test,Chrome 86.0.4240.75,"Scenario 1: Verify if Map location entity can successfully be created 
+
+Given: User is on new entity creation page
+
+When: User clicks on create entity button
+And: User enters entity name and selects entity type map location
+And: User clicks on save button
+Then: A new entity of map type should get created and present on entity list 
+
+Scenario 2: Verify if Map location entity can be updated successfully(Name of the entity can only be updated)
+
+Given: Map entity is already present on entity list
+
+When: User selects a map entity
+And: User modifies the name and clicks on save button
+Then: Application should successfully update the map entity name",,2020-10-14 23:35:31,2020-10-14 23:36:28,56.910s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/training""))",Chrome 86.0.4240.75,,,2020-10-14 23:35:32,2020-10-14 23:35:34,2.280s,PASSED
+"testData = findTestData(""Data Files/testData_Task"")",Chrome 86.0.4240.75,,,2020-10-14 23:35:34,2020-10-14 23:35:37,3.197s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Entities""]))",Chrome 86.0.4240.75,,,2020-10-14 23:35:37,2020-10-14 23:35:40,2.310s,PASSED
+"comment("" *** SCENARIO 1 STARTED ***"")",Chrome 86.0.4240.75,,,2020-10-14 23:35:40,2020-10-14 23:35:40,0.121s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/createEntity""))",Chrome 86.0.4240.75,,,2020-10-14 23:35:40,2020-10-14 23:35:43,2.654s,PASSED
+"platform.Training.createEntity(testData.getValue(""map_entity"", 1), "" Map location (whatsapp) "", null)",Chrome 86.0.4240.75,,,2020-10-14 23:35:43,2020-10-14 23:35:53,10.302s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 20, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.75,,,2020-10-14 23:35:53,2020-10-14 23:35:54,1.348s,PASSED
+"comment("" *** VALIDATION --> ENTITY CREATION CHECK ***"")",Chrome 86.0.4240.75,,,2020-10-14 23:35:54,2020-10-14 23:35:54,0.003s,PASSED
+"mapElement = findWebElements(findTestObject(""GenericII/listOfEntityNames""), 5).get(0)",Chrome 86.0.4240.75,,,2020-10-14 23:35:54,2020-10-14 23:35:55,1.234s,PASSED
+"assert getText().contentEquals(""map"") == true",Chrome 86.0.4240.75,,,2020-10-14 23:35:55,2020-10-14 23:35:57,1.102s,PASSED
+"comment("" *** SCENARIO 2 STARTED ***"")",Chrome 86.0.4240.75,,,2020-10-14 23:35:57,2020-10-14 23:35:57,0.009s,PASSED
+mapElement.click(),Chrome 86.0.4240.75,,,2020-10-14 23:35:57,2020-10-14 23:35:58,1.314s,PASSED
+"setText(findTestObject(""Input/entityName""), testData.getValue(""map_entity"", 2))",Chrome 86.0.4240.75,,,2020-10-14 23:35:58,2020-10-14 23:36:02,4.034s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/entityPageSaveButton""))",Chrome 86.0.4240.75,,,2020-10-14 23:36:02,2020-10-14 23:36:04,2.332s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 20, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.75,,,2020-10-14 23:36:04,2020-10-14 23:36:06,1.271s,PASSED
+"comment("" *** VALIDATION --> ENTITY NAME UPDATE CHECK ***"")",Chrome 86.0.4240.75,,,2020-10-14 23:36:06,2020-10-14 23:36:06,0.009s,PASSED
+"mapElement = findWebElements(findTestObject(""GenericII/listOfEntityNames""), 5).get(0)",Chrome 86.0.4240.75,,,2020-10-14 23:36:06,2020-10-14 23:36:07,1.222s,PASSED
+"assert getText().contentEquals(""new map"") == true",Chrome 86.0.4240.75,,,2020-10-14 23:36:07,2020-10-14 23:36:08,1.073s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/response""))",Chrome 86.0.4240.75,,,2020-10-14 23:36:08,2020-10-14 23:36:10,2.519s,PASSED
+"platform.Response.createRichResponse(testData.getValue(""rich_template"", 6), testData.getValue(""rich_template_value"", 6))",Chrome 86.0.4240.75,,,2020-10-14 23:36:10,2020-10-14 23:36:27,16.654s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 20, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.75,,,2020-10-14 23:36:27,2020-10-14 23:36:28,1.258s,PASSED
+,,,,,,,
+Test Cases/Sprint/v4.4/mapLocationEntityTaggingInIntent_Test,Chrome 86.0.4240.75,"Scenario 1: Verify if a map entity gets auto recognised to a new or existing intent.
+
+Given: 
+
+When: 
+And: 
+Then: 
+
+Scenario 2: 
+
+Given: 
+
+When: 
+And: 
+Then: ",,2020-10-14 23:36:28,2020-10-14 23:37:28,59.381s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/training""))",Chrome 86.0.4240.75,,,2020-10-14 23:36:29,2020-10-14 23:36:32,2.550s,PASSED
+"testData = findTestData(""Data Files/testData_Task"")",Chrome 86.0.4240.75,,,2020-10-14 23:36:32,2020-10-14 23:36:33,0.924s,PASSED
+"platform.Training.addSingleUtterance(testData.getValue(""map_utterance"", 1))",Chrome 86.0.4240.75,,,2020-10-14 23:36:33,2020-10-14 23:36:40,7.678s,PASSED
+"element = findWebElement(findTestObject(""Slots/listOfUtterance""), 5)",Chrome 86.0.4240.75,,,2020-10-14 23:36:40,2020-10-14 23:36:42,1.239s,PASSED
+element.click(),Chrome 86.0.4240.75,,,2020-10-14 23:36:42,2020-10-14 23:36:43,1.150s,PASSED
+"element.sendKeys(Keys.chord(CONTROL, ""a""))",Chrome 86.0.4240.75,,,2020-10-14 23:36:43,2020-10-14 23:36:44,1.193s,PASSED
+element.click(),Chrome 86.0.4240.75,,,2020-10-14 23:36:44,2020-10-14 23:36:45,1.170s,PASSED
+"if (verifyElementNotPresent(findTestObject(""Generic/entitySelection""), 20))",Chrome 86.0.4240.75,,,2020-10-14 23:36:45,2020-10-14 23:36:49,4.306s,PASSED
+"platform.Training.createNewEntityManually(testData.getValue(""map_entity"", 3), "" Map location (whatsapp) "", null)",Chrome 86.0.4240.75,,,2020-10-14 23:36:49,2020-10-14 23:37:01,11.896s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 30, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.75,,,2020-10-14 23:37:01,2020-10-14 23:37:03,1.337s,PASSED
+"verifyElementNotPresent(findTestObject(""Slots/entityValue"", [""rowValue"":1]), 30, STOP_ON_FAILURE)",Chrome 86.0.4240.75,,,2020-10-14 23:37:03,2020-10-14 23:37:04,1.203s,PASSED
+"sendKeys(findTestObject(""Input/intentName""), testData.getValue(""intent_name"", 7))",Chrome 86.0.4240.75,,,2020-10-14 23:37:04,2020-10-14 23:37:06,2.583s,PASSED
+"sendKeys(findTestObject(""Input/finalTempKey""), findTestData(""Data Files/testData_Task"").getValue(""rich_template"", 6))",Chrome 86.0.4240.75,,,2020-10-14 23:37:06,2020-10-14 23:37:10,3.214s,PASSED
+"executeJavaScript(""document.getElementsByClassName('bg-red')[0].classList.remove('bg-red');"", null)",Chrome 86.0.4240.75,,,2020-10-14 23:37:10,2020-10-14 23:37:11,1.064s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/save"", [""value"":"" Save ""]))",Chrome 86.0.4240.75,,,2020-10-14 23:37:11,2020-10-14 23:37:13,2.390s,PASSED
+"verifyElementText(findTestObject(""Generic/header""), ""map_intent"", STOP_ON_FAILURE)",Chrome 86.0.4240.75,,,2020-10-14 23:37:13,2020-10-14 23:37:15,2.308s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/intentGoBack""))",Chrome 86.0.4240.75,,,2020-10-14 23:37:15,2020-10-14 23:37:18,2.323s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":testData.getValue(""intent_name"", 7)]))",Chrome 86.0.4240.75,,,2020-10-14 23:37:18,2020-10-14 23:37:20,2.554s,PASSED
+"verifyElementNotPresent(findTestObject(""Slots/markedUpEntity""), 20, STOP_ON_FAILURE)",Chrome 86.0.4240.75,,,2020-10-14 23:37:20,2020-10-14 23:37:22,1.244s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/intentGoBack""))",Chrome 86.0.4240.75,,,2020-10-14 23:37:22,2020-10-14 23:37:24,2.762s,PASSED
+"verifyTextPresent(""Training data"", false, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.75,,,2020-10-14 23:37:24,2020-10-14 23:37:28,3.356s,PASSED
+,,,,,,,
+Test Cases/Sprint/v4.4/mapLocationLinkToSlots_Test,Chrome 86.0.4240.75,"Scenario 1: Verify is user is able to link Map entity to slots in an intent	
+
+Given: User is on new intent creation page
+When: User clicks on link entity object on top of slot
+And: User clicks on entity name of Map type
+Then: Map entity should be visible and should get added to slots
+
+Scenario 2: Verify if Map entity in slot is editable
+
+Given: Map entity is added to the slots
+When: User clicks on the check box against entity name
+Then: The checkbox should be disabled (non-editable)",,2020-10-14 23:37:28,2020-10-14 23:38:03,35.208s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""map_intent""]))",Chrome 86.0.4240.75,,,2020-10-14 23:37:29,2020-10-14 23:37:31,2.484s,PASSED
+"comment("" *** SCENARIO 1 STARTED ***"")",Chrome 86.0.4240.75,,,2020-10-14 23:37:31,2020-10-14 23:37:31,0.010s,PASSED
+"verifyElementPresent(findTestObject(""Slots/linkEntity""), 10, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.75,,,2020-10-14 23:37:31,2020-10-14 23:37:33,1.293s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Slots/linkEntity""))",Chrome 86.0.4240.75,,,2020-10-14 23:37:33,2020-10-14 23:37:35,2.358s,PASSED
+"listOfEntities = findWebElements(findTestObject(""WEB_OBJECTS/entityList""), 20)",Chrome 86.0.4240.75,,,2020-10-14 23:37:35,2020-10-14 23:37:36,1.221s,PASSED
+flag = false,Chrome 86.0.4240.75,,,2020-10-14 23:37:36,2020-10-14 23:37:36,0.001s,PASSED
+listOfElement = listOfEntities.iterator(),Chrome 86.0.4240.75,,,2020-10-14 23:37:36,2020-10-14 23:37:36,0.000s,PASSED
+while (listOfElement.hasNext()),Chrome 86.0.4240.75,,,2020-10-14 23:37:36,2020-10-14 23:37:38,2.367s,PASSED
+if (flag == false),Chrome 86.0.4240.75,,,2020-10-14 23:37:38,2020-10-14 23:37:38,0.002s,PASSED
+"comment("" *** VALIDATION --> ENTITY NAME IS PRESENT ON SLOTS ***"")",Chrome 86.0.4240.75,,,2020-10-14 23:37:38,2020-10-14 23:37:38,0.008s,PASSED
+"verifyElementText(findTestObject(""Slots/entityValue"", [""rowValue"":1]), ""demo map test"", CONTINUE_ON_FAILURE)",Chrome 86.0.4240.75,,,2020-10-14 23:37:38,2020-10-14 23:37:41,2.333s,PASSED
+"comment("" *** SCENARIO 2 STARTED ***"")",Chrome 86.0.4240.75,,,2020-10-14 23:37:41,2020-10-14 23:37:41,0.008s,PASSED
+"testObject = modifyObjectProperty(findTestObject(""Slots/checkbox""), ""xpath"", ""not equals"", newXpath, true, STOP_ON_FAILURE)",Chrome 86.0.4240.75,,,2020-10-14 23:37:41,2020-10-14 23:37:41,0.293s,PASSED
+"comment("" *** VALIDATION --> CHECKBOX FIELD SHOULD HAVE ATTRIBUTE *DISABLED* ***"")",Chrome 86.0.4240.75,,,2020-10-14 23:37:41,2020-10-14 23:37:41,0.008s,PASSED
+"verifyElementHasAttribute(testObject, ""disabled"", 20, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.75,,,2020-10-14 23:37:41,2020-10-14 23:37:43,2.113s,PASSED
+"comment("" *** SCENARIO 3 STARTED ***"")",Chrome 86.0.4240.75,,,2020-10-14 23:37:43,2020-10-14 23:37:43,0.007s,PASSED
+"setText(findTestObject(""Slots/retries"", [""rowValue"":""1""]), ""6"", OPTIONAL)",Chrome 86.0.4240.75,,,2020-10-14 23:37:43,2020-10-14 23:37:47,3.617s,PASSED
+"takeScreenshot(getProjectDir() + ""/Screenshot/"" + image_title)",Chrome 86.0.4240.75,,,2020-10-14 23:37:47,2020-10-14 23:37:49,1.703s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/save"", [""value"":"" Save ""]))",Chrome 86.0.4240.75,,,2020-10-14 23:37:49,2020-10-14 23:37:51,2.315s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/intentGoBack""))",Chrome 86.0.4240.75,,,2020-10-14 23:37:51,2020-10-14 23:37:53,2.468s,PASSED
+"verifyTextPresent(""Training data"", false, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.75,,,2020-10-14 23:37:53,2020-10-14 23:37:57,3.325s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""map_intent""]))",Chrome 86.0.4240.75,,,2020-10-14 23:37:57,2020-10-14 23:37:59,2.639s,PASSED
+"retryValue = executeJavaScript(getValue, null)",Chrome 86.0.4240.75,,,2020-10-14 23:37:59,2020-10-14 23:38:00,1.033s,PASSED
+"assert toString().contentEquals(""6"") == true",Chrome 86.0.4240.75,,,2020-10-14 23:38:00,2020-10-14 23:38:00,0.004s,PASSED
+"comment("" *** Navigate out of intent ***"")",Chrome 86.0.4240.75,,,2020-10-14 23:38:00,2020-10-14 23:38:00,0.000s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/intentGoBack""))",Chrome 86.0.4240.75,,,2020-10-14 23:38:00,2020-10-14 23:38:03,2.523s,PASSED
+,,,,,,,
+Test Cases/Sprint/v4.4/freeformEntityCreation_Test,Chrome 86.0.4240.75,"Scenario 1: Verify if Freeform entity can successfully be created 
+
+Given: User is on new entity creation page
+
+When: User clicks on create entity button
+And: User enters entity name and selects entity type freeform
+And: User clicks on save button
+Then: A new entity of freeform type should get created and present on entity list 
+
+Scenario 2: Verify if Freeform entity can be updated successfully(Name of the entity can only be updated)
+
+Given: Freeform entity is already present on entity list
+
+When: User selects a freeform entity
+And: User modifies the name and clicks on save button
+Then: Application should successfully update the freeform entity name",,2020-10-14 23:38:03,2020-10-14 23:38:59,55.881s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/training""))",Chrome 86.0.4240.75,,,2020-10-14 23:38:04,2020-10-14 23:38:06,2.349s,PASSED
+"testData = findTestData(""Data Files/testData_Task"")",Chrome 86.0.4240.75,,,2020-10-14 23:38:06,2020-10-14 23:38:06,0.223s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Entities""]))",Chrome 86.0.4240.75,,,2020-10-14 23:38:06,2020-10-14 23:38:09,2.451s,PASSED
+"comment("" *** SCENARIO 1 STARTED ***"")",Chrome 86.0.4240.75,,,2020-10-14 23:38:09,2020-10-14 23:38:09,0.011s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/createEntity""))",Chrome 86.0.4240.75,,,2020-10-14 23:38:09,2020-10-14 23:38:11,2.440s,PASSED
+"platform.Training.createEntity(testData.getValue(""freeform_entity"", 1), "" Free form "", null)",Chrome 86.0.4240.75,,,2020-10-14 23:38:11,2020-10-14 23:38:21,9.559s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 20, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.75,,,2020-10-14 23:38:21,2020-10-14 23:38:22,1.264s,PASSED
+"comment("" *** VALIDATION --> ENTITY CREATION CHECK ***"")",Chrome 86.0.4240.75,,,2020-10-14 23:38:22,2020-10-14 23:38:22,0.006s,PASSED
+"mapElement = findWebElements(findTestObject(""GenericII/listOfEntityNames""), 5).get(0)",Chrome 86.0.4240.75,,,2020-10-14 23:38:22,2020-10-14 23:38:23,1.187s,PASSED
+"assert getText().contentEquals(""freeform org"") == true",Chrome 86.0.4240.75,,,2020-10-14 23:38:23,2020-10-14 23:38:24,1.056s,PASSED
+"comment("" *** SCENARIO 2 STARTED ***"")",Chrome 86.0.4240.75,,,2020-10-14 23:38:24,2020-10-14 23:38:24,0.002s,PASSED
+platform.Method.clickOnElement(convertWebElementToTestObject(mapElement)),Chrome 86.0.4240.75,,,2020-10-14 23:38:24,2020-10-14 23:38:28,4.359s,PASSED
+"setText(findTestObject(""Input/entityName""), testData.getValue(""freeform_entity"", 2))",Chrome 86.0.4240.75,,,2020-10-14 23:38:28,2020-10-14 23:38:32,3.980s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/entityPageSaveButton""))",Chrome 86.0.4240.75,,,2020-10-14 23:38:32,2020-10-14 23:38:35,2.290s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 20, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.75,,,2020-10-14 23:38:35,2020-10-14 23:38:36,1.284s,PASSED
+"comment("" *** VALIDATION --> ENTITY NAME UPDATE CHECK ***"")",Chrome 86.0.4240.75,,,2020-10-14 23:38:36,2020-10-14 23:38:36,0.006s,PASSED
+"mapElement = findWebElements(findTestObject(""GenericII/listOfEntityNames""), 5).get(0)",Chrome 86.0.4240.75,,,2020-10-14 23:38:36,2020-10-14 23:38:37,1.192s,PASSED
+"assert getText().contentEquals(""updated freeform"") == true",Chrome 86.0.4240.75,,,2020-10-14 23:38:37,2020-10-14 23:38:38,1.054s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/response""))",Chrome 86.0.4240.75,,,2020-10-14 23:38:38,2020-10-14 23:38:41,2.435s,PASSED
+"platform.Response.createRichResponse(testData.getValue(""rich_template"", 7), testData.getValue(""rich_template_value"", 6))",Chrome 86.0.4240.75,,,2020-10-14 23:38:41,2020-10-14 23:38:58,16.845s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 20, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.75,,,2020-10-14 23:38:58,2020-10-14 23:38:59,1.260s,PASSED
+,,,,,,,
+Test Cases/Sprint/v4.4/freeformEntityTaggingInIntent_Test,Chrome 86.0.4240.75,"Scenario 1: Verify if a freeform entity gets auto recognised to a new or existing intent.
+
+Given: User is on intent creation page
+
+When: User adds an utterance to intent 
+And: User double clicks on a word on utterance to tag it existing freeform entity
+Then: User should not be able to see the freeform entity name on the list
+
+Scenario 2: Verify if a freeform entity gets added to slot when created from the intent page
+
+Given: User is on intent creation page
+
+When: User double clicks on a word on utterance and selects create new entity
+And: User creates a new freeform type entity and save it
+Then: Newly created freeform entity should not be present on slot",,2020-10-14 23:38:59,2020-10-14 23:40:11,1m - 12.683s,FAILED
+"platform.Method.clickOnElement(findTestObject(""Generic/training""))",Chrome 86.0.4240.75,,,2020-10-14 23:39:00,2020-10-14 23:39:02,2.574s,PASSED
+"testData = findTestData(""Data Files/testData_Task"")",Chrome 86.0.4240.75,,,2020-10-14 23:39:02,2020-10-14 23:39:03,0.473s,PASSED
+refresh(),Chrome 86.0.4240.75,,,2020-10-14 23:39:03,2020-10-14 23:39:09,6.563s,PASSED
+"waitForElementVisible(findTestObject(""Button/createIntent""), 30, STOP_ON_FAILURE)",Chrome 86.0.4240.75,,,2020-10-14 23:39:09,2020-10-14 23:39:16,7.251s,PASSED
+"comment("" *** SCENARIO 1 STARTED *** "")",Chrome 86.0.4240.75,,,2020-10-14 23:39:16,2020-10-14 23:39:16,0.006s,PASSED
+"platform.Training.addSingleUtterance(testData.getValue(""freeform_utterance"", 1))",Chrome 86.0.4240.75,,,2020-10-14 23:39:16,2020-10-14 23:39:24,7.381s,PASSED
+"element = findWebElement(findTestObject(""Slots/listOfUtterance""), 5)",Chrome 86.0.4240.75,,,2020-10-14 23:39:24,2020-10-14 23:39:25,1.214s,PASSED
+element.click(),Chrome 86.0.4240.75,,,2020-10-14 23:39:25,2020-10-14 23:39:26,1.159s,PASSED
+"element.sendKeys(Keys.chord(CONTROL, ""a""))",Chrome 86.0.4240.75,,,2020-10-14 23:39:26,2020-10-14 23:39:27,1.186s,PASSED
+element.click(),Chrome 86.0.4240.75,,,2020-10-14 23:39:27,2020-10-14 23:39:29,1.161s,PASSED
+"if (verifyElementNotPresent(findTestObject(""Generic/entitySelection""), 20))",Chrome 86.0.4240.75,,,2020-10-14 23:39:29,2020-10-14 23:39:33,4.187s,PASSED
+"comment("" *** SCENARIO 2 STARTED *** "")",Chrome 86.0.4240.75,,,2020-10-14 23:39:33,2020-10-14 23:39:33,0.044s,PASSED
+"platform.Training.createNewEntityManually(testData.getValue(""freeform_entity"", 3), "" Free form "", null)",Chrome 86.0.4240.75,,,2020-10-14 23:39:33,2020-10-14 23:39:45,12.100s,PASSED
+"waitForElementPresent(findTestObject(""ICONS/toastMsg""), 30, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.75,,,2020-10-14 23:39:45,2020-10-14 23:39:46,1.249s,PASSED
+"verifyElementNotPresent(findTestObject(""Slots/entityValue"", [""rowValue"":1]), 30, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.75,,,2020-10-14 23:39:46,2020-10-14 23:39:47,1.227s,PASSED
+"sendKeys(findTestObject(""Input/intentName""), testData.getValue(""intent_name"", 8))",Chrome 86.0.4240.75,,,2020-10-14 23:39:47,2020-10-14 23:39:50,2.755s,PASSED
+"sendKeys(findTestObject(""Input/finalTempKey""), findTestData(""Data Files/testData_Task"").getValue(""rich_template"", 7))",Chrome 86.0.4240.75,,,2020-10-14 23:39:50,2020-10-14 23:39:53,3.262s,PASSED
+"executeJavaScript(""document.getElementsByClassName('bg-red')[0].classList.remove('bg-red');"", null)",Chrome 86.0.4240.75,,,2020-10-14 23:39:53,2020-10-14 23:39:54,1.040s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/save"", [""value"":"" Save ""]))",Chrome 86.0.4240.75,,,2020-10-14 23:39:54,2020-10-14 23:39:57,2.389s,PASSED
+"verifyElementText(findTestObject(""Generic/header""), ""freeform_test"", CONTINUE_ON_FAILURE)",Chrome 86.0.4240.75,,,2020-10-14 23:39:57,2020-10-14 23:39:59,2.300s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/intentGoBack""))",Chrome 86.0.4240.75,,,2020-10-14 23:39:59,2020-10-14 23:40:02,2.481s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":testData.getValue(""intent_name"", 8)]))",Chrome 86.0.4240.75,,,2020-10-14 23:40:02,2020-10-14 23:40:04,2.584s,PASSED
+"comment("" *** VALIDATION: VERIFY FREEFORM ENTITY ON SLOT ***"")",Chrome 86.0.4240.75,,,2020-10-14 23:40:04,2020-10-14 23:40:04,0.009s,PASSED
+"verifyElementNotPresent(findTestObject(""Slots/markedUpEntity""), 20, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.75,,,2020-10-14 23:40:04,2020-10-14 23:40:05,1.260s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/intentGoBack""))",Chrome 86.0.4240.75,,,2020-10-14 23:40:05,2020-10-14 23:40:08,2.447s,PASSED
+"verifyTextPresent(""Training data"", false, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.75,,,2020-10-14 23:40:08,2020-10-14 23:40:11,3.525s,PASSED
+,,,,,,,
+Test Cases/Sprint/v4.4/freeformLinkToSlots_Test,Chrome 86.0.4240.75,"Scenario 1: Verify is user is able to link Map entity to slots in an intent	
+
+Given: User is on new intent creation page
+When: User clicks on link entity object on top of slot
+And: User clicks on entity name of Map type
+Then: Map entity should be visible and should get added to slots
+
+Scenario 2: Verify if Map entity in slot is editable
+
+Given: Map entity is added to the slots
+When: User clicks on the check box against entity name
+Then: The checkbox should be disabled (non-editable)",,2020-10-14 23:40:11,2020-10-14 23:40:46,34.897s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""freeform_test""]))",Chrome 86.0.4240.75,,,2020-10-14 23:40:13,2020-10-14 23:40:15,2.487s,PASSED
+"comment("" *** SCENARIO 1 STARTED ***"")",Chrome 86.0.4240.75,,,2020-10-14 23:40:15,2020-10-14 23:40:15,0.008s,PASSED
+"verifyElementPresent(findTestObject(""Slots/linkEntity""), 10, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.75,,,2020-10-14 23:40:15,2020-10-14 23:40:16,1.273s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Slots/linkEntity""))",Chrome 86.0.4240.75,,,2020-10-14 23:40:16,2020-10-14 23:40:19,2.271s,PASSED
+"listOfEntities = findWebElements(findTestObject(""WEB_OBJECTS/entityList""), 20)",Chrome 86.0.4240.75,,,2020-10-14 23:40:19,2020-10-14 23:40:20,1.288s,PASSED
+flag = false,Chrome 86.0.4240.75,,,2020-10-14 23:40:20,2020-10-14 23:40:20,0.002s,PASSED
+listOfElement = listOfEntities.iterator(),Chrome 86.0.4240.75,,,2020-10-14 23:40:20,2020-10-14 23:40:20,0.002s,PASSED
+while (listOfElement.hasNext()),Chrome 86.0.4240.75,,,2020-10-14 23:40:20,2020-10-14 23:40:22,2.424s,PASSED
+if (flag == false),Chrome 86.0.4240.75,,,2020-10-14 23:40:22,2020-10-14 23:40:22,0.002s,PASSED
+"comment("" *** VALIDATION --> ENTITY NAME IS PRESENT ON SLOTS ***"")",Chrome 86.0.4240.75,,,2020-10-14 23:40:22,2020-10-14 23:40:22,0.009s,PASSED
+"verifyElementText(findTestObject(""Slots/entityValue"", [""rowValue"":1]), ""demo freeform"", CONTINUE_ON_FAILURE)",Chrome 86.0.4240.75,,,2020-10-14 23:40:22,2020-10-14 23:40:25,2.376s,PASSED
+"comment("" *** SCENARIO 2 STARTED ***"")",Chrome 86.0.4240.75,,,2020-10-14 23:40:25,2020-10-14 23:40:25,0.005s,PASSED
+"testObject = modifyObjectProperty(findTestObject(""Slots/checkbox""), ""xpath"", ""not equals"", newXpath, true, STOP_ON_FAILURE)",Chrome 86.0.4240.75,,,2020-10-14 23:40:25,2020-10-14 23:40:25,0.210s,PASSED
+"comment("" *** VALIDATION --> CHECKBOX FIELD SHOULD HAVE ATTRIBUTE *DISABLED* ***"")",Chrome 86.0.4240.75,,,2020-10-14 23:40:25,2020-10-14 23:40:25,0.008s,PASSED
+"verifyElementHasAttribute(testObject, ""disabled"", 20, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.75,,,2020-10-14 23:40:25,2020-10-14 23:40:27,2.094s,PASSED
+"comment("" *** SCENARIO 3 STARTED ***"")",Chrome 86.0.4240.75,,,2020-10-14 23:40:27,2020-10-14 23:40:27,0.006s,PASSED
+"setText(findTestObject(""Slots/retries"", [""rowValue"":""1""]), ""6"", OPTIONAL)",Chrome 86.0.4240.75,,,2020-10-14 23:40:27,2020-10-14 23:40:31,3.610s,PASSED
+"takeScreenshot(getProjectDir() + ""/Screenshot/"" + image_title)",Chrome 86.0.4240.75,,,2020-10-14 23:40:31,2020-10-14 23:40:32,1.619s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Button/save"", [""value"":"" Save ""]))",Chrome 86.0.4240.75,,,2020-10-14 23:40:32,2020-10-14 23:40:35,2.328s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/intentGoBack""))",Chrome 86.0.4240.75,,,2020-10-14 23:40:35,2020-10-14 23:40:37,2.409s,PASSED
+"verifyTextPresent(""Training data"", false, CONTINUE_ON_FAILURE)",Chrome 86.0.4240.75,,,2020-10-14 23:40:37,2020-10-14 23:40:40,3.298s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""freeform_test""]))",Chrome 86.0.4240.75,,,2020-10-14 23:40:40,2020-10-14 23:40:43,2.513s,PASSED
+"retryValue = executeJavaScript(getValue, null)",Chrome 86.0.4240.75,,,2020-10-14 23:40:43,2020-10-14 23:40:44,1.040s,PASSED
+"assert toString().contentEquals(""6"") == true",Chrome 86.0.4240.75,,,2020-10-14 23:40:44,2020-10-14 23:40:44,0.002s,PASSED
+"comment("" *** Navigate out of intent ***"")",Chrome 86.0.4240.75,,,2020-10-14 23:40:44,2020-10-14 23:40:44,0.007s,PASSED
+"platform.Method.clickOnElement(findTestObject(""NewRepo/intentGoBack""))",Chrome 86.0.4240.75,,,2020-10-14 23:40:44,2020-10-14 23:40:46,2.538s,PASSED

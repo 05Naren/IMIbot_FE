@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Scenario 1: Verify if any value sent by user for freeform entity is saved by application
+
+Background: User has an intent with freeform entity saved in the slots
+
+Given: Bot corpus is trained
+When: User enters any value for freeform entity
+Then: Bot successfully saves the value and responds with final template key
+
+Scenario 1: Verify the application behaviour if user sends different intent in place of expected freeform entity
+
+Given: User is on preview and bot expects a freeform entity
+When: User enters a different intent
+Then: Flow should be changed to new intent</description>
+   <name>verifyFreeformPreview</name>
+   <tag></tag>
+   <comment>Freeform intent trained
+*** SCENARIO 1 STARTED ***
+*** VALIDATION CHECK FOR BOT RESPONSE ***
+*** SCENARIO 2 STARTED ***
+*** VALIDATION CHECK FOR BOT RESPONSE ***</comment>
+   <testCaseGuid>e26b07de-49b0-4851-a135-cd15a60430c5</testCaseGuid>
+   <variable>
+      <defaultValue>'freeform test'</defaultValue>
+      <description></description>
+      <id>649802f2-1fdb-4e15-aecd-92b26e5f8cc9</id>
+      <masked>false</masked>
+      <name>userQuery</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_Task').getValue('rich_template_value', 8)</defaultValue>
+      <description></description>
+      <id>3b9c5304-396d-40b9-a8fb-68d42f1eddb9</id>
+      <masked>false</masked>
+      <name>expected_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'كيف حالكم'</defaultValue>
+      <description></description>
+      <id>b6285746-9b12-45f5-bb96-d7b1e858d122</id>
+      <masked>false</masked>
+      <name>freeform_text</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_Task').getValue('rich_template_value', 7)</defaultValue>
+      <description></description>
+      <id>1a986316-952b-4286-af6f-b18041d2b9b2</id>
+      <masked>false</masked>
+      <name>final_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'do you deliver'</defaultValue>
+      <description></description>
+      <id>8e3ed67a-3385-4197-b046-6438d89dc969</id>
+      <masked>false</masked>
+      <name>new_intent_value</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_Task').getValue('new_key_value', 1)</defaultValue>
+      <description></description>
+      <id>a153911e-7ae8-40f6-9663-410aecc6f49a</id>
+      <masked>false</masked>
+      <name>new_value</name>
+   </variable>
+</TestCaseEntity>

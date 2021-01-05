@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SOP: create intent with entity, later which can be used for freeform bot</description>
+   <name>loadUpFreeformData_Setup</name>
+   <tag></tag>
+   <comment>service intent added</comment>
+   <testCaseGuid>8f2e271b-24ba-453a-8434-bbd8b24c21df</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('testSuiteData').getValue('Taskbot_Name', 1)</defaultValue>
+      <description></description>
+      <id>f15d4fad-6fe6-44ce-8aa6-14f61b98a466</id>
+      <masked>false</masked>
+      <name>testBot</name>
+   </variable>
+   <variable>
+      <defaultValue>'\\b\\d{6}\\b'</defaultValue>
+      <description></description>
+      <id>9c2db913-d412-4b94-a1d6-6e5acd4623d8</id>
+      <masked>false</masked>
+      <name>regex_value</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_Task').getValue('temp_key', 1)</defaultValue>
+      <description></description>
+      <id>c1521d93-d6b3-46e1-8a70-5a2d966b4f3a</id>
+      <masked>false</masked>
+      <name>temp_key</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_Task').getValue('key_value', 1)</defaultValue>
+      <description></description>
+      <id>75ff7f52-6f0c-451c-aaa4-1abb8a205c13</id>
+      <masked>false</masked>
+      <name>key_value</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_Task').getValue('missing_key', 1)</defaultValue>
+      <description></description>
+      <id>23306549-4333-4454-846c-5325d016664d</id>
+      <masked>false</masked>
+      <name>missing_key</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('testData_Task').getValue('new_key_value', 1)</defaultValue>
+      <description></description>
+      <id>ef2ed683-6115-4b3d-b9ef-26ea1b4455db</id>
+      <masked>false</masked>
+      <name>new_key_value</name>
+   </variable>
+</TestCaseEntity>

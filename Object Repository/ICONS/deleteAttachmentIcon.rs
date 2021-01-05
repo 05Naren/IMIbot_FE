@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>deleteAttachmentIcon</name>
+   <tag></tag>
+   <elementGuidId>aa1f2003-5aad-43a2-802e-85d68368b4bd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class=&quot;show-control-extra&quot;]//designer-imi-icon/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class=&quot;show-control-extra&quot;]//designer-imi-icon/i</value>
+   </webElementProperties>
+</WebElementEntity>

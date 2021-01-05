@@ -573,11 +573,17 @@
          <value></value>
          <variableId>8dd55989-484e-4123-a9b2-a6faf6fd337a</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5cebea84-6d08-4e79-a7ac-70741d097e25</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>fb52f8db-7343-4fba-b201-cd5436eb0446</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Sprint/v4.3/alertTestOnResponseDesignerTemplateFAQ</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -601,8 +607,8 @@
    <testCaseLink>
       <guid>c192c40b-0662-47b9-abf4-126139300fdc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint/v4.3/appleBusinessChatFieldTestForFAQbot</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Sprint/v4.3/abc_ListPickerFieldTestForFAQbot</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SMART_SSO,Chrome 86.0.4240.111,,,2020-11-03 15:07:35,2020-11-03 15:11:59,4m - 23.464s,INCOMPLETE
+,,,,,,,
+Test Cases/Smartbot/botCreation_Test,Chrome 86.0.4240.111,TestCase Agenda: Verify successful creation of smart bot,,2020-11-03 15:10:08,2020-11-03 15:10:17,8.642s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Smart bots""]))",Chrome 86.0.4240.111,,,2020-11-03 15:10:10,2020-11-03 15:10:17,7.328s,ERROR
+,,,,,,,
+Test Cases/Smartbot/nlpConceptCreation_Test,Chrome 86.0.4240.111,TestCase Agenda: Verify if user create concept and add module to smart bot,,2020-11-03 15:10:17,2020-11-03 15:10:33,15.473s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/nlp""))",Chrome 86.0.4240.111,,,2020-11-03 15:10:26,2020-11-03 15:10:33,6.365s,ERROR
+,,,,,,,
+Test Cases/Smartbot/setUpLogicAndBotPreviewTest,Chrome 86.0.4240.111,TestCase Agenda: Verify if bot responsed correctly on weather information post logic set up,,2020-11-03 15:10:33,2020-11-03 15:10:42,9.834s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/logic""))",Chrome 86.0.4240.111,,,2020-11-03 15:10:34,2020-11-03 15:10:42,8.276s,ERROR
+,,,,,,,
+Test Cases/Smartbot/maskingConcept_Test,Chrome 86.0.4240.111,,,2020-11-03 15:10:43,2020-11-03 15:10:54,11.614s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/nlp""))",Chrome 86.0.4240.111,,,2020-11-03 15:10:47,2020-11-03 15:10:54,7.009s,ERROR
+,,,,,,,
+Test Cases/Smartbot/oneClickTestingDisabledCallback_Test,Chrome 86.0.4240.111,TestCase Agenda: Verify one click testing with smart bot when callback is disabled,,2020-11-03 15:10:55,2020-11-03 15:11:41,45.908s,ERROR
+"waitForElementPresent(findTestObject(""Generic/oneClickTest""), 30, OPTIONAL)",Chrome 86.0.4240.111,,,2020-11-03 15:10:56,2020-11-03 15:11:31,35.360s,PASSED
+"platform.Method.clickOnElement(findTestObject(""Generic/oneClickTest""))",Chrome 86.0.4240.111,,,2020-11-03 15:11:31,2020-11-03 15:11:41,9.451s,ERROR
+,,,,,,,
+Test Cases/Smartbot/roomCloseCallback_Test,Chrome 86.0.4240.111,,,2020-11-03 15:11:41,2020-11-03 15:11:49,8.286s,ERROR
+"platform.Method.clickOnElement(findTestObject(""ICONS/sidebarSettings""))",Chrome 86.0.4240.111,,,2020-11-03 15:11:43,2020-11-03 15:11:49,6.386s,ERROR
+,,,,,,,
+Test Cases/Sprint/v4.3/autoAddNewBots_Test,Chrome 86.0.4240.111,"TestCase Agenda:
+Part 1-> Verify user2 have no bots, sign out of user2 profile
+Part 2-> Login to user1 account, set user2 new_bot option to true, create a new bot
+Part 3-> Sign back into user2 account and verify if the new bot create gets auto added
+",,2020-11-03 15:11:50,2020-11-03 15:11:59,8.896s,ERROR
+"platform.Method.clickOnElement(findTestObject(""GenericII/closePopup""))",Chrome 86.0.4240.111,,,2020-11-03 15:11:52,2020-11-03 15:11:59,6.847s,ERROR

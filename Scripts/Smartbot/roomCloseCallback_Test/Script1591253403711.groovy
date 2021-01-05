@@ -27,7 +27,7 @@ WebUI.sendKeys(findTestObject('Input/chatInput'), Keys.chord(userQuery, Keys.ENT
 
 WebUI.delay(70)
 
-WebUI.verifyElementText(findTestObject('GenericII/getBotResponse', [('index') : 2]), botResponse, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('GenericII/getBotResponse', [('index') : 3]), botResponse, FailureHandling.CONTINUE_ON_FAILURE)
 
 ArrayList getRoomIdAt = new ArrayList()
 
@@ -41,7 +41,7 @@ CustomKeywords.'platform.Method.toClickOnWebElement'(findTestObject('Generic/ses
 
 CustomKeywords.'platform.Session.searchByRoomID'(roomID)
 
-WebUI.verifyElementPresent(findTestObject('NewRepo2/errorIcon'), 20, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('NewRepo2/errorIcon'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 CustomKeywords.'platform.Method.toClickOnWebElement'(findTestObject('Generic/webObjectWithText', [('textValue') : roomID]))
 
@@ -49,5 +49,5 @@ WebUI.verifyTextPresent('error_outline', false, FailureHandling.OPTIONAL)
 
 WebUI.sendKeys(findTestObject('NewRepo2/inputSessionSearch'), searchText)
 
-WebUI.verifyElementText(findTestObject('NewRepo2/textHighlight'), searchText, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('NewRepo2/textHighlight'), searchText, FailureHandling.CONTINUE_ON_FAILURE)
 

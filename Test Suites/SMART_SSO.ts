@@ -115,7 +115,7 @@
    <testCaseLink>
       <guid>6ef6ae27-1dd2-4884-9c33-1b7462d0754c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Sprint/v4.3/autoAddNewBots_Test</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,17 +1,9 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
-import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable as GlobalVariable
 
 /*WebUI.openBrowser(GlobalVariable.URL)
 
@@ -22,15 +14,22 @@ WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [('username') :
 
 CustomKeywords.'platform.Method.navigateToBot'('Q&A bots', 'file template test')
 
-CustomKeywords.'platform.Method.navigateToBot'('Q&A bots', GlobalVariable.FAQ_BOT)*/
-
+CustomKeywords.'platform.Method.navigateToBot'('Q&A bots', GlobalVariable.FAQ_BOT_BOT)*/
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/articles'))
 
 WebUI.waitForElementPresent(findTestObject('Button/createArticle'), 30, FailureHandling.CONTINUE_ON_FAILURE)
 
 CustomKeywords.'platform.Articles.createNewArticle'(null, 'test alert on articles template')
 
-WebUI.setText(findTestObject('WEB_OBJECTS/textArea'), '')
+//WebUI.setText(findTestObject('WEB_OBJECTS/textArea'), '')
+// Updated this next set of code where users cut paste the default value and removes focus from the field  
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('WEB_OBJECTS/textArea'), 5)
+
+element.click()
+
+element.sendKeys(Keys.chord(Keys.CONTROL, 'a'))
+
+element.sendKeys(Keys.chord(Keys.CONTROL, 'x'))
 
 CustomKeywords.'platform.Method.removeFocus'(findTestObject('WEB_OBJECTS/textArea'))
 
@@ -92,4 +91,3 @@ WebUI.setText(findTestObject('WEB_OBJECTS/mediaURL'), ' ')
 WebUI.verifyElementPresent(findTestObject('WEB_OBJECTS/alertInvalidData'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 CustomKeywords.'platform.ResponseDesigner.deleteSecondaryTemplate'(2)
-

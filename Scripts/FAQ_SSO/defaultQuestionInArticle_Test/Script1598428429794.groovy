@@ -11,8 +11,7 @@ import internal.GlobalVariable as GlobalVariable
 
 /*WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [:], FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'platform.Method.navigateToBot'('Q&A bots', GlobalVariable.FAQ_BOT)*/
-
+CustomKeywords.'platform.Method.navigateToBot'('Q&A bots', GlobalVariable.FAQ_BOT_BOT)*/
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/articles'))
 
 TestData testData = findTestData('Data Files/testData_FAQ')
@@ -45,6 +44,14 @@ WebUI.waitForElementPresent(findTestObject('ICONS/toastMsg'), 20, FailureHandlin
 
 WebUI.sendKeys(findTestObject('Input/searchForQuestion'), searchQuestion)
 
-CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/searchResult'))
+try {
+    WebUI.waitForElementPresent(findTestObject('Generic/searchResult'), 20, FailureHandling.OPTIONAL)
 
+    CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/searchResult'))
+}
+catch (Exception ex) {
+    CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/searchResult'))
+} 
+
+//CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/searchResult'))
 assert true == WebUiCommonHelper.findWebElement(findTestObject('Generic/header'), 5).getText().contentEquals(testValue)

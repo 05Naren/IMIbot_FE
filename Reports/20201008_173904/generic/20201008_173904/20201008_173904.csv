@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+generic,,,,2020-10-08 17:39:13,2020-10-08 17:39:27,13.611s,INCOMPLETE
+,,,,,,,
+Test Cases/Generic/botPageAndHeaderAccess_Test,,TestCase Agenda: To verify if navigation to header options is possible and  navigation back to home page,,2020-10-08 17:39:23,2020-10-08 17:39:24,1.028s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Dashboard""]))",,,,2020-10-08 17:39:23,2020-10-08 17:39:24,0.329s,ERROR
+,,,,,,,
+Test Cases/Generic/adminServiceKeyFunctionality_Test,,TestCase Agenda: To verify overview page service key functionality for user of type 'Admin',,2020-10-08 17:39:24,2020-10-08 17:39:24,0.768s,FAILED
+"mouseOver(findTestObject(""Generic/userInitials""))",,,,2020-10-08 17:39:24,2020-10-08 17:39:24,0.296s,FAILED
+,,,,,,,
+Test Cases/Generic/adminUserManagement_Test,,TestCase Agenda: Verify custom user creation by an 'Admin',,2020-10-08 17:39:24,2020-10-08 17:39:25,0.773s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Users""]))",,,,2020-10-08 17:39:25,2020-10-08 17:39:25,0.156s,ERROR
+,,,,,,,
+Test Cases/Generic/adminRoleManagement_Test,,TestCase Agenda: To verify role creation by Admin user,,2020-10-08 17:39:25,2020-10-08 17:39:26,1.078s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Roles""]))",,,,2020-10-08 17:39:26,2020-10-08 17:39:26,0.082s,ERROR
+,,,,,,,
+Test Cases/Generic/adminRoleDeletion_Test,,TestCase Agenda: To verify if user with role of 'Admin' can delete a custom created role,,2020-10-08 17:39:26,2020-10-08 17:39:27,0.749s,ERROR
+"platform.Method.clickOnElement(findTestObject(""Generic/webObjectWithText"", [""textValue"":""Roles""]))",,,,2020-10-08 17:39:27,2020-10-08 17:39:27,0.122s,ERROR

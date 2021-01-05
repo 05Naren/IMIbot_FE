@@ -62,7 +62,7 @@ public class Response extends Method {
 		WebUI.setText(findTestObject('NewRepo/carouselURL',['index': index]), url)
 		clickOnElement(findTestObject('Button/btnRenewCarousel'))
 		WebUI.setText(findTestObject('NewRepo/labelInput'), payloadLabel)
-		WebUI.sendKeys(findTestObject('NewRepo/payloadQuestionInput'), payloadQuestion)
+		WebUI.setText(findTestObject('NewRepo/payloadQuestionInput'), payloadQuestion)
 		clickOnElement(findTestObject('Generic/searchResult'))
 		clickOnElement(findTestObject('Generic/webObjectWithText',['textValue':'Done']))
 	}
@@ -74,7 +74,7 @@ public class Response extends Method {
 			toClickOnWebElement(findTestObject('NewRepo/addNewCarouselBtn',['index': 1]))
 		}
 		WebUI.setText(findTestObject('NewRepo/labelInput'), testData.getValue(labelName, 1))
-		WebUI.sendKeys(findTestObject('NewRepo/payloadQuestionInput'), testData.getValue(payloadQuestion, 1))
+		WebUI.setText(findTestObject('NewRepo/payloadQuestionInput'), testData.getValue(payloadQuestion, 1))
 		toClickOnWebElement(findTestObject('Generic/searchResult'))
 		toClickOnWebElement(findTestObject('Generic/webObjectWithText',['textValue':'Done']))
 
@@ -99,7 +99,7 @@ public class Response extends Method {
 		WebUI.setText(findTestObject('NewRepo2/templateKeyName'), templateKeyName)
 		clickOnElement(findTestObject('Button/create'))
 		WebUI.delay(2)
-		WebUI.sendKeys(findTestObject('Input/textResponse'), value)
+		WebUI.setText(findTestObject('Input/textResponse'), value)
 		clickOnElement(findTestObject('NewRepo/refresh'))
 	}
 
@@ -143,7 +143,7 @@ public class Response extends Method {
 		clickOnElement(findTestObject('Button/addReplies'))
 		clickOnElement(findTestObject('Button/btnNewReply'))
 		WebUI.setText(findTestObject('Input/titlePayload'), title)
-		WebUI.sendKeys(findTestObject('NewRepo/payloadQuestionInput'), searchQuestion)
+		WebUI.setText(findTestObject('NewRepo/payloadQuestionInput'), searchQuestion)
 		clickOnElement(findTestObject('Generic/searchResult'))
 		clickOnElement(findTestObject('Generic/webObjectWithText',['textValue':'Done']))
 	}
