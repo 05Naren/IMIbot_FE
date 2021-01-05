@@ -28,7 +28,7 @@ class IMIbot_Test_Listener {
 
 
 
-	/*@BeforeTestSuite
+	@BeforeTestSuite
 	def setUpEnvironment(){
 		//		WebDriver driver = DriverFactory.getWebDriver()
 		WebUI.openBrowser(GlobalVariable.URL)
@@ -39,14 +39,14 @@ class IMIbot_Test_Listener {
 		if (!(WebUI.waitForElementPresent(findTestObject('Button/createBot'), 30, FailureHandling.OPTIONAL))) {
 			WebUI.waitForPageLoad(10)
 		}
-	}*/
-
-	@BeforeTestSuite
-	def botBuilderSetUp(){
-		//		WebDriver driver = DriverFactory.getWebDriver()
-		WebUI.openBrowser(GlobalVariable.CONNECT_URL)
-		WebUI.maximizeWindow()
 	}
+
+	/*	@BeforeTestSuite
+	 def botBuilderSetUp(){
+	 //		WebDriver driver = DriverFactory.getWebDriver()
+	 WebUI.openBrowser(GlobalVariable.CONNECT_URL)
+	 WebUI.maximizeWindow()
+	 }*/
 
 	@AfterTestSuite
 	def displayExecutionInfo(){
