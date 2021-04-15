@@ -1,20 +1,18 @@
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
 import org.openqa.selenium.WebElement as WebElement
-
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 //CustomKeywords.'platform.Method.navigateToBot'('Task bots', GlobalVariable.TASK_BOT)
-
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/training'))
 
 TestData testData = findTestData('Data Files/testData_Task')
 
-CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/webObjectWithText', [('textValue') : 'Entities'])) // entity page
+CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/webObjectWithText', [('textValue') : 'Entities' // entity page
+        ]))
 
 WebUI.comment(' *** SCENARIO 1 STARTED ***')
 
@@ -36,7 +34,6 @@ WebUI.comment(' *** SCENARIO 2 STARTED ***')
 CustomKeywords.'platform.Method.clickOnElement'(WebUI.convertWebElementToTestObject(mapElement))
 
 //mapElement.click()
-
 WebUI.setText(findTestObject('Input/entityName'), testData.getValue('freeform_entity', 2))
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/entityPageSaveButton'))
@@ -59,7 +56,15 @@ CustomKeywords.'platform.Response.createRichResponse'(testData.getValue('rich_te
 
 WebUI.waitForElementPresent(findTestObject('ICONS/toastMsg'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
-CustomKeywords.'platform.Response.createRichResponse'(testData.getValue('rich_template', 8), testData.getValue('rich_template_value',
-	8))
+CustomKeywords.'platform.Response.createRichResponse'(testData.getValue('rich_template', 8), testData.getValue('rich_template_value', 
+        8))
 
 WebUI.waitForElementPresent(findTestObject('ICONS/toastMsg'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.sendKeys(findTestObject('WEB_OBJECTS/searchTemplateKeyField'), testData.getValue('rich_template', 7))
+
+WebUI.verifyTextPresent(testData.getValue('rich_template', 7), false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.setText(findTestObject('WEB_OBJECTS/searchTemplateKeyField'), testData.getValue('rich_template', 8))
+
+WebUI.verifyTextPresent(testData.getValue('rich_template', 8), false, FailureHandling.CONTINUE_ON_FAILURE)

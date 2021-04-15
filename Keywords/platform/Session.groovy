@@ -15,6 +15,7 @@ public class Session  extends Method {
 
 	@Keyword
 	def searchByRoomID(String getRoomID){
+		WebUI.waitForElementClickable(findTestObject('Input/roomID', [('value') : 'id']), 30, FailureHandling.OPTIONAL)
 		WebUI.setText(findTestObject('Input/roomID', [('value') : 'id']), getRoomID)
 		clickOnElement(findTestObject('Button/submitSession'))
 	}

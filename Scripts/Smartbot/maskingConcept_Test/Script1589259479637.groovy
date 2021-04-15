@@ -19,7 +19,6 @@ import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 /*WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [:], FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'platform.Method.navigateToBot'('Smart bots', GlobalVariable.SMART_BOT)*/
-
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/nlp'))
 
 String PATH = RunConfiguration.getProjectDir() + '/Collection/'
@@ -85,7 +84,7 @@ for (int count = 1; count < testData.getRowNumbers(); count++) {
 
     WebUI.delay(2)
 
-    WebUI.verifyElementText(findTestObject('GenericII/getBotResponse', [('index') : count+1]), testData.getValue('botResponse', 
+    WebUI.verifyElementText(findTestObject('GenericII/getBotResponse', [('index') : count + 1]), testData.getValue('botResponse', 
             count), FailureHandling.CONTINUE_ON_FAILURE)
 
     if (testData.getValue('userQuery', count + 1) == '') {
@@ -103,6 +102,8 @@ CustomKeywords.'platform.Method.clickOnElement'(findTestObject('GenericII/minimi
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/session'))
 
+WebUI.waitForElementClickable(findTestObject('Input/roomID', [('value') : 'id']), 20, FailureHandling.OPTIONAL)
+
 CustomKeywords.'platform.Session.searchByRoomID'(roomID)
 
 WebUI.waitForElementPresent(findTestObject('Generic/webObjectWithText', [('textValue') : roomID]), 20, FailureHandling.OPTIONAL)
@@ -111,7 +112,6 @@ CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/webObjec
 
 WebUI.verifyElementText(findTestObject('NewRepo2/messageInSession', [('index') : 1]), '4**************4', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('NewRepo2/messageInSession', [('index') : 3]), 'o*e', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('NewRepo2/messageInSession', [('index') : 2]), 'o*e', FailureHandling.CONTINUE_ON_FAILURE)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('GenericII/closePopup'))
-

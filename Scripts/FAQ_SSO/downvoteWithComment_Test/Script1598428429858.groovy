@@ -20,18 +20,16 @@ import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 
 CustomKeywords.'platform.Method.navigateToBot'('Q&A bots', GlobalVariable.FAQ_BOT_BOT)
 */
-
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/articles'))
 
-CustomKeywords.'platform.Method.trainAndComment'(comment)
+/*CustomKeywords.'platform.Method.trainAndComment'(comment)
 
 try {
     WebUI.waitForElementPresent(findTestObject('ICONS/toastMsg'), 10)
 }
 catch (Exception e) {
     KeywordUtil.logInfo('BOT IS TRAINED')
-} 
-
+} */
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/preview'))
 
 WebUI.waitForElementPresent(findTestObject('Input/chatInput'), 20, FailureHandling.STOP_ON_FAILURE)
@@ -54,7 +52,9 @@ CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/session'
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('GenericII/minimize'))
 
-WebUI.setText(findTestObject('Input/roomID', [('value') : 'id']), roomID)
+WebUI.waitForElementClickable(findTestObject('Input/roomID', [('value') : 'id']), 20, FailureHandling.OPTIONAL)
+
+WebUI.setText(findTestObject('Input/roomID', [('value') : 'id']), roomID, FailureHandling.OPTIONAL)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/submitSession'))
 
@@ -67,4 +67,3 @@ WebUI.mouseOver(findTestObject('Generic/webObjectWithText', [('textValue') : 'Do
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/webObjectWithText', [('textValue') : 'Downvoted with comment']))
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('GenericII/closePopup'))
-

@@ -6,12 +6,11 @@
    <elementGuidId>cfc03462-04d6-4cf4-9bee-041c8cf8fe82</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'Code snippet ')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span[text()='Dynamic']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

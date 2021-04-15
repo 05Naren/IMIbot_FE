@@ -8,7 +8,6 @@ import internal.GlobalVariable as GlobalVariable
 /*WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [:], FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'platform.Method.navigateToBot'('Q&A bots', GlobalVariable.FAQ_BOT_BOT)*/
-
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/articles'))
 
 CustomKeywords.'platform.Method.trainAndComment'(comment)
@@ -46,10 +45,11 @@ CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/curation
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/webObjectWithText', [('textValue') : ' From sessions ']))
 
+WebUI.waitForElementClickable(findTestObject('Input/roomID', [('value') : 'room_id']), 20, FailureHandling.OPTIONAL)
+
 WebUI.sendKeys(findTestObject('Input/roomID', [('value') : 'room_id']), roomID)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/filter'))
 
 //WebUI.waitForElementPresent(findTestObject('Generic/webObjectWithText', [('textValue') : roomID]))
-
 WebUI.verifyTextPresent(roomID, false, FailureHandling.STOP_ON_FAILURE)

@@ -17,7 +17,6 @@ import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 /*WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [:], FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'platform.Method.navigateToBot'('Q&A bots', GlobalVariable.FAQ_BOT_BOT)*/
-
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/articles'))
 
 CustomKeywords.'platform.Method.trainAndComment'(comment)
@@ -38,9 +37,8 @@ CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/curation
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/webObjectWithText', [('textValue') : 'Issues']))
 
-CustomKeywords.'platform.CurationSettings.filterRuleTriggered'('Low confidence')
-
-WebUI.verifyTextPresent(oldRoomID, false, FailureHandling.STOP_ON_FAILURE)
+//CustomKeywords.'platform.CurationSettings.filterRuleTriggered'('Low confidence')
+WebUI.verifyTextPresent(oldRoomID, false, FailureHandling.CONTINUE_ON_FAILURE)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/clear'))
 
@@ -48,8 +46,7 @@ CustomKeywords.'platform.Method.clickOnElement'(findTestObject('NewRepo2/setting
 
 CustomKeywords.'platform.CurationSettings.disableDownvoted'(true)
 
-CustomKeywords.'platform.CurationSettings.disableLowConfidence'(true)
-
+//CustomKeywords.'platform.CurationSettings.disableLowConfidence'(true)
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/updateSettings'))
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/webObjectWithText', [('textValue') : 'Issues']))
@@ -74,5 +71,5 @@ WebUI.sendKeys(findTestObject('Input/roomID', [('value') : 'room_id']), newRoomI
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/filter'))
 
-WebUI.verifyTextNotPresent(newRoomID, false, FailureHandling.STOP_ON_FAILURE)
-
+WebUI.verifyTextNotPresent(newRoomID, false, FailureHandling.OPTIONAL //UPDATE CHECKING CONDITION TO STOP_ON_FAILURE ON ENABLING LOW CONFIDENCE
+    )

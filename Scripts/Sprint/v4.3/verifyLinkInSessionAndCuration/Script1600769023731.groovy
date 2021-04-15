@@ -78,4 +78,4 @@ CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/filter'))
 testObject = WebUI.modifyObjectProperty(findTestObject('WEB_OBJECTS/textLink'), 'xpath', 'not equals', curXpath,
 	true, FailureHandling.OPTIONAL)
 
-WebUI.verifyElementPresent(testObject, 20, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(testObject, 20, FailureHandling.CONTINUE_ON_FAILURE)

@@ -41,7 +41,7 @@ CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/response
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/webObjectWithText', [('textValue') : 'stock_check_template ']))
 
-CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/webObjectWithText', [('textValue') : 'Rich']))
+CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/webObjectWithText', [('textValue') : 'Fixed response']))
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('NewRepo2/dynamic'))
 
@@ -52,4 +52,3 @@ WebUI.uploadFile(findTestObject('Input/uploadFile'), (RunConfiguration.getProjec
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('NewRepo/refresh'))
 
 WebUI.waitForElementPresent(findTestObject('ICONS/toastMsg'), 15, FailureHandling.OPTIONAL)
-

@@ -52,6 +52,8 @@ CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/session'
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('GenericII/minimize'))
 
+WebUI.waitForElementClickable(findTestObject('Input/roomID', [('value') : 'id']), 20, FailureHandling.OPTIONAL)
+
 WebUI.setText(findTestObject('Input/roomID', [('value') : 'id']), roomID)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/submitSession'))
@@ -64,4 +66,3 @@ WebUI.verifyElementPresent(findTestObject('Generic/webObjectWithText', [('textVa
     FailureHandling.CONTINUE_ON_FAILURE)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('GenericII/closePopup'))
-

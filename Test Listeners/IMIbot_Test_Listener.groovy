@@ -20,17 +20,8 @@ class IMIbot_Test_Listener {
 	 * Setting up test link before test cases, display environment on which test cases are to run 
 	 */
 
-	/*@BeforeTestCase
-	 def setUp(){
-	 WebUI.openBrowser(GlobalVariable.URL)
-	 WebUI.maximizeWindow()
-	 }*/
-
-
-
-	/*@BeforeTestSuite
+	@BeforeTestSuite
 	def setUpEnvironment(){
-		//		WebDriver driver = DriverFactory.getWebDriver()
 		WebUI.openBrowser(GlobalVariable.URL)
 		WebUI.maximizeWindow()
 		WebUI.sendKeys(findTestObject('Input/username'), GlobalVariable.USERNAME)
@@ -39,21 +30,15 @@ class IMIbot_Test_Listener {
 		if (!(WebUI.waitForElementPresent(findTestObject('Button/createBot'), 30, FailureHandling.OPTIONAL))) {
 			WebUI.waitForPageLoad(10)
 		}
-	}*/
-
-	@BeforeTestSuite
-	def botBuilderSetUp(){
-		//		WebDriver driver = DriverFactory.getWebDriver()
-		WebUI.openBrowser(GlobalVariable.CONNECT_URL)
-		WebUI.maximizeWindow()
 	}
+
 
 	@AfterTestSuite
 	def displayExecutionInfo(){
 		WebDriver driver = DriverFactory.getWebDriver()
 		Capabilities cap = ((RemoteWebDriver)driver).getCapabilities()
 
-		FileWriter fw=new FileWriter("D:\\IMIbot.ai-Project\\SuiteRunDetails.txt");
+		FileWriter fw=new FileWriter(System.getProperty('user.dir')+"\\SuiteRunDetails.txt");
 		fw.write('ENVIRONMENT: '+ RunConfiguration.executionProfile+'\n')
 		fw.write('URL: '+ GlobalVariable.URL+'\n')
 		fw.write('RUN DATE: '+ java.time.LocalDate.now()+'\n')

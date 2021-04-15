@@ -87,10 +87,11 @@ public class Response extends Method {
 		WebUI.setText(findTestObject('NewRepo2/templateKeyName'), templateKeyName)
 		clickOnElement(findTestObject('Button/create'))
 		WebUI.delay(2)
-		clickOnElement(findTestObject('Generic/webObjectWithText',['textValue':'Rich']))
+		clickOnElement(findTestObject('Generic/webObjectWithText',['textValue':'Fixed response']))
 		clickOnElement(findTestObject('NewRepo2/dynamic'))
 		WebUI.uploadFile(findTestObject('Input/uploadFile'), Method.PATH+fileName)
 		clickOnElement(findTestObject('NewRepo/refresh'))
+		WebUI.waitForElementPresent(findTestObject('ICONS/toastMsg'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 	}
 
 	@Keyword
@@ -101,6 +102,7 @@ public class Response extends Method {
 		WebUI.delay(2)
 		WebUI.setText(findTestObject('Input/textResponse'), value)
 		clickOnElement(findTestObject('NewRepo/refresh'))
+		WebUI.waitForElementPresent(findTestObject('ICONS/toastMsg'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 	}
 
 	@Keyword

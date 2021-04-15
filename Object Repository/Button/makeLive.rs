@@ -7,13 +7,20 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[contains(text(),'Make Live')]</value>
+         <value>//*[contains(text(),'Make Live')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[contains(text(),'Make Live')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[contains(text(),'Make Live')]</value>
+   </webElementProperties>
 </WebElementEntity>

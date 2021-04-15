@@ -283,7 +283,7 @@
    <testCaseLink>
       <guid>bd5ec9a8-152e-4256-8772-073f3651d120</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint/v4.3/alertTestOnResponseDesignerTemplateTask</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -307,7 +307,7 @@
    <testCaseLink>
       <guid>90886a9c-0722-4477-bb56-d3fe59bb8752</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint/v4.3/abc_ListPickerFieldTestForTaskbot</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

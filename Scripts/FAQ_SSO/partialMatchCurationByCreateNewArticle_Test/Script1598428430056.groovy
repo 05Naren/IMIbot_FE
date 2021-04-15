@@ -22,7 +22,7 @@ CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/preview')
 
 WebUI.sendKeys(findTestObject('Input/chatInput'), Keys.chord(userQuery, Keys.ENTER))
 
-WebUI.waitForElementPresent(findTestObject('GenericII/getBotResponse', [('index') : 2]), 10, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('GenericII/getBotResponse', [('index') : 2]), 10, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('GenericII/getBotResponse', [('index') : 2]), stringToCheck, FailureHandling.OPTIONAL)
 

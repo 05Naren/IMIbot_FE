@@ -581,6 +581,48 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>76139178-f4ca-4285-87b5-0bda1ac02a7d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint/v4.5/ConsumerSearch/consumerSearchFAQBot_Test</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f8a215e5-f735-4221-be1c-a4d4206e6d90</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2aa7e201-4261-4e0b-bb9e-8373bbc7dda8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e9b6ca2e-4fd5-4f97-a2ee-e4298b26541f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>077a512b-ce2d-4d28-8062-add76f673093</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint/v4.5/ConsumerSearch/consumerADP_Test</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5fddc091-b61c-4c8c-8cd6-bb74e3e86bd4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>83050487-3489-49a2-a962-48fe6f3266aa</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>fb52f8db-7343-4fba-b201-cd5436eb0446</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>

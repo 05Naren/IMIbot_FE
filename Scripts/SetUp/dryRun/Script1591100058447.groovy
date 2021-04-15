@@ -16,16 +16,13 @@ import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 WebUI.openBrowser(GlobalVariable.URL)
 
 WebUI.callTestCase(findTestCase('Generic/successfulLogin_Test'), [('username') : GlobalVariable.USERNAME, ('password') : GlobalVariable.PASSWORD], 
-    FailureHandling.STOP_ON_FAILURE)
-
-CustomKeywords.'platform.Method.navigateToBot'('Q&A bots', 'Backend_automation')
-
-WebUI.callTestCase(findTestCase('Sprint/v4.5/consumerSearchFAQBot_Test'), [('search_name') : 'narendra 05', ('user_email') : 'narendra.n@imimobile.com'
-        , ('user_name') : 'john1'], FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Sprint/v4.5/consumerADP_Test'), [('user_uid') : '2954', ('user_phone') : '7888145030'], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-//WebUI.callTestCase(findTestCase('BUGS/BOT-3269'), [('user_defined_bot') : 'JDY Scheme Bot', ('userQuery') : 'पीएमजेडीवाई क्या है?'], 
-//    FailureHandling.CONTINUE_ON_FAILURE)
+CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/webObjectWithText', [('textValue') : 'v4.6 FAQ bot']))
+
+CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/session'))
+
+WebUI.setText(findTestObject('Input/roomID', [('value') : 'id']), '2162078', FailureHandling.CONTINUE_ON_FAILURE)
+
+//
 

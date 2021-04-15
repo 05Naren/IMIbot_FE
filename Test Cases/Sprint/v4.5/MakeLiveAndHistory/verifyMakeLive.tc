@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verifyMakeLive</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e13bad1d-c840-4795-9770-66cfa481c5e5</testCaseGuid>
+   <variable>
+      <defaultValue>'Make trained model live'</defaultValue>
+      <description></description>
+      <id>5c40102f-7009-42bc-a91b-38e422731eef</id>
+      <masked>false</masked>
+      <name>modal_title</name>
+   </variable>
+   <variable>
+      <defaultValue>'//*[contains(text(),\'Make live\')]'</defaultValue>
+      <description></description>
+      <id>5b7d0c43-1cb6-47a7-8692-d1814c6d1bae</id>
+      <masked>false</masked>
+      <name>newXpath</name>
+   </variable>
+</TestCaseEntity>

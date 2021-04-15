@@ -115,7 +115,7 @@
    <testCaseLink>
       <guid>05629542-f311-4898-b1e0-54384053a0c4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint/v4.4/loadUpFreeformData_Setup</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

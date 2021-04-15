@@ -41,7 +41,7 @@ WebUI.sendKeys(findTestObject('Input/comment'), comment)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Button/continue'))
 
-WebUI.waitForElementVisible(findTestObject('Generic/webObjectWithText',['textValue':'Trained corpus']), 20, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('Generic/webObjectWithText', [('textValue') : 'Trained corpus']), 30, FailureHandling.CONTINUE_ON_FAILURE)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('NewRepo/refresh'))
 
@@ -60,6 +60,8 @@ CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/curation
 WebUI.waitForElementVisible(findTestObject('Generic/webObjectWithText', [('textValue') : 'Resolved']), 20, FailureHandling.OPTIONAL)
 
 CustomKeywords.'platform.Method.clickOnElement'(findTestObject('Generic/webObjectWithText', [('textValue') : 'Resolved']))
+
+WebUI.waitForElementClickable(findTestObject('Input/roomID', [('value') : 'room_id']), 20, FailureHandling.OPTIONAL)
 
 WebUI.sendKeys(findTestObject('Input/roomID', [('value') : 'room_id']), roomID)
 

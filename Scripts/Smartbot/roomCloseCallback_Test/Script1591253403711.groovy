@@ -39,6 +39,8 @@ CustomKeywords.'platform.Method.toClickOnWebElement'(findTestObject('GenericII/m
 
 CustomKeywords.'platform.Method.toClickOnWebElement'(findTestObject('Generic/session'))
 
+WebUI.waitForElementClickable(findTestObject('Input/roomID', [('value') : 'id']), 20, FailureHandling.OPTIONAL)
+
 CustomKeywords.'platform.Session.searchByRoomID'(roomID)
 
 WebUI.verifyElementPresent(findTestObject('NewRepo2/errorIcon'), 20, FailureHandling.CONTINUE_ON_FAILURE)
@@ -50,4 +52,3 @@ WebUI.verifyTextPresent('error_outline', false, FailureHandling.OPTIONAL)
 WebUI.sendKeys(findTestObject('NewRepo2/inputSessionSearch'), searchText)
 
 WebUI.verifyElementText(findTestObject('NewRepo2/textHighlight'), searchText, FailureHandling.CONTINUE_ON_FAILURE)
-

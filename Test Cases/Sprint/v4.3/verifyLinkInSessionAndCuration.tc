@@ -17,7 +17,7 @@ Then: User should be able to see the link on session room</description>
  *** VERFIY IN CURATION CONSOLE ***</comment>
    <testCaseGuid>0083cab7-e41a-4c4d-94b7-97babaf0237e</testCaseGuid>
    <variable>
-      <defaultValue>'//a[@class=\'text-dark\']'</defaultValue>
+      <defaultValue>'//a[contains(@href,\'www.pexels.com\')]'</defaultValue>
       <description></description>
       <id>8dd55989-484e-4123-a9b2-a6faf6fd337a</id>
       <masked>false</masked>
